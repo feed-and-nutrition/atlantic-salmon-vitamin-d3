@@ -86,7 +86,7 @@ sample_runs <- bind_rows(by_run, by_library) %>%
   group_by(study, sample) %>%
   summarise(runs = paste(sort(run), collapse = ", "), layout = paste(unique(layout), collapse = ", "),
             instrument = paste(unique(instrument), collapse = ", "), m_spots = sum(spots) / 1e6,
-            read_length = sum(bases) / sum(spots) / if_else(first(layout) == "PAIRED", 2, 1), .groups = "drop")
+            read_length = sum(bases) / sum(spots) / if_else(dplyr::first(layout) == "PAIRED", 2, 1), .groups = "drop")
 analyzed <- samples %>% filter(!excluded)
 missing <- anti_join(analyzed, sample_runs, by = c("study", "sample"))
 if (nrow(missing)) stop("No SRA run for ", paste(missing$id, collapse = ", "))

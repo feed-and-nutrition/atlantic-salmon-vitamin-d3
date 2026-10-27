@@ -1,108 +1,174 @@
 # Vitamin D3-related genes in Atlantic salmon
 
-Analysis scripts for Saito T, Sæle Ø, Wischhusen P, Adam A-C, "Genomic identification and multi-tissue
-transcriptomic profiling of vitamin D3-related genes in Atlantic salmon (*Salmo salar*)" (preprint of an earlier
-version: bioRxiv, doi:10.64898/2026.03.03.709343). They identify the 16 genes, build the protein trees, profile expression in a
-14-tissue atlas and seven replicate RNA-seq studies, and write Figures 2 to 4, Figures S1 to S6 and the
-Supplementary Tables.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23711905.svg)](https://doi.org/10.5281/zenodo.23711905)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Requirements
+This repository holds the analysis code behind the manuscript **"Genomic identification and multi-tissue
+transcriptomic profiling of vitamin D3-related genes in Atlantic salmon (*Salmo salar*)"** by Takaya Saito,
+Øystein Sæle, Pauline Wischhusen and Anne-Catrin Adam (Institute of Marine Research, Bergen, Norway). An earlier
+version is available as a preprint on bioRxiv ([doi:10.64898/2026.03.03.709343](https://doi.org/10.64898/2026.03.03.709343)).
 
-- R (4.6.1 was used) with tidyverse, cowplot, systemfonts, ragg, ggrepel, pheatmap, ape, ggtree, Biostrings
-  (Bioconductor), xml2 and jsonlite.
-- python3 (standard library only), for the Excel tables (`scripts/tsv_to_xlsx.py`).
-- On the PATH: `muscle5` (5.3) and `iqtree2` (2.0.7) for the trees (01_0), BLAST+ (2.12.0) for 06_1, 07_1 and
-  07_3, and `wgsim` (1.19.2) and `salmon` (1.10.2 was used) for the paralog simulation (06_2).
-- The fonts Arimo and Nimbus Roman. Without them the figures use the system default fonts.
-- Internet access the first time a script downloads sequences, genomes or SRA run info from NCBI.
+The scripts:
 
-## Layout
+- **identify** 16 vitamin D3-related genes in the Atlantic salmon genome (RefSeq annotation RS_2025_05),
+- **build protein trees** to tell orthologs and paralogs apart,
+- **search six fish genomes** for the vitamin D-binding protein gene (*gc*),
+- **profile expression** in a 14-tissue atlas and seven independent RNA-seq studies,
+- and **draw the figures and write the supplementary tables** of the manuscript.
 
-```
-scripts/          all scripts (run from the repository root or from scripts/)
-ncbi_samples/     sample_info.txt (study, sample sheet, location of the quantification) and SRA run info
-salmon_quant/     samp_info/ sample sheets, per-study sample tables and the combined samples_all.tsv
-msa/              protein sequences, accession lists, alignments and IQ-TREE output per tree
-vd3_genes/        the curated gene list (salmon_vd3_orthologs_v1.tsv) and the expression and annotation results
-hk_genes/         housekeeping gene candidates (hk_genes.tsv) and their expression
-gc_blast/         BLASTp results of the GC search (web BLAST)
-d3pathway/        Figure 1, drawn by hand
-```
+## Quick start
 
-Results tables are included, so each step can be run on its own. Large files are not: gene-level TPM and count
-tables (`*.tsv.gz`), genomes and BLAST databases (`annotation/`).
+Most figures and tables can be rebuilt from the files in this repository, without downloading any sequencing
+data.
 
-## Workflow
-
-### 1. Read quantification
-
-Reads were downloaded from the SRA (run accessions in Supplementary Table S10 and `ncbi_samples/runinfo/`),
-checked with FastQC (0.11.9) and MultiQC (1.17), trimmed with TrimGalore! (0.6.7), quantified against the RefSeq
-transcripts of RS_2025_05 with Salmon (1.4.0, `-l A --seqBias --gcBias`) and summarized to genes with tximport
-(1.40.0), which gives one `txi_gene.rds` per study.
-
-### 2. Export of the gene tables
-
-`05_1_export_studies_server.R` runs where the `txi_gene.rds` files are. It needs base R only. The `location`
-column of `ncbi_samples/sample_info.txt` names each study's directory under `VD3_MAPPED_DIR`:
-
-```
-VD3_MAPPED_DIR=/path/to/quant Rscript scripts/05_1_export_studies_server.R
-```
-
-It writes `salmon_quant/<study>/{samples.tsv,tpm_gene.tsv.gz,counts_gene.tsv.gz}`, which the other scripts read.
-
-### 3. Tables and figures
-
-```
+```bash
+git clone https://github.com/feed-and-nutrition/atlantic-salmon-vitamin-d3.git
+cd atlantic-salmon-vitamin-d3
 Rscript scripts/run_all.R
 ```
 
-runs the steps below in order, reports any step that fails and copies the figure PNGs to `manuscript/v6/`
-(set `VD3_FIG_DIR` to write them and the Supplementary Tables elsewhere). A figure whose step failed is not copied.
+`run_all.R` runs each step in turn and prints a summary at the end. Steps that need the genome-wide expression
+tables (see [What needs the large data](#what-needs-the-large-data)) are reported as failed and skipped, and the
+others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v6/`.
 
-| Script | Output |
-|---|---|
-| 00_1_export_tpm.R | atlas TPM of all genes, `tpm_vd3_genes.tsv`, `tpm_hk_genes.tsv` |
-| 01_0_build_trees.R | downloads, aligns and builds the trees listed in `msa/<tree>/<tree>_accessions.tsv` |
-| 01_phylogenetic_tree.R | Figure 2 (`msa/tree2.png`) and Figure S4 (`msa/tree1.png`) |
-| 02_housekeeping_heatmap.R | Figure S3 |
-| 03_2_salmon_quant_pca.R | Figure S1 (uses 03_1) |
-| 04_1_vd3_genes_heatmap.R | Table S8, expression level, SD and tau per gene |
-| 04_2_vd3_genes_heatmap_split.R | Figure 3 and Figure S6 |
-| 05_2_combine_studies.R | `salmon_quant/samples_all.tsv` and the per-gene tables of all studies |
-| 05_3_vd3_genes_studies.R | exploratory per-study plots in `vd3_genes/studies/` |
-| 05_4_atlas_heart_liver.R | sample identity check, Figure S2 |
-| 05_5_vd3_genes_studies_fig.R | Figure 4 and Figure S5 |
-| 05_6_study_table.R | Table S10 (studies and samples with their SRA runs) |
-| 05_7_kidney_detection.R | Table S11 (*cyp27b1* in the kidney samples) |
-| 06_1_paralog_similarity.R | Table S9 (paralog similarity, with the 06_2 simulation) |
-| 07_2_synteny_table.R | Table S6 (synteny of the paralog pairs, from 07_1) |
-| 08_1_ligand_contacts.R | Table S7 (ligand-contact residues from PDB structures) |
+To write them somewhere else:
 
-### 4. Steps not in run_all
+```bash
+VD3_FIG_DIR=results Rscript scripts/run_all.R
+```
 
-These download large files to `annotation/` and take an hour or more.
+## Installation
 
-| Script | Output |
-|---|---|
-| 06_2_paralog_simulation.R | simulated paralog mixtures quantified with Salmon (`vd3_genes/paralogs/simulation.tsv`) |
-| 07_1_annotation_check.R | gene map to RS_2026_09, reciprocal-BLAST paralog search and synteny (`vd3_genes/annotation_check/`) |
-| 07_3_gc_genome_search.R | Table S3 (search for *gc* in six fish genomes, about 3.5 GB of downloads) |
+### R and packages
+
+R 4.6.1 was used. Install the packages once:
+
+```r
+install.packages(c("tidyverse", "cowplot", "systemfonts", "ragg", "ggrepel", "pheatmap", "ape",
+                   "xml2", "jsonlite", "BiocManager"))
+BiocManager::install(c("ggtree", "Biostrings"))
+```
+
+### Command-line tools
+
+Only some steps need these. The versions used for the manuscript are given in brackets.
+
+| Tool | Used by | Needed for |
+|---|---|---|
+| python3 (standard library only) | most table scripts | writing the Excel tables |
+| `muscle5` (5.3) and `iqtree2` (2.0.7) | 01_0 | rebuilding the protein trees |
+| BLAST+ (2.12.0) | 06_1, 07_1, 07_3 | sequence comparisons and genome searches |
+| `wgsim` (1.19.2) and `salmon` (1.10.2) | 06_2 | the paralog read simulation |
+
+The tools must be on your `PATH`. With conda, for example:
+
+```bash
+conda install -c conda-forge -c bioconda "muscle>=5" iqtree blast wgsim salmon
+ln -s "$(command -v muscle)" "$CONDA_PREFIX/bin/muscle5"   # the scripts call MUSCLE 5 as muscle5
+```
+
+### Fonts (optional)
+
+The figures use the fonts Arimo and Nimbus Roman, so that they look the same on every computer. If they are not
+installed, a warning is printed and the system default fonts are used instead.
+
+## What is in the repository
+
+```
+scripts/        all analysis scripts, run from the repository root (or from scripts/)
+ncbi_samples/   list of the RNA-seq studies and cached SRA run information
+salmon_quant/   sample sheets and sample tables of each RNA-seq study
+msa/            protein sequences, alignments and IQ-TREE results for each tree
+vd3_genes/      the curated gene list and the expression, annotation and gc search results
+hk_genes/       housekeeping genes used as an expression reference
+gc_blast/       BLASTp results of the first GC search (NCBI web BLAST)
+d3pathway/      Figure 1 (drawn by hand in draw.io)
+```
+
+The curated gene list is `vd3_genes/salmon_vd3_orthologs_v1.tsv`. Expression values of the 16 genes are in
+`vd3_genes/tpm_vd3_genes.tsv` (atlas) and `vd3_genes/tpm_vd3_genes_studies.tsv` (all studies).
+
+Intermediate results are included, so any step can be rerun on its own. Large files are not: the genome-wide
+expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`annotation/`).
+
+## Which script makes which figure or table
+
+| Output | Script | Runs from this repository |
+|---|---|---|
+| Figure 1 | drawn by hand (`d3pathway/`) | copied as it is |
+| Figure 2, Figure S4 | `01_phylogenetic_tree.R` (trees built by `01_0_build_trees.R`) | yes |
+| Figure 3, Figure S6 | `04_2_vd3_genes_heatmap_split.R` | yes |
+| Figure 4, Figure S5 | `05_5_vd3_genes_studies_fig.R` | yes |
+| Figure S1 | `03_2_salmon_quant_pca.R` | needs the large data |
+| Figure S2 | `05_4_atlas_heart_liver.R` | needs the large data |
+| Figure S3 | `02_housekeeping_heatmap.R` | yes |
+| Table S3 | `07_3_gc_genome_search.R` | yes, but downloads about 3.5 GB |
+| Table S6 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R`) | yes |
+| Table S7 | `08_1_ligand_contacts.R` | yes |
+| Table S8 | `04_1_vd3_genes_heatmap.R` | yes |
+| Table S9 | `06_1_paralog_similarity.R` (with the results of `06_2_paralog_simulation.R`) | yes |
+| Table S10 | `05_6_study_table.R` | yes |
+| Table S11 | `05_7_kidney_detection.R` | needs the large data |
+
+Tables S1, S2, S4 and S5 were compiled by hand from the gene search and are provided with the manuscript.
+
+Three scripts are not part of `run_all.R`, because they download large files to `annotation/` and take an hour
+or more: `06_2_paralog_simulation.R`, `07_1_annotation_check.R` and `07_3_gc_genome_search.R`. Their results are
+included, so the tables that use them can still be rebuilt.
+
+`01_0_build_trees.R` reuses the trees in `msa/` and only rebuilds a tree when its sequence file is newer than the
+tree. Without `muscle5` and `iqtree2` it may fail, and `01_phylogenetic_tree.R` still draws the included trees.
+
+## What needs the large data
+
+The genome-wide expression tables are not included because of their size. They are made from the public reads
+in three steps.
+
+1. **Quantify the reads.** Download the reads of each study from the SRA (run accessions in Supplementary
+   Table S10 and `ncbi_samples/runinfo/`). In the manuscript, reads were checked with FastQC (0.11.9) and MultiQC
+   (1.17), trimmed with TrimGalore! (0.6.7), quantified against the RefSeq RS_2025_05 transcripts with Salmon
+   (1.4.0, options `-l A --seqBias --gcBias`) and summarized to genes with the tximport R package (1.40.0). Save
+   the result of each study as `txi_gene.rds`, one directory per study.
+2. **Export the gene tables.** Run `05_1_export_studies_server.R` on the computer that holds these files. It
+   needs base R only. Each study's directory name is in the `location` column of `ncbi_samples/sample_info.txt`:
+
+   ```bash
+   VD3_MAPPED_DIR=/path/to/study/directories Rscript scripts/05_1_export_studies_server.R
+   ```
+
+   It writes `salmon_quant/<study>/tpm_gene.tsv.gz`, `counts_gene.tsv.gz` and `samples.tsv`.
+3. **Run everything.** Copy `salmon_quant/` back into the repository if needed and run `Rscript scripts/run_all.R`
+   again. All steps should now succeed.
 
 ## Settings
 
-`scripts/00_config.R` holds the paths, the tissue and study lists, the excluded samples and genes, and the plot
-helpers. Environment variables:
+Paths, tissue and study lists, excluded samples and genes, and plot helpers are in `scripts/00_config.R`. These
+environment variables change the locations:
 
-- `VD3_ROOT`: repository root (default: the working directory, or its parent when run from `scripts/`).
-- `VD3_FIG_DIR`: where figures and Supplementary Tables are written (default `manuscript/v6`).
-- `VD3_TXI_DIR`: directory with the atlas `txi_gene.rds`, used by 00_1 only when
-  `salmon_quant/PRJNA72713/tpm_gene.tsv.gz` is missing.
-- `VD3_MAPPED_DIR`: parent directory of the study directories, for 05_1.
+| Variable | Meaning | Default |
+|---|---|---|
+| `VD3_ROOT` | repository root | the working directory |
+| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v6` |
+| `VD3_TXI_DIR` | directory with the atlas `txi_gene.rds` (used by 00_1 only when `tpm_gene.tsv.gz` is missing) | not set |
+| `VD3_MAPPED_DIR` | directory that holds the study directories (used by 05_1 only) | the working directory |
 
-Figure 1 (`d3pathway/vd3_pathwa_colors.svg`) was drawn in draw.io and exported to PNG with Inkscape.
+## Troubleshooting
+
+- **"Font 'Arimo' not found"**: a warning only. Install the fonts or ignore it.
+- **A step is reported as failed by `run_all.R`**: the summary at the end gives the reason. A missing
+  `tpm_gene.tsv.gz` means that the step needs the large data.
+- **A download fails**: some scripts fetch sequences and run information from NCBI the first time. Check the
+  internet connection and rerun. Downloaded files are cached and not fetched again.
+
+## Citation
+
+If you use this code, please cite the manuscript and this repository:
+
+> Saito T, Sæle Ø, Wischhusen P, Adam A-C. Analysis scripts for vitamin D3-related genes in Atlantic salmon.
+> Zenodo; 2026. [doi:10.5281/zenodo.23711905](https://doi.org/10.5281/zenodo.23711905)
+
+GitHub's "Cite this repository" button gives the same reference in other formats.
 
 ## License
 
-MIT (see `LICENSE`).
+The code is released under the MIT License (see [`LICENSE`](LICENSE)).
