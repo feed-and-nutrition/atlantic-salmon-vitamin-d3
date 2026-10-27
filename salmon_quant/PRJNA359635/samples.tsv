@@ -1,0 +1,41 @@
+study	no	tissue	sex	sample	treatment	read_group	lims	fish_id	stage	txi_column
+PRJNA359635	1	Brain	F	f_brain_fw	normal	female-brain-freshwater_S1		S1	freshwater	f_brain_fw
+PRJNA359635	2	Brain	F	f_brain_sw	normal	female-brain-saltwater_S3		S3	saltwater	f_brain_sw
+PRJNA359635	3	Eye	F	f_eye_fw	normal	female-eye-freshwater_S5		S5	freshwater	f_eye_fw
+PRJNA359635	4	Eye	F	f_eye_sw	normal	female-eye-saltwater_S7		S7	saltwater	f_eye_sw
+PRJNA359635	5	Gill	F	f_gill_fw	normal	female-gill-freshwater_S5		S5	freshwater	f_gill_fw
+PRJNA359635	6	Gill	F	f_gill_sw	normal	female-gill-saltwater_S7		S7	saltwater	f_gill_sw
+PRJNA359635	7	Gut	F	f_gut_fw	normal	female-gut-freshwater_S1		S1	freshwater	f_gut_fw
+PRJNA359635	8	Gut	F	f_gut_sw	normal	female-gut-saltwater_S3		S3	saltwater	f_gut_sw
+PRJNA359635	9	Kidney	F	f_kidney_fw	normal	female-kidney-freshwater_S5		S5	freshwater	f_kidney_fw
+PRJNA359635	10	Kidney	F	f_kidney_sw	normal	female-kidney-saltwater_S7		S7	saltwater	f_kidney_sw
+PRJNA359635	11	Liver	F	f_liver_fw	normal	female-liver-freshwater_S1		S1	freshwater	f_liver_fw
+PRJNA359635	12	Liver	F	f_liver_sw	normal	female-liver-saltwater_S3		S3	saltwater	f_liver_sw
+PRJNA359635	13	Nose	F	f_nose_fw	normal	female-nose-freshwater_S1		S1	freshwater	f_nose_fw
+PRJNA359635	14	Nose	F	f_nose_sw	normal	female-nose-saltwater_S3		S3	saltwater	f_nose_sw
+PRJNA359635	15	Pyloric caecum	F	f_pc_fw	normal	female-pc-freshwater_S5		S5	freshwater	f_pc_fw
+PRJNA359635	16	Pyloric caecum	F	f_pc_sw	normal	female-pc-saltwater_S7		S7	saltwater	f_pc_sw
+PRJNA359635	17	Skin	F	f_skin_fw	normal	female-skin-freshwater_S5		S5	freshwater	f_skin_fw
+PRJNA359635	18	Skin	F	f_skin_sw	normal	female-skin-saltwater_S7		S7	saltwater	f_skin_sw
+PRJNA359635	19	Spleen	F	f_spleen_fw	normal	female-spleen-freshwater_S1		S1	freshwater	f_spleen_fw
+PRJNA359635	20	Spleen	F	f_spleen_sw	normal	female-spleen-saltwater_S3		S3	saltwater	f_spleen_sw
+PRJNA359635	21	Brain	M	m_brain_fw	normal	male-brain-freshwater_S2		S2	freshwater	m_brain_fw
+PRJNA359635	22	Brain	M	m_brain_sw	normal	male-brain-saltwater_S4		S4	saltwater	m_brain_sw
+PRJNA359635	23	Eye	M	m_eye_fw	normal	male-eye-freshwater_S6		S6	freshwater	m_eye_fw
+PRJNA359635	24	Eye	M	m_eye_sw	normal	male-eye-saltwater_S8		S8	saltwater	m_eye_sw
+PRJNA359635	25	Gill	M	m_gill_fw	normal	male-gill-freshwater_S6		S6	freshwater	m_gill_fw
+PRJNA359635	26	Gill	M	m_gill_sw	normal	male-gill-saltwater_S8		S8	saltwater	m_gill_sw
+PRJNA359635	27	Gut	M	m_gut_fw	normal	male-gut-freshwater_S2		S2	freshwater	m_gut_fw
+PRJNA359635	28	Gut	M	m_gut_sw	normal	male-gut-saltwater_S4		S4	saltwater	m_gut_sw
+PRJNA359635	29	Kidney	M	m_kidney_fw	normal	male-kidney-freshwater_S6		S6	freshwater	m_kidney_fw
+PRJNA359635	30	Kidney	M	m_kidney_sw	normal	male-kidney-saltwater_S8		S8	saltwater	m_kidney_sw
+PRJNA359635	31	Liver	M	m_liver_fw	normal	male-liver-freshwater_S2		S2	freshwater	m_liver_fw
+PRJNA359635	32	Liver	M	m_liver_sw	normal	male-liver-saltwater_S4		S4	saltwater	m_liver_sw
+PRJNA359635	33	Nose	M	m_nose_fw	normal	male-nose-freshwater_S2		S2	freshwater	m_nose_fw
+PRJNA359635	34	Nose	M	m_nose_sw	normal	male-nose-saltwater_S4		S4	saltwater	m_nose_sw
+PRJNA359635	35	Pyloric caecum	M	m_pc_fw	normal	male-pc-freshwater_S6		S6	freshwater	m_pc_fw
+PRJNA359635	36	Pyloric caecum	M	m_pc_sw	normal	male-pc-saltwater_S8		S8	saltwater	m_pc_sw
+PRJNA359635	37	Skin	M	m_skin_fw	normal	male-skin-freshwater_S6		S6	freshwater	m_skin_fw
+PRJNA359635	38	Skin	M	m_skin_sw	normal	male-skin-saltwater_S8		S8	saltwater	m_skin_sw
+PRJNA359635	39	Spleen	M	m_spleen_fw	normal	male-spleen-freshwater_S2		S2	freshwater	m_spleen_fw
+PRJNA359635	40	Spleen	M	m_spleen_sw	normal	male-spleen-saltwater_S4		S4	saltwater	m_spleen_sw

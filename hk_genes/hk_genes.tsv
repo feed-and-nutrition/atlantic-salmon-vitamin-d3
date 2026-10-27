@@ -1,0 +1,17 @@
+no	gene_id	type	gene_symbol	gene_name	orgdb_gene_symbol	orgdb_gene_name	orgdb_alias	name
+1	100136352	mRNA	LOC100136352	beta actin, transcript variant X1		beta actin	actb,beta-actin	actb
+2	100136525	mRNA	LOC100136525	elongation factor 1 alpha			EF1A2,ef-1aO	ef1a (1)
+3	100196887	mRNA	ef1a	elongation factor 1-alpha			EF1A3	ef1a
+4	100380845	transcript	ef1a1	Elongation factor 1-alpha 1, transcript variant X3		Elongation factor 1-alpha 1		ef1a1
+5	106576970	mRNA	eef1a1a	eukaryotic translation elongation factor 1 alpha 1a				eef1a1a
+6	106588478	mRNA	LOC106588478	elongation factor 1-alpha			EF1A	ef1a (2)
+7	106590165	mRNA	eef1a1l3	eukaryotic translation elongation factor 1 alpha 1, like 3			si:dkey-37o8.1	eef1a1l3
+8	100136417	mRNA	LOC100136417	glyceraldehyde-3-phosphate dehydrogenase			G3P,gapdh	gapdh (1)
+9	106575942	mRNA	LOC106575942	glyceraldehyde-3-phosphate dehydrogenase, transcript variant X2	gapdh	glyceraldehyde-3-phosphate dehydrogenase		gapdh (2)
+10	106563035	mRNA	rpl13a	ribosomal protein L13a			RL13A	rpl13a (1)
+11	106610677	mRNA	LOC106610677	60S ribosomal protein L13a			RL13A,rpl13a	rpl13a (2)
+12	106588387	mRNA	LOC106588387	40S ribosomal protein S18, transcript variant X1		40S ribosomal protein S18	RPS18,RS18	rps18 (1)
+13	106569946	mRNA	LOC106569946	40S ribosomal protein S18			KE3,RPS18,RS18	rps18 (2)
+14	106566669	mRNA	LOC106566669	60S ribosomal protein L32			RL32,rpl32	rpl32
+15	100196660	mRNA	ppia1	2-peptidylprolyl isomerase A			PPIA	ppia1
+16	100286666	mRNA	ppia	peptidylprolyl isomerase A (cyclophilin A)				ppia

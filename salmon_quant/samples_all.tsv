@@ -1,0 +1,287 @@
+id	study	dataset	sample	tissue	tissue_raw	sex	stage	treatment	fish_id	m_counts	n_genes_tpm1	excluded
+PRJNA72713:testis	PRJNA72713	vd3	testis	testis	Testis	M	adult	normal	PRJNA72713_1	63.68	31291	FALSE
+PRJNA72713:ovary	PRJNA72713	vd3	ovary	ovary	Ovary	F	adult	normal	PRJNA72713_1	37.83	22679	FALSE
+PRJNA72713:eye	PRJNA72713	vd3	eye	eye	Eye	M	juvenile	normal	PRJNA72713_1	22.16	22245	FALSE
+PRJNA72713:brain	PRJNA72713	vd3	brain	brain	Brain	M	juvenile	normal	PRJNA72713_1	19.25	31515	FALSE
+PRJNA72713:spleen	PRJNA72713	vd3	spleen	spleen	Spleen	M	juvenile	normal	PRJNA72713_1	23.34	24738	FALSE
+PRJNA72713:skin	PRJNA72713	vd3	skin	skin	Skin	M	juvenile	normal	PRJNA72713_1	64.76	16573	FALSE
+PRJNA72713:pyloric_caecum	PRJNA72713	vd3	pyloric_caecum	pyloric_caecum	Pyloric caecum	M	juvenile	normal	PRJNA72713_1	24.65	22852	FALSE
+PRJNA72713:nose	PRJNA72713	vd3	nose	nose	Nose	M	juvenile	normal	PRJNA72713_1	22.89	28313	FALSE
+PRJNA72713:muscle	PRJNA72713	vd3	muscle	muscle	Muscle	M	juvenile	normal	PRJNA72713_1	25.25	22924	FALSE
+PRJNA72713:liver	PRJNA72713	vd3	liver	liver	Liver	M	juvenile	normal	PRJNA72713_1	22.7	17912	FALSE
+PRJNA72713:kidney	PRJNA72713	vd3	kidney	kidney	Kidney	M	juvenile	normal	PRJNA72713_1	21.22	27141	FALSE
+PRJNA72713:heart	PRJNA72713	vd3	heart	heart	Heart	M	juvenile	normal	PRJNA72713_1	21.28	22622	TRUE
+PRJNA72713:head_kidney	PRJNA72713	vd3	head_kidney	head_kidney	Head kidney	M	juvenile	normal	PRJNA72713_1	23.39	24278	FALSE
+PRJNA72713:gut	PRJNA72713	vd3	gut	gut	Gut	M	juvenile	normal	PRJNA72713_1	22.55	25575	FALSE
+PRJNA72713:gill	PRJNA72713	vd3	gill	gill	Gill	M	juvenile	normal	PRJNA72713_1	22.39	29992	FALSE
+PRJNA260929:sperm	PRJNA260929	vd3b	sperm	sperm	Sperm	M	adult	normal	PRJNA260929	14.4	22749	FALSE
+PRJNA260929:gut	PRJNA260929	vd3b	gut	gut	Gut	F	adult	normal	PRJNA260929	5.17	20745	FALSE
+PRJNA260929:pancreas	PRJNA260929	vd3b	pancreas	pancreas	Pancreas	F	adult	normal	PRJNA260929	3.1	24085	FALSE
+PRJNA260929:pyloric_caecum	PRJNA260929	vd3b	pyloric_caecum	pyloric_caecum	Pyloric caecum	F	adult	normal	PRJNA260929	3.06	22300	FALSE
+PRJNA260929:heart	PRJNA260929	vd3b	heart	heart	Heart	F	adult	normal	PRJNA260929	3.98	22718	FALSE
+PRJNA260929:spleen	PRJNA260929	vd3b	spleen	spleen	Spleen	F	adult	normal	PRJNA260929	4.46	24481	FALSE
+PRJNA260929:brain	PRJNA260929	vd3b	brain	brain	Brain	F	adult	normal	PRJNA260929	3.94	25936	FALSE
+PRJNA260929:muscle	PRJNA260929	vd3b	muscle	muscle	Muscle	F	adult	normal	PRJNA260929	4.95	15088	FALSE
+PRJNA260929:gill	PRJNA260929	vd3b	gill	gill	Gill	F	adult	normal	PRJNA260929	4.73	12952	FALSE
+PRJNA260929:liver	PRJNA260929	vd3b	liver	liver	Liver	F	adult	normal	PRJNA260929	5.56	17585	FALSE
+PRJNA260929:skin	PRJNA260929	vd3b	skin	skin	Skin	F	adult	normal	PRJNA260929	3.75	26780	FALSE
+PRJNA359635:f_brain_fw	PRJNA359635	vd3c	f_brain_fw	brain	Brain	F	freshwater	normal	S1	2.12	29408	FALSE
+PRJNA359635:f_brain_sw	PRJNA359635	vd3c	f_brain_sw	brain	Brain	F	saltwater	normal	S3	2.62	29956	FALSE
+PRJNA359635:f_eye_fw	PRJNA359635	vd3c	f_eye_fw	eye	Eye	F	freshwater	normal	S5	2.55	22525	FALSE
+PRJNA359635:f_eye_sw	PRJNA359635	vd3c	f_eye_sw	eye	Eye	F	saltwater	normal	S7	2.8	24113	FALSE
+PRJNA359635:f_gill_fw	PRJNA359635	vd3c	f_gill_fw	gill	Gill	F	freshwater	normal	S5	2.24	26123	FALSE
+PRJNA359635:f_gill_sw	PRJNA359635	vd3c	f_gill_sw	gill	Gill	F	saltwater	normal	S7	1.98	25878	FALSE
+PRJNA359635:f_gut_fw	PRJNA359635	vd3c	f_gut_fw	gut	Gut	F	freshwater	normal	S1	1.96	25614	FALSE
+PRJNA359635:f_gut_sw	PRJNA359635	vd3c	f_gut_sw	gut	Gut	F	saltwater	normal	S3	1.71	25249	FALSE
+PRJNA359635:f_kidney_fw	PRJNA359635	vd3c	f_kidney_fw	kidney	Kidney	F	freshwater	normal	S5	2.35	24700	FALSE
+PRJNA359635:f_kidney_sw	PRJNA359635	vd3c	f_kidney_sw	kidney	Kidney	F	saltwater	normal	S7	2.5	24111	FALSE
+PRJNA359635:f_liver_fw	PRJNA359635	vd3c	f_liver_fw	liver	Liver	F	freshwater	normal	S1	2.98	16220	FALSE
+PRJNA359635:f_liver_sw	PRJNA359635	vd3c	f_liver_sw	liver	Liver	F	saltwater	normal	S3	2.49	16793	FALSE
+PRJNA359635:f_nose_fw	PRJNA359635	vd3c	f_nose_fw	nose	Nose	F	freshwater	normal	S1	2.35	26212	FALSE
+PRJNA359635:f_nose_sw	PRJNA359635	vd3c	f_nose_sw	nose	Nose	F	saltwater	normal	S3	3.4	29897	FALSE
+PRJNA359635:f_pc_fw	PRJNA359635	vd3c	f_pc_fw	pyloric_caecum	Pyloric caecum	F	freshwater	normal	S5	2.17	21855	FALSE
+PRJNA359635:f_pc_sw	PRJNA359635	vd3c	f_pc_sw	pyloric_caecum	Pyloric caecum	F	saltwater	normal	S7	2.75	22204	FALSE
+PRJNA359635:f_skin_fw	PRJNA359635	vd3c	f_skin_fw	skin	Skin	F	freshwater	normal	S5	2.57	26152	FALSE
+PRJNA359635:f_skin_sw	PRJNA359635	vd3c	f_skin_sw	skin	Skin	F	saltwater	normal	S7	2.74	26987	FALSE
+PRJNA359635:f_spleen_fw	PRJNA359635	vd3c	f_spleen_fw	spleen	Spleen	F	freshwater	normal	S1	2.82	16156	FALSE
+PRJNA359635:f_spleen_sw	PRJNA359635	vd3c	f_spleen_sw	spleen	Spleen	F	saltwater	normal	S3	2.87	24056	FALSE
+PRJNA359635:m_brain_fw	PRJNA359635	vd3c	m_brain_fw	brain	Brain	M	freshwater	normal	S2	2.15	29409	FALSE
+PRJNA359635:m_brain_sw	PRJNA359635	vd3c	m_brain_sw	brain	Brain	M	saltwater	normal	S4	2.51	30387	FALSE
+PRJNA359635:m_eye_fw	PRJNA359635	vd3c	m_eye_fw	eye	Eye	M	freshwater	normal	S6	2.58	14222	FALSE
+PRJNA359635:m_eye_sw	PRJNA359635	vd3c	m_eye_sw	eye	Eye	M	saltwater	normal	S8	2.46	23650	FALSE
+PRJNA359635:m_gill_fw	PRJNA359635	vd3c	m_gill_fw	gill	Gill	M	freshwater	normal	S6	1.92	25615	FALSE
+PRJNA359635:m_gill_sw	PRJNA359635	vd3c	m_gill_sw	gill	Gill	M	saltwater	normal	S8	2.17	26402	FALSE
+PRJNA359635:m_gut_fw	PRJNA359635	vd3c	m_gut_fw	gut	Gut	M	freshwater	normal	S2	2.02	24809	FALSE
+PRJNA359635:m_gut_sw	PRJNA359635	vd3c	m_gut_sw	gut	Gut	M	saltwater	normal	S4	1.88	23036	FALSE
+PRJNA359635:m_kidney_fw	PRJNA359635	vd3c	m_kidney_fw	kidney	Kidney	M	freshwater	normal	S6	2.57	24693	FALSE
+PRJNA359635:m_kidney_sw	PRJNA359635	vd3c	m_kidney_sw	kidney	Kidney	M	saltwater	normal	S8	2.51	25488	FALSE
+PRJNA359635:m_liver_fw	PRJNA359635	vd3c	m_liver_fw	liver	Liver	M	freshwater	normal	S2	2.72	15635	FALSE
+PRJNA359635:m_liver_sw	PRJNA359635	vd3c	m_liver_sw	liver	Liver	M	saltwater	normal	S4	2.83	16015	FALSE
+PRJNA359635:m_nose_fw	PRJNA359635	vd3c	m_nose_fw	nose	Nose	M	freshwater	normal	S2	2.14	24651	FALSE
+PRJNA359635:m_nose_sw	PRJNA359635	vd3c	m_nose_sw	nose	Nose	M	saltwater	normal	S4	2.05	29980	FALSE
+PRJNA359635:m_pc_fw	PRJNA359635	vd3c	m_pc_fw	pyloric_caecum	Pyloric caecum	M	freshwater	normal	S6	2.95	21772	FALSE
+PRJNA359635:m_pc_sw	PRJNA359635	vd3c	m_pc_sw	pyloric_caecum	Pyloric caecum	M	saltwater	normal	S8	2.27	22854	FALSE
+PRJNA359635:m_skin_fw	PRJNA359635	vd3c	m_skin_fw	skin	Skin	M	freshwater	normal	S6	2.57	25588	FALSE
+PRJNA359635:m_skin_sw	PRJNA359635	vd3c	m_skin_sw	skin	Skin	M	saltwater	normal	S8	2.46	25881	FALSE
+PRJNA359635:m_spleen_fw	PRJNA359635	vd3c	m_spleen_fw	spleen	Spleen	M	freshwater	normal	S2	2.69	19176	FALSE
+PRJNA359635:m_spleen_sw	PRJNA359635	vd3c	m_spleen_sw	spleen	Spleen	M	saltwater	normal	S4	2.72	24142	FALSE
+PRJNA626461:blood_18	PRJNA626461	vd3d	blood_18	blood	Blood	NA	NA	EE	A18_B53	16.83	15953	FALSE
+PRJNA626461:blood_17	PRJNA626461	vd3d	blood_17	blood	Blood	NA	NA	EE	A17_B47	19.25	15134	FALSE
+PRJNA626461:blood_16	PRJNA626461	vd3d	blood_16	blood	Blood	NA	NA	EE	A16_B34	15.36	15694	FALSE
+PRJNA626461:blood_15	PRJNA626461	vd3d	blood_15	blood	Blood	NA	NA	LL	A15_B23	8.06	15234	FALSE
+PRJNA626461:blood_14	PRJNA626461	vd3d	blood_14	blood	Blood	NA	NA	LL	A14_B16	15.09	13063	FALSE
+PRJNA626461:blood_13	PRJNA626461	vd3d	blood_13	blood	Blood	NA	NA	LL	A13_B12	14.77	10298	FALSE
+PRJNA626461:blood_06	PRJNA626461	vd3d	blood_06	blood	Blood	NA	NA	EE	A06_B58	32.55	14631	FALSE
+PRJNA626461:blood_02	PRJNA626461	vd3d	blood_02	blood	Blood	NA	NA	LL	A02_B39	34.42	15733	FALSE
+PRJNA626461:blood_01	PRJNA626461	vd3d	blood_01	blood	Blood	NA	NA	EE	A01_B27	40.71	14397	FALSE
+ROS_1:bone_13a	ROS_1	vd3e	bone_13a	bone	Bone	NA	NA	Low	B13a	29.3	25492	FALSE
+ROS_1:muscle_7b	ROS_1	vd3e	muscle_7b	muscle	Muscle	NA	NA	LowSham	M7b	15.92	15153	FALSE
+ROS_1:liver_21b	ROS_1	vd3e	liver_21b	liver	Liver	NA	NA	LowSham	L21b	16.25	21453	FALSE
+ROS_1:muscle_33b	ROS_1	vd3e	muscle_33b	muscle	Muscle	NA	NA	LowSham	M33b	9.96	12692	FALSE
+ROS_1:muscle_32a	ROS_1	vd3e	muscle_32a	muscle	Muscle	NA	NA	Low	M32a	14.88	16344	FALSE
+ROS_1:liver_25a	ROS_1	vd3e	liver_25a	liver	Liver	NA	NA	Low	L25a	16.22	21260	FALSE
+ROS_1:muscle_20a	ROS_1	vd3e	muscle_20a	muscle	Muscle	NA	NA	Low	M20a	9.88	16909	FALSE
+ROS_1:muscle_31b	ROS_1	vd3e	muscle_31b	muscle	Muscle	NA	NA	LowSham	M31b	56.18	12558	FALSE
+ROS_1:bone_1a	ROS_1	vd3e	bone_1a	bone	Bone	NA	NA	Low	B1a	6.16	28567	FALSE
+ROS_1:muscle_26a	ROS_1	vd3e	muscle_26a	muscle	Muscle	NA	NA	Low	M26a	14.96	16824	FALSE
+ROS_1:bone_9a	ROS_1	vd3e	bone_9a	bone	Bone	NA	NA	Low	B9a	14.29	28071	FALSE
+ROS_1:muscle_33a	ROS_1	vd3e	muscle_33a	muscle	Muscle	NA	NA	Low	M33a	36.74	17014	FALSE
+ROS_1:bone_32b	ROS_1	vd3e	bone_32b	bone	Bone	NA	NA	LowSham	B32b	21.64	24572	FALSE
+ROS_1:bone_9b	ROS_1	vd3e	bone_9b	bone	Bone	NA	NA	LowSham	B9b	13.44	27688	FALSE
+ROS_1:muscle_19b	ROS_1	vd3e	muscle_19b	muscle	Muscle	NA	NA	LowSham	M19b	103.47	16677	FALSE
+ROS_1:muscle_21a	ROS_1	vd3e	muscle_21a	muscle	Muscle	NA	NA	Low	M21a	26.85	16721	FALSE
+ROS_1:liver_20a	ROS_1	vd3e	liver_20a	liver	Liver	NA	NA	Low	L20a	21.4	20871	FALSE
+ROS_1:liver_7b	ROS_1	vd3e	liver_7b	liver	Liver	NA	NA	LowSham	L7b	24.21	19886	FALSE
+ROS_1:liver_33a	ROS_1	vd3e	liver_33a	liver	Liver	NA	NA	Low	L33a	38.08	20914	FALSE
+ROS_1:liver_32a	ROS_1	vd3e	liver_32a	liver	Liver	NA	NA	Low	L32a	17.86	20012	FALSE
+ROS_1:bone_2a	ROS_1	vd3e	bone_2a	bone	Bone	NA	NA	Low	B2a	9.31	22620	FALSE
+ROS_1:bone_31b	ROS_1	vd3e	bone_31b	bone	Bone	NA	NA	LowSham	B31b	13.05	28785	FALSE
+ROS_1:bone_20b	ROS_1	vd3e	bone_20b	bone	Bone	NA	NA	LowSham	B20b	21.35	26475	FALSE
+ROS_1:liver_9b	ROS_1	vd3e	liver_9b	liver	Liver	NA	NA	LowSham	L9b	35.88	20786	FALSE
+ROS_1:liver_33b	ROS_1	vd3e	liver_33b	liver	Liver	NA	NA	LowSham	L33b	63.32	20421	FALSE
+ROS_1:bone_3a	ROS_1	vd3e	bone_3a	bone	Bone	NA	NA	Low	B3a	9.33	27163	FALSE
+ROS_1:bone_7b	ROS_1	vd3e	bone_7b	bone	Bone	NA	NA	LowSham	B7b	27.65	26309	FALSE
+ROS_1:bone_7a	ROS_1	vd3e	bone_7a	bone	Bone	NA	NA	Low	B7a	13.05	28668	FALSE
+ROS_1:liver_27a	ROS_1	vd3e	liver_27a	liver	Liver	NA	NA	Low	L27a	33.13	20365	FALSE
+ROS_1:muscle_19a	ROS_1	vd3e	muscle_19a	muscle	Muscle	NA	NA	Low	M19a	7.25	17594	FALSE
+ROS_1:bone_33b	ROS_1	vd3e	bone_33b	bone	Bone	NA	NA	LowSham	B33b	12.5	26800	FALSE
+ROS_1:muscle_32b	ROS_1	vd3e	muscle_32b	muscle	Muscle	NA	NA	LowSham	M32b	48.32	15057	FALSE
+ROS_1:liver_26a	ROS_1	vd3e	liver_26a	liver	Liver	NA	NA	Low	L26a	21.19	21522	FALSE
+ROS_1:bone_14a	ROS_1	vd3e	bone_14a	bone	Bone	NA	NA	Low	B14a	11.81	28048	FALSE
+ROS_1:bone_21b	ROS_1	vd3e	bone_21b	bone	Bone	NA	NA	LowSham	B21b	24.72	27322	FALSE
+ROS_1:liver_19b	ROS_1	vd3e	liver_19b	liver	Liver	NA	NA	LowSham	L19b	19.7	20455	FALSE
+ROS_1:bone_8b	ROS_1	vd3e	bone_8b	bone	Bone	NA	NA	LowSham	B8b	17.8	28539	FALSE
+ROS_1:liver_21a	ROS_1	vd3e	liver_21a	liver	Liver	NA	NA	Low	L21a	37.33	20473	FALSE
+ROS_1:muscle_21b	ROS_1	vd3e	muscle_21b	muscle	Muscle	NA	NA	LowSham	M21b	97.71	12024	FALSE
+ROS_1:liver_8b	ROS_1	vd3e	liver_8b	liver	Liver	NA	NA	LowSham	L8b	11.2	20271	FALSE
+ROS_1:bone_15a	ROS_1	vd3e	bone_15a	bone	Bone	NA	NA	Low	B15a	26.68	28650	FALSE
+ROS_1:liver_31a	ROS_1	vd3e	liver_31a	liver	Liver	NA	NA	Low	L31a	26.37	18155	FALSE
+ROS_1:liver_31b	ROS_1	vd3e	liver_31b	liver	Liver	NA	NA	LowSham	L31b	16.48	20812	FALSE
+ROS_1:muscle_20b	ROS_1	vd3e	muscle_20b	muscle	Muscle	NA	NA	LowSham	M20b	9.05	12964	FALSE
+ROS_1:muscle_31a	ROS_1	vd3e	muscle_31a	muscle	Muscle	NA	NA	Low	M31a	48.18	16278	FALSE
+ROS_1:muscle_8b	ROS_1	vd3e	muscle_8b	muscle	Muscle	NA	NA	LowSham	M8b	20.97	11392	FALSE
+ROS_1:muscle_25a	ROS_1	vd3e	muscle_25a	muscle	Muscle	NA	NA	Low	M25a	15.91	16829	FALSE
+ROS_1:liver_20b	ROS_1	vd3e	liver_20b	liver	Liver	NA	NA	LowSham	L20b	36.08	20745	FALSE
+ROS_1:bone_19b	ROS_1	vd3e	bone_19b	bone	Bone	NA	NA	LowSham	B19b	55.43	28529	FALSE
+ROS_1:muscle_9b	ROS_1	vd3e	muscle_9b	muscle	Muscle	NA	NA	LowSham	M9b	114.19	13740	FALSE
+ROS_1:bone_8a	ROS_1	vd3e	bone_8a	bone	Bone	NA	NA	Low	B8a	29.23	23959	FALSE
+ROS_1:liver_32b	ROS_1	vd3e	liver_32b	liver	Liver	NA	NA	LowSham	L32b	41.96	21594	FALSE
+ROS_1:liver_19a	ROS_1	vd3e	liver_19a	liver	Liver	NA	NA	Low	L19a	50.65	19704	FALSE
+ROS_1:muscle_27a	ROS_1	vd3e	muscle_27a	muscle	Muscle	NA	NA	Low	M27a	1.91	17447	FALSE
+ROS_1:brain_13a	ROS_1	vd3e	brain_13a	brain	Brain	NA	NA	Low	S36b	22.23	31069	FALSE
+ROS_1:brain_14a	ROS_1	vd3e	brain_14a	brain	Brain	NA	NA	Low	S24b	21.76	31097	FALSE
+ROS_1:brain_15a	ROS_1	vd3e	brain_15a	brain	Brain	NA	NA	Low	S12b	21.99	32188	FALSE
+ROS_1:brain_1a	ROS_1	vd3e	brain_1a	brain	Brain	NA	NA	Low	S59b	21.69	30834	FALSE
+ROS_1:brain_2a	ROS_1	vd3e	brain_2a	brain	Brain	NA	NA	Low	S47a	23.24	28966	FALSE
+ROS_1:brain_3a	ROS_1	vd3e	brain_3a	brain	Brain	NA	NA	Low	S81a	16.57	29170	FALSE
+ROS_1:brain_7a	ROS_1	vd3e	brain_7a	brain	Brain	NA	NA	Low	S77b	29.65	31321	FALSE
+ROS_1:brain_8a	ROS_1	vd3e	brain_8a	brain	Brain	NA	NA	Low	S70b	20.75	31893	FALSE
+ROS_1:brain_9a	ROS_1	vd3e	brain_9a	brain	Brain	NA	NA	Low	S58b	20.07	30710	FALSE
+ROS_1:brain_19b	ROS_1	vd3e	brain_19b	brain	Brain	NA	NA	LowSham	S32b	19.15	31714	FALSE
+ROS_1:brain_20b	ROS_1	vd3e	brain_20b	brain	Brain	NA	NA	LowSham	S44a	20.01	32323	FALSE
+ROS_1:brain_21b	ROS_1	vd3e	brain_21b	brain	Brain	NA	NA	LowSham	S56b	23.25	31663	FALSE
+ROS_1:brain_31b	ROS_1	vd3e	brain_31b	brain	Brain	NA	NA	LowSham	S81b	23.1	32716	FALSE
+ROS_1:brain_32b	ROS_1	vd3e	brain_32b	brain	Brain	NA	NA	LowSham	S92a	24.81	32756	FALSE
+ROS_1:brain_33b	ROS_1	vd3e	brain_33b	brain	Brain	NA	NA	LowSham	S10b	19.12	31805	FALSE
+ROS_1:brain_7b	ROS_1	vd3e	brain_7b	brain	Brain	NA	NA	LowSham	S78b	23.85	32609	FALSE
+ROS_1:brain_8b	ROS_1	vd3e	brain_8b	brain	Brain	NA	NA	LowSham	S89b	22.09	32272	FALSE
+ROS_1:brain_9b	ROS_1	vd3e	brain_9b	brain	Brain	NA	NA	LowSham	S47b	29.15	31836	FALSE
+PRJNA380580:testis_pp1	PRJNA380580	vd3f	testis_pp1	testis	Testis	M	pre-pubertal	pre-pubertal	G1LF-2383	27.71	35650	FALSE
+PRJNA380580:testis_pp2	PRJNA380580	vd3f	testis_pp2	testis	Testis	M	pre-pubertal	pre-pubertal	G1LF-2418	28.61	35840	FALSE
+PRJNA380580:testis_pp3	PRJNA380580	vd3f	testis_pp3	testis	Testis	M	pre-pubertal	pre-pubertal	G1LF-2421	24.48	35883	FALSE
+PRJNA380580:testis_p1	PRJNA380580	vd3f	testis_p1	testis	Testis	M	pubertal	pubertal	G2bLF-2392	24.24	33994	FALSE
+PRJNA380580:testis_p2	PRJNA380580	vd3f	testis_p2	testis	Testis	M	pubertal	pubertal	G2bLF-2396	32.1	32559	FALSE
+PRJNA380580:testis_p3	PRJNA380580	vd3f	testis_p3	testis	Testis	M	pubertal	pubertal	G2bLF-2400	31.66	32324	FALSE
+PRJNA380580:testis_im1	PRJNA380580	vd3f	testis_im1	testis	Testis	M	immature	immature	LTL-3840	26.2	34402	FALSE
+PRJNA380580:testis_im2	PRJNA380580	vd3f	testis_im2	testis	Testis	M	immature	immature	LTL-3852	26.79	34526	FALSE
+PRJNA380580:testis_im3	PRJNA380580	vd3f	testis_im3	testis	Testis	M	immature	immature	LTL-3860	26.45	34071	FALSE
+PRJEB47409:liver_f_immature_1	PRJEB47409	vd3g	liver_f_immature_1	liver	Liver	F	immature	liver_f_immature	J10	23.73	17574	FALSE
+PRJEB47409:muscle_f_immature_1	PRJEB47409	vd3g	muscle_f_immature_1	muscle	Muscle	F	immature	muscle_f_immature	J10	25.42	15788	FALSE
+PRJEB47409:brain_m_immature_1	PRJEB47409	vd3g	brain_m_immature_1	brain	Brain	M	immature	brain_m_immature	J15	21.48	29366	FALSE
+PRJEB47409:gill_m_immature_1	PRJEB47409	vd3g	gill_m_immature_1	gill	Gill	M	immature	gill_m_immature	J15	21.58	27967	FALSE
+PRJEB47409:head_kidney_m_immature_1	PRJEB47409	vd3g	head_kidney_m_immature_1	head_kidney	Head Kidney	M	immature	head_kidney_m_immature	J15	23.56	21399	FALSE
+PRJEB47409:liver_m_immature_1	PRJEB47409	vd3g	liver_m_immature_1	liver	Liver	M	immature	liver_m_immature	J15	28.83	15393	FALSE
+PRJEB47409:muscle_m_immature_1	PRJEB47409	vd3g	muscle_m_immature_1	muscle	Muscle	M	immature	muscle_m_immature	J15	26.07	14911	FALSE
+PRJEB47409:distal_intestine_m_immature_1	PRJEB47409	vd3g	distal_intestine_m_immature_1	distal_intestine	Distal Intestine	M	immature	distal_intestine_m_immature	J15	22.95	26657	FALSE
+PRJEB47409:brain_m_immature_2	PRJEB47409	vd3g	brain_m_immature_2	brain	Brain	M	immature	brain_m_immature	J16	21.19	31018	FALSE
+PRJEB47409:distal_intestine_f_immature_1	PRJEB47409	vd3g	distal_intestine_f_immature_1	distal_intestine	Distal Intestine	F	immature	distal_intestine_f_immature	J10	28.3	26621	FALSE
+PRJEB47409:gill_m_immature_2	PRJEB47409	vd3g	gill_m_immature_2	gill	Gill	M	immature	gill_m_immature	J16	22.51	28321	FALSE
+PRJEB47409:liver_m_immature_2	PRJEB47409	vd3g	liver_m_immature_2	liver	Liver	M	immature	liver_m_immature	J16	25.36	15558	FALSE
+PRJEB47409:muscle_m_immature_2	PRJEB47409	vd3g	muscle_m_immature_2	muscle	Muscle	M	immature	muscle_m_immature	J16	26.7	15021	FALSE
+PRJEB47409:distal_intestine_m_immature_2	PRJEB47409	vd3g	distal_intestine_m_immature_2	distal_intestine	Distal Intestine	M	immature	distal_intestine_m_immature	J16	22.2	27262	FALSE
+PRJEB47409:brain_m_immature_3	PRJEB47409	vd3g	brain_m_immature_3	brain	Brain	M	immature	brain_m_immature	J18	19.16	30050	FALSE
+PRJEB47409:gill_m_immature_3	PRJEB47409	vd3g	gill_m_immature_3	gill	Gill	M	immature	gill_m_immature	J18	22.04	27934	FALSE
+PRJEB47409:gonad_m_immature_1	PRJEB47409	vd3g	gonad_m_immature_1	testis	Gonad	M	immature	gonad_m_immature	J18	21.67	28140	FALSE
+PRJEB47409:head_kidney_m_immature_2	PRJEB47409	vd3g	head_kidney_m_immature_2	head_kidney	Head Kidney	M	immature	head_kidney_m_immature	J18	22.31	22807	FALSE
+PRJEB47409:liver_m_immature_3	PRJEB47409	vd3g	liver_m_immature_3	liver	Liver	M	immature	liver_m_immature	J18	25.98	14061	FALSE
+PRJEB47409:head_kidney_m_immature_3	PRJEB47409	vd3g	head_kidney_m_immature_3	head_kidney	Head Kidney	M	immature	head_kidney_m_immature	J16	22.87	24517	FALSE
+PRJEB47409:brain_f_mature_1	PRJEB47409	vd3g	brain_f_mature_1	brain	Brain	F	mature	brain_f_mature	A14	24.36	26985	FALSE
+PRJEB47409:gill_f_mature_1	PRJEB47409	vd3g	gill_f_mature_1	gill	Gill	F	mature	gill_f_mature	A14	23.04	28684	FALSE
+PRJEB47409:gonad_f_mature_1	PRJEB47409	vd3g	gonad_f_mature_1	ovary	Gonad	F	mature	gonad_f_mature	A14	40.17	22762	FALSE
+PRJEB47409:head_kidney_f_mature_1	PRJEB47409	vd3g	head_kidney_f_mature_1	head_kidney	Head Kidney	F	mature	head_kidney_f_mature	A14	28.53	23859	FALSE
+PRJEB47409:liver_f_mature_1	PRJEB47409	vd3g	liver_f_mature_1	liver	Liver	F	mature	liver_f_mature	A14	23.5	18845	FALSE
+PRJEB47409:muscle_f_mature_1	PRJEB47409	vd3g	muscle_f_mature_1	muscle	Muscle	F	mature	muscle_f_mature	A14	26.43	14641	FALSE
+PRJEB47409:distal_intestine_f_mature_1	PRJEB47409	vd3g	distal_intestine_f_mature_1	distal_intestine	Distal Intestine	F	mature	distal_intestine_f_mature	A14	21.92	29899	FALSE
+PRJEB47409:brain_f_mature_2	PRJEB47409	vd3g	brain_f_mature_2	brain	Brain	F	mature	brain_f_mature	A15	19.17	27370	FALSE
+PRJEB47409:gill_f_mature_2	PRJEB47409	vd3g	gill_f_mature_2	gill	Gill	F	mature	gill_f_mature	A15	24.9	27990	FALSE
+PRJEB47409:gonad_f_mature_2	PRJEB47409	vd3g	gonad_f_mature_2	ovary	Gonad	F	mature	gonad_f_mature	A15	32.87	22804	FALSE
+PRJEB47409:head_kidney_f_mature_2	PRJEB47409	vd3g	head_kidney_f_mature_2	head_kidney	Head Kidney	F	mature	head_kidney_f_mature	A15	22.9	23850	FALSE
+PRJEB47409:liver_f_mature_2	PRJEB47409	vd3g	liver_f_mature_2	liver	Liver	F	mature	liver_f_mature	A15	23.1	18271	FALSE
+PRJEB47409:muscle_f_mature_2	PRJEB47409	vd3g	muscle_f_mature_2	muscle	Muscle	F	mature	muscle_f_mature	A15	26.16	16333	FALSE
+PRJEB47409:distal_intestine_f_mature_2	PRJEB47409	vd3g	distal_intestine_f_mature_2	distal_intestine	Distal Intestine	F	mature	distal_intestine_f_mature	A15	23.33	26558	FALSE
+PRJEB47409:brain_f_mature_3	PRJEB47409	vd3g	brain_f_mature_3	brain	Brain	F	mature	brain_f_mature	A24	22.57	27440	FALSE
+PRJEB47409:gill_f_mature_3	PRJEB47409	vd3g	gill_f_mature_3	gill	Gill	F	mature	gill_f_mature	A24	22.26	29217	FALSE
+PRJEB47409:gonad_f_mature_3	PRJEB47409	vd3g	gonad_f_mature_3	ovary	Gonad	F	mature	gonad_f_mature	A24	26.98	22426	FALSE
+PRJEB47409:head_kidney_f_mature_3	PRJEB47409	vd3g	head_kidney_f_mature_3	head_kidney	Head Kidney	F	mature	head_kidney_f_mature	A24	22.24	24533	FALSE
+PRJEB47409:liver_f_mature_3	PRJEB47409	vd3g	liver_f_mature_3	liver	Liver	F	mature	liver_f_mature	A24	23.9	18064	FALSE
+PRJEB47409:muscle_f_mature_3	PRJEB47409	vd3g	muscle_f_mature_3	muscle	Muscle	F	mature	muscle_f_mature	A24	24.89	16238	FALSE
+PRJEB47409:distal_intestine_f_mature_3	PRJEB47409	vd3g	distal_intestine_f_mature_3	distal_intestine	Distal Intestine	F	mature	distal_intestine_f_mature	A24	22.08	26582	FALSE
+PRJEB47409:brain_m_mature_1	PRJEB47409	vd3g	brain_m_mature_1	brain	Brain	M	mature	brain_m_mature	A19	22.5	27892	FALSE
+PRJEB47409:gill_m_mature_1	PRJEB47409	vd3g	gill_m_mature_1	gill	Gill	M	mature	gill_m_mature	A19	22.54	27939	FALSE
+PRJEB47409:gonad_m_mature_1	PRJEB47409	vd3g	gonad_m_mature_1	testis	Gonad	M	mature	gonad_m_mature	A19	26.12	27877	FALSE
+PRJEB47409:head_kidney_m_mature_1	PRJEB47409	vd3g	head_kidney_m_mature_1	head_kidney	Head Kidney	M	mature	head_kidney_m_mature	A19	22.6	24999	FALSE
+PRJEB47409:liver_m_mature_1	PRJEB47409	vd3g	liver_m_mature_1	liver	Liver	M	mature	liver_m_mature	A19	23.59	17967	FALSE
+PRJEB47409:muscle_m_mature_1	PRJEB47409	vd3g	muscle_m_mature_1	muscle	Muscle	M	mature	muscle_m_mature	A19	26.88	18838	FALSE
+PRJEB47409:distal_intestine_m_mature_1	PRJEB47409	vd3g	distal_intestine_m_mature_1	distal_intestine	Distal Intestine	M	mature	distal_intestine_m_mature	A19	22.56	26887	FALSE
+PRJEB47409:brain_m_mature_2	PRJEB47409	vd3g	brain_m_mature_2	brain	Brain	M	mature	brain_m_mature	A20	19.32	30401	FALSE
+PRJEB47409:gill_m_mature_2	PRJEB47409	vd3g	gill_m_mature_2	gill	Gill	M	mature	gill_m_mature	A20	22.67	26852	FALSE
+PRJEB47409:gonad_m_mature_2	PRJEB47409	vd3g	gonad_m_mature_2	testis	Gonad	M	mature	gonad_m_mature	A20	21.81	27107	FALSE
+PRJEB47409:head_kidney_m_mature_2	PRJEB47409	vd3g	head_kidney_m_mature_2	head_kidney	Head Kidney	M	mature	head_kidney_m_mature	A20	26.02	20979	FALSE
+PRJEB47409:liver_m_mature_2	PRJEB47409	vd3g	liver_m_mature_2	liver	Liver	M	mature	liver_m_mature	A20	24.72	17936	FALSE
+PRJEB47409:muscle_m_mature_2	PRJEB47409	vd3g	muscle_m_mature_2	muscle	Muscle	M	mature	muscle_m_mature	A20	25.96	16012	FALSE
+PRJEB47409:distal_intestine_m_mature_2	PRJEB47409	vd3g	distal_intestine_m_mature_2	distal_intestine	Distal Intestine	M	mature	distal_intestine_m_mature	A20	23.56	27183	FALSE
+PRJEB47409:brain_m_mature_3	PRJEB47409	vd3g	brain_m_mature_3	brain	Brain	M	mature	brain_m_mature	A22	17.73	28345	FALSE
+PRJEB47409:gill_m_mature_3	PRJEB47409	vd3g	gill_m_mature_3	gill	Gill	M	mature	gill_m_mature	A22	22.3	27272	FALSE
+PRJEB47409:gonad_m_mature_3	PRJEB47409	vd3g	gonad_m_mature_3	testis	Gonad	M	mature	gonad_m_mature	A22	20.1	26490	FALSE
+PRJEB47409:head_kidney_m_mature_3	PRJEB47409	vd3g	head_kidney_m_mature_3	head_kidney	Head Kidney	M	mature	head_kidney_m_mature	A22	21.46	24703	FALSE
+PRJEB47409:liver_m_mature_3	PRJEB47409	vd3g	liver_m_mature_3	liver	Liver	M	mature	liver_m_mature	A22	24.04	18059	FALSE
+PRJEB47409:muscle_m_mature_3	PRJEB47409	vd3g	muscle_m_mature_3	muscle	Muscle	M	mature	muscle_m_mature	A22	25.52	17673	FALSE
+PRJEB47409:distal_intestine_m_mature_3	PRJEB47409	vd3g	distal_intestine_m_mature_3	distal_intestine	Distal Intestine	M	mature	distal_intestine_m_mature	A22	22.97	27235	FALSE
+PRJEB47409:brain_f_immature_1	PRJEB47409	vd3g	brain_f_immature_1	brain	Brain	F	immature	brain_f_immature	J8	21.2	30808	FALSE
+PRJEB47409:gill_f_immature_1	PRJEB47409	vd3g	gill_f_immature_1	gill	Gill	F	immature	gill_f_immature	J8	20.99	27435	FALSE
+PRJEB47409:gonad_f_immature_1	PRJEB47409	vd3g	gonad_f_immature_1	ovary	Gonad	F	immature	gonad_f_immature	J8	26.13	22472	FALSE
+PRJEB47409:head_kidney_f_immature_1	PRJEB47409	vd3g	head_kidney_f_immature_1	head_kidney	Head Kidney	F	immature	head_kidney_f_immature	J8	22.16	23923	FALSE
+PRJEB47409:liver_f_immature_2	PRJEB47409	vd3g	liver_f_immature_2	liver	Liver	F	immature	liver_f_immature	J8	26.86	13857	FALSE
+PRJEB47409:muscle_f_immature_2	PRJEB47409	vd3g	muscle_f_immature_2	muscle	Muscle	F	immature	muscle_f_immature	J8	24.49	18035	FALSE
+PRJEB47409:distal_intestine_f_immature_2	PRJEB47409	vd3g	distal_intestine_f_immature_2	distal_intestine	Distal Intestine	F	immature	distal_intestine_f_immature	J8	21.99	26101	FALSE
+PRJEB47409:brain_f_immature_2	PRJEB47409	vd3g	brain_f_immature_2	brain	Brain	F	immature	brain_f_immature	J9	20.37	30938	FALSE
+PRJEB47409:gill_f_immature_2	PRJEB47409	vd3g	gill_f_immature_2	gill	Gill	F	immature	gill_f_immature	J9	21.25	28039	FALSE
+PRJEB47409:muscle_m_immature_3	PRJEB47409	vd3g	muscle_m_immature_3	muscle	Muscle	M	immature	muscle_m_immature	J18	28.01	15344	FALSE
+PRJEB47409:distal_intestine_m_immature_3	PRJEB47409	vd3g	distal_intestine_m_immature_3	distal_intestine	Distal Intestine	M	immature	distal_intestine_m_immature	J18	22.5	25806	FALSE
+PRJEB47409:gonad_f_immature_2	PRJEB47409	vd3g	gonad_f_immature_2	ovary	Gonad	F	immature	gonad_f_immature	J9	25.43	22382	FALSE
+PRJEB47409:head_kidney_f_immature_2	PRJEB47409	vd3g	head_kidney_f_immature_2	head_kidney	Head Kidney	F	immature	head_kidney_f_immature	J9	22.86	23688	FALSE
+PRJEB47409:liver_f_immature_3	PRJEB47409	vd3g	liver_f_immature_3	liver	Liver	F	immature	liver_f_immature	J9	30.87	15537	FALSE
+PRJEB47409:muscle_f_immature_3	PRJEB47409	vd3g	muscle_f_immature_3	muscle	Muscle	F	immature	muscle_f_immature	J9	25.16	17665	FALSE
+PRJEB47409:distal_intestine_f_immature_3	PRJEB47409	vd3g	distal_intestine_f_immature_3	distal_intestine	Distal Intestine	F	immature	distal_intestine_f_immature	J9	22.82	27043	FALSE
+PRJEB47409:brain_f_immature_3	PRJEB47409	vd3g	brain_f_immature_3	brain	Brain	F	immature	brain_f_immature	J10	19.25	30701	FALSE
+PRJEB47409:gill_f_immature_3	PRJEB47409	vd3g	gill_f_immature_3	gill	Gill	F	immature	gill_f_immature	J10	23.36	28383	FALSE
+PRJEB47409:gonad_f_immature_3	PRJEB47409	vd3g	gonad_f_immature_3	ovary	Gonad	F	immature	gonad_f_immature	J10	26.75	22733	FALSE
+PRJEB47409:head_kidney_f_immature_3	PRJEB47409	vd3g	head_kidney_f_immature_3	head_kidney	Head Kidney	F	immature	head_kidney_f_immature	J10	23.62	21892	FALSE
+PRJEB47409:gonad_m_immature_2	PRJEB47409	vd3g	gonad_m_immature_2	testis	Gonad	M	immature	gonad_m_immature	J16	21.72	32193	FALSE
+PRJEB47409:gonad_m_immature_3	PRJEB47409	vd3g	gonad_m_immature_3	testis	Gonad	M	immature	gonad_m_immature	J15	21.31	33378	FALSE
+PRJNA543940:heart_h10	PRJNA543940	vd3h	heart_h10	heart	Heart	NA	parr	H-gEBV	10	22.91	23911	FALSE
+PRJNA543940:heart_h11	PRJNA543940	vd3h	heart_h11	heart	Heart	NA	parr	H-gEBV	11	25.88	23352	FALSE
+PRJNA543940:heart_l14	PRJNA543940	vd3h	heart_l14	heart	Heart	NA	parr	L-gEBV	14	23.18	23223	FALSE
+PRJNA543940:heart_h15	PRJNA543940	vd3h	heart_h15	heart	Heart	NA	parr	H-gEBV	15	18.63	22442	FALSE
+PRJNA543940:heart_h17	PRJNA543940	vd3h	heart_h17	heart	Heart	NA	parr	H-gEBV	17	17.18	23482	FALSE
+PRJNA543940:heart_l18	PRJNA543940	vd3h	heart_l18	heart	Heart	NA	parr	L-gEBV	18	18.67	23552	FALSE
+PRJNA543940:heart_l1	PRJNA543940	vd3h	heart_l1	heart	Heart	NA	parr	L-gEBV	1	17.16	23949	FALSE
+PRJNA543940:heart_h22	PRJNA543940	vd3h	heart_h22	heart	Heart	NA	parr	H-gEBV	22	22.01	24822	FALSE
+PRJNA543940:heart_l23	PRJNA543940	vd3h	heart_l23	heart	Heart	NA	parr	L-gEBV	23	15.91	24679	FALSE
+PRJNA543940:heart_l25	PRJNA543940	vd3h	heart_l25	heart	Heart	NA	parr	L-gEBV	25	25.83	24933	FALSE
+PRJNA543940:heart_h26	PRJNA543940	vd3h	heart_h26	heart	Heart	NA	parr	H-gEBV	26	27.22	25580	FALSE
+PRJNA543940:heart_l29	PRJNA543940	vd3h	heart_l29	heart	Heart	NA	parr	L-gEBV	29	18.15	24332	FALSE
+PRJNA543940:heart_l2	PRJNA543940	vd3h	heart_l2	heart	Heart	NA	parr	L-gEBV	2	12.88	23156	FALSE
+PRJNA543940:heart_h30	PRJNA543940	vd3h	heart_h30	heart	Heart	NA	parr	H-gEBV	30	18.49	22995	FALSE
+PRJNA543940:heart_h36	PRJNA543940	vd3h	heart_h36	heart	Heart	NA	parr	H-gEBV	36	18.31	24734	FALSE
+PRJNA543940:heart_l37	PRJNA543940	vd3h	heart_l37	heart	Heart	NA	parr	L-gEBV	37	14.65	22317	FALSE
+PRJNA543940:heart_h3	PRJNA543940	vd3h	heart_h3	heart	Heart	NA	parr	H-gEBV	3	23.11	23458	FALSE
+PRJNA543940:heart_h41	PRJNA543940	vd3h	heart_h41	heart	Heart	NA	parr	H-gEBV	41	23.95	24478	FALSE
+PRJNA543940:heart_l42	PRJNA543940	vd3h	heart_l42	heart	Heart	NA	parr	L-gEBV	42	17.8	25430	FALSE
+PRJNA543940:heart_l45	PRJNA543940	vd3h	heart_l45	heart	Heart	NA	parr	L-gEBV	45	22.59	26310	FALSE
+PRJNA543940:heart_l46	PRJNA543940	vd3h	heart_l46	heart	Heart	NA	parr	L-gEBV	46	25.66	25807	FALSE
+PRJNA543940:heart_l50	PRJNA543940	vd3h	heart_l50	heart	Heart	NA	parr	L-gEBV	50	22.5	25585	FALSE
+PRJNA543940:heart_h51	PRJNA543940	vd3h	heart_h51	heart	Heart	NA	parr	H-gEBV	51	30.88	23861	FALSE
+PRJNA543940:heart_h55	PRJNA543940	vd3h	heart_h55	heart	Heart	NA	parr	H-gEBV	55	25.44	23689	FALSE
+PRJNA543940:heart_h59	PRJNA543940	vd3h	heart_h59	heart	Heart	NA	parr	H-gEBV	59	33.28	22065	TRUE
+PRJNA543940:heart_l63	PRJNA543940	vd3h	heart_l63	heart	Heart	NA	parr	L-gEBV	63	33.66	23125	TRUE
+PRJNA543940:heart_l68	PRJNA543940	vd3h	heart_l68	heart	Heart	NA	parr	L-gEBV	68	18.88	20915	FALSE
+PRJNA543940:heart_l69	PRJNA543940	vd3h	heart_l69	heart	Heart	NA	parr	L-gEBV	69	25.06	24331	FALSE
+PRJNA543940:heart_h6	PRJNA543940	vd3h	heart_h6	heart	Heart	NA	parr	H-gEBV	6	15.04	23874	FALSE
+PRJNA543940:heart_h7	PRJNA543940	vd3h	heart_h7	heart	Heart	NA	parr	H-gEBV	7	15.29	23951	FALSE
+PRJNA647285:kidney_r6	PRJNA647285	vd3i	kidney_r6	head_kidney	Kidney	NA	parr	resistant	6	29.63	21958	FALSE
+PRJNA647285:kidney_r13	PRJNA647285	vd3i	kidney_r13	head_kidney	Kidney	NA	parr	resistant	13	29.31	20655	FALSE
+PRJNA647285:kidney_s14	PRJNA647285	vd3i	kidney_s14	head_kidney	Kidney	NA	parr	susceptible	14	29.93	23530	FALSE
+PRJNA647285:heart_r6	PRJNA647285	vd3i	heart_r6	heart	Heart	NA	parr	resistant	6	29.6	20018	FALSE
+PRJNA647285:heart_r11	PRJNA647285	vd3i	heart_r11	heart	Heart	NA	parr	resistant	11	40.56	21026	FALSE
+PRJNA647285:heart_r13	PRJNA647285	vd3i	heart_r13	heart	Heart	NA	parr	resistant	13	27.95	20265	FALSE
+PRJNA647285:heart_s14	PRJNA647285	vd3i	heart_s14	heart	Heart	NA	parr	susceptible	14	32.7	21045	FALSE
+PRJNA647285:heart_s22	PRJNA647285	vd3i	heart_s22	heart	Heart	NA	parr	susceptible	22	40.16	21035	FALSE
+PRJNA647285:heart_s24	PRJNA647285	vd3i	heart_s24	heart	Heart	NA	parr	susceptible	24	45.31	19404	FALSE
+PRJNA647285:kidney_r18	PRJNA647285	vd3i	kidney_r18	head_kidney	Kidney	NA	parr	resistant	18	33.02	22029	FALSE
+PRJNA647285:heart_r28	PRJNA647285	vd3i	heart_r28	heart	Heart	NA	parr	resistant	28	30.26	18715	FALSE
+PRJNA647285:heart_s29	PRJNA647285	vd3i	heart_s29	heart	Heart	NA	parr	susceptible	29	31.52	18439	FALSE
+PRJNA647285:kidney_s22	PRJNA647285	vd3i	kidney_s22	head_kidney	Kidney	NA	parr	susceptible	22	30.79	22165	FALSE
+PRJNA647285:kidney_s24	PRJNA647285	vd3i	kidney_s24	head_kidney	Kidney	NA	parr	susceptible	24	37.34	22826	FALSE
+PRJNA647285:kidney_r28	PRJNA647285	vd3i	kidney_r28	head_kidney	Kidney	NA	parr	resistant	28	33.6	21285	FALSE
+PRJNA647285:kidney_s29	PRJNA647285	vd3i	kidney_s29	head_kidney	Kidney	NA	parr	susceptible	29	31.3	22324	FALSE

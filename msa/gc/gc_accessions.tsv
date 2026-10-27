@@ -1,0 +1,24 @@
+label	accession	gene_id	note
+Salmon_alb1	NP_001117137.1	100136575	RS_2025_05 symbol alb2 (serum albumin 1), unplaced scaffold in Ssal_v3.1
+Salmon_alb2	XP_013998969.2	106570911	RS_2025_05 LOC106570911 (albumin 2-like), ssa15
+Salmon_LOC100136922	NP_001117164.1	100136922	serum albumin 2, chr 1 of fSalSal1 (RS_2026_09), not annotated in RS_2025_05
+Trout_alb1	XP_036816797.1	110531464	albumin 1 (XP_036844031.1 of gene 100499622 is identical and left out)
+Trout_gc	XP_036792380.1	110536208	gene symbol gc, protein named albumin 2
+Chum_gc	XP_052369085.1	NA	vitamin D-binding protein (Table S3 query)
+Pink_gc	XP_046191372.1	NA	vitamin D-binding protein (Table S3 query)
+Pike_alb.1	XP_012992300.1	105014523	serum albumin 2
+Pike_alb.2	XP_034148109.1	105008514	serum albumin 2
+Gar_alb	XP_015195668.1	102693995	albumin 2-like
+Gar_gc	XP_069043117.1	102696948	vitamin D-binding protein
+Zebrafish_gc	NP_001002568.3	436841	vitamin D-binding protein (Table S3 query)
+Chicken_ALB	NP_990592.2	396197	albumin
+Chicken_AFP	NP_001383504.2	422652	alpha-fetoprotein
+Chicken_GC	NP_990213.1	395696	vitamin D-binding protein
+Human_ALB	NP_000468.1	213	albumin
+Human_AFP	NP_001125.1	174	alpha-fetoprotein
+Human_AFM	NP_001124.1	173	afamin
+Human_GC	NP_000574.2	2638	vitamin D-binding protein
+Mouse_Alb	NP_033784.2	11657	albumin
+Mouse_Afp	NP_031449.3	11576	alpha-fetoprotein
+Mouse_Afm	NP_660128.2	280662	afamin
+Mouse_Gc	NP_032122.1	14473	vitamin D-binding protein

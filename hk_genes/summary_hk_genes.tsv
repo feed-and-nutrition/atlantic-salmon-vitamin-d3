@@ -1,0 +1,15 @@
+gene	zeros	min_logtpm	mean_logtpm	median_logtpm	max_logtpm	sd	stability
+actb	0	7.34	9.2	9.25	10.9	0.95	Stable
+eef1a1l3	4	0	0.96	0.11	7.92	2.29	Variable
+ef1a (1)	0	9.02	10.1	10.21	11.21	0.63	Stable
+ef1a (2)	0	1.3	5.68	5.69	9.82	2.48	Variable
+ef1a1	0	0.27	1.61	1.1	6.09	1.66	Variable
+gapdh (1)	0	1.45	5.95	5.87	13.44	3.84	Variable
+gapdh (2)	0	2.27	7.59	7.64	15.27	3.84	Variable
+ppia	0	5.28	8.06	8.36	9.77	1.16	Variable
+ppia1	0	9.85	10.73	10.9	11.59	0.57	Stable
+rpl13a (1)	0	8.65	11.15	11.22	12.29	0.92	Stable
+rpl13a (2)	0	8.78	10.69	10.78	11.67	0.76	Stable
+rpl32	0	7.81	9.05	9.19	10.07	0.74	Stable
+rps18 (1)	0	8.3	9.53	9.5	11.17	0.83	Stable
+rps18 (2)	0	6.62	8.41	8.59	9.5	0.85	Stable

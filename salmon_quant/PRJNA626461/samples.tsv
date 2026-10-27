@@ -1,0 +1,10 @@
+study	no	tissue	sex	sample	treatment	read_group	lims	fish_id	stage	weight	txi_column
+PRJNA626461	1	Blood		blood_18	EE	SRR11570054		A18_B53		3.7	blood_18
+PRJNA626461	2	Blood		blood_17	EE	SRR11570055		A17_B47		3.3	blood_17
+PRJNA626461	3	Blood		blood_16	EE	SRR11570046		A16_B34		5.6	blood_16
+PRJNA626461	4	Blood		blood_15	LL	SRR11570047		A15_B23		5.3	blood_15
+PRJNA626461	5	Blood		blood_14	LL	SRR11570048		A14_B16		6.4	blood_14
+PRJNA626461	6	Blood		blood_13	LL	SRR11570049		A13_B12		4.3	blood_13
+PRJNA626461	7	Blood		blood_06	EE	SRR11570050		A06_B58		4.6	blood_06
+PRJNA626461	8	Blood		blood_02	LL	SRR11570056		A02_B39		3.4	blood_02
+PRJNA626461	9	Blood		blood_01	EE	SRR11570057		A01_B27		7.9	blood_01

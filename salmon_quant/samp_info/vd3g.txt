@@ -1,0 +1,86 @@
+no	tissue	sex	sample	treatment	read_file	lims	fish_id	stage
+1	Liver	F	liver_f_immature_1	liver_f_immature	ERR6664147		J10	immature
+2	Muscle	F	muscle_f_immature_1	muscle_f_immature	ERR6664148		J10	immature
+3	Brain	M	brain_m_immature_1	brain_m_immature	ERR6664150		J15	immature
+4	Gill	M	gill_m_immature_1	gill_m_immature	ERR6664151		J15	immature
+5	Head Kidney	M	head_kidney_m_immature_1	head_kidney_m_immature	ERR6664153		J15	immature
+6	Liver	M	liver_m_immature_1	liver_m_immature	ERR6664154		J15	immature
+7	Muscle	M	muscle_m_immature_1	muscle_m_immature	ERR6664155		J15	immature
+8	Distal Intestine	M	distal_intestine_m_immature_1	distal_intestine_m_immature	ERR6664156		J15	immature
+9	Brain	M	brain_m_immature_2	brain_m_immature	ERR6664157		J16	immature
+10	Distal Intestine	F	distal_intestine_f_immature_1	distal_intestine_f_immature	ERR6664149		J10	immature
+11	Gill	M	gill_m_immature_2	gill_m_immature	ERR6664158		J16	immature
+12	Liver	M	liver_m_immature_2	liver_m_immature	ERR6664161		J16	immature
+13	Muscle	M	muscle_m_immature_2	muscle_m_immature	ERR6664162		J16	immature
+14	Distal Intestine	M	distal_intestine_m_immature_2	distal_intestine_m_immature	ERR6664163		J16	immature
+15	Brain	M	brain_m_immature_3	brain_m_immature	ERR6664164		J18	immature
+16	Gill	M	gill_m_immature_3	gill_m_immature	ERR6664165		J18	immature
+17	Gonad	M	gonad_m_immature_1	gonad_m_immature	ERR6664166		J18	immature
+18	Head Kidney	M	head_kidney_m_immature_2	head_kidney_m_immature	ERR6664167		J18	immature
+19	Liver	M	liver_m_immature_3	liver_m_immature	ERR6664168		J18	immature
+20	Head Kidney	M	head_kidney_m_immature_3	head_kidney_m_immature	ERR6664160		J16	immature
+21	Brain	F	brain_f_mature_1	brain_f_mature	ERR6664171		A14	mature
+22	Gill	F	gill_f_mature_1	gill_f_mature	ERR6664172		A14	mature
+23	Gonad	F	gonad_f_mature_1	gonad_f_mature	ERR6664173		A14	mature
+24	Head Kidney	F	head_kidney_f_mature_1	head_kidney_f_mature	ERR6664174		A14	mature
+25	Liver	F	liver_f_mature_1	liver_f_mature	ERR6664175		A14	mature
+26	Muscle	F	muscle_f_mature_1	muscle_f_mature	ERR6664176		A14	mature
+27	Distal Intestine	F	distal_intestine_f_mature_1	distal_intestine_f_mature	ERR6664177		A14	mature
+28	Brain	F	brain_f_mature_2	brain_f_mature	ERR6664178		A15	mature
+29	Gill	F	gill_f_mature_2	gill_f_mature	ERR6664179		A15	mature
+30	Gonad	F	gonad_f_mature_2	gonad_f_mature	ERR6664180		A15	mature
+31	Head Kidney	F	head_kidney_f_mature_2	head_kidney_f_mature	ERR6664181		A15	mature
+32	Liver	F	liver_f_mature_2	liver_f_mature	ERR6664182		A15	mature
+33	Muscle	F	muscle_f_mature_2	muscle_f_mature	ERR6664183		A15	mature
+34	Distal Intestine	F	distal_intestine_f_mature_2	distal_intestine_f_mature	ERR6664184		A15	mature
+35	Brain	F	brain_f_mature_3	brain_f_mature	ERR6664185		A24	mature
+36	Gill	F	gill_f_mature_3	gill_f_mature	ERR6664186		A24	mature
+37	Gonad	F	gonad_f_mature_3	gonad_f_mature	ERR6664187		A24	mature
+38	Head Kidney	F	head_kidney_f_mature_3	head_kidney_f_mature	ERR6664188		A24	mature
+39	Liver	F	liver_f_mature_3	liver_f_mature	ERR6664189		A24	mature
+40	Muscle	F	muscle_f_mature_3	muscle_f_mature	ERR6664190		A24	mature
+41	Distal Intestine	F	distal_intestine_f_mature_3	distal_intestine_f_mature	ERR6664191		A24	mature
+42	Brain	M	brain_m_mature_1	brain_m_mature	ERR6664192		A19	mature
+43	Gill	M	gill_m_mature_1	gill_m_mature	ERR6664193		A19	mature
+44	Gonad	M	gonad_m_mature_1	gonad_m_mature	ERR6664194		A19	mature
+45	Head Kidney	M	head_kidney_m_mature_1	head_kidney_m_mature	ERR6664195		A19	mature
+46	Liver	M	liver_m_mature_1	liver_m_mature	ERR6664196		A19	mature
+47	Muscle	M	muscle_m_mature_1	muscle_m_mature	ERR6664197		A19	mature
+48	Distal Intestine	M	distal_intestine_m_mature_1	distal_intestine_m_mature	ERR6664198		A19	mature
+49	Brain	M	brain_m_mature_2	brain_m_mature	ERR6664199		A20	mature
+50	Gill	M	gill_m_mature_2	gill_m_mature	ERR6664200		A20	mature
+51	Gonad	M	gonad_m_mature_2	gonad_m_mature	ERR6664201		A20	mature
+52	Head Kidney	M	head_kidney_m_mature_2	head_kidney_m_mature	ERR6664202		A20	mature
+53	Liver	M	liver_m_mature_2	liver_m_mature	ERR6664203		A20	mature
+54	Muscle	M	muscle_m_mature_2	muscle_m_mature	ERR6664204		A20	mature
+55	Distal Intestine	M	distal_intestine_m_mature_2	distal_intestine_m_mature	ERR6664205		A20	mature
+56	Brain	M	brain_m_mature_3	brain_m_mature	ERR6664206		A22	mature
+57	Gill	M	gill_m_mature_3	gill_m_mature	ERR6664207		A22	mature
+58	Gonad	M	gonad_m_mature_3	gonad_m_mature	ERR6664208		A22	mature
+59	Head Kidney	M	head_kidney_m_mature_3	head_kidney_m_mature	ERR6664209		A22	mature
+60	Liver	M	liver_m_mature_3	liver_m_mature	ERR6664210		A22	mature
+61	Muscle	M	muscle_m_mature_3	muscle_m_mature	ERR6664211		A22	mature
+62	Distal Intestine	M	distal_intestine_m_mature_3	distal_intestine_m_mature	ERR6664212		A22	mature
+63	Brain	F	brain_f_immature_1	brain_f_immature	ERR6664129		J8	immature
+64	Gill	F	gill_f_immature_1	gill_f_immature	ERR6664130		J8	immature
+65	Gonad	F	gonad_f_immature_1	gonad_f_immature	ERR6664131		J8	immature
+66	Head Kidney	F	head_kidney_f_immature_1	head_kidney_f_immature	ERR6664132		J8	immature
+67	Liver	F	liver_f_immature_2	liver_f_immature	ERR6664133		J8	immature
+68	Muscle	F	muscle_f_immature_2	muscle_f_immature	ERR6664134		J8	immature
+69	Distal Intestine	F	distal_intestine_f_immature_2	distal_intestine_f_immature	ERR6664135		J8	immature
+70	Brain	F	brain_f_immature_2	brain_f_immature	ERR6664136		J9	immature
+71	Gill	F	gill_f_immature_2	gill_f_immature	ERR6664137		J9	immature
+72	Muscle	M	muscle_m_immature_3	muscle_m_immature	ERR6664169		J18	immature
+73	Distal Intestine	M	distal_intestine_m_immature_3	distal_intestine_m_immature	ERR6664170		J18	immature
+74	Gonad	F	gonad_f_immature_2	gonad_f_immature	ERR6664138		J9	immature
+75	Head Kidney	F	head_kidney_f_immature_2	head_kidney_f_immature	ERR6664139		J9	immature
+76	Liver	F	liver_f_immature_3	liver_f_immature	ERR6664140		J9	immature
+77	Muscle	F	muscle_f_immature_3	muscle_f_immature	ERR6664141		J9	immature
+78	Distal Intestine	F	distal_intestine_f_immature_3	distal_intestine_f_immature	ERR6664142		J9	immature
+79	Brain	F	brain_f_immature_3	brain_f_immature	ERR6664143		J10	immature
+80	Gill	F	gill_f_immature_3	gill_f_immature	ERR6664144		J10	immature
+81	Gonad	F	gonad_f_immature_3	gonad_f_immature	ERR6664145		J10	immature
+82	Head Kidney	F	head_kidney_f_immature_3	head_kidney_f_immature	ERR6664146		J10	immature
+83	Gonad	M	gonad_m_immature_2	gonad_m_immature	ERR6664159		J16	immature
+84	Gonad	M	gonad_m_immature_3	gonad_m_immature	ERR6664152		J15	immature
+

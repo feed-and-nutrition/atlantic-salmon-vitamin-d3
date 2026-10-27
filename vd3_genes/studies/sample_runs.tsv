@@ -1,0 +1,273 @@
+Study	Sample	Tissue	Sex	Group	SRA runs	Layout	Instrument	Read length (nt)	Spots (M)	Salmon reads (M)
+PRJNA72713	brain	Brain	M	juvenile	SRR1422856	paired	Illumina HiSeq 2000	100	29.5	19.25
+PRJNA72713	eye	Eye	M	juvenile	SRR1422857	paired	Illumina HiSeq 2000	100	30.2	22.16
+PRJNA72713	gill	Gill	M	juvenile	SRR1422858	paired	Illumina HiSeq 2000	100	29.9	22.39
+PRJNA72713	gut	Gut	M	juvenile	SRR1422859	paired	Illumina HiSeq 2000	100	29.9	22.55
+PRJNA72713	head_kidney	Head kidney	M	juvenile	SRR1422860	paired	Illumina HiSeq 2000	100	29.5	23.39
+PRJNA72713	kidney	Kidney	M	juvenile	SRR1422864	paired	Illumina HiSeq 2000	100	30.5	21.22
+PRJNA72713	liver	Liver	M	juvenile	SRR1422865	paired	Illumina HiSeq 2000	100	29.4	22.7
+PRJNA72713	muscle	Muscle	M	juvenile	SRR1422866	paired	Illumina HiSeq 2000	100	30.7	25.25
+PRJNA72713	nose	Nose	M	juvenile	SRR1422867	paired	Illumina HiSeq 2000	100	29.8	22.89
+PRJNA72713	ovary	Ovary	F	adult	SRR1422871	paired	Illumina HiSeq 2000	100	42	37.83
+PRJNA72713	pyloric_caecum	Pyloric caecum	M	juvenile	SRR1422868	paired	Illumina HiSeq 2000	100	30.8	24.65
+PRJNA72713	skin	Skin	M	juvenile	SRR1422869	paired	Illumina HiSeq 2000	100	135.5	64.76
+PRJNA72713	spleen	Spleen	M	juvenile	SRR1422870	paired	Illumina HiSeq 2000	100	30.1	23.34
+PRJNA72713	testis	Testis	M	adult	SRR1422872	paired	Illumina HiSeq 2000	100	92.7	63.68
+PRJNA359635	f_brain_fw	Brain	F	freshwater	SRR5138381	paired	Illumina MiSeq	301	3.2	2.12
+PRJNA359635	f_brain_sw	Brain	F	saltwater	SRR5138362	paired	Illumina MiSeq	301	4.1	2.62
+PRJNA359635	m_brain_fw	Brain	M	freshwater	SRR5138363	paired	Illumina MiSeq	301	3.4	2.15
+PRJNA359635	m_brain_sw	Brain	M	saltwater	SRR5138380	paired	Illumina MiSeq	301	4	2.51
+PRJNA359635	f_eye_fw	Eye	F	freshwater	SRR5138369	paired	Illumina MiSeq	301	3.5	2.55
+PRJNA359635	f_eye_sw	Eye	F	saltwater	SRR5138356	paired	Illumina MiSeq	301	3.6	2.8
+PRJNA359635	m_eye_fw	Eye	M	freshwater	SRR5138386	paired	Illumina MiSeq	301	3.4	2.58
+PRJNA359635	m_eye_sw	Eye	M	saltwater	SRR5138364	paired	Illumina MiSeq	301	3.3	2.46
+PRJNA359635	f_gill_fw	Gill	F	freshwater	SRR5138384	paired	Illumina MiSeq	301	3.2	2.24
+PRJNA359635	f_gill_sw	Gill	F	saltwater	SRR5138352	paired	Illumina MiSeq	301	2.9	1.98
+PRJNA359635	m_gill_fw	Gill	M	freshwater	SRR5138357	paired	Illumina MiSeq	301	2.7	1.92
+PRJNA359635	m_gill_sw	Gill	M	saltwater	SRR5138370	paired	Illumina MiSeq	301	3.2	2.17
+PRJNA359635	f_gut_fw	Gut	F	freshwater	SRR5138353	paired	Illumina MiSeq	301	2.9	1.96
+PRJNA359635	f_gut_sw	Gut	F	saltwater	SRR5138385	paired	Illumina MiSeq	301	2.4	1.71
+PRJNA359635	m_gut_fw	Gut	M	freshwater	SRR5138368	paired	Illumina MiSeq	301	2.8	2.02
+PRJNA359635	m_gut_sw	Gut	M	saltwater	SRR5138371	paired	Illumina MiSeq	301	2.7	1.88
+PRJNA359635	f_kidney_fw	Kidney	F	freshwater	SRR5138354	paired	Illumina MiSeq	301	3.4	2.35
+PRJNA359635	f_kidney_sw	Kidney	F	saltwater	SRR5138372	paired	Illumina MiSeq	301	3.5	2.5
+PRJNA359635	m_kidney_fw	Kidney	M	freshwater	SRR5138355	paired	Illumina MiSeq	301	3.7	2.57
+PRJNA359635	m_kidney_sw	Kidney	M	saltwater	SRR5138379	paired	Illumina MiSeq	301	3.6	2.51
+PRJNA359635	f_liver_fw	Liver	F	freshwater	SRR5138367	paired	Illumina MiSeq	301	4	2.98
+PRJNA359635	f_liver_sw	Liver	F	saltwater	SRR5138351	paired	Illumina MiSeq	301	3.4	2.49
+PRJNA359635	m_liver_fw	Liver	M	freshwater	SRR5138350	paired	Illumina MiSeq	301	3.7	2.72
+PRJNA359635	m_liver_sw	Liver	M	saltwater	SRR5138378	paired	Illumina MiSeq	301	3.7	2.83
+PRJNA359635	f_nose_fw	Nose	F	freshwater	SRR5138358	paired	Illumina MiSeq	301	3.3	2.35
+PRJNA359635	f_nose_sw	Nose	F	saltwater	SRR5138366	paired	Illumina MiSeq	301	4.8	3.4
+PRJNA359635	m_nose_fw	Nose	M	freshwater	SRR5138387	paired	Illumina MiSeq	301	3	2.14
+PRJNA359635	m_nose_sw	Nose	M	saltwater	SRR5138359	paired	Illumina MiSeq	301	3	2.05
+PRJNA359635	f_pc_fw	Pyloric caecum	F	freshwater	SRR5138373	paired	Illumina MiSeq	301	3.2	2.17
+PRJNA359635	f_pc_sw	Pyloric caecum	F	saltwater	SRR5138375	paired	Illumina MiSeq	301	3.8	2.75
+PRJNA359635	m_pc_fw	Pyloric caecum	M	freshwater	SRR5138361	paired	Illumina MiSeq	301	4.2	2.95
+PRJNA359635	m_pc_sw	Pyloric caecum	M	saltwater	SRR5138348	paired	Illumina MiSeq	301	3.2	2.27
+PRJNA359635	f_skin_fw	Skin	F	freshwater	SRR5138377	paired	Illumina MiSeq	301	3.7	2.57
+PRJNA359635	f_skin_sw	Skin	F	saltwater	SRR5138382	paired	Illumina MiSeq	301	3.8	2.74
+PRJNA359635	m_skin_fw	Skin	M	freshwater	SRR5138383	paired	Illumina MiSeq	301	3.6	2.57
+PRJNA359635	m_skin_sw	Skin	M	saltwater	SRR5138376	paired	Illumina MiSeq	301	3.4	2.46
+PRJNA359635	f_spleen_fw	Spleen	F	freshwater	SRR5138374	paired	Illumina MiSeq	301	3.6	2.82
+PRJNA359635	f_spleen_sw	Spleen	F	saltwater	SRR5138349	paired	Illumina MiSeq	301	4.2	2.87
+PRJNA359635	m_spleen_fw	Spleen	M	freshwater	SRR5138365	paired	Illumina MiSeq	301	3.6	2.69
+PRJNA359635	m_spleen_sw	Spleen	M	saltwater	SRR5138360	paired	Illumina MiSeq	301	3.9	2.72
+PRJEB47409	brain_f_immature_1	Brain	F	immature	ERR6664129	paired	Illumina NovaSeq 6000	150	33.8	21.2
+PRJEB47409	brain_f_immature_2	Brain	F	immature	ERR6664136	paired	Illumina NovaSeq 6000	150	31.4	20.37
+PRJEB47409	brain_f_immature_3	Brain	F	immature	ERR6664143	paired	Illumina NovaSeq 6000	150	30.9	19.25
+PRJEB47409	brain_f_mature_1	Brain	F	mature	ERR6664171	paired	Illumina NovaSeq 6000	150	33.8	24.36
+PRJEB47409	brain_f_mature_2	Brain	F	mature	ERR6664178	paired	Illumina NovaSeq 6000	150	30.8	19.17
+PRJEB47409	brain_f_mature_3	Brain	F	mature	ERR6664185	paired	Illumina NovaSeq 6000	150	34.7	22.57
+PRJEB47409	brain_m_immature_1	Brain	M	immature	ERR6664150	paired	Illumina NovaSeq 6000	150	31.6	21.48
+PRJEB47409	brain_m_immature_2	Brain	M	immature	ERR6664157	paired	Illumina NovaSeq 6000	150	32.1	21.19
+PRJEB47409	brain_m_immature_3	Brain	M	immature	ERR6664164	paired	Illumina NovaSeq 6000	150	30.8	19.16
+PRJEB47409	brain_m_mature_1	Brain	M	mature	ERR6664192	paired	Illumina NovaSeq 6000	150	36	22.5
+PRJEB47409	brain_m_mature_2	Brain	M	mature	ERR6664199	paired	Illumina NovaSeq 6000	150	30.9	19.32
+PRJEB47409	brain_m_mature_3	Brain	M	mature	ERR6664206	paired	Illumina NovaSeq 6000	150	28.8	17.73
+PRJEB47409	distal_intestine_f_immature_1	Distal intestine	F	immature	ERR6664149	paired	Illumina NovaSeq 6000	150	38.1	28.3
+PRJEB47409	distal_intestine_f_immature_2	Distal intestine	F	immature	ERR6664135	paired	Illumina NovaSeq 6000	150	31.1	21.99
+PRJEB47409	distal_intestine_f_immature_3	Distal intestine	F	immature	ERR6664142	paired	Illumina NovaSeq 6000	150	31.3	22.82
+PRJEB47409	distal_intestine_f_mature_1	Distal intestine	F	mature	ERR6664177	paired	Illumina NovaSeq 6000	150	31.3	21.92
+PRJEB47409	distal_intestine_f_mature_2	Distal intestine	F	mature	ERR6664184	paired	Illumina NovaSeq 6000	150	31.4	23.33
+PRJEB47409	distal_intestine_f_mature_3	Distal intestine	F	mature	ERR6664191	paired	Illumina NovaSeq 6000	150	29.9	22.08
+PRJEB47409	distal_intestine_m_immature_1	Distal intestine	M	immature	ERR6664156	paired	Illumina NovaSeq 6000	150	31.2	22.95
+PRJEB47409	distal_intestine_m_immature_2	Distal intestine	M	immature	ERR6664163	paired	Illumina NovaSeq 6000	150	31.2	22.2
+PRJEB47409	distal_intestine_m_immature_3	Distal intestine	M	immature	ERR6664170	paired	Illumina NovaSeq 6000	150	30.6	22.5
+PRJEB47409	distal_intestine_m_mature_1	Distal intestine	M	mature	ERR6664198	paired	Illumina NovaSeq 6000	150	31.1	22.56
+PRJEB47409	distal_intestine_m_mature_2	Distal intestine	M	mature	ERR6664205	paired	Illumina NovaSeq 6000	150	32	23.56
+PRJEB47409	distal_intestine_m_mature_3	Distal intestine	M	mature	ERR6664212	paired	Illumina NovaSeq 6000	150	31.2	22.97
+PRJEB47409	gill_f_immature_1	Gill	F	immature	ERR6664130	paired	Illumina NovaSeq 6000	150	29.9	20.99
+PRJEB47409	gill_f_immature_2	Gill	F	immature	ERR6664137	paired	Illumina NovaSeq 6000	150	30.1	21.25
+PRJEB47409	gill_f_immature_3	Gill	F	immature	ERR6664144	paired	Illumina NovaSeq 6000	150	32.9	23.36
+PRJEB47409	gill_f_mature_1	Gill	F	mature	ERR6664172	paired	Illumina NovaSeq 6000	150	31.5	23.04
+PRJEB47409	gill_f_mature_2	Gill	F	mature	ERR6664179	paired	Illumina NovaSeq 6000	150	33.5	24.9
+PRJEB47409	gill_f_mature_3	Gill	F	mature	ERR6664186	paired	Illumina NovaSeq 6000	150	31.4	22.26
+PRJEB47409	gill_m_immature_1	Gill	M	immature	ERR6664151	paired	Illumina NovaSeq 6000	150	29.5	21.58
+PRJEB47409	gill_m_immature_2	Gill	M	immature	ERR6664158	paired	Illumina NovaSeq 6000	150	31	22.51
+PRJEB47409	gill_m_immature_3	Gill	M	immature	ERR6664165	paired	Illumina NovaSeq 6000	150	31.2	22.04
+PRJEB47409	gill_m_mature_1	Gill	M	mature	ERR6664193	paired	Illumina NovaSeq 6000	150	30.7	22.54
+PRJEB47409	gill_m_mature_2	Gill	M	mature	ERR6664200	paired	Illumina NovaSeq 6000	150	30.8	22.67
+PRJEB47409	gill_m_mature_3	Gill	M	mature	ERR6664207	paired	Illumina NovaSeq 6000	150	30.2	22.3
+PRJEB47409	head_kidney_f_immature_1	Head kidney	F	immature	ERR6664132	paired	Illumina NovaSeq 6000	150	31.1	22.16
+PRJEB47409	head_kidney_f_immature_2	Head kidney	F	immature	ERR6664139	paired	Illumina NovaSeq 6000	150	31	22.86
+PRJEB47409	head_kidney_f_immature_3	Head kidney	F	immature	ERR6664146	paired	Illumina NovaSeq 6000	150	30.7	23.62
+PRJEB47409	head_kidney_f_mature_1	Head kidney	F	mature	ERR6664174	paired	Illumina NovaSeq 6000	150	38.8	28.53
+PRJEB47409	head_kidney_f_mature_2	Head kidney	F	mature	ERR6664181	paired	Illumina NovaSeq 6000	150	31.3	22.9
+PRJEB47409	head_kidney_f_mature_3	Head kidney	F	mature	ERR6664188	paired	Illumina NovaSeq 6000	150	30.2	22.24
+PRJEB47409	head_kidney_m_immature_1	Head kidney	M	immature	ERR6664153	paired	Illumina NovaSeq 6000	150	30.8	23.56
+PRJEB47409	head_kidney_m_immature_2	Head kidney	M	immature	ERR6664167	paired	Illumina NovaSeq 6000	150	29.4	22.31
+PRJEB47409	head_kidney_m_immature_3	Head kidney	M	immature	ERR6664160	paired	Illumina NovaSeq 6000	150	31.5	22.87
+PRJEB47409	head_kidney_m_mature_1	Head kidney	M	mature	ERR6664195	paired	Illumina NovaSeq 6000	150	31.7	22.6
+PRJEB47409	head_kidney_m_mature_2	Head kidney	M	mature	ERR6664202	paired	Illumina NovaSeq 6000	150	34	26.02
+PRJEB47409	head_kidney_m_mature_3	Head kidney	M	mature	ERR6664209	paired	Illumina NovaSeq 6000	150	30.2	21.46
+PRJEB47409	liver_f_immature_1	Liver	F	immature	ERR6664147	paired	Illumina NovaSeq 6000	150	30	23.73
+PRJEB47409	liver_f_immature_2	Liver	F	immature	ERR6664133	paired	Illumina NovaSeq 6000	150	33.3	26.86
+PRJEB47409	liver_f_immature_3	Liver	F	immature	ERR6664140	paired	Illumina NovaSeq 6000	150	37.9	30.87
+PRJEB47409	liver_f_mature_1	Liver	F	mature	ERR6664175	paired	Illumina NovaSeq 6000	150	30.2	23.5
+PRJEB47409	liver_f_mature_2	Liver	F	mature	ERR6664182	paired	Illumina NovaSeq 6000	150	30.1	23.1
+PRJEB47409	liver_f_mature_3	Liver	F	mature	ERR6664189	paired	Illumina NovaSeq 6000	150	30.4	23.9
+PRJEB47409	liver_m_immature_1	Liver	M	immature	ERR6664154	paired	Illumina NovaSeq 6000	150	35.1	28.83
+PRJEB47409	liver_m_immature_2	Liver	M	immature	ERR6664161	paired	Illumina NovaSeq 6000	150	31	25.36
+PRJEB47409	liver_m_immature_3	Liver	M	immature	ERR6664168	paired	Illumina NovaSeq 6000	150	31.1	25.98
+PRJEB47409	liver_m_mature_1	Liver	M	mature	ERR6664196	paired	Illumina NovaSeq 6000	150	30.4	23.59
+PRJEB47409	liver_m_mature_2	Liver	M	mature	ERR6664203	paired	Illumina NovaSeq 6000	150	31.4	24.72
+PRJEB47409	liver_m_mature_3	Liver	M	mature	ERR6664210	paired	Illumina NovaSeq 6000	150	31.1	24.04
+PRJEB47409	muscle_f_immature_1	Muscle	F	immature	ERR6664148	paired	Illumina NovaSeq 6000	150	30.1	25.42
+PRJEB47409	muscle_f_immature_2	Muscle	F	immature	ERR6664134	paired	Illumina NovaSeq 6000	150	30.6	24.49
+PRJEB47409	muscle_f_immature_3	Muscle	F	immature	ERR6664141	paired	Illumina NovaSeq 6000	150	31.1	25.16
+PRJEB47409	muscle_f_mature_1	Muscle	F	mature	ERR6664176	paired	Illumina NovaSeq 6000	150	31.6	26.43
+PRJEB47409	muscle_f_mature_2	Muscle	F	mature	ERR6664183	paired	Illumina NovaSeq 6000	150	31.6	26.16
+PRJEB47409	muscle_f_mature_3	Muscle	F	mature	ERR6664190	paired	Illumina NovaSeq 6000	150	29.6	24.89
+PRJEB47409	muscle_m_immature_1	Muscle	M	immature	ERR6664155	paired	Illumina NovaSeq 6000	150	30.8	26.07
+PRJEB47409	muscle_m_immature_2	Muscle	M	immature	ERR6664162	paired	Illumina NovaSeq 6000	150	31.4	26.7
+PRJEB47409	muscle_m_immature_3	Muscle	M	immature	ERR6664169	paired	Illumina NovaSeq 6000	150	33.9	28.01
+PRJEB47409	muscle_m_mature_1	Muscle	M	mature	ERR6664197	paired	Illumina NovaSeq 6000	150	34.8	26.88
+PRJEB47409	muscle_m_mature_2	Muscle	M	mature	ERR6664204	paired	Illumina NovaSeq 6000	150	31.5	25.96
+PRJEB47409	muscle_m_mature_3	Muscle	M	mature	ERR6664211	paired	Illumina NovaSeq 6000	150	31.5	25.52
+PRJEB47409	gonad_f_immature_1	Ovary	F	immature	ERR6664131	paired	Illumina NovaSeq 6000	150	31.8	26.13
+PRJEB47409	gonad_f_immature_2	Ovary	F	immature	ERR6664138	paired	Illumina NovaSeq 6000	150	31.3	25.43
+PRJEB47409	gonad_f_immature_3	Ovary	F	immature	ERR6664145	paired	Illumina NovaSeq 6000	150	33.4	26.75
+PRJEB47409	gonad_f_mature_1	Ovary	F	mature	ERR6664173	paired	Illumina NovaSeq 6000	150	48.6	40.17
+PRJEB47409	gonad_f_mature_2	Ovary	F	mature	ERR6664180	paired	Illumina NovaSeq 6000	150	39.5	32.87
+PRJEB47409	gonad_f_mature_3	Ovary	F	mature	ERR6664187	paired	Illumina NovaSeq 6000	150	32.9	26.98
+PRJEB47409	gonad_m_immature_1	Testis	M	immature	ERR6664166	paired	Illumina NovaSeq 6000	150	30.5	21.67
+PRJEB47409	gonad_m_immature_2	Testis	M	immature	ERR6664159	paired	Illumina NovaSeq 6000	150	32	21.72
+PRJEB47409	gonad_m_immature_3	Testis	M	immature	ERR6664152	paired	Illumina NovaSeq 6000	150	32.2	21.31
+PRJEB47409	gonad_m_mature_1	Testis	M	mature	ERR6664194	paired	Illumina NovaSeq 6000	150	36.6	26.12
+PRJEB47409	gonad_m_mature_2	Testis	M	mature	ERR6664201	paired	Illumina NovaSeq 6000	150	31.3	21.81
+PRJEB47409	gonad_m_mature_3	Testis	M	mature	ERR6664208	paired	Illumina NovaSeq 6000	150	30.1	20.1
+ROS_1	bone_13a	Bone		Low	SRR16069377	paired	Illumina HiSeq 4000	75	42.7	29.3
+ROS_1	bone_14a	Bone		Low	SRR16069376	paired	Illumina HiSeq 4000	75	17.8	11.81
+ROS_1	bone_15a	Bone		Low	SRR16069375	paired	Illumina HiSeq 4000	75	40	26.68
+ROS_1	bone_19b	Bone		LowSham	SRR16069351	paired	Illumina HiSeq 4000	75	80.2	55.43
+ROS_1	bone_1a	Bone		Low	SRR16069381	paired	Illumina HiSeq 4000	75	9.6	6.16
+ROS_1	bone_20b	Bone		LowSham	SRR16069350	paired	Illumina HiSeq 4000	75	31.9	21.35
+ROS_1	bone_21b	Bone		LowSham	SRR16069349	paired	Illumina HiSeq 4000	75	37	24.72
+ROS_1	bone_2a	Bone		Low	SRR16069380	paired	Illumina HiSeq 4000	74	12.2	9.31
+ROS_1	bone_31b	Bone		LowSham	SRR16069338	paired	Illumina HiSeq 4000	75	18.7	13.05
+ROS_1	bone_32b	Bone		LowSham	SRR16069337	paired	Illumina HiSeq 4000	75	31.3	21.64
+ROS_1	bone_33b	Bone		LowSham	SRR16069335	paired	Illumina HiSeq 4000	75	17.5	12.5
+ROS_1	bone_3a	Bone		Low	SRR16069369	paired	Illumina HiSeq 4000	75	13.1	9.33
+ROS_1	bone_7a	Bone		Low	SRR16069331	paired	Illumina HiSeq 4000	75	19.3	13.05
+ROS_1	bone_7b	Bone		LowSham	SRR16069364	paired	Illumina HiSeq 4000	75	35.4	27.65
+ROS_1	bone_8a	Bone		Low	SRR16069330	paired	Illumina HiSeq 4000	75	37.7	29.23
+ROS_1	bone_8b	Bone		LowSham	SRR16069363	paired	Illumina HiSeq 4000	75	23.3	17.8
+ROS_1	bone_9a	Bone		Low	SRR16069329	paired	Illumina HiSeq 4000	75	21.9	14.29
+ROS_1	bone_9b	Bone		LowSham	SRR16069362	paired	Illumina HiSeq 4000	74	18.7	13.44
+ROS_1	brain_13a	Brain		Low	SRR16770092	paired	Illumina HiSeq 4000	75	31.1	22.23
+ROS_1	brain_14a	Brain		Low	SRR16770091	paired	Illumina HiSeq 4000	75	30.5	21.76
+ROS_1	brain_15a	Brain		Low	SRR16770090	paired	Illumina HiSeq 4000	75	32.3	21.99
+ROS_1	brain_19b	Brain		LowSham	SRR16770066	paired	Illumina HiSeq 4000	75	28.1	19.15
+ROS_1	brain_1a	Brain		Low	SRR16770096	paired	Illumina HiSeq 4000	75	31.7	21.69
+ROS_1	brain_20b	Brain		LowSham	SRR16770065	paired	Illumina HiSeq 4000	75	29.3	20.01
+ROS_1	brain_21b	Brain		LowSham	SRR16770064	paired	Illumina HiSeq 4000	75	33.6	23.25
+ROS_1	brain_2a	Brain		Low	SRR16770095	paired	Illumina HiSeq 4000	75	33.5	23.24
+ROS_1	brain_31b	Brain		LowSham	SRR16770053	paired	Illumina HiSeq 4000	75	34.4	23.1
+ROS_1	brain_32b	Brain		LowSham	SRR16770052	paired	Illumina HiSeq 4000	75	36.1	24.81
+ROS_1	brain_33b	Brain		LowSham	SRR16770050	paired	Illumina HiSeq 4000	75	27.7	19.12
+ROS_1	brain_3a	Brain		Low	SRR16770084	paired	Illumina HiSeq 4000	75	24.1	16.57
+ROS_1	brain_7a	Brain		Low	SRR16770046	paired	Illumina HiSeq 4000	75	42.2	29.65
+ROS_1	brain_7b	Brain		LowSham	SRR16770079	paired	Illumina HiSeq 4000	75	34.3	23.85
+ROS_1	brain_8a	Brain		Low	SRR16770045	paired	Illumina HiSeq 4000	75	31.1	20.75
+ROS_1	brain_8b	Brain		LowSham	SRR16770078	paired	Illumina HiSeq 4000	75	32.4	22.09
+ROS_1	brain_9a	Brain		Low	SRR16770044	paired	Illumina HiSeq 4000	75	28.5	20.07
+ROS_1	brain_9b	Brain		LowSham	SRR16770077	paired	Illumina HiSeq 4000	75	41.7	29.15
+ROS_1	liver_19a	Liver		Low	SRR16018322	paired	Illumina HiSeq 4000	75	66.1	50.65
+ROS_1	liver_19b	Liver		LowSham	SRR16018292	paired	Illumina HiSeq 4000	75	25.9	19.7
+ROS_1	liver_20a	Liver		Low	SRR16018321	paired	Illumina HiSeq 4000	75	29	21.4
+ROS_1	liver_20b	Liver		LowSham	SRR16018291	paired	Illumina HiSeq 4000	75	48.1	36.08
+ROS_1	liver_21a	Liver		Low	SRR16018310	paired	Illumina HiSeq 4000	75	50.4	37.33
+ROS_1	liver_21b	Liver		LowSham	SRR16018290	paired	Illumina HiSeq 4000	75	22.5	16.25
+ROS_1	liver_25a	Liver		Low	SRR16018272	paired	Illumina HiSeq 4000	75	22.2	16.22
+ROS_1	liver_26a	Liver		Low	SRR16018271	paired	Illumina HiSeq 4000	75	30.1	21.19
+ROS_1	liver_27a	Liver		Low	SRR16018270	paired	Illumina HiSeq 4000	75	43.7	33.13
+ROS_1	liver_31a	Liver		Low	SRR16018318	paired	Illumina HiSeq 4000	75	32.5	26.37
+ROS_1	liver_31b	Liver		LowSham	SRR16018279	paired	Illumina HiSeq 4000	75	22.1	16.48
+ROS_1	liver_32a	Liver		Low	SRR16018317	paired	Illumina HiSeq 4000	75	24.5	17.86
+ROS_1	liver_32b	Liver		LowSham	SRR16018278	paired	Illumina HiSeq 4000	75	57.9	41.96
+ROS_1	liver_33a	Liver		Low	SRR16018316	paired	Illumina HiSeq 4000	75	52	38.08
+ROS_1	liver_33b	Liver		LowSham	SRR16018276	paired	Illumina HiSeq 4000	75	82.3	63.32
+ROS_1	liver_7b	Liver		LowSham	SRR16018305	paired	Illumina HiSeq 4000	75	31.6	24.21
+ROS_1	liver_8b	Liver		LowSham	SRR16018304	paired	Illumina HiSeq 4000	75	14.6	11.2
+ROS_1	liver_9b	Liver		LowSham	SRR16018303	paired	Illumina HiSeq 4000	75	46.9	35.88
+ROS_1	muscle_19a	Muscle		Low	SRR16038692	paired	Illumina HiSeq 4000	75	8.8	7.25
+ROS_1	muscle_19b	Muscle		LowSham	SRR16038662	paired	Illumina HiSeq 4000	75	127.3	103.47
+ROS_1	muscle_20a	Muscle		Low	SRR16038691	paired	Illumina HiSeq 4000	75	11.8	9.88
+ROS_1	muscle_20b	Muscle		LowSham	SRR16038661	paired	Illumina HiSeq 4000	75	11.2	9.05
+ROS_1	muscle_21a	Muscle		Low	SRR16038680	paired	Illumina HiSeq 4000	75	31.8	26.85
+ROS_1	muscle_21b	Muscle		LowSham	SRR16038660	paired	Illumina HiSeq 4000	75	113.9	97.71
+ROS_1	muscle_25a	Muscle		Low	SRR16038642	paired	Illumina HiSeq 4000	75	19.3	15.91
+ROS_1	muscle_26a	Muscle		Low	SRR16038641	paired	Illumina HiSeq 4000	75	17.9	14.96
+ROS_1	muscle_27a	Muscle		Low	SRR16038640	paired	Illumina HiSeq 4000	75	2.3	1.91
+ROS_1	muscle_31a	Muscle		Low	SRR16038688	paired	Illumina HiSeq 4000	75	58.5	48.18
+ROS_1	muscle_31b	Muscle		LowSham	SRR16038649	paired	Illumina HiSeq 4000	75	67.9	56.18
+ROS_1	muscle_32a	Muscle		Low	SRR16038687	paired	Illumina HiSeq 4000	75	17.8	14.88
+ROS_1	muscle_32b	Muscle		LowSham	SRR16038648	paired	Illumina HiSeq 4000	75	58	48.32
+ROS_1	muscle_33a	Muscle		Low	SRR16038686	paired	Illumina HiSeq 4000	75	44.8	36.74
+ROS_1	muscle_33b	Muscle		LowSham	SRR16038646	paired	Illumina HiSeq 4000	75	11.8	9.96
+ROS_1	muscle_7b	Muscle		LowSham	SRR16038675	paired	Illumina HiSeq 4000	74	19.9	15.92
+ROS_1	muscle_8b	Muscle		LowSham	SRR16038674	paired	Illumina HiSeq 4000	75	24.5	20.97
+ROS_1	muscle_9b	Muscle		LowSham	SRR16038673	paired	Illumina HiSeq 4000	75	136.3	114.19
+PRJNA647285	kidney_r13	Head kidney		parr resistant	SRR12266413	paired	Illumina NovaSeq 6000	151	35	29.31
+PRJNA647285	kidney_r18	Head kidney		parr resistant	SRR12266391	paired	Illumina NovaSeq 6000	151	39.9	33.02
+PRJNA647285	kidney_r28	Head kidney		parr resistant	SRR12266370	paired	Illumina NovaSeq 6000	151	40.6	33.6
+PRJNA647285	kidney_r6	Head kidney		parr resistant	SRR12266414	paired	Illumina NovaSeq 6000	151	36.2	29.63
+PRJNA647285	kidney_s14	Head kidney		parr susceptible	SRR12266402	paired	Illumina NovaSeq 6000	151	37.2	29.93
+PRJNA647285	kidney_s22	Head kidney		parr susceptible	SRR12266380	paired	Illumina NovaSeq 6000	151	37.4	30.79
+PRJNA647285	kidney_s24	Head kidney		parr susceptible	SRR12266371	paired	Illumina NovaSeq 6000	151	45.9	37.34
+PRJNA647285	kidney_s29	Head kidney		parr susceptible	SRR12266369	paired	Illumina NovaSeq 6000	151	38.4	31.3
+PRJNA647285	heart_r11	Heart		parr resistant	SRR12266396	paired	Illumina NovaSeq 6000	151	60.8	40.56
+PRJNA647285	heart_r13	Heart		parr resistant	SRR12266395	paired	Illumina NovaSeq 6000	151	38.6	27.95
+PRJNA647285	heart_r28	Heart		parr resistant	SRR12266390	paired	Illumina NovaSeq 6000	151	42.6	30.26
+PRJNA647285	heart_r6	Heart		parr resistant	SRR12266397	paired	Illumina NovaSeq 6000	151	41.2	29.6
+PRJNA647285	heart_s14	Heart		parr susceptible	SRR12266394	paired	Illumina NovaSeq 6000	151	45.8	32.7
+PRJNA647285	heart_s22	Heart		parr susceptible	SRR12266393	paired	Illumina NovaSeq 6000	151	59.3	40.16
+PRJNA647285	heart_s24	Heart		parr susceptible	SRR12266392	paired	Illumina NovaSeq 6000	151	62.9	45.31
+PRJNA647285	heart_s29	Heart		parr susceptible	SRR12266389	paired	Illumina NovaSeq 6000	151	44	31.52
+PRJNA543940	heart_h10	Heart		parr H-gEBV	SRR9127954	paired	Illumina HiSeq 3000	138	40.7	22.91
+PRJNA543940	heart_h11	Heart		parr H-gEBV	SRR9127964	paired	Illumina HiSeq 3000	138	44.1	25.88
+PRJNA543940	heart_h15	Heart		parr H-gEBV	SRR9127958	paired	Illumina HiSeq 3000	138	31.2	18.63
+PRJNA543940	heart_h17	Heart		parr H-gEBV	SRR9127956	paired	Illumina HiSeq 3000	138	29	17.18
+PRJNA543940	heart_h22	Heart		parr H-gEBV	SRR9127995	paired	Illumina HiSeq 3000	138	32.6	22.01
+PRJNA543940	heart_h26	Heart		parr H-gEBV	SRR9127975	paired	Illumina HiSeq 3000	138	40.3	27.22
+PRJNA543940	heart_h3	Heart		parr H-gEBV	SRR9127994	paired	Illumina HiSeq 3000	140	38.7	23.11
+PRJNA543940	heart_h30	Heart		parr H-gEBV	SRR9127974	paired	Illumina HiSeq 3000	138	32.8	18.49
+PRJNA543940	heart_h36	Heart		parr H-gEBV	SRR9128001	paired	Illumina HiSeq 3000	138	32.1	18.31
+PRJNA543940	heart_h41	Heart		parr H-gEBV	SRR9128002	paired	Illumina HiSeq 3000	139	40.1	23.95
+PRJNA543940	heart_h51	Heart		parr H-gEBV	SRR9128003	paired	Illumina HiSeq 3000	140	52.5	30.88
+PRJNA543940	heart_h55	Heart		parr H-gEBV	SRR9128004	paired	Illumina HiSeq 3000	138	44.5	25.44
+PRJNA543940	heart_h6	Heart		parr H-gEBV	SRR9127993	paired	Illumina HiSeq 3000	140	27.8	15.04
+PRJNA543940	heart_h7	Heart		parr H-gEBV	SRR9127960	paired	Illumina HiSeq 3000	140	29.2	15.29
+PRJNA543940	heart_l1	Heart		parr L-gEBV	SRR9127998	paired	Illumina HiSeq 3000	140	31.9	17.16
+PRJNA543940	heart_l14	Heart		parr L-gEBV	SRR9128000	paired	Illumina HiSeq 3000	139	41.2	23.18
+PRJNA543940	heart_l18	Heart		parr L-gEBV	SRR9127992	paired	Illumina HiSeq 3000	138	26.9	18.67
+PRJNA543940	heart_l2	Heart		parr L-gEBV	SRR9127999	paired	Illumina HiSeq 3000	139	23	12.88
+PRJNA543940	heart_l23	Heart		parr L-gEBV	SRR9127996	paired	Illumina HiSeq 3000	137	25.4	15.91
+PRJNA543940	heart_l25	Heart		parr L-gEBV	SRR9127959	paired	Illumina HiSeq 3000	138	37.4	25.83
+PRJNA543940	heart_l29	Heart		parr L-gEBV	SRR9127988	paired	Illumina HiSeq 3000	139	32	18.15
+PRJNA543940	heart_l37	Heart		parr L-gEBV	SRR9127961	paired	Illumina HiSeq 3000	138	26.3	14.65
+PRJNA543940	heart_l42	Heart		parr L-gEBV	SRR9127991	paired	Illumina HiSeq 3000	137	36	17.8
+PRJNA543940	heart_l45	Heart		parr L-gEBV	SRR9127963	paired	Illumina HiSeq 3000	138	37.9	22.59
+PRJNA543940	heart_l46	Heart		parr L-gEBV	SRR9127962	paired	Illumina HiSeq 3000	138	44.9	25.66
+PRJNA543940	heart_l50	Heart		parr L-gEBV	SRR9127965	paired	Illumina HiSeq 3000	139	38.3	22.5
+PRJNA543940	heart_l68	Heart		parr L-gEBV	SRR9127955	paired	Illumina HiSeq 3000	138	34.6	18.88
+PRJNA543940	heart_l69	Heart		parr L-gEBV	SRR9127953	paired	Illumina HiSeq 3000	138	35.2	25.06
+PRJNA380580	testis_im1	Testis	M	immature	SRR8479245	paired	Illumina HiSeq 2000	101	39.6	26.2
+PRJNA380580	testis_im2	Testis	M	immature	SRR8479246	paired	Illumina HiSeq 2000	101	39.9	26.79
+PRJNA380580	testis_im3	Testis	M	immature	SRR8479243	paired	Illumina HiSeq 2000	101	39.1	26.45
+PRJNA380580	testis_p1	Testis	M	pubertal	SRR8479247	paired	Illumina HiSeq 2000	101	35.3	24.24
+PRJNA380580	testis_p2	Testis	M	pubertal	SRR8479248	paired	Illumina HiSeq 2000	101	44.2	32.1
+PRJNA380580	testis_p3	Testis	M	pubertal	SRR8479242	paired	Illumina HiSeq 2000	101	43.4	31.66
+PRJNA380580	testis_pp1	Testis	M	pre-pubertal	SRR8479244	paired	Illumina HiSeq 2000	101	42.6	27.71
+PRJNA380580	testis_pp2	Testis	M	pre-pubertal	SRR8479249	paired	Illumina HiSeq 2000	101	43.7	28.61
+PRJNA380580	testis_pp3	Testis	M	pre-pubertal	SRR8479250	paired	Illumina HiSeq 2000	101	37.2	24.48
+PRJNA626461	blood_01	Blood		EE	SRR11570057	paired	NextSeq 500	81	48.1	40.71
+PRJNA626461	blood_02	Blood		LL	SRR11570056	paired	NextSeq 500	81	42.3	34.42
+PRJNA626461	blood_06	Blood		EE	SRR11570050	paired	NextSeq 500	81	38	32.55
+PRJNA626461	blood_13	Blood		LL	SRR11570049	paired	NextSeq 500	81	16.2	14.77
+PRJNA626461	blood_14	Blood		LL	SRR11570048	paired	NextSeq 500	81	16.9	15.09
+PRJNA626461	blood_15	Blood		LL	SRR11570047	paired	NextSeq 500	81	9.6	8.06
+PRJNA626461	blood_16	Blood		EE	SRR11570046	paired	NextSeq 500	81	19.2	15.36
+PRJNA626461	blood_17	Blood		EE	SRR11570055	paired	NextSeq 500	81	23.4	19.25
+PRJNA626461	blood_18	Blood		EE	SRR11570054	paired	NextSeq 500	81	20.4	16.83

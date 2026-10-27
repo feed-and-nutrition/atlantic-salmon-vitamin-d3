@@ -1,0 +1,7 @@
+annotation/
+*.tsv.gz
+*.tgz
+*.pdf
+.Rhistory
+.RData
+__pycache__/

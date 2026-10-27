@@ -1,0 +1,22 @@
+Residue	Hydrogen bond	Closest distance (A)	Human CYP2R1	Mouse Cyp2r1	Zebrafish cyp2r1	cyp2r1.a	cyp2r1.b	LOC106586122
+L114		3.93	L	L	L	L	L	M
+F115		3.80	F	F	F	F	F	I
+M118		3.99	M	M	M	M	M	L
+L125		3.88	L	L	L	L	L	V
+N126		3.24	N	N	N	N	N	M
+F214		3.46	F	F	F	F	F	L
+A221		3.83	A	A	A	A	A	A
+A250	yes	2.63	A	A	A	A	A	F
+V253		3.75	V	V	V	V	V	I
+Y254		3.71	Y	Y	Y	Y	Y	K
+F302		3.18	F	F	F	Y	Y	S
+G305		3.91	G	G	G	G	G	L
+E306		3.72	E	E	E	E	E	D
+T314		3.74	T	T	T	T	T	T
+V375		3.96	V	V	V	V	V	V
+I379		3.89	I	I	I	I	I	V
+M487		3.87	M	M	M	M	M	G
+T488		3.92	T	T	T	T	T	T
+Identical to human			18/18	18/18	18/18	17/18	17/18	4/18
+								
+Residues with a heavy atom within 4 A of the ligand in the structure of the human CYP2R1 with vitamin D3 (PDB 3C6G, chain A), numbered as in the PDB entry. Hydrogen bond: a protein N or O atom within 3.5 A of a ligand O atom. Residues of the other proteins are taken from the alignments of the phylogenetic analysis.								

@@ -1,0 +1,18 @@
+label	accession	gene_id	note
+Human_VDR	NP_000367.1	7421	as in the vdr isoform tree
+Mouse_Vdr	NP_033530.2	22337	as in the vdr isoform tree
+Chicken_VDR	NP_990429.2	395988	curated RefSeq protein
+Gar_vdr	XP_015199781.1	102691130	LOC102691130 (vitamin D receptor), longest protein; spotted gar has no teleost genome duplication
+Zebrafish_vdra	NP_570994.1	30076	as in the vdr isoform tree
+Zebrafish_vdrb	XP_005166104.1	564511	as in the vdr isoform tree
+Medaka_vdr	NP_001121989.1	100169845	curated RefSeq protein, the only VDR gene in RefSeq
+Fugu_LOC101075951	XP_029690137.1	101075951	vitamin D3 receptor A, longest protein
+Fugu_LOC101063381	XP_011612566.1	101063381	vitamin D3 receptor B, only protein
+Stickleback_LOC120829448	XP_077941665.1	120829448	vitamin D3 receptor B, only protein
+Stickleback_LOC120834978	XP_077948540.1	120834978	vitamin D3 receptor B, longest protein
+Pike_LOC105022772	XP_010889773.1	105022772	vitamin D3 receptor A, longest protein; northern pike has no Ss4R duplication
+Pike_LOC105024800	XP_028969701.1	105024800	vitamin D3 receptor B, longest protein
+Salmon_vdra.a	XP_013990933.1	106566896	vdra.a.1, longest isoform
+Salmon_vdra.b	NP_001117029.2	100136412	vdra.b.1, longest isoform (all four 423 aa)
+Salmon_vdrb.a	XP_013987596.1	106565233	vdrb.a.1, longest isoform
+Salmon_vdrb.b	XP_014023471.1	100136371	vdrb.b.1, longest isoform

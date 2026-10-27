@@ -1,0 +1,28 @@
+cd ../dhcr7
+muscle5 -align dhcr7.fasta -output dhcr7.afa
+iqtree2 -s dhcr7.afa -m MFP -B 1000
+
+cd ../gc
+muscle5 -align gc.fasta -output gc.afa
+iqtree2 -s gc.afa -m MFP -B 1000
+
+cd ../cyp2r1
+muscle5 -align cyp2r1.fasta -output cyp2r1.afa
+iqtree2 -s cyp2r1.afa -m MFP -B 1000
+
+cd ../cyp27a1
+muscle5 -align cyp27a1.fasta -output cyp27a1.afa
+iqtree2 -s cyp27a1.afa -m MFP -B 1000
+
+cd ../cyp27b1
+muscle5 -align cyp27b1.fasta -output cyp27b1.afa
+iqtree2 -s cyp27b1.afa -m MFP -B 1000
+
+cd ../cyp24a1
+muscle5 -align cyp24a1.fasta -output cyp24a1.afa
+iqtree2 -s cyp24a1.afa -m MFP -B 1000
+
+cd ../vdr
+muscle5 -align vdr.fasta -output vdr.afa
+iqtree2 -s vdr.afa -m MFP -B 1000
+

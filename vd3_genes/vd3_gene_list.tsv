@@ -1,0 +1,33 @@
+No	Gene	Gene2	Name	Keyword	NCBI	UniProt
+1	DHCR7		7-dehydrocholesterol reductase	dehydrocholesterol reductase	1717	
+2	DHCR7	SLOS	Smith-Lemli-Opitz syndrome			
+3	GC		Group-Specific Component		2638	P02774
+4	GC	DBP	D-box binding PAR bZIP transcription factor	D-box binding		
+5	GC	VDB	Vitamin D-binding protein			
+6	GC	GRD3	Growth Hormone Receptor exon 3 deletion			
+7	CYP2R1		cytochrome P450 family 2 subfamily R member 1	cytochrome P450 family 2 	120227	
+8	CYP27A1		cytochrome P450 family 27 subfamily A member 1	cytochrome P450 family 27	1593	
+9	CYP27A1	CTX	Cerebrotendinous Xanthomatosis			
+10	CYP27A1	CP27		sterol 27-hydroxylase		
+11	CYP27A1	CYP27				
+12	CYP24A1		cytochrome P450 family 24 subfamily A member 1	cytochrome P450 family 24	1591	
+13	CYP24A1 	CP24				
+14	CYP24A1 	HCAI	human carbonic anhydrase I	carbonic anhydrase		
+15	CYP24A1 	CYP24		24-hydroxylase		
+16	CYP24A1 	HCINF1	Infantile hypercalcemia type 1			
+17	CYP24A1 	P450-CC24				
+18	CYP27B1		cytochrome P450 family 27 subfamily B member 1	cytochrome P450 family 27	1594	
+19	CYP27B1	CP2B				
+20	CYP27B1	CYP1				
+21	CYP27B1	PDDR	Pseudovitamin D-deficiency rickets			
+22	CYP27B1	VDD1		1-alpha-hydroxylase		
+23	CYP27B1	VDDR	Vitamin D-dependent rickets			
+24	CYP27B1	VDDRI	Vitamin D-dependent rickets type 1A			
+25	CYP27B1	CYP27B		25-hydroxyvitamin		
+26	CYP27B1	P450c1				
+27	CYP27B1	CYP1alpha				
+28	PTH		parathyroid hormone		5741	
+29	PTH	FIH1	Hypoxia Inducible Factor 1 Subunit Alpha Inhibitor	Hypoxia Inducible Factor		
+30	VDR		vitamin D receptor	vitamin D	7421	
+31	VDR	NR1I1	Nuclear Receptor Subfamily 1 Group I Member 1			
+32	VDR	PPP1R163				

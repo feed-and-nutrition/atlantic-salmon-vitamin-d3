@@ -1,0 +1,11 @@
+# blastp
+# Iteration: 0
+# Query: XP_046191372.1 vitamin D-binding protein [Oncorhynchus gorbuscha]
+# RID: THPY94N5014
+# Database: nr_cluster_seq
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 2 hits found
+XP_046191372.1	NP_001117137.1	91.776	608	50	0	1	608	1	608	0.0	1125	96.22
+XP_046191372.1	XP_042187186.1	77.213	610	135	2	1	608	1	608	0.0	982	86.72
+
+

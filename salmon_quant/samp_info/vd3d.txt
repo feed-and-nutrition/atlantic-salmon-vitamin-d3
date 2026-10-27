@@ -1,0 +1,10 @@
+no	tissue	sex	sample	treatment	read_group	lims	fish_id	stage	weight
+1	Blood		blood_18	EE	SRR11570054		A18_B53		3.7
+2	Blood		blood_17	EE	SRR11570055		A17_B47		3.3
+3	Blood		blood_16	EE	SRR11570046		A16_B34		5.6
+4	Blood		blood_15	LL	SRR11570047		A15_B23		5.3
+5	Blood		blood_14	LL	SRR11570048		A14_B16		6.4
+6	Blood		blood_13	LL	SRR11570049		A13_B12		4.3
+7	Blood		blood_06	EE	SRR11570050		A06_B58		4.6
+8	Blood		blood_02	LL	SRR11570056		A02_B39		3.4
+9	Blood		blood_01	EE	SRR11570057		A01_B27		7.9

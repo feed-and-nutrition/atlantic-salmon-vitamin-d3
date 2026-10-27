@@ -1,0 +1,9 @@
+gene_a	gene_b	transcript_a	transcript_b	protein_identity	protein_coverage	cds_identity	cds_coverage	shared_a	shared_b	atlas_peak_a	atlas_peak_b
+dhcr7.a	dhcr7.b	XM_014126598.2	XM_014175185.2	98.1	100	97.6	100	9.7	9.8	Ovary	Pyloric caecum
+alb1	alb2	NM_001123665.1	XM_014143494.2	79.1	99.8	85.3	99.9	0	0	Liver	Liver
+cyp2r1.a	cyp2r1.b	XM_014127147.2	XM_014175997.2	98.6	100	98.4	100	10.6	13.4	Liver	Gill
+cyp27a1.a	cyp27a1.b	XM_045704432.1	XM_014173022.2	88.8	100	90.2	100	0	0	Gut	Gut
+cyp27b1.a	cyp27b1.b	XM_014132592.2	XM_014167257.2	90.5	100	92.1	100	0	0	Brain	Liver
+cyp24a1.a	cyp24a1.b	XM_014131709.2	XM_014168178.2	92.1	100	92.7	100	0	0	Liver	Liver
+vdra.a	vdra.b	XM_014135458.2	XM_014146371.2	97.6	100	94.8	100	0	0	Kidney	Testis
+vdrb.a	vdrb.b	XM_014132121.2	XM_014167996.2	95.1	99.3	92.7	100	0	0	Gill	Gill

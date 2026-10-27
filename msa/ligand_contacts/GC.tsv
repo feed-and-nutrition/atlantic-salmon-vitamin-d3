@@ -1,0 +1,14 @@
+Residue	Hydrogen bond	Closest distance (A)	Human GC	Mouse Gc	Chicken GC	Spotted gar gc	Zebrafish gc	Rainbow trout gc	Chum salmon gc	Pink salmon gc	Human ALB	alb1	alb2	LOC100136922
+E8		3.63	E	E	V	E	T	S	A	A	H	A	S	A
+V12		3.53	V	V	V	I	V	I	I	I	V	I	I	I
+F24		3.77	F	F	F	F	F	F	F	F	F	F	F	F
+L31		3.62	L	L	M	L	L	G	G	G	A	G	G	G
+Y32	yes	2.85	Y	Y	N	Y	Y	L	L	L	F	L	L	L
+K35		3.55	K	K	K	K	K	N	N	N	Y	N	N	N
+L47		3.94	L	L	L	V	V	L	L	L	L	L	L	L
+Y68		3.49	Y	Y	Y	Y	Y	N	D	D	D	E	N	E
+S76	yes	2.81	S	S	S	S	S	Q	Q	Q	G	Q	Q	Q
+M107		3.12	M	M	L	L	L	F	F	F	F	F	F	F
+Identical to human			10/10	10/10	6/10	7/10	7/10	2/10	2/10	2/10	3/10	2/10	2/10	2/10
+														
+Residues with a heavy atom within 4 A of the ligand in the structure of the human vitamin D-binding protein (GC) with 25-hydroxyvitamin D3 (PDB 1J78, chain B), numbered as in the PDB entry. Hydrogen bond: a protein N or O atom within 3.5 A of a ligand O atom. Residues of the other proteins are taken from the alignments of the phylogenetic analysis.														

@@ -1,0 +1,23 @@
+Residue	Hydrogen bond	Closest distance (A)	Human VDR	Mouse Vdr	Zebrafish vdra	Zebrafish vdrb	vdra.a	vdra.b	vdrb.a	vdrb.b
+Y143	yes	2.83	Y	Y	Y	Y	Y	Y	Y	Y
+Y147		3.85	Y	Y	Y	Y	Y	Y	Y	Y
+L227		3.54	L	L	L	L	L	L	L	L
+L230		3.96	L	L	L	L	L	L	L	L
+L233		3.54	L	L	L	L	L	L	L	L
+V234		3.64	V	V	V	V	V	V	V	V
+S237	yes	2.78	S	S	S	S	S	S	S	S
+I271		3.89	I	I	I	I	I	I	I	I
+R274	yes	2.86	R	R	R	R	R	R	R	R
+S275		3.32	S	S	S	S	S	S	S	S
+S278	yes	2.91	S	S	S	S	S	S	S	S
+W286		3.45	W	W	W	W	W	W	W	W
+C288		3.62	C	C	C	C	C	C	C	C
+Y295		3.96	Y	Y	Y	Y	Y	Y	Y	Y
+V300		3.92	V	V	V	V	V	V	V	V
+H305	yes	2.81	H	H	H	H	H	H	H	H
+L309		3.81	L	L	L	L	L	L	L	L
+H397	yes	2.82	H	H	H	H	H	H	H	H
+V418		3.99	V	V	V	V	V	V	V	V
+Identical to human			19/19	19/19	19/19	19/19	19/19	19/19	19/19	19/19
+										
+Residues with a heavy atom within 4 A of the ligand in the structure of the human VDR ligand-binding domain with 1alpha,25-dihydroxyvitamin D3 (PDB 1DB1), numbered as in the PDB entry. Hydrogen bond: a protein N or O atom within 3.5 A of a ligand O atom. Residues of the other proteins are taken from the alignments of the phylogenetic analysis.										

@@ -1,0 +1,27 @@
+protein	sequence	contacts	identical	hbond_contacts	hbond_identical	changes
+VDR	Human_VDR	19	19	6	6	
+CYP2R1	Human_CYP2R1	18	18	1	1	
+GC	Human_GC	10	10	2	2	
+VDR	Mouse_Vdr	19	19	6	6	
+VDR	Zebrafish_vdra	19	19	6	6	
+VDR	Zebrafish_vdrb	19	19	6	6	
+VDR	Salmon_vdra.a	19	19	6	6	
+VDR	Salmon_vdra.b	19	19	6	6	
+VDR	Salmon_vdrb.a	19	19	6	6	
+VDR	Salmon_vdrb.b	19	19	6	6	
+CYP2R1	Mouse_Cyp2r1	18	18	1	1	
+CYP2R1	Zebrafish_cyp2r1	18	18	1	1	
+CYP2R1	Salmon_cyp2r1.a	18	17	1	1	F302Y
+CYP2R1	Salmon_cyp2r1.b	18	17	1	1	F302Y
+CYP2R1	Salmon_cyp2r1.c	18	4	1	0	L114M, F115I, M118L, L125V, N126M, F214L, A250F, V253I, Y254K, F302S, G305L, E306D, I379V, M487G
+GC	Mouse_Gc	10	10	2	2	
+GC	Chicken_GC	10	6	2	1	E8V, L31M, Y32N, M107L
+GC	Gar_gc	10	7	2	2	V12I, L47V, M107L
+GC	Zebrafish_gc	10	7	2	2	E8T, L47V, M107L
+GC	Trout_gc	10	2	2	0	E8S, V12I, L31G, Y32L, K35N, Y68N, S76Q, M107F
+GC	Chum_gc	10	2	2	0	E8A, V12I, L31G, Y32L, K35N, Y68D, S76Q, M107F
+GC	Pink_gc	10	2	2	0	E8A, V12I, L31G, Y32L, K35N, Y68D, S76Q, M107F
+GC	Human_ALB	10	3	2	0	E8H, L31A, Y32F, K35Y, Y68D, S76G, M107F
+GC	Salmon_alb1	10	2	2	0	E8A, V12I, L31G, Y32L, K35N, Y68E, S76Q, M107F
+GC	Salmon_alb2	10	2	2	0	E8S, V12I, L31G, Y32L, K35N, Y68N, S76Q, M107F
+GC	Salmon_LOC100136922	10	2	2	0	E8A, V12I, L31G, Y32L, K35N, Y68E, S76Q, M107F

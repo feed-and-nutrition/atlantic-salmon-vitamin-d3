@@ -1,0 +1,11 @@
+# blastp
+# Iteration: 0
+# Query: XP_052369085.1 vitamin D-binding protein [Oncorhynchus keta]
+# RID: THPSUF9F014
+# Database: nr_cluster_seq
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 2 hits found
+XP_052369085.1	NP_001117137.1	91.077	594	53	0	1	594	1	594	0.0	1093	95.96
+XP_052369085.1	XP_042187186.1	77.349	596	131	2	1	594	1	594	0.0	963	87.42
+
+

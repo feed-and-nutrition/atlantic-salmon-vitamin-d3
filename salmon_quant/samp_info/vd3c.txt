@@ -1,0 +1,41 @@
+no	tissue	sex	sample	treatment	read_group	lims	fish_id	stage
+1	Brain	F	f_brain_fw	normal	female-brain-freshwater_S1		S1	freshwater
+2	Brain	F	f_brain_sw	normal	female-brain-saltwater_S3		S3	saltwater
+3	Eye	F	f_eye_fw	normal	female-eye-freshwater_S5		S5	freshwater
+4	Eye	F	f_eye_sw	normal	female-eye-saltwater_S7		S7	saltwater
+5	Gill	F	f_gill_fw	normal	female-gill-freshwater_S5		S5	freshwater
+6	Gill	F	f_gill_sw	normal	female-gill-saltwater_S7		S7	saltwater
+7	Gut	F	f_gut_fw	normal	female-gut-freshwater_S1		S1	freshwater
+8	Gut	F	f_gut_sw	normal	female-gut-saltwater_S3		S3	saltwater
+9	Kidney	F	f_kidney_fw	normal	female-kidney-freshwater_S5		S5	freshwater
+10	Kidney	F	f_kidney_sw	normal	female-kidney-saltwater_S7		S7	saltwater
+11	Liver	F	f_liver_fw	normal	female-liver-freshwater_S1		S1	freshwater
+12	Liver	F	f_liver_sw	normal	female-liver-saltwater_S3		S3	saltwater
+13	Nose	F	f_nose_fw	normal	female-nose-freshwater_S1		S1	freshwater
+14	Nose	F	f_nose_sw	normal	female-nose-saltwater_S3		S3	saltwater
+15	Pyloric caecum	F	f_pc_fw	normal	female-pc-freshwater_S5		S5	freshwater
+16	Pyloric caecum	F	f_pc_sw	normal	female-pc-saltwater_S7		S7	saltwater
+17	Skin	F	f_skin_fw	normal	female-skin-freshwater_S5		S5	freshwater
+18	Skin	F	f_skin_sw	normal	female-skin-saltwater_S7		S7	saltwater
+19	Spleen	F	f_spleen_fw	normal	female-spleen-freshwater_S1		S1	freshwater
+20	Spleen	F	f_spleen_sw	normal	female-spleen-saltwater_S3		S3	saltwater
+21	Brain	M	m_brain_fw	normal	male-brain-freshwater_S2		S2	freshwater
+22	Brain	M	m_brain_sw	normal	male-brain-saltwater_S4		S4	saltwater
+23	Eye	M	m_eye_fw	normal	male-eye-freshwater_S6		S6	freshwater
+24	Eye	M	m_eye_sw	normal	male-eye-saltwater_S8		S8	saltwater
+25	Gill	M	m_gill_fw	normal	male-gill-freshwater_S6		S6	freshwater
+26	Gill	M	m_gill_sw	normal	male-gill-saltwater_S8		S8	saltwater
+27	Gut	M	m_gut_fw	normal	male-gut-freshwater_S2		S2	freshwater
+28	Gut	M	m_gut_sw	normal	male-gut-saltwater_S4		S4	saltwater
+29	Kidney	M	m_kidney_fw	normal	male-kidney-freshwater_S6		S6	freshwater
+30	Kidney	M	m_kidney_sw	normal	male-kidney-saltwater_S8		S8	saltwater
+31	Liver	M	m_liver_fw	normal	male-liver-freshwater_S2		S2	freshwater
+32	Liver	M	m_liver_sw	normal	male-liver-saltwater_S4		S4	saltwater
+33	Nose	M	m_nose_fw	normal	male-nose-freshwater_S2		S2	freshwater
+34	Nose	M	m_nose_sw	normal	male-nose-saltwater_S4		S4	saltwater
+35	Pyloric caecum	M	m_pc_fw	normal	male-pc-freshwater_S6		S6	freshwater
+36	Pyloric caecum	M	m_pc_sw	normal	male-pc-saltwater_S8		S8	saltwater
+37	Skin	M	m_skin_fw	normal	male-skin-freshwater_S6		S6	freshwater
+38	Skin	M	m_skin_sw	normal	male-skin-saltwater_S8		S8	saltwater
+39	Spleen	M	m_spleen_fw	normal	male-spleen-freshwater_S2		S2	freshwater
+40	Spleen	M	m_spleen_sw	normal	male-spleen-saltwater_S4		S4	saltwater

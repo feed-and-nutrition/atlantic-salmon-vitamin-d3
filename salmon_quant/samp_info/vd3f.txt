@@ -1,0 +1,10 @@
+no	tissue	sex	sample	treatment	read_file	lims	fish_id	stage
+1	Testis	M	testis_pp1	pre-pubertal	SRR8479244		G1LF-2383	pre-pubertal
+2	Testis	M	testis_pp2	pre-pubertal	SRR8479249		G1LF-2418	pre-pubertal
+3	Testis	M	testis_pp3	pre-pubertal	SRR8479250		G1LF-2421	pre-pubertal
+4	Testis	M	testis_p1	pubertal	SRR8479247		G2bLF-2392	pubertal
+5	Testis	M	testis_p2	pubertal	SRR8479248		G2bLF-2396	pubertal
+6	Testis	M	testis_p3	pubertal	SRR8479242		G2bLF-2400	pubertal
+7	Testis	M	testis_im1	immature	SRR8479245		LTL-3840	immature
+8	Testis	M	testis_im2	immature	SRR8479246		LTL-3852	immature
+9	Testis	M	testis_im3	immature	SRR8479243		LTL-3860	immature

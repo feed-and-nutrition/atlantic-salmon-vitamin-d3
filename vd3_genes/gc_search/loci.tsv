@@ -1,0 +1,11 @@
+assembly	species	chr	sacc	start	end	n_hits	queries	gc_query_hits	best_query	best_query_bits	best_query_evalue	class	best_panel	gc_bits	albumin_bits	genes
+Ch_v2.0.2	Atlantic herring	7	NC_045158.1	14558834	14563924	9	3	9	NP_001002568.3	102	1.2500000000000001e-21	GC	Zebrafish_gc	391.1	0	gc (105901149, protein_coding)
+fArgSil1	Greater argentine	7	NC_139661.1	62870	70036	23	3	0	NP_001117137.1	115	5.86e-25	Albumin	Salmon_LOC100136922	0	774.5999999999999	gc (310806933, protein_coding)
+fEsoLuc1	Northern pike	5	NC_047573.1	4690298	4699462	15	2	0	NP_001117137.1	105	8.48e-22	Albumin	Salmon_LOC100136922	0	794.8000000000001	LOC105008514 (105008514, protein_coding)
+fEsoLuc1	Northern pike	13	NC_047581.1	28882336	28891079	15	2	0	NP_001117137.1	121	7.430000000000001e-27	Albumin	Salmon_alb2	0	955.2	LOC105014523 (105014523, protein_coding)
+Ssal_v3.1	Atlantic salmon	ssa15	NC_059456.1	5705302	5723980	11	2	0	XP_034148109.1	108	3.5e-22	Albumin	Pike_alb.1	0	927.6	LOC106570911 (106570911, protein_coding)
+Ssal_v3.1	Atlantic salmon	NA	NW_025550944.1	497355	511177	16	2	0	XP_034148109.1	110	5.819999999999999e-23	Albumin	Pike_alb.1	0	860.2	alb2 (100136575, protein_coding)
+fSalSal1	Atlantic salmon	01	NC_138291.1	107806965	107821362	16	2	0	XP_034148109.1	110	5.969999999999999e-23	Albumin	Pike_alb.1	0	904.1	LOC100136922 (100136922, protein_coding)
+fSalSal1	Atlantic salmon	15	NC_138305.1	7463881	7483878	12	2	0	XP_034148109.1	108	3.59e-22	Albumin	Pike_alb.1	0	947.1	LOC106570911 (106570911, protein_coding)
+fSalSal1	Atlantic salmon	18	NC_138308.1	37482496	37493300	15	2	0	XP_034148109.1	110	8.939999999999999e-23	Albumin	Pike_alb.1	0	841.7000000000002	LOC100136575 (100136575, protein_coding)
+Olat3.1	Medaka	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	No hit	NA	NA	NA	NA

@@ -1,0 +1,214 @@
+offset	gar_symbol	gar_gene_id	gar_product	assembly	species	hit_symbol	hit_gene_id	hit_chr	hit_seqid	hit_start	hit_rank	identity	bitscore
+-10	dym	102684779	dymeclin	Ch_v2.0.2	Atlantic herring	dym	105911504	12	NC_045163.1	2602334	74	87.965	779
+-10	dym	102684779	dymeclin	GRCz13ab	Zebrafish	dym	572325	21	NC_141041.1	4090054	97	84.328	1149
+-10	dym	102684779	dymeclin	Olat3.1	Medaka	dym	101165575	12	NC_136248.1	23252439	554	84.054	1130
+-10	dym	102684779	dymeclin	fArgSil1	Greater argentine	LOC310804643	310804643	5	NC_139659.1	2319207	100	84.631	822
+-10	dym	102684779	dymeclin	fEsoLuc1	Northern pike	dym	105023528	14	NC_047582.1	4435574	52	87.336	1171
+-10	dym	102684779	dymeclin	fSalSal1	Atlantic salmon	dym	106568469	13	NC_138303.1	105397769	1781	85.119	1152
+-10	dym	102684779	dymeclin	fSalSal1	Atlantic salmon	LOC106561256	106561256	01	NC_138291.1	134655796	1609	84.872	1130
+-9	add1	102698325	alpha-adducin isoform X1	Ch_v2.0.2	Atlantic herring	add1	105911500	12	NC_045163.1	2656061	75	82.934	1355
+-9	add1	102698325	alpha-adducin isoform X1	GRCz13ab	Zebrafish	add1	555511	21	NC_141041.1	2568132	57	88.048	1329
+-9	add1	102698325	alpha-adducin isoform X1	Olat3.1	Medaka	add1	101164076	12	NC_136248.1	23631735	562	82.432	1236
+-9	add1	102698325	alpha-adducin isoform X1	fArgSil1	Greater argentine	add1	310804468	5	NC_139659.1	2362039	101	78.528	1073
+-9	add1	102698325	alpha-adducin isoform X1	fEsoLuc1	Northern pike	add1	105023531	14	NC_047582.1	4588962	55	86.503	1290
+-9	add1	102698325	alpha-adducin isoform X1	fSalSal1	Atlantic salmon	LOC106568455	106568455	13	NC_138303.1	105325859	1779	86.018	1194
+-9	add1	102698325	alpha-adducin isoform X1	fSalSal1	Atlantic salmon	LOC106561289	106561289	01	NC_138291.1	134835867	1611	81.442	1189
+-8	mfsd10	102698124	major facilitator superfamily domain-containing protein 10	Ch_v2.0.2	Atlantic herring	mfsd10	105907543	7	NC_045158.1	991458	35	72.3	600
+-8	mfsd10	102698124	major facilitator superfamily domain-containing protein 10	GRCz13ab	Zebrafish	slc75a1	550360	5	NC_141025.1	73451294	1329	73.614	640
+-8	mfsd10	102698124	major facilitator superfamily domain-containing protein 10	Olat3.1	Medaka	slc75a1	101168716	9	NC_136245.1	30522450	954	72.235	615
+-8	mfsd10	102698124	major facilitator superfamily domain-containing protein 10	fArgSil1	Greater argentine	LOC310807078	310807078	7	NC_139661.1	2511909	70	73.274	655
+-8	mfsd10	102698124	major facilitator superfamily domain-containing protein 10	fEsoLuc1	Northern pike	mfsd10	105014681	13	NC_047581.1	37106344	1058	73.614	657
+-8	mfsd10	102698124	major facilitator superfamily domain-containing protein 10	fSalSal1	Atlantic salmon	slc75a1	106585745	24	NC_138314.1	29050692	566	78.708	656
+-7	nop14	102697926	nucleolar protein 14	Ch_v2.0.2	Atlantic herring	nop14	105911501	12	NC_045163.1	2678141	76	66.094	1070
+-7	nop14	102697926	nucleolar protein 14	GRCz13ab	Zebrafish	nop14	321133	21	NC_141041.1	416244	26	64.444	605
+-7	nop14	102697926	nucleolar protein 14	Olat3.1	Medaka	nop14	101174607	12	NC_136248.1	23662960	563	68.192	1104
+-7	nop14	102697926	nucleolar protein 14	fArgSil1	Greater argentine	nop14	310805228	5	NC_139659.1	2394162	102	70.743	1145
+-7	nop14	102697926	nucleolar protein 14	fEsoLuc1	Northern pike	nop14	105023533	14	NC_047582.1	4623791	56	67.049	1120
+-7	nop14	102697926	nucleolar protein 14	fSalSal1	Atlantic salmon	nop14	100194888	01	NC_138291.1	134896409	1612	69.805	1143
+-6	LOC102697725	102697725	vimentin-like	Ch_v2.0.2	Atlantic herring	LOC105905621	105905621	12	NC_045163.1	2774029	84	75.132	586
+-6	LOC102697725	102697725	vimentin-like	Ch_v2.0.2	Atlantic herring	LOC116222857	116222857	12	NC_045163.1	2768359	83	73.298	573
+-6	LOC102697725	102697725	vimentin-like	Ch_v2.0.2	Atlantic herring	LOC105911470	105911470	12	NC_045163.1	2694417	77	73.421	562
+-6	LOC102697725	102697725	vimentin-like	GRCz13ab	Zebrafish	vimr1	572200	21	NC_141041.1	442581	27	76.139	588
+-6	LOC102697725	102697725	vimentin-like	Olat3.1	Medaka	vimr1	105354075	5	NC_136241.1	11541463	363	77.333	569
+-6	LOC102697725	102697725	vimentin-like	fArgSil1	Greater argentine	LOC310815253	310815253	14	NC_139668.1	9748708	349	79.357	587
+-6	LOC102697725	102697725	vimentin-like	fArgSil1	Greater argentine	LOC310805150	310805150	5	NC_139659.1	2410904	103	77.66	553
+-6	LOC102697725	102697725	vimentin-like	fEsoLuc1	Northern pike	LOC105023534	105023534	14	NC_047582.1	4644009	57	74.545	583
+-6	LOC102697725	102697725	vimentin-like	fSalSal1	Atlantic salmon	LOC106561351	106561351	01	NC_138291.1	134928618	1613	75.916	582
+-6	LOC102697725	102697725	vimentin-like	fSalSal1	Atlantic salmon	LOC106568456	106568456	13	NC_138303.1	105299406	1777	74.869	529
+-5	rufy3	102697533	protein RUFY3 isoform X1	Ch_v2.0.2	Atlantic herring	rufy3	105901223	7	NC_045158.1	14665039	556	78.045	954
+-5	rufy3	102697533	protein RUFY3 isoform X1	GRCz13ab	Zebrafish	rufy3	541522	5	NC_141025.1	43770475	914	87.591	966
+-5	rufy3	102697533	protein RUFY3 isoform X1	Olat3.1	Medaka	rufy3	101160300	9	NC_136245.1	35060589	1087	83.981	886
+-5	rufy3	102697533	protein RUFY3 isoform X1	fArgSil1	Greater argentine	rufy3	310807394	7	NC_139661.1	6668356	229	81.038	1029
+-5	rufy3	102697533	protein RUFY3 isoform X1	fEsoLuc1	Northern pike	rufy3	105006514	13	NC_047581.1	38527345	1108	85.714	942
+-5	rufy3	102697533	protein RUFY3 isoform X1	fSalSal1	Atlantic salmon	rufy3	106570953	15	NC_138305.1	12450900	119	85.783	931
+-4	grsf1	102697344	G-rich sequence factor 1	Ch_v2.0.2	Atlantic herring	grsf1	105901224	7	NC_045158.1	14657747	555	46.911	381
+-4	grsf1	102697344	G-rich sequence factor 1	GRCz13ab	Zebrafish	grsf1	563249	5	NC_141025.1	44655447	958	50	363
+-4	grsf1	102697344	G-rich sequence factor 1	GRCz13ab	Zebrafish	hnrnph1	402984	14	NC_141034.1	7606806	228	45.483	299
+-4	grsf1	102697344	G-rich sequence factor 1	Olat3.1	Medaka	grsf1	101160053	9	NC_136245.1	35077131	1088	50.733	359
+-4	grsf1	102697344	G-rich sequence factor 1	Olat3.1	Medaka	hnrnph1	101155609	10	NC_136246.1	23151112	599	44.242	296
+-4	grsf1	102697344	G-rich sequence factor 1	fArgSil1	Greater argentine	grsf1	310806740	7	NC_139661.1	6662812	228	51.059	417
+-4	grsf1	102697344	G-rich sequence factor 1	fEsoLuc1	Northern pike	grsf1	105006516	13	NC_047581.1	38553690	1109	48.73	410
+-4	grsf1	102697344	G-rich sequence factor 1	fSalSal1	Atlantic salmon	grsf1	100196845	15	NC_138305.1	12499176	120	54.11	425
+-3	mob1ba	102697142	MOB kinase activator 1Ba	Ch_v2.0.2	Atlantic herring	LOC105901248	105901248	7	NC_045158.1	14645439	554	96.759	443
+-3	mob1ba	102697142	MOB kinase activator 1Ba	Ch_v2.0.2	Atlantic herring	LOC105911503	105911503	12	NC_045163.1	1624696	46	95.37	438
+-3	mob1ba	102697142	MOB kinase activator 1Ba	Ch_v2.0.2	Atlantic herring	LOC105912585	105912585	7	NC_045158.1	28622030	1009	92.593	428
+-3	mob1ba	102697142	MOB kinase activator 1Ba	GRCz13ab	Zebrafish	mob1ba	393169	5	NC_141025.1	44664299	959	97.685	446
+-3	mob1ba	102697142	MOB kinase activator 1Ba	GRCz13ab	Zebrafish	mob1bb	407654	21	NC_141041.1	7054656	174	95.977	440
+-3	mob1ba	102697142	MOB kinase activator 1Ba	GRCz13ab	Zebrafish	mob1a	100005014	5	NC_141025.1	77069066	1411	96	430
+-3	mob1ba	102697142	MOB kinase activator 1Ba	Olat3.1	Medaka	LOC101175251	101175251	12	NC_136248.1	27743444	666	93.519	432
+-3	mob1ba	102697142	MOB kinase activator 1Ba	Olat3.1	Medaka	mob1a	101160416	9	NC_136245.1	22947986	699	93.519	431
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fArgSil1	Greater argentine	mob1ba	310807380	7	NC_139661.1	6650138	227	97.685	444
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fArgSil1	Greater argentine	mob1bb	310804871	5	NC_139659.1	8629899	368	93.519	431
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fArgSil1	Greater argentine	mob1a	310807271	7	NC_139661.1	11521344	497	93.519	431
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fEsoLuc1	Northern pike	LOC105027268	105027268	14	NC_047582.1	26939087	743	94.907	437
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fEsoLuc1	Northern pike	mob1a	105026117	13	NC_047581.1	19577862	509	93.519	431
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fSalSal1	Atlantic salmon	mol1a	100195241	01	NC_138291.1	166174757	2229	94.444	436
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fSalSal1	Atlantic salmon	LOC106562938	106562938	11	NC_138301.1	80828496	833	94.444	436
+-3	mob1ba	102697142	MOB kinase activator 1Ba	fSalSal1	Atlantic salmon	mob1a	106580353	20	NC_138310.1	26878150	457	93.519	431
+-2	dck	102684585	deoxycytidine kinase	Ch_v2.0.2	Atlantic herring	dck	105911484	12	NC_045163.1	1491611	41	78.707	449
+-2	dck	102684585	deoxycytidine kinase	Ch_v2.0.2	Atlantic herring	zgc:110540	105907442	8	NC_045159.1	7155874	297	70.076	402
+-2	dck	102684585	deoxycytidine kinase	GRCz13ab	Zebrafish	dck	474325	21	NC_141041.1	7088342	176	82.89	473
+-2	dck	102684585	deoxycytidine kinase	GRCz13ab	Zebrafish	zgc:110540	541538	21	NC_141041.1	30425432	695	67.803	384
+-2	dck	102684585	deoxycytidine kinase	Olat3.1	Medaka	dck	101157232	12	NC_136248.1	27763249	667	76.404	439
+-2	dck	102684585	deoxycytidine kinase	Olat3.1	Medaka	zgc:110540	101155710	14	NC_136250.1	24307484	744	63.296	367
+-2	dck	102684585	deoxycytidine kinase	fArgSil1	Greater argentine	dck	310804495	5	NC_139659.1	8623032	367	82.308	461
+-2	dck	102684585	deoxycytidine kinase	fArgSil1	Greater argentine	LOC310818175	310818175	2	NC_139656.1	2388118	55	65.909	378
+-2	dck	102684585	deoxycytidine kinase	fEsoLuc1	Northern pike	dck	105027270	14	NC_047582.1	26946365	744	82.239	461
+-2	dck	102684585	deoxycytidine kinase	fEsoLuc1	Northern pike	zgc:110540	105011305	7	NC_047575.1	46455256	1312	67.803	394
+-2	dck	102684585	deoxycytidine kinase	fSalSal1	Atlantic salmon	dck	100196160	01	NC_138291.1	166183836	2230	80.682	446
+-2	dck	102684585	deoxycytidine kinase	fSalSal1	Atlantic salmon	zgc:110540	106603918	04	NC_138294.1	85715529	1618	66.288	384
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	Ch_v2.0.2	Atlantic herring	slc4a4a	105901126	7	NC_045158.1	14577784	553	86.359	1892
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	Ch_v2.0.2	Atlantic herring	slc4a4b	105911496	12	NC_045163.1	1496715	42	82.456	1774
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	GRCz13ab	Zebrafish	slc4a4a	568631	5	NC_141025.1	47549623	989	88.44	1917
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	GRCz13ab	Zebrafish	slc4a4b	561618	21	NC_141041.1	7105927	177	82.491	1771
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	Olat3.1	Medaka	slc4a4a	101158338	9	NC_136245.1	34990266	1086	85.781	1875
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	Olat3.1	Medaka	LOC101175009	101175009	12	NC_136248.1	27769566	668	80.093	1690
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fArgSil1	Greater argentine	slc4a4a	310807262	7	NC_139661.1	6575859	226	85.99	1788
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fArgSil1	Greater argentine	LOC310804907	310804907	5	NC_139659.1	8588442	366	84.26	1750
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fEsoLuc1	Northern pike	slc4a4a	105027424	13	NC_047581.1	39644123	1129	84.349	1816
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fEsoLuc1	Northern pike	slc4a4b	105027271	14	NC_047582.1	26960169	745	81.028	1777
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fSalSal1	Atlantic salmon	slc4a4a	106592521	24	NC_138314.1	50639300	862	87.006	1910
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fSalSal1	Atlantic salmon	LOC106562935	106562935	11	NC_138301.1	80735656	832	82.176	1712
+-1	slc4a4a	102684385	solute carrier family 4 member 4a isoform X1	fSalSal1	Atlantic salmon	LOC106569503	106569503	01	NC_138291.1	166217821	2231	80.975	1682
+0	gc	102696948	vitamin D-binding protein isoform X1	Ch_v2.0.2	Atlantic herring	gc	105901149	7	NC_045158.1	14557351	552	44.142	419
+0	gc	102696948	vitamin D-binding protein isoform X1	GRCz13ab	Zebrafish	gc	436841	5	NC_141025.1	47489852	988	45.161	419
+0	gc	102696948	vitamin D-binding protein isoform X1	fArgSil1	Greater argentine	gc	310806933	7	NC_139661.1	62477	5	20.131	94.7
+0	gc	102696948	vitamin D-binding protein isoform X1	fEsoLuc1	Northern pike	LOC105014523	105014523	13	NC_047581.1	28881527	855	22.025	103
+0	gc	102696948	vitamin D-binding protein isoform X1	fEsoLuc1	Northern pike	LOC105008514	105008514	5	NC_047573.1	4688902	117	21.97	85.1
+0	gc	102696948	vitamin D-binding protein isoform X1	fSalSal1	Atlantic salmon	LOC106570911	106570911	15	NC_138305.1	7461836	84	22.613	108
+0	gc	102696948	vitamin D-binding protein isoform X1	fSalSal1	Atlantic salmon	LOC100136922	100136922	01	NC_138291.1	107805664	1485	21.739	97.4
+0	gc	102696948	vitamin D-binding protein isoform X1	fSalSal1	Atlantic salmon	LOC100136575	100136575	18	NC_138308.1	37481197	541	21.739	96.3
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	Ch_v2.0.2	Atlantic herring	npffr2a	105901163	7	NC_045158.1	14469461	551	77.752	691
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	Ch_v2.0.2	Atlantic herring	LOC105911483	105911483	12	NC_045163.1	1559328	43	72.664	617
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	GRCz13ab	Zebrafish	npffr2a	560955	5	NC_141025.1	47316307	987	81.295	693
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	GRCz13ab	Zebrafish	LOC561565	561565	5	NC_141025.1	34063101	673	72.471	587
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	Olat3.1	Medaka	npffr2a	101169169	9	NC_136245.1	34941395	1085	79.384	681
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	Olat3.1	Medaka	LOC101174760	101174760	12	NC_136248.1	27814949	669	73.077	613
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	fArgSil1	Greater argentine	npffr2a	310806598	7	NC_139661.1	6508190	225	83.771	729
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	fArgSil1	Greater argentine	LOC310804684	310804684	5	NC_139659.1	8576660	365	74.492	650
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	fEsoLuc1	Northern pike	npffr2a	105027425	13	NC_047581.1	39582670	1128	79.215	696
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	fEsoLuc1	Northern pike	LOC105027272	105027272	14	NC_047582.1	27021039	746	74.478	639
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	fSalSal1	Atlantic salmon	LOC106563009	106563009	11	NC_138301.1	80639484	831	72.687	626
+1	npffr2a	102684189	neuropeptide FF receptor 2a isoform X1	fSalSal1	Atlantic salmon	LOC106569496	106569496	01	NC_138291.1	166366173	2232	72.788	608
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	Ch_v2.0.2	Atlantic herring	adamts3	105901105	7	NC_045158.1	14362562	550	82.021	1959
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	GRCz13ab	Zebrafish	adamts3	102467218	5	NC_141025.1	47011783	986	85.519	1952
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	Olat3.1	Medaka	adamts3	101167013	9	NC_136245.1	34812568	1084	80.229	1870
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	fArgSil1	Greater argentine	adamts3	310806910	7	NC_139661.1	6402997	224	74.859	1922
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	fEsoLuc1	Northern pike	adamts3	105027426	13	NC_047581.1	39416794	1127	80.041	1640
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	fEsoLuc1	Northern pike	LOC105009214	105009214	6	NC_047574.1	4513297	109	57.872	1430
+2	adamts3	102696749	A disintegrin and metalloproteinase with thrombospondin motifs 3 isoform X1	fSalSal1	Atlantic salmon	adamts3	106570999	15	NC_138305.1	14942694	131	71.394	1823
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	Ch_v2.0.2	Atlantic herring	smarca2	105901203	7	NC_045158.1	14313132	549	83.982	2484
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	Ch_v2.0.2	Atlantic herring	smarca4a	105898759	1	NC_045152.1	24579221	887	73.667	2128
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	Ch_v2.0.2	Atlantic herring	LOC105910172	105910172	26	NC_045177.1	7452369	295	70.661	2090
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	GRCz13ab	Zebrafish	smarca2	334032	5	NC_141025.1	46862160	985	87.764	2601
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	GRCz13ab	Zebrafish	smarca4b	100535713	6	NC_141026.1	78033	7	73.27	2130
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	GRCz13ab	Zebrafish	smarca4a	353295	3	NC_141023.1	18733181	512	74.032	2127
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	Olat3.1	Medaka	smarca2	101161713	9	NC_136245.1	34614431	1083	82.731	2468
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	Olat3.1	Medaka	smarca4a	101163329	8	NC_136244.1	5486626	199	73.862	2082
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	Olat3.1	Medaka	smarca4b	101162023	1	NC_136237.1	33089286	794	76.558	1997
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fArgSil1	Greater argentine	smarca2	310806767	7	NC_139661.1	6336385	223	87.452	2531
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fArgSil1	Greater argentine	smarca4a	310809036	9	NC_139663.1	17975164	789	74.34	2144
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fArgSil1	Greater argentine	smarca4b	310821631	22	NC_139676.1	12466803	521	69.333	2034
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fEsoLuc1	Northern pike	smarca2	105027427	13	NC_047581.1	39304418	1126	85.41	2447
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fEsoLuc1	Northern pike	smarca4a	105013184	11	NC_047579.1	35966640	817	74.086	2159
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fSalSal1	Atlantic salmon	smarca2	106570981	15	NC_138305.1	14705632	130	81.572	2410
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fSalSal1	Atlantic salmon	LOC106607010	106607010	06	NC_138296.1	36355874	633	74.41	2153
+3	smarca2	102683984	probable global transcription activator SNF2L2 isoform X1	fSalSal1	Atlantic salmon	smarca4a	106601327	03	NC_138293.1	70621469	1531	73.647	2140
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	Ch_v2.0.2	Atlantic herring	dmrt2a	105901170	7	NC_045158.1	14259504	548	66.606	676
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	GRCz13ab	Zebrafish	dmrt2a	30129	5	NC_141025.1	46732905	984	69.066	712
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	Olat3.1	Medaka	dmrt2a	101163154	9	NC_136245.1	34518928	1082	65.619	594
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	fArgSil1	Greater argentine	dmrt2a	310806819	7	NC_139661.1	6277529	222	69.606	708
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	fEsoLuc1	Northern pike	dmrt2a	105008746	13	NC_047581.1	39203179	1125	64.954	649
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	fSalSal1	Atlantic salmon	LOC106585999	106585999	24	NC_138314.1	50440581	861	62.59	617
+4	dmrt2a	102683783	doublesex- and mab-3-related transcription factor 2a	fSalSal1	Atlantic salmon	LOC106570979	106570979	15	NC_138305.1	14190261	129	60.739	603
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	Ch_v2.0.2	Atlantic herring	dmrt3a	105901196	7	NC_045158.1	14251183	547	72.009	638
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	GRCz13ab	Zebrafish	dmrt3a	450035	5	NC_141025.1	46725532	983	71.366	624
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	Olat3.1	Medaka	dmrt3a	111947862	9	NC_136245.1	34505377	1081	61.589	520
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	fArgSil1	Greater argentine	dmrt3a	310806643	7	NC_139661.1	6266681	221	74.304	647
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	fEsoLuc1	Northern pike	dmrt3a	105008747	13	NC_047581.1	39189033	1124	59.768	527
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	fSalSal1	Atlantic salmon	dmrt3a	106570992	15	NC_138305.1	14116835	128	60.479	508
+5	dmrt3a	102683572	doublesex- and mab-3-related transcription factor 3a	fSalSal1	Atlantic salmon	LOC106586000	106586000	24	NC_138314.1	50328448	860	56.399	426
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	Ch_v2.0.2	Atlantic herring	dmrt1	105901197	7	NC_045158.1	14219624	546	62.222	357
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	GRCz13ab	Zebrafish	dmrt1	402923	5	NC_141025.1	46671264	982	66.364	258
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	Olat3.1	Medaka	dmrt1	101161472	9	NC_136245.1	34467008	1079	52.653	229
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	Olat3.1	Medaka	LOC101155006	101155006	1	NW_027616335.1	3507733	91	48.958	226
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	fArgSil1	Greater argentine	dmrt1	310807575	7	NC_139661.1	6227114	220	65.714	400
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	fEsoLuc1	Northern pike	dmrt1	105010230	13	NC_047581.1	39139913	1123	59.748	324
+6	dmrt1	102683363	doublesex- and mab-3-related transcription factor 1 isoform X1	fSalSal1	Atlantic salmon	LOC106592864	106592864	24	NC_138314.1	50243650	859	64.192	270
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	Ch_v2.0.2	Atlantic herring	kank1a	105901195	7	NC_045158.1	14168831	545	63.354	1570
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	GRCz13ab	Zebrafish	kank1a	777729	5	NC_141025.1	46569108	981	64.286	1563
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	Olat3.1	Medaka	LOC101174279	101174279	12	NC_136248.1	27845142	671	42.811	800
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	fArgSil1	Greater argentine	kank1a	310806775	7	NC_139661.1	6173484	219	66.739	1661
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	fEsoLuc1	Northern pike	kank1a	105030218	13	NC_047581.1	39069345	1122	55.261	1295
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	fSalSal1	Atlantic salmon	kank1a	106570941	15	NC_138305.1	13744530	127	55.714	1303
+7	kank1a	102696554	KN motif and ankyrin repeat domain-containing protein 1a isoform X1	fSalSal1	Atlantic salmon	LOC106569472	106569472	01	NC_138291.1	166664490	2234	48.575	1061
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	Ch_v2.0.2	Atlantic herring	LOC105902633	105902633	12	NC_045163.1	17564102	578	88.166	620
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	Ch_v2.0.2	Atlantic herring	fbp1a	105901218	7	NC_045158.1	14162339	544	88.358	600
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	Ch_v2.0.2	Atlantic herring	fbp2	105901216	7	NC_045158.1	14147085	543	74.702	539
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	GRCz13ab	Zebrafish	fbp1b	282672	5	NC_141025.1	36464489	717	92.262	641
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	GRCz13ab	Zebrafish	fbp1a	335231	5	NC_141025.1	46555264	980	89.552	636
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	GRCz13ab	Zebrafish	fbp2	445505	5	NC_141025.1	46536884	979	73.294	525
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	Olat3.1	Medaka	fbp1b	101156992	12	NC_136248.1	27863325	672	88.358	617
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	Olat3.1	Medaka	fbp1a	101161040	9	NC_136245.1	34413928	1077	83.432	601
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	Olat3.1	Medaka	fbp2	101160795	9	NC_136245.1	34404905	1076	71.81	525
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fArgSil1	Greater argentine	LOC310804345	310804345	5	NC_139659.1	8519867	362	91.369	638
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fArgSil1	Greater argentine	fbp1a	310807254	7	NC_139661.1	6164383	218	89.583	631
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fArgSil1	Greater argentine	fbp2	310806805	7	NC_139661.1	6151289	217	74.041	533
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fEsoLuc1	Northern pike	LOC105027923	105027923	14	NC_047582.1	8013953	142	89.82	625
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fEsoLuc1	Northern pike	fbp1a	105030214	13	NC_047581.1	39062786	1121	87.164	620
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fEsoLuc1	Northern pike	fbp2	105030215	13	NC_047581.1	39043349	1120	73.746	518
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fSalSal1	Atlantic salmon	LOC106561989	106561989	01	NC_138291.1	139264855	1683	89.521	624
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fSalSal1	Atlantic salmon	LOC106593443	106593443	15	NC_138305.1	13679947	126	87.761	622
+8	LOC102683163	102683163	fructose-1,6-bisphosphatase 1-like	fSalSal1	Atlantic salmon	LOC106568356	106568356	13	NC_138303.1	100339016	1700	88.323	617
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	Ch_v2.0.2	Atlantic herring	fbp2	105901216	7	NC_045158.1	14147085	543	79.29	566
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	Ch_v2.0.2	Atlantic herring	LOC105902633	105902633	12	NC_045163.1	17564102	578	74.107	548
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	Ch_v2.0.2	Atlantic herring	fbp1a	105901218	7	NC_045158.1	14162339	544	77.612	544
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	GRCz13ab	Zebrafish	fbp1a	335231	5	NC_141025.1	46555264	980	78.338	582
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	GRCz13ab	Zebrafish	fbp1b	282672	5	NC_141025.1	36464489	717	76.855	562
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	GRCz13ab	Zebrafish	fbp2	445505	5	NC_141025.1	46536884	979	78.402	559
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	Olat3.1	Medaka	fbp2	101160795	9	NC_136245.1	34404905	1076	77.015	554
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	Olat3.1	Medaka	fbp1a	101161040	9	NC_136245.1	34413928	1077	73.887	553
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	Olat3.1	Medaka	fbp1b	101156992	12	NC_136248.1	27863325	672	73.591	543
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fArgSil1	Greater argentine	LOC310804345	310804345	5	NC_139659.1	8519867	362	77.745	568
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fArgSil1	Greater argentine	fbp2	310806805	7	NC_139661.1	6151289	217	78.529	564
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fArgSil1	Greater argentine	fbp1a	310807254	7	NC_139661.1	6164383	218	75.668	561
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fEsoLuc1	Northern pike	fbp1a	105030214	13	NC_047581.1	39062786	1121	74.702	556
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fEsoLuc1	Northern pike	LOC105027923	105027923	14	NC_047582.1	8013953	142	76.347	553
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fEsoLuc1	Northern pike	fbp2	105030215	13	NC_047581.1	39043349	1120	76.471	542
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fSalSal1	Atlantic salmon	LOC106593443	106593443	15	NC_138305.1	13679947	126	75.516	564
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fSalSal1	Atlantic salmon	LOC106561989	106561989	01	NC_138291.1	139264855	1683	76.347	555
+9	LOC102682959	102682959	fructose-1,6-bisphosphatase isozyme 2	fSalSal1	Atlantic salmon	LOC106568356	106568356	13	NC_138303.1	100339016	1700	75.749	552
+10	ctsla	102682754	cathepsin La	Ch_v2.0.2	Atlantic herring	LOC105902635	105902635	12	NC_045163.1	17556669	577	79.641	575
+10	ctsla	102682754	cathepsin La	Ch_v2.0.2	Atlantic herring	ctsla	105901215	7	NC_045158.1	14142279	542	78.209	573
+10	ctsla	102682754	cathepsin La	GRCz13ab	Zebrafish	ctsla	321453	5	NC_141025.1	46527743	978	81.416	600
+10	ctsla	102682754	cathepsin La	GRCz13ab	Zebrafish	zgc:174855	569326	12	NC_141032.1	19057133	335	70.571	516
+10	ctsla	102682754	cathepsin La	GRCz13ab	Zebrafish	si:dkey-269i1.4	564835	12	NC_141032.1	19057125	334	70.571	515
+10	ctsla	102682754	cathepsin La	Olat3.1	Medaka	ctsla	100049246	9	NC_136245.1	34401886	1075	85.759	595
+10	ctsla	102682754	cathepsin La	fArgSil1	Greater argentine	ctsla	310807641	7	NC_139661.1	6144841	216	80.531	604
+10	ctsla	102682754	cathepsin La	fArgSil1	Greater argentine	LOC310804908	310804908	5	NC_139659.1	8513973	361	79.646	583
+10	ctsla	102682754	cathepsin La	fEsoLuc1	Northern pike	LOC105030216	105030216	13	NC_047581.1	39034735	1119	84.776	621
+10	ctsla	102682754	cathepsin La	fEsoLuc1	Northern pike	LOC109614643	109614643	13	NC_047581.1	39022618	1118	80.896	595
+10	ctsla	102682754	cathepsin La	fEsoLuc1	Northern pike	LOC105027922	105027922	14	NC_047582.1	8006374	141	72.086	501
+10	ctsla	102682754	cathepsin La	fSalSal1	Atlantic salmon	ctsla	100286607	13	NC_138303.1	100376313	1701	81.493	602
+10	ctsla	102682754	cathepsin La	fSalSal1	Atlantic salmon	LOC106561975	106561975	01	NC_138291.1	139213912	1681	77.286	571
+10	ctsla	102682754	cathepsin La	fSalSal1	Atlantic salmon	LOC106561968	106561968	01	NC_138291.1	139187266	1680	77.581	569

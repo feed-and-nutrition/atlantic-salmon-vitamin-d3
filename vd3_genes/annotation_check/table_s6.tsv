@@ -1,0 +1,21 @@
+Gene	Chromosome	Other copy	Chromosome of other copy	Flanking genes	With a match on another chromosome	Most frequent chromosome	Matches on the chromosome of the other copy	Matches within 2 Mb of the other copy
+dhcr7.a	ssa11	dhcr7.b	ssa26	20	18	ssa26	18	12
+dhcr7.b	ssa26	dhcr7.a	ssa11	20	20	ssa11	16	11
+cyp2r1.a	ssa11	cyp2r1.b	ssa26	20	20	ssa26	20	20
+cyp2r1.b	ssa26	cyp2r1.a	ssa11	20	20	ssa11	19	19
+cyp27a1.a	ssa21	cyp27a1.b	ssa25	20	17	ssa25	11	11
+cyp27a1.b	ssa25	cyp27a1.a	ssa21	20	19	ssa21	16	16
+cyp27b1.a	ssa12	cyp27b1.b	ssa22	20	19	ssa22	17	17
+cyp27b1.b	ssa22	cyp27b1.a	ssa12	20	18	ssa12	17	17
+cyp24a1.a	ssa12	cyp24a1.b	ssa22	20	16	ssa22	14	13
+cyp24a1.b	ssa22	cyp24a1.a	ssa12	20	19	ssa12	12	9
+vdra.a	ssa13	vdra.b	ssa15	20	18	ssa15	14	14
+vdra.b	ssa15	vdra.a	ssa13	20	19	ssa13	17	17
+vdrb.a	ssa12	vdrb.b	ssa22	20	19	ssa22	18	18
+vdrb.b	ssa22	vdrb.a	ssa12	20	20	ssa12	18	18
+alb1	ssa18	LOC100136922	ssa01	20	20	ssa01	19	18
+LOC100136922	ssa01	alb1	ssa18	20	20	ssa18	19	15
+alb1	ssa18	alb2	ssa15	20	20	ssa01	0	0
+alb2	ssa15	alb1	ssa18	20	19	ssa24	0	0
+								
+Chromosomes (ssa) are those of the fSalSal1 assembly (RefSeq RS_2026_09). Flanking genes: the ten protein-coding genes on each side of the gene. For each, the best BLASTp match (E <= 1e-10) on another chromosome was counted. alb1 and alb2 are not Ss4R paralogs and are shown for comparison.								

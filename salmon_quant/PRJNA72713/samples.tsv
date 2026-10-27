@@ -1,0 +1,16 @@
+study	no	tissue	sex	sample	treatment	read_group	lims	fish_id	stage	txi_column
+PRJNA72713	1	Testis	M	testis	normal	SRR1422872		PRJNA72713_1	adult	testis
+PRJNA72713	2	Ovary	F	ovary	normal	SRR1422871		PRJNA72713_1	adult	ovary
+PRJNA72713	3	Eye	M	eye	normal	SRR1422857		PRJNA72713_1	juvenile	eye
+PRJNA72713	4	Brain	M	brain	normal	SRR1422856		PRJNA72713_1	juvenile	brain
+PRJNA72713	5	Spleen	M	spleen	normal	SRR1422870		PRJNA72713_1	juvenile	spleen
+PRJNA72713	6	Skin	M	skin	normal	SRR1422869		PRJNA72713_1	juvenile	skin
+PRJNA72713	7	Pyloric caecum	M	pyloric_caecum	normal	SRR1422868		PRJNA72713_1	juvenile	pyloric_caecum
+PRJNA72713	8	Nose	M	nose	normal	SRR1422867		PRJNA72713_1	juvenile	nose
+PRJNA72713	9	Muscle	M	muscle	normal	SRR1422866		PRJNA72713_1	juvenile	muscle
+PRJNA72713	10	Liver	M	liver	normal	SRR1422865		PRJNA72713_1	juvenile	liver
+PRJNA72713	11	Kidney	M	kidney	normal	SRR1422864		PRJNA72713_1	juvenile	kidney
+PRJNA72713	12	Heart	M	heart	normal	SRR1422862		PRJNA72713_1	juvenile	heart
+PRJNA72713	13	Head kidney	M	head_kidney	normal	SRR1422860		PRJNA72713_1	juvenile	head_kidney
+PRJNA72713	14	Gut	M	gut	normal	SRR1422859		PRJNA72713_1	juvenile	gut
+PRJNA72713	15	Gill	M	gill	normal	SRR1422858		PRJNA72713_1	juvenile	gill

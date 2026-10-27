@@ -1,0 +1,10 @@
+Project_no, sample_info, location
+PRJNA72713, vd3.txt, vd3
+PRJNA260929, vd3b.txt, vd3b
+PRJNA359635, vd3c.txt, vd3c
+PRJNA626461, vd3d.txt, vd3d
+ROS_1, vd3e.txt, vd3e
+PRJNA380580, vd3f.txt, vd3f
+PRJEB47409, vd3g.txt, vd3g
+PRJNA543940, vd3h.txt, vd3h
+PRJNA647285, vd3i.txt, vd3i

@@ -1,0 +1,11 @@
+Gene a	Gene b	Transcript a	Transcript b	Protein identity (%)	CDS identity (%)	Shared 100-nt windows, gene a (%)	Shared 100-nt windows, gene b (%)	Simulated mixtures, largest error of the gene a share (percentage points)	Highest atlas tissue, gene a	Highest atlas tissue, gene b
+dhcr7.a	dhcr7.b	XM_014126598.2	XM_014175185.2	98.1	97.6	9.7	9.8	0.04	Ovary	Pyloric caecum
+alb1	alb2	NM_001123665.1	XM_014143494.2	79.1	85.3	0	0	0	Liver	Liver
+cyp2r1.a	cyp2r1.b	XM_014127147.2	XM_014175997.2	98.6	98.4	10.6	13.4	0.16	Liver	Gill
+cyp27a1.a	cyp27a1.b	XM_045704432.1	XM_014173022.2	88.8	90.2	0	0	0	Gut	Gut
+cyp27b1.a	cyp27b1.b	XM_014132592.2	XM_014167257.2	90.5	92.1	0	0	0	Brain	Liver
+cyp24a1.a	cyp24a1.b	XM_014131709.2	XM_014168178.2	92.1	92.7	0	0	0.01	Liver	Liver
+vdra.a	vdra.b	XM_014135458.2	XM_014146371.2	97.6	94.8	0	0	0.01	Kidney	Testis
+vdrb.a	vdrb.b	XM_014132121.2	XM_014167996.2	95.1	92.7	0	0	0.01	Gill	Gill
+										
+Simulated mixtures: 100,000 read pairs (2 x 100 nt, 1% sequencing errors, 0.5% sequence differences from the reference) from the two transcripts, with gene a contributing 100%, 90%, 50%, 10% or 0%, were quantified with Salmon against all RefSeq transcripts. The column gives the largest difference between the estimated and the true share of gene a.										

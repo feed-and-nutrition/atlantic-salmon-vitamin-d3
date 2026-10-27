@@ -1,0 +1,18 @@
+No	Mapped_VD3_Gene	name	gene_id	type	gene_symbol	gene_name	orgdb_gene_symbol	orgdb_gene_name	orgdb_alias	Blast (from human)	NCBI Ortholog (from human)	mRNA refseq	Isoforms	Protein refseq
+1	DHCR7	dhcr7.a	106562054	mRNA	LOC106562054	7-dehydrocholesterol reductase			dhcr7	Yes	No	XM_014126598.2 	1	XP_013982073.2
+2	DHCR7	dhcr7.b	106587139	mRNA	LOC106587139	7-dehydrocholesterol reductase, transcript variant X1		7-dehydrocholesterol reductase		Yes	No	XM_014175185.2,XM_014175186.2,XM_045708344.1	3	XP_014030660.1,XP_014030661.1,XP_045564300.1 
+3	GC	alb1	100136575	mRNA	alb2	serum albumin 1			alb1	No	No	NM_001123665.1	1	NP_001117137.1
+4	GC	alb2	106570911	transcript	LOC106570911	albumin 2-like, transcript variant X2		albumin 2-like		No	No	XM_014143494.2,XR_006759115.1,XR_006759116.1	3	XP_013998969.2
+5	CYP2R1	cyp2r1.a	106562333	mRNA	LOC106562333	vitamin D 25-hydroxylase				No	No	XM_014127147.2	1	XP_013982622.1
+6	CYP2R1	cyp2r1.c	106586122	mRNA	LOC106586122	vitamin D(3) 25-hydroxylase		vitamin D(3) 25-hydroxylase-like		No	No	XM_014173017.2	1	XP_014028492.1
+7	CYP2R1	cyp2r1.b	106587531	mRNA	LOC106587531	vitamin D 25-hydroxylase				No	No	XM_014175997.2	1	XP_014031472.1
+8	CYP27A1	cyp27a1.a	106581857	transcript	cyp27a1.1	cytochrome P450, family 27, subfamily A, polypeptide 1.1, transcript variant X2	LOC106581857	sterol 26-hydroxylase, mitochondrial		No	No	XM_045704432.1,XR_006761168.1	2	XP_045560388.1
+9	CYP27A1	cyp27a1.b	106586130	mRNA	LOC106586130	sterol 26-hydroxylase, mitochondrial				No	No	XM_014173022.2	1	XP_014028497.2
+10	CYP27B1	cyp27b1.a	106565446	mRNA	LOC106565446	25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial		25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial-like		No	No	XM_014132592.2	1	XP_013988067.1
+11	CYP27B1	cyp27b1.b	106583283	mRNA	LOC106583283	25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial		25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial-like		No	No	XM_014167257.2	1	XP_014022732.2
+12	CYP24A1	cyp24a1.a	106565076	mRNA	LOC106565076	1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial			CP24A	No	No	XM_014131709.2	1	XP_013987184.1
+13	CYP24A1	cyp24a1.b	106583685	mRNA	cyp24a1	cytochrome P450, family 24, subfamily A, polypeptide 1	LOC106583685	1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial		No	Yes	XM_014168178.2	1	XP_014023653.1
+14	VDR	vdra.b	100136412	mRNA	vdr0	vitamin D receptor, transcript variant X1		vitamin D receptor	vdr1	Yes	No	XM_014146371.2,XM_014146374.2,XM_014146372.2,NM_001123557.1	4	NP_001117029.2,XP_014001846.1,XP_014001849.1,XP_014001847.1
+15	VDR	vdra.a	106566896	mRNA	LOC106566896	vitamin D3 receptor A, transcript variant X3		vitamin D3 receptor A-like		Yes	No	XM_014135458.2,XM_014135460.2,XM_014135457.2,XM_014135459.2	4	XP_013990933.1,XP_013990935.1,XP_013990932.1,XP_013990934.1
+16	VDR	vdrb.b	100136371	mRNA	LOC100136371	vitamin D3 receptor B, transcript variant X1		vitamin D3 receptor B		Yes	No	XM_014167996.2,XM_045705805.1	2	XP_014023471.1,XP_045561761.1
+17	VDR	vdrb.a	106565233	mRNA	LOC106565233	vitamin D3 receptor B, transcript variant X2		vitamin D3 receptor B		No	No	XM_014132121.2,XM_014132119.2,XM_014132123.2	3	XP_013987596.1,XP_013987594.1,XP_013987598.1

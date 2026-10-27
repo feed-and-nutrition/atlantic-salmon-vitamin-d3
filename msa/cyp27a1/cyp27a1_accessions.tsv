@@ -1,0 +1,16 @@
+label	accession	gene_id	note
+Salmon_cyp27a1.a	XP_045560388.1	106581857	RS_2025_05, ssa21
+Salmon_cyp27a1.b	XP_014028497.2	106586130	RS_2025_05, ssa25
+Salmon_LOC106574240	XP_014005444.2	106574240	RS_2025_05, ssa16, closest zebrafish protein cyp27a2
+Salmon_LOC106575170	XP_014006919.1	106575170	RS_2025_05, ssa17, closest zebrafish protein cyp27a2
+Salmon_LOC106586420	XP_014029129.2	106586420	RS_2025_05 isoform X1, ssa25, closest zebrafish protein cyp27a3
+Salmon_LOC106586421	XP_014029130.2	106586421	RS_2025_05, ssa25, closest zebrafish protein cyp27a3
+Zebrafish_cyp27a1.1	XP_002663445.1	402831	sterol 26-hydroxylase, mitochondrial isoform X1
+Zebrafish_cyp27a2	XP_686522.4	558239	sterol 26-hydroxylase, mitochondrial
+Zebrafish_cyp27a3	NP_001116749.1	565876	cytochrome P450
+Gar_cyp27a2	XP_015214819.2	102687850	sterol 26-hydroxylase, mitochondrial
+Gar_cyp27a3	XP_015214091.2	102689682	cytochrome P450 (LOC102695871, a third gar gene named sterol 26-hydroxylase-like, is about 45% identical to every family member and is left out)
+Human_CYP27A1	NP_000775.1	1593	sterol 26-hydroxylase, mitochondrial
+Mouse_Cyp27a1	NP_077226.2	104086	sterol 26-hydroxylase, mitochondrial
+Chicken_CYP27A1	XP_422056.4	431683	sterol 26-hydroxylase, mitochondrial
+Human_CYP27B1	NP_000776.1	1594	outgroup (CYP27 family)

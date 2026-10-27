@@ -1,0 +1,17 @@
+no	tissue	sex	sample	treatment	read_file	lims	fish_id	stage
+1	Kidney		kidney_r6	resistant	SRR12266414		6	parr
+2	Kidney		kidney_r13	resistant	SRR12266413		13	parr
+3	Kidney		kidney_s14	susceptible	SRR12266402		14	parr
+4	Heart		heart_r6	resistant	SRR12266397		6	parr
+5	Heart		heart_r11	resistant	SRR12266396		11	parr
+6	Heart		heart_r13	resistant	SRR12266395		13	parr
+7	Heart		heart_s14	susceptible	SRR12266394		14	parr
+8	Heart		heart_s22	susceptible	SRR12266393		22	parr
+9	Heart		heart_s24	susceptible	SRR12266392		24	parr
+10	Kidney		kidney_r18	resistant	SRR12266391		18	parr
+11	Heart		heart_r28	resistant	SRR12266390		28	parr
+12	Heart		heart_s29	susceptible	SRR12266389		29	parr
+13	Kidney		kidney_s22	susceptible	SRR12266380		22	parr
+14	Kidney		kidney_s24	susceptible	SRR12266371		24	parr
+15	Kidney		kidney_r28	resistant	SRR12266370		28	parr
+16	Kidney		kidney_s29	susceptible	SRR12266369		29	parr

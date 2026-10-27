@@ -1,0 +1,17 @@
+gene	top3	top3v
+alb1	Liver,Spleen,Head kidney	15.39,6.53,6.41
+alb2	Liver,Pyloric caecum,Ovary	7.99,5.17,4.34
+cyp24a1.a	Liver,Pyloric caecum,Muscle	5.46,2.65,2
+cyp24a1.b	Liver,Muscle	5.62,1
+cyp27a1.a	Gut,Pyloric caecum,Kidney	4.71,3.45,3.38
+cyp27a1.b	Gut,Gill,Nose	7.01,5.64,5.19
+cyp27b1.a	Brain,Nose	2.24,1.47
+cyp27b1.b	Liver,Ovary	3.52,1.1
+cyp2r1.a	Liver	1.46
+cyp2r1.b	Gill	0.69
+dhcr7.a	Ovary,Liver,Pyloric caecum	5.44,5.37,4.78
+dhcr7.b	Pyloric caecum,Gut,Brain	5.08,4.42,4.37
+vdra.a	Kidney,Testis,Gill	2.63,2.49,2.11
+vdra.b	Testis,Liver,Gut	2.79,2.25,2.13
+vdrb.a	Gill,Gut,Brain	3.11,2.86,2.6
+vdrb.b	Gill,Brain,Pyloric caecum	4.08,3,2.67

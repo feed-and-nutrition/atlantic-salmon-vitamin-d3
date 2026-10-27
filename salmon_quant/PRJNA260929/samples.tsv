@@ -1,0 +1,12 @@
+study	no	tissue	sex	sample	treatment	read_group	lims	fish_id	stage	txi_column
+PRJNA260929	1	Sperm	M	sperm	normal	sperm		PRJNA260929	adult	sperm
+PRJNA260929	2	Gut	F	gut	normal	gut		PRJNA260929	adult	gut
+PRJNA260929	3	Pancreas	F	pancreas	normal	pancreas		PRJNA260929	adult	pancreas
+PRJNA260929	4	Pyloric caecum	F	pyloric_caecum	normal	pyloric_caecum		PRJNA260929	adult	pyloric_caecum
+PRJNA260929	5	Heart	F	heart	normal	heart		PRJNA260929	adult	heart
+PRJNA260929	6	Spleen	F	spleen	normal	spleen		PRJNA260929	adult	spleen
+PRJNA260929	7	Brain	F	brain	normal	brain		PRJNA260929	adult	brain
+PRJNA260929	8	Muscle	F	muscle	normal	muscle		PRJNA260929	adult	muscle
+PRJNA260929	9	Gill	F	gill	normal	gill		PRJNA260929	adult	gill
+PRJNA260929	10	Liver	F	liver	normal	liver		PRJNA260929	adult	liver
+PRJNA260929	11	Skin	F	skin	normal	skin		PRJNA260929	adult	skin

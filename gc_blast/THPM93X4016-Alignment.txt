@@ -1,0 +1,11 @@
+# blastp
+# Iteration: 0
+# Query: NP_001002568.3 vitamin D-binding protein precursor [Danio rerio]
+# RID: THPM93X4016
+# Database: nr_cluster_seq
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 2 hits found
+NP_001002568.3	NP_001117137.1	20.984	386	262	11	47	401	235	608	3.60e-15	79.0	38.86
+NP_001002568.3	XP_042187186.1	20.192	208	158	3	14	214	399	605	5.57e-09	59.3	45.19
+
+

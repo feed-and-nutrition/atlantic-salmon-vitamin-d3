@@ -1,0 +1,4 @@
+Species	Query Gene	Query Protein Accession No	Subject Gene (Atlantic salmon)	Subject Protein Accession No (Atlantic salmon)	% Identity	Alignment length	Mismatches	Evalue	Bit score
+Zebrafish	GC	NP_001002568.3	alb1 (NCBI symbol alb2)	NP_001117137.1	20.984	386	262	3.6e-15	79
+Chum salmon	GC	XP_052369085.1	alb1 (NCBI symbol alb2)	NP_001117137.1	91.077	594	53	0	1093
+Pink salmon	GC	XP_046191372.1	alb1 (NCBI symbol alb2)	NP_001117137.1	91.776	608	50	0	1125
