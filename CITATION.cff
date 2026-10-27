@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these scripts, please cite them as below."
+type: software
+title: "Analysis scripts for vitamin D3-related genes in Atlantic salmon"
+abstract: >-
+  Scripts, small inputs and results for the identification, protein phylogeny and multi-tissue expression
+  profiling of 16 vitamin D3-related genes in Atlantic salmon (Salmo salar), and for the figures and supplementary
+  tables of the accompanying manuscript.
+authors:
+  - family-names: Saito
+    given-names: Takaya
+    affiliation: "Institute of Marine Research (IMR), Bergen, Norway"
+  - family-names: Sæle
+    given-names: Øystein
+    affiliation: "Institute of Marine Research (IMR), Bergen, Norway"
+  - family-names: Wischhusen
+    given-names: Pauline
+    affiliation: "Institute of Marine Research (IMR), Bergen, Norway"
+  - family-names: Adam
+    given-names: Anne-Catrin
+    affiliation: "Institute of Marine Research (IMR), Bergen, Norway"
+license: MIT
+repository-code: "https://github.com/feed-and-nutrition/atlantic-salmon-vitamin-d3"
+version: 1.0.0
+date-released: 2026-10-27
+keywords:
+  - Atlantic salmon
+  - Salmo salar
+  - vitamin D3
+  - phylogenetics
+  - RNA-seq
