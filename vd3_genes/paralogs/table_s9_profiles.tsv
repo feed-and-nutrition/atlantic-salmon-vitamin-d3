@@ -1,0 +1,10 @@
+Gene a	Gene b	Atlas peak TPM, a	Atlas peak TPM, b	Atlas tissues with a at least 2-fold higher	Atlas tissues with b at least 2-fold higher	r, a vs b, atlas	r, a vs b, PRJNA359635	Pattern, a / b	Pike peak TPM (tissue)	Pike pattern	r, a vs pike, atlas	r, b vs pike, atlas	r, a + b vs pike, atlas	r, a vs pike, PRJNA359635	r, b vs pike, PRJNA359635	r, a + b vs pike, PRJNA359635
+dhcr7.a	dhcr7.b	42.4	32.7	3	0	0.75	0.91	Restricted / Restricted	31.9 (Nose)	Restricted	0.41	0.46	0.46	0.57	0.38	0.56
+cyp2r1.a	cyp2r1.b	1.7	0.6	1	0		0.90	Restricted / Not classified	0.5 (Testis)	Not classified						
+cyp27a1.a	cyp27a1.b	25.2	128.2	2	5	0.64	0.43	Restricted / Restricted	36.7 (Nose)	Restricted	0.26	0.70	0.64	0.02	0.70	0.55
+cyp27b1.a	cyp27b1.b	3.7	10.5	2	2	0.24	0.42	Restricted / Restricted	0.7 (Brain)	Not classified						
+cyp24a1.a	cyp24a1.b	43.2	48.1	5	0	0.87	0.90	Restricted / Restricted	449.9 (Liver)	Restricted	0.89	0.96	0.91	0.99	0.93	0.99
+vdra.a	vdra.b	5.2	5.9	0	1	0.77	0.12	Broad / Broad	18.7 (Liver)	Broad	-0.04	0.32	0.20	-0.04	0.45	0.25
+vdrb.a	vdrb.b	7.7	15.9	0	2	0.85	0.92	Broad / Broad	9.1 (Brain)	Broad	0.32	0.18	0.27	0.58	0.27	0.41
+																
+r: Pearson correlation of log2(TPM + 1) across tissues, not given when a gene stays below 1 TPM in all of them. Atlas: 14 tissues (a vs b) and the 11 tissues shared with the pike samples of PRJNA221548. PRJNA359635: mean of the four pools per tissue, 10 tissues (a vs b) and 8 shared with pike. a + b: the summed TPM of both copies. 2-fold higher: a difference of at least 1 in log2(TPM + 1), in tissues above 1 TPM. Pattern: the rule of Table 2 (restricted if SD >= 1 or tau >= 0.8, not classified below 1 TPM), for pike over its 13 tissues.																

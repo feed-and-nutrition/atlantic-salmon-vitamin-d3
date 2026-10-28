@@ -125,8 +125,12 @@ tau_index <- function(x) if (max(x) == 0) NA_real_ else sum(1 - x / max(x)) / (l
 # Table 2 pattern: restricted if the level varies strongly (SD >= 1) or is concentrated in few
 # tissues (tau >= 0.8, Kryuchkova-Mostacci and Robinson-Rechavi 2017). The SD alone misses weakly
 # expressed tissue-specific genes such as cyp27b1. Not "tissue enriched", which has a stricter meaning in the
-# Human Protein Atlas (at least four-fold above all other tissues).
-expr_pattern <- function(sd, tau) ifelse(sd >= 1 | (!is.na(tau) & tau >= 0.8), "Restricted", "Broad")
+# Human Protein Atlas (at least four-fold above all other tissues). Genes below 1 TPM in every tissue are not
+# classified, because SD and tau are unstable near background (cyp2r1.b).
+expr_pattern <- function(sd, tau, peak_tpm = Inf, sd_cut = 1, tau_cut = 0.8) {
+  ifelse(peak_tpm < 1, "Not classified",
+         ifelse(sd >= sd_cut | (!is.na(tau) & tau >= tau_cut), "Restricted", "Broad"))
+}
 # Fig 3 and Fig 4 panels: expression level by the atlas maximum of log2(TPM + 1), high > 7, medium > 3.5,
 # low otherwise. Returns a list of gene names per level.
 expr_level_groups <- function(log_tpm) {
@@ -136,17 +140,18 @@ expr_level_groups <- function(log_tpm) {
        Low = names(max_log)[max_log <= 3.5])
 }
 # Fig S6 sidebars: the two criteria and the resulting pattern, as fixed categories so every panel
-# uses the same colours
-pattern_annotation <- function(sd_values, tau_values) {
+# uses the same colours. 04_2 lists "Not classified" only in the panel where it occurs (it does not fit the others)
+pattern_annotation <- function(sd_values, tau_values, peak_tpm) {
+  pattern <- expr_pattern(sd_values, tau_values, peak_tpm)
   data.frame(SD = factor(ifelse(sd_values >= 1, "\u2265 1", "< 1"), levels = c("\u2265 1", "< 1")),
              tau = factor(ifelse(!is.na(tau_values) & tau_values >= 0.8, "\u2265 0.8", "< 0.8"),
                           levels = c("\u2265 0.8", "< 0.8")),
-             Pattern = factor(expr_pattern(sd_values, tau_values), levels = c("Restricted", "Broad")),
+             Pattern = factor(pattern, levels = c("Restricted", "Broad", intersect("Not classified", pattern))),
              row.names = names(sd_values))
 }
 pattern_colors <- list(SD = c("#4D4D4D", "#E0E0E0"),
                        tau = c("#7570B3", "#DADAEB"),
-                       Pattern = c(Restricted = "#D95F02", Broad = "#1B9E77"))
+                       Pattern = c(Restricted = "#D95F02", Broad = "#1B9E77", `Not classified` = "#BDBDBD"))
 names(pattern_colors$SD) <- c("\u2265 1", "< 1")
 names(pattern_colors$tau) <- c("\u2265 0.8", "< 0.8")
 

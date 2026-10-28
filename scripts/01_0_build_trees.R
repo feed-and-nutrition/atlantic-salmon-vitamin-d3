@@ -1,21 +1,16 @@
 # Trees built from an accession list: gc (Fig 2b, the albumin family with the two Atlantic salmon albumins),
 # vdr_extended (Fig 2d, one protein per gene, with chicken, spotted gar, medaka, fugu, stickleback and northern pike
-# added to resolve the teleost vdra and vdrb lineages) and cyp27a1 (Fig S4a, the CYP27A1 orthologs with the salmon
+# added to resolve the teleost vdra and vdrb lineages) and cyp27a1 (Fig 2a, the CYP27A1 orthologs with the salmon
 # cyp27a2 and cyp27a3 genes, rooted on CYP27B1).
 # Sequences are listed in msa/<gene>/<gene>_accessions.tsv and downloaded from NCBI (E-utilities) on the first run.
 # Delete msa/<gene>/<gene>.fasta to download them again.
-# Tree with one isoform per salmon gene: dhcr7 (Fig 2a), from the isoform set in msa/dhcr7/dhcr7.fasta (Fig S4d).
-# Each salmon gene keeps its longest protein (the first listed when several are equally long), written to
-# msa/dhcr7_longest/dhcr7_longest.fasta under the gene name (dhcr7.b.1 -> dhcr7.b).
 # The alignment and tree are rebuilt only when the fasta is newer than the tree (delete <gene>.afa.treefile to
 # force a rebuild).
 # Needs muscle5 and iqtree2 on the PATH, and internet access on the first run.
 # Input:  msa/<gene>/<gene>_accessions.tsv
-# Output: msa/<gene>/<gene>.fasta, <gene>.afa (Muscle5), <gene>.afa.* (IQ-TREE 2, -m MFP -B 1000), the same in
-#         msa/<gene>_longest/
+# Output: msa/<gene>/<gene>.fasta, <gene>.afa (Muscle5), <gene>.afa.* (IQ-TREE 2, -m MFP -B 1000)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
-suppressPackageStartupMessages(library(Biostrings))
 
 build_tree <- function(gene) {
   gene_dir <- file.path(msa_dir, gene)
@@ -56,24 +51,4 @@ align_and_build <- function(gene_dir, name) {
   }
 }
 
-build_longest <- function(gene) {
-  out_dir <- file.path(msa_dir, paste0(gene, "_longest"))
-  fasta <- file.path(out_dir, paste0(gene, "_longest.fasta"))
-  if (!file.exists(fasta)) {
-    seqs <- readAAStringSet(file.path(msa_dir, gene, paste0(gene, ".fasta")))
-    keep <- tibble(label = names(seqs), length = width(seqs), order = seq_along(seqs)) %>%
-      mutate(gene = ifelse(startsWith(label, "Salmon_"), str_remove(label, "(?<=\\.[ab])\\.\\d+$"), label)) %>%
-      arrange(desc(length), order) %>%
-      distinct(gene, .keep_all = TRUE) %>%
-      arrange(order)
-    out <- seqs[keep$order]
-    names(out) <- keep$gene
-    dir.create(out_dir, showWarnings = FALSE)
-    writeXStringSet(out, fasta)
-    message("Kept ", paste(keep$label[keep$label != keep$gene], collapse = ", "), " in ", fasta)
-  }
-  align_and_build(out_dir, paste0(gene, "_longest"))
-}
-
 walk(c("gc", "vdr_extended", "cyp27a1"), build_tree)
-build_longest("dhcr7")

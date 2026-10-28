@@ -95,10 +95,12 @@ tissue_means <- vd3 %>%
   summarise(n_studies = n(), n = sum(n), mean_log = mean(mean_log), pct_tpm1 = mean(pct_tpm1), .groups = "drop")
 write_tsv(mutate(tissue_means, across(c(mean_log, pct_tpm1), ~ round(.x, 2))), file.path(out_dir, "tissue_means.tsv"))
 
+# Tissue labels give the number of samples and of studies, e.g. "Liver (34, 3)"
 tissue_labels <- tissue_means %>%
-  distinct(tissue, n) %>%
+  distinct(tissue, n, n_studies) %>%
   arrange(match(tissue, tissue_order)) %>%
-  mutate(label = paste0(tissue_label(tissue), " (", n, ")"))
+  mutate(label = paste0(tissue_label(tissue), " (", n, ", ", n_studies, ")"))
+stopifnot(!anyDuplicated(tissue_labels$tissue))
 
 tile_panel <- function(level, bottom) {
   d <- tissue_means %>%

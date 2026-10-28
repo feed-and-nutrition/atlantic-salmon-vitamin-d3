@@ -1,0 +1,17 @@
+name	pike_gene_id	pike_symbol	pike_protein	pike_product	identity	bits
+alb1	105014523	LOC105014523	XP_012992300.1	serum albumin 2	72.3	935
+alb2	105014523	LOC105014523	XP_012992300.1	serum albumin 2	76.6	970
+cyp24a1.a	105016677	LOC105016677	XP_010878984.1	1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial	90.9	996
+cyp24a1.b	105016677	LOC105016677	XP_010878984.1	1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial	89.3	972
+cyp27a1.a	105016181	LOC105016181	XP_010878134.2	sterol 26-hydroxylase, mitochondrial	83.7	918
+cyp27a1.b	105016181	LOC105016181	XP_010878134.2	sterol 26-hydroxylase, mitochondrial	85.7	934
+cyp27b1.a	105017033	LOC105017033	XP_010879631.3	25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial	83.2	885
+cyp27b1.b	105017033	LOC105017033	XP_010879631.3	25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial	85.4	902
+cyp2r1.a	105022275	LOC105022275	XP_019908585.1	vitamin D 25-hydroxylase	85	897
+cyp2r1.b	105022275	LOC105022275	XP_019908585.1	vitamin D 25-hydroxylase	84.8	891
+dhcr7.a	105017269	dhcr7	XP_010880022.2	7-dehydrocholesterol reductase	92.9	936
+dhcr7.b	105017269	dhcr7	XP_010880022.2	7-dehydrocholesterol reductase	92.9	936
+vdra.a	105022772	LOC105022772	XP_019907382.1	vitamin D3 receptor A	96.2	844
+vdra.b	105022772	LOC105022772	XP_019907382.1	vitamin D3 receptor A	96.9	848
+vdrb.a	105024800	LOC105024800	XP_028969703.1	vitamin D3 receptor B	94.6	880
+vdrb.b	105024800	LOC105024800	XP_028969703.1	vitamin D3 receptor B	93.7	873

@@ -1,0 +1,54 @@
+group	query	name	gene_id	chr	product	best_human	identity	note
+25-hydroxylase candidates	CYP3A4	LOC106591782	106591782	ssa02	cytochrome P450 3A27	CYP3A4	53.8	
+25-hydroxylase candidates	CYP3A4	LOC106593341	106593341	ssa02	cytochrome P450 3A27	CYP3A4	54	
+25-hydroxylase candidates	CYP3A4	LOC106593876	106593876	ssa02	cytochrome P450 3A27	CYP3A4	52.2	
+25-hydroxylase candidates	CYP3A4	LOC106593942	106593942	ssa02	cytochrome P450 3A27	CYP3A4	53.6	
+25-hydroxylase candidates	CYP3A4	LOC106594168	106594168	ssa02	cytochrome P450 3A27	CYP3A4	53.8	
+25-hydroxylase candidates	CYP3A4	LOC106591899	106591899	ssa12	cytochrome P450 3A27	CYP3A4	52.9	
+25-hydroxylase candidates	CYP3A4	LOC106568073	106568073	ssa13	cytochrome P450 3A30	CYP3A4	51.8	
+25-hydroxylase candidates	CYP3A4	LOC123739202	123739202		cytochrome P450 3A27-like	CYP3A4	52.8	
+25-hydroxylase candidates	CYP2J2	LOC106562623	106562623	ssa01	cytochrome P450 2D15	CYP2J2	40.3	
+25-hydroxylase candidates	CYP2J2	cyp2r1.c	106586122	ssa02	vitamin D(3) 25-hydroxylase	CYP2J2	39.3	
+25-hydroxylase candidates	CYP2J2	LOC106606454	106606454	ssa06	cytochrome P450 2K1	CYP2J2	42	
+25-hydroxylase candidates	CYP2J2	LOC106606455	106606455	ssa06	cytochrome P450 2K1	CYP2J2	42	
+25-hydroxylase candidates	CYP2J2	LOC106608020	106608020	ssa06	cytochrome P450 2K6	CYP2J2	42.5	
+25-hydroxylase candidates	CYP2J2	LOC106569401	106569401	ssa14	cytochrome P450 2J2	CYP2J2	47.8	
+25-hydroxylase candidates	CYP2J2	cyp2ae1	106574033	ssa16	cytochrome P450, family 2, subfamily AE, polypeptide 1	CYP2J2	48.2	
+25-hydroxylase candidates	CYP2J2	cyp2x9	106573203	ssa16	cytochrome P450, family 2, subfamily X, polypeptide 9	CYP2J2	42.3	
+25-hydroxylase candidates	CYP2J2	LOC106584062	106584062	ssa23	cytochrome P450 2J2	CYP2J2	52	
+25-hydroxylase candidates	CYP2J2	LOC106584291	106584291	ssa23	cytochrome P450 2J2	CYP2J2	50.2	
+25-hydroxylase candidates	CYP27A1	LOC106574240	106574240	ssa16	sterol 26-hydroxylase, mitochondrial	CYP27A1	44.6	cyp27a2-like (Figure 2a)
+25-hydroxylase candidates	CYP27A1	LOC106575170	106575170	ssa17	sterol 26-hydroxylase, mitochondrial	CYP27A1	45.3	cyp27a2-like (Figure 2a)
+25-hydroxylase candidates	CYP27A1	LOC106586420	106586420	ssa25	sterol 26-hydroxylase, mitochondrial	CYP27A1	46.1	cyp27a3-like (Figure 2a)
+25-hydroxylase candidates	CYP27A1	LOC106586421	106586421	ssa25	sterol 26-hydroxylase, mitochondrial	CYP27A1	46.1	cyp27a3-like (Figure 2a)
+Cholesterol synthesis	HMGCR	hmdh	100380797	ssa01	3-hydroxy-3-methylglutaryl-coenzyme A reductase	HMGCR	67	
+Cholesterol synthesis	HMGCR	LOC106570829	106570829	ssa15	3-hydroxy-3-methylglutaryl-coenzyme A reductase	HMGCR	76.1	
+Cholesterol synthesis	SQLE	LOC106579093	106579093	ssa02	squalene monooxygenase	SQLE	65	
+Cholesterol synthesis	SQLE	LOC106605546	106605546	ssa05	squalene monooxygenase	SQLE	64.5	
+Cholesterol synthesis	LSS	lss	106581851	ssa21	lanosterol synthase (2,3-oxidosqualene-lanosterol cyclase)	LSS	75.7	
+Cholesterol synthesis	CYP51A1	LOC106570209	106570209	ssa14	lanosterol 14-alpha demethylase	CYP51A1	81.5	
+Cholesterol synthesis	CYP51A1	LOC106588568	106588568	ssa27	lanosterol 14-alpha demethylase	CYP51A1	81.1	
+Cholesterol synthesis	TM7SF2	LOC106603135	106603135	ssa04	delta(14)-sterol reductase TM7SF2	TM7SF2	66.4	
+Cholesterol synthesis	LBR	LOC106607865	106607865	ssa06	delta(14)-sterol reductase LBR	LBR	52.5	
+Cholesterol synthesis	LBR	lbr	106571452	ssa15	lamin B receptor	LBR	54.2	
+Cholesterol synthesis	MSMO1	LOC106590825	106590825		methylsterol monooxygenase 1	MSMO1	76.7	
+Cholesterol synthesis	MSMO1	LOC123724028	123724028		methylsterol monooxygenase 1	MSMO1	76.7	
+Cholesterol synthesis	NSDHL	LOC106604248	106604248	ssa05	sterol-4-alpha-carboxylate 3-dehydrogenase, decarboxylating	NSDHL	65.7	
+Cholesterol synthesis	NSDHL	LOC106612199	106612199	ssa09	sterol-4-alpha-carboxylate 3-dehydrogenase, decarboxylating	NSDHL	65.4	
+Cholesterol synthesis	HSD17B7	hsd17b7	106568727	ssa14	hydroxysteroid (17-beta) dehydrogenase 7	HSD17B7	59.3	
+Cholesterol synthesis	HSD17B7	LOC106584090	106584090	ssa23	3-keto-steroid reductase/17-beta-hydroxysteroid dehydrogenase 7	HSD17B7	56.3	
+Cholesterol synthesis	EBP	ebp	106573007	ssa15	EBP cholestenol delta-isomerase	EBP	61.4	
+Cholesterol synthesis	SC5D	sc5d	100195087	ssa13	sterol-C5-desaturase	SC5D	66.7	
+Cholesterol synthesis	SC5D	LOC106576971	106576971	ssa18	lathosterol oxidase	SC5D	62.8	
+Cholesterol synthesis	DHCR7	dhcr7.a	106562054	ssa11	7-dehydrocholesterol reductase	DHCR7	73.1	
+Cholesterol synthesis	DHCR7	dhcr7.b	106587139	ssa26	7-dehydrocholesterol reductase	DHCR7	74.7	
+Cholesterol synthesis	DHCR24	LOC106560235	106560235	ssa10	delta(24)-sterol reductase	DHCR24	73.2	
+Cholesterol synthesis	DHCR24	dhcr24	106584213	ssa23	24-dehydrocholesterol reductase	DHCR24	76.4	
+Renal uptake	LRP2	lrp2b	106579098	ssa19	low density lipoprotein receptor-related protein 2b	LRP2	53.3	
+Renal uptake	LRP2	LOC106580049	106580049	ssa20	very low-density lipoprotein receptor	LRP2	30.3	
+Renal uptake	LRP2	lrp2a	106581783	ssa21	low density lipoprotein receptor-related protein 2a	LRP2	65.3	
+Renal uptake	LRP2	LOC106586206	106586206	ssa25	low-density lipoprotein receptor-related protein 2	LRP2	65.3	
+Renal uptake	LRP2	LOC106600121	106600121		very low-density lipoprotein receptor	LRP2	26.6	
+Renal uptake	CUBN	LOC106610241	106610241	ssa08	cubilin	CUBN	25.5	
+Renal uptake	CUBN	cubn	106578519	ssa19	cubilin (intrinsic factor-cobalamin receptor)	CUBN	53.3	
+Renal uptake	AMN	LOC106606392	106606392	ssa06	protein amnionless-like	AMN	38.5	

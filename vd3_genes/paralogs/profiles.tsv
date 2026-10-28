@@ -1,0 +1,8 @@
+pair	gene_a	gene_b	peak_a	peak_b	pike_peak	pike_peak_tissue	pattern_a	pattern_b	pike_pattern	a_higher	b_higher	r_ab_atlas	r_ab_pool	n_pike	r_a_pike	r_b_pike	r_sum_pike	n_pike_pool	r_a_pike_pool	r_b_pike_pool	r_sum_pike_pool
+dhcr7	dhcr7.a	dhcr7.b	42.4	32.7	31.9	Nose	Restricted	Restricted	Restricted	3	0	0.75	0.91	11	0.41	0.46	0.46	8	0.57	0.38	0.56
+cyp2r1	cyp2r1.a	cyp2r1.b	1.7	0.6	0.5	Testis	Restricted	Not classified	Not classified	1	0	NA	0.9	11	NA	NA	NA	8	NA	NA	NA
+cyp27a1	cyp27a1.a	cyp27a1.b	25.2	128.2	36.7	Nose	Restricted	Restricted	Restricted	2	5	0.64	0.43	11	0.26	0.7	0.64	8	0.02	0.7	0.55
+cyp27b1	cyp27b1.a	cyp27b1.b	3.7	10.5	0.7	Brain	Restricted	Restricted	Not classified	2	2	0.24	0.42	11	NA	NA	NA	8	NA	NA	NA
+cyp24a1	cyp24a1.a	cyp24a1.b	43.2	48.1	449.9	Liver	Restricted	Restricted	Restricted	5	0	0.87	0.9	11	0.89	0.96	0.91	8	0.99	0.93	0.99
+vdra	vdra.a	vdra.b	5.2	5.9	18.7	Liver	Broad	Broad	Broad	0	1	0.77	0.12	11	-0.04	0.32	0.2	8	-0.04	0.45	0.25
+vdrb	vdrb.a	vdrb.b	7.7	15.9	9.1	Brain	Broad	Broad	Broad	0	2	0.85	0.92	11	0.32	0.18	0.27	8	0.58	0.27	0.41

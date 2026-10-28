@@ -16,7 +16,7 @@ table_file <- file.path(fig_dir, "Table S10 RNA-seq studies and samples.xlsx")
 design <- tribble(
   ~study, ~bioproject, ~reference, ~design,
   "PRJNA72713", "PRJNA72713", "Lien et al. 2016", "Multi-tissue atlas, one sample per tissue",
-  "PRJNA359635", "PRJNA359635", "Robertson et al. 2017", "Females and males in freshwater and seawater, one fish per group",
+  "PRJNA359635", "PRJNA359635", "Robertson et al. 2017", "Females and males in freshwater and seawater, one pool of three fish per group",
   "PRJEB47409", "PRJEB47409", "Nguyen et al. 2025", "Immature and mature females and males, three fish per group",
   "ROS_1", "PRJNA765504, PRJNA765887, PRJNA766174, PRJNA777794", "Yin et al. 2022",
   "18 fish fed a low-antioxidant diet (Low and LowSham groups)",

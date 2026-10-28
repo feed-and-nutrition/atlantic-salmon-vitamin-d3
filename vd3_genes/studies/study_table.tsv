@@ -1,6 +1,6 @@
 Study	BioProject	Reference	Design	Tissues (samples)	Samples analyzed	Notes
 PRJNA72713	PRJNA72713	Lien et al. 2016	Multi-tissue atlas, one sample per tissue	Brain (1), Eye (1), Gill (1), Gut (1), Head kidney (1), Kidney (1), Liver (1), Muscle (1), Nose (1), Ovary (1), Pyloric caecum (1), Skin (1), Spleen (1), Testis (1)	14	Sample heart excluded (mostly liver)
-PRJNA359635	PRJNA359635	Robertson et al. 2017	Females and males in freshwater and seawater, one fish per group	Brain (4), Eye (4), Gill (4), Gut (4), Kidney (4), Liver (4), Nose (4), Pyloric caecum (4), Skin (4), Spleen (4)	40	
+PRJNA359635	PRJNA359635	Robertson et al. 2017	Females and males in freshwater and seawater, one pool of three fish per group	Brain (4), Eye (4), Gill (4), Gut (4), Kidney (4), Liver (4), Nose (4), Pyloric caecum (4), Skin (4), Spleen (4)	40	
 PRJEB47409	PRJEB47409	Nguyen et al. 2025	Immature and mature females and males, three fish per group	Brain (12), Distal intestine (12), Gill (12), Head kidney (12), Liver (12), Muscle (12), Ovary (6), Testis (6)	84	
 ROS_1 (ROS Work Package 1)	PRJNA765504, PRJNA765887, PRJNA766174, PRJNA777794	Yin et al. 2022	18 fish fed a low-antioxidant diet (Low and LowSham groups)	Bone (18), Brain (18), Liver (18), Muscle (18)	72	
 PRJNA647285	PRJNA647285	Gervais et al. 2021	Uninfected parr from resistant and susceptible families, before a virus challenge	Head kidney (8), Heart (8)	16	Kidney samples analyzed as head kidney

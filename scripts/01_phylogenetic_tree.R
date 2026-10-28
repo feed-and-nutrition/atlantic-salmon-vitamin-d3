@@ -1,7 +1,7 @@
-# Fig 2 (dhcr7, gc, cyp2r1, vdr, one protein per gene) and Fig S4 (cyp27a1, cyp27b1, cyp24a1, and the dhcr7 and vdr
-# trees with all salmon isoforms)
-# Input:  msa/<tree>/<tree>.afa.treefile (IQ-TREE 2, -m MFP -B 1000). The gc, vdr_extended, cyp27a1 and dhcr7_longest
-#         trees are built by 01_0_build_trees.R
+# Fig 2 (cyp27a1 with cyp27a2/a3, gc, cyp2r1, vdr, one protein per gene) and Fig S4 (cyp27b1, cyp24a1, and the
+# dhcr7 and vdr trees with all salmon isoforms)
+# Input:  msa/<tree>/<tree>.afa.treefile (IQ-TREE 2, -m MFP -B 1000). The gc, vdr_extended and cyp27a1 trees are built
+#         by 01_0_build_trees.R
 # Output: msa/tree2.{svg,png} (Fig 2), msa/tree1.{svg,png} (Fig S4)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
@@ -37,7 +37,7 @@ load_tree <- function(gene) {
 # gc (Fig 2b) is drawn as a cladogram: its salmonid branches are too short to show next to the
 # GC/albumin split, and the panel is about topology. The other trees are phylograms.
 cladograms <- "gc"
-panel_titles <- c(gc = "gc and albumins", cyp27a1 = "cyp27a1, cyp27a2 and cyp27a3", dhcr7_longest = "dhcr7",
+panel_titles <- c(gc = "gc and albumins", cyp27a1 = "cyp27a1, cyp27a2 and cyp27a3",
                   vdr_extended = "vdr", dhcr7 = "dhcr7, all salmon isoforms", vdr = "vdr, all salmon isoforms")
 
 create_tree <- function(gene, xlim) {
@@ -59,23 +59,21 @@ create_tree <- function(gene, xlim) {
 }
 
 # x-axis limits chosen so tip labels are not cut off (gc: number of nodes, as a cladogram)
-xlims <- c(dhcr7_longest = 0.8, gc = 15, cyp2r1 = 3, vdr_extended = 1.45, cyp27a1 = 1.9, cyp27b1 = 2, cyp24a1 = 1,
-           dhcr7 = 0.8, vdr = 0.75)
+xlims <- c(cyp27a1 = 1.9, gc = 15, cyp2r1 = 3, vdr_extended = 1.45, cyp27b1 = 2, cyp24a1 = 1, dhcr7 = 0.8, vdr = 0.75)
 p <- imap(xlims, ~ create_tree(.y, .x))
 
-# cyp27a1 (15 tips) takes the left column, cyp27b1 and cyp24a1 (5 tips each) are stacked on the right. The isoform
-# trees of dhcr7 (7 tips) and vdr (17 tips) form the bottom row
-p_tree1 <- plot_grid(plot_grid(p$cyp27a1,
-                               plot_grid(p$cyp27b1, p$cyp24a1, ncol = 1, labels = c("b", "c"), label_size = 11),
-                               ncol = 2, labels = c("a", ""), label_size = 11),
-                     plot_grid(p$dhcr7, p$vdr, ncol = 2, labels = c("d", "e"), label_size = 11),
-                     ncol = 1, rel_heights = c(1.3, 1))
-# Columns are stacked separately so the gc tree (23 tips) gets more height than dhcr7 (5 tips)
-p_tree2 <- plot_grid(plot_grid(p$dhcr7_longest, p$cyp2r1, ncol = 1, rel_heights = c(0.8, 1.1), labels = c("a", "c"),
+# cyp27b1, cyp24a1 (5 tips each) and the dhcr7 isoform tree (7 tips) are stacked on the left, the vdr isoform tree
+# (17 tips) takes the right column
+p_tree1 <- plot_grid(plot_grid(p$cyp27b1, p$cyp24a1, p$dhcr7, ncol = 1, rel_heights = c(1, 1, 1.3),
+                               labels = c("a", "b", "c"), label_size = 11),
+                     plot_grid(p$vdr, labels = "d", label_size = 11),
+                     ncol = 2)
+# Columns are stacked separately so each tree gets a height that suits its number of tips
+p_tree2 <- plot_grid(plot_grid(p$cyp27a1, p$cyp2r1, ncol = 1, rel_heights = c(1.5, 1), labels = c("a", "c"),
                                label_size = 11),
                      plot_grid(p$gc, p$vdr_extended, ncol = 1, rel_heights = c(1.45, 1.1), labels = c("b", "d"),
                                label_size = 11),
                      ncol = 2)
 
-save_fig(p_tree1, file.path(msa_dir, "tree1"), 180, 230)
+save_fig(p_tree1, file.path(msa_dir, "tree1"), 180, 170)
 save_fig(p_tree2, file.path(msa_dir, "tree2"), 180, 190)

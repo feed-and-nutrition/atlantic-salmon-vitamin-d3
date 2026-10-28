@@ -5,7 +5,8 @@ Chicken_VDR	NP_990429.2	395988	curated RefSeq protein
 Gar_vdr	XP_015199781.1	102691130	LOC102691130 (vitamin D receptor), longest protein; spotted gar has no teleost genome duplication
 Zebrafish_vdra	NP_570994.1	30076	as in the vdr isoform tree
 Zebrafish_vdrb	XP_005166104.1	564511	as in the vdr isoform tree
-Medaka_vdr	NP_001121989.1	100169845	curated RefSeq protein, the only VDR gene in RefSeq
+Medaka_vdr	NP_001121989.1	100169845	curated RefSeq protein, vdrb by synteny (07_4)
+Medaka_vdralpha	NP_001121988.1	100169844	curated RefSeq protein (vitamin D receptor alpha), vdra by synteny (07_4)
 Fugu_LOC101075951	XP_029690137.1	101075951	vitamin D3 receptor A, longest protein
 Fugu_LOC101063381	XP_011612566.1	101063381	vitamin D3 receptor B, only protein
 Stickleback_LOC120829448	XP_077941665.1	120829448	vitamin D3 receptor B, only protein

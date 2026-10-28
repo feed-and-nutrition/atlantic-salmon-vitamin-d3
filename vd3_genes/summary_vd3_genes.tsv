@@ -1,17 +1,17 @@
-gene	zeros	min_logtpm	mean_logtpm	median_logtpm	max_logtpm	sd	tau	stability	pattern
-alb1	2	0	3.51	2.59	15.39	4.22	0.83	Variable	Restricted
-alb2	3	0	1.89	0.51	7.99	2.53	0.82	Variable	Restricted
-cyp24a1.a	0	0.04	1.25	0.97	5.46	1.44	0.83	Variable	Restricted
-cyp24a1.b	7	0	0.52	0.03	5.62	1.49	0.98	Variable	Restricted
-cyp27a1.a	0	0.6	2.17	1.92	4.71	1.19	0.58	Variable	Restricted
-cyp27a1.b	0	0.35	2.73	2.35	7.01	2.01	0.66	Variable	Restricted
-cyp27b1.a	5	0	0.44	0.06	2.24	0.68	0.86	Stable	Restricted
-cyp27b1.b	2	0	0.45	0.07	3.52	0.93	0.94	Stable	Restricted
-cyp2r1.a	2	0	0.28	0.15	1.46	0.4	0.87	Stable	Restricted
-cyp2r1.b	4	0	0.21	0.13	0.69	0.24	0.75	Stable	Broad
-dhcr7.a	0	0.03	2.39	1.89	5.44	2	0.6	Variable	Restricted
-dhcr7.b	0	0.09	1.98	1.26	5.08	1.79	0.66	Variable	Restricted
-vdra.a	1	0	1.32	1.3	2.63	0.75	0.54	Stable	Broad
-vdra.b	1	0	1.51	1.45	2.79	0.73	0.5	Stable	Broad
-vdrb.a	0	0.11	1.75	1.79	3.11	0.87	0.47	Stable	Broad
-vdrb.b	0	0.32	2.18	2.12	4.08	0.88	0.5	Stable	Broad
+gene	zeros	min_logtpm	mean_logtpm	median_logtpm	max_logtpm	sd	tau	peak_tpm	stability	pattern
+alb1	2	0	3.51	2.59	15.39	4.22	0.83	43076.68	Variable	Restricted
+alb2	3	0	1.89	0.51	7.99	2.53	0.82	253.06	Variable	Restricted
+cyp24a1.a	0	0.04	1.25	0.97	5.46	1.44	0.83	43.17	Variable	Restricted
+cyp24a1.b	7	0	0.52	0.03	5.62	1.49	0.98	48.15	Variable	Restricted
+cyp27a1.a	0	0.6	2.17	1.92	4.71	1.19	0.58	25.19	Variable	Restricted
+cyp27a1.b	0	0.35	2.73	2.35	7.01	2.01	0.66	128.21	Variable	Restricted
+cyp27b1.a	5	0	0.44	0.06	2.24	0.68	0.86	3.72	Stable	Restricted
+cyp27b1.b	2	0	0.45	0.07	3.52	0.93	0.94	10.47	Stable	Restricted
+cyp2r1.a	2	0	0.28	0.15	1.46	0.4	0.87	1.75	Stable	Restricted
+cyp2r1.b	4	0	0.21	0.13	0.69	0.24	0.75	0.61	Stable	Not classified
+dhcr7.a	0	0.03	2.39	1.89	5.44	2	0.6	42.41	Variable	Restricted
+dhcr7.b	0	0.09	1.98	1.26	5.08	1.79	0.66	32.74	Variable	Restricted
+vdra.a	1	0	1.32	1.3	2.63	0.75	0.54	5.2	Stable	Broad
+vdra.b	1	0	1.51	1.45	2.79	0.73	0.5	5.94	Stable	Broad
+vdrb.a	0	0.11	1.75	1.79	3.11	0.87	0.47	7.66	Stable	Broad
+vdrb.b	0	0.32	2.18	2.12	4.08	0.88	0.5	15.92	Stable	Broad

@@ -9,17 +9,19 @@ source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 vd3 <- read_gene_tpm(file.path(vd3_dir, "tpm_vd3_genes.tsv"))
 long <- to_long(vd3$log_tpm)
 tau <- apply(vd3$log_tpm, 1, tau_index)
+peak <- apply(vd3$tpm, 1, max)
 
 groups <- expr_level_groups(vd3$log_tpm)
 legend_breaks <- list(High = NA, Medium = c(-3, -1.5, 0, 1.5, 3), Low = NA)
 
 panels <- imap(groups, function(genes, level) {
   z <- vd3$z[genes, ]
+  annotation <- pattern_annotation(vd3$sd[genes], tau[genes], peak[genes])
+  colors <- modifyList(pattern_colors, list(Pattern = pattern_colors$Pattern[levels(annotation$Pattern)]))
   extra <- if (anyNA(legend_breaks[[level]])) list() else list(legend_breaks = legend_breaks[[level]])
   ph <- do.call(z_heatmap, c(list(z, vd3$sd,
                                   paste0("Relative tissue-specific expression of VD3-related genes (", level, " expression)"),
-                                  annotation = pattern_annotation(vd3$sd[genes], tau[genes]),
-                                  annotation_colors = pattern_colors),
+                                  annotation = annotation, annotation_colors = colors),
                              extra))
   tissues <- tissue_label(intersect(tissue_order, str_to_lower(str_replace_all(colnames(z), " ", "_"))))
   stopifnot(setequal(tissues, colnames(z)))

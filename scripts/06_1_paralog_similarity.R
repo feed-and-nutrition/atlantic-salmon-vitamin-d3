@@ -1,4 +1,4 @@
-# Table S9: can Salmon tell the paralogs apart? Sequence identity and shared read-length windows of paralog pairs.
+# Table S9, sheet Similarity: can Salmon tell the paralogs apart? Sequence identity and shared read-length windows of paralog pairs.
 # Sequences: the RefSeq transcripts (RS_2025_05 versions, as quantified by Salmon) listed in
 # salmon_vd3_orthologs_v1.tsv, with their CDS and proteins, from NCBI E-utilities. Cached in vd3_genes/paralogs/seq/
 # (delete that folder to download again). Each gene is represented by its transcript with the longest CDS.
@@ -6,16 +6,16 @@
 # Shared windows: share of the 100-nt windows of each gene's transcript that occur exactly in any transcript of
 # its paralog. Reads from these windows cannot be assigned by sequence (100 nt is conservative for these data,
 # and read pairs span longer fragments).
-# Needs blastn and blastp on the PATH, python3 for the Excel file, and internet access on the first run.
+# Needs blastn and blastp on the PATH and internet access on the first run.
 # Input:  vd3_genes/salmon_vd3_orthologs_v1.tsv, vd3_genes/tpm_vd3_genes.tsv, vd3_genes/paralogs/simulation.tsv (06_2)
-# Output: vd3_genes/paralogs/paralog_similarity.tsv, manuscript/v6/Table S9 ... .xlsx
+# Output: vd3_genes/paralogs/paralog_similarity.tsv, vd3_genes/paralogs/table_s9.tsv (the sheet, written to the
+#         Excel file by 06_4)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_dir <- file.path(vd3_dir, "paralogs")
 seq_dir <- file.path(out_dir, "seq")
 dir.create(seq_dir, recursive = TRUE, showWarnings = FALSE)
-table_file <- file.path(fig_dir, "Table S9 Sequence similarity of VD3-related paralog pairs.xlsx")
 
 pairs <- tribble(~gene_a, ~gene_b,
                  "dhcr7.a", "dhcr7.b",
@@ -105,7 +105,7 @@ result <- pairs %>%
 write_tsv(result, file.path(out_dir, "paralog_similarity.tsv"))
 print(as.data.frame(result))
 
-# Table S9, with the largest error of the simulated mixtures of 06_2 (simulation.tsv, made once)
+# Table S9 sheet, with the largest error of the simulated mixtures of 06_2 (simulation.tsv, made once)
 simulation <- read_tsv(file.path(out_dir, "simulation.tsv"), show_col_types = FALSE) %>%
   group_by(gene_a, gene_b) %>%
   summarise(sim_error = round(max(abs(est_share_a - true_share_a)), 2), .groups = "drop")
@@ -126,5 +126,3 @@ result %>%
   add_row(`Gene a` = c("", note)) %>%
   mutate(across(everything(), ~ replace_na(.x, ""))) %>%
   write_tsv(table_tsv)
-stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), shQuote(table_tsv),
-                              shQuote(table_file))) == 0)

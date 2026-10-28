@@ -56,14 +56,16 @@ Only some steps need these. The versions used for the manuscript are given in br
 | Tool | Used by | Needed for |
 |---|---|---|
 | python3 (standard library only) | most table scripts | writing the Excel tables |
-| `muscle5` (5.3) and `iqtree2` (2.0.7) | 01_0 | rebuilding the protein trees |
-| BLAST+ (2.12.0) | 06_1, 07_1, 07_3 | sequence comparisons and genome searches |
-| `wgsim` (1.19.2) and `salmon` (1.10.2) | 06_2 | the paralog read simulation |
+| `muscle5` (5.3) and `iqtree2` (2.0.7) | 01_0, 06_4 (muscle5 only) | rebuilding the protein trees, codon alignments of the paralog pairs |
+| BLAST+ (2.12.0) | 05_8, 06_1, 07_1, 07_3, 07_4, 07_5 | sequence comparisons and genome searches |
+| `wgsim` (1.19.2) and `salmon` (1.10.2) | 06_2, 06_3 | the paralog read simulation and the pike expression |
+| `fastq-dump` (sra-tools) | 06_3 | downloading the pike reads |
+| `yn00` (PAML 4.10.10) | 06_4 | dN/dS of the paralog pairs (only if `divergence.tsv` is missing; set `PAML_YN00` to its path if it is not on the `PATH`) |
 
 The tools must be on your `PATH`. With conda, for example:
 
 ```bash
-conda install -c conda-forge -c bioconda "muscle>=5" iqtree blast wgsim salmon
+conda install -c conda-forge -c bioconda "muscle>=5" iqtree blast wgsim salmon sra-tools paml
 ln -s "$(command -v muscle)" "$CONDA_PREFIX/bin/muscle5"   # the scripts call MUSCLE 5 as muscle5
 ```
 
@@ -82,7 +84,7 @@ msa/            protein sequences, alignments and IQ-TREE results for each tree
 vd3_genes/      the curated gene list and the expression, annotation and gc search results
 hk_genes/       housekeeping genes used as an expression reference
 gc_blast/       BLASTp results of the first GC search (NCBI web BLAST)
-d3pathway/      Figure 1 (drawn by hand in draw.io)
+d3pathway/      Figure 1 (and the draw.io drawing of earlier versions)
 ```
 
 The curated gene list is `vd3_genes/salmon_vd3_orthologs_v1.tsv`. Expression values of the 16 genes are in
@@ -95,7 +97,7 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 
 | Output | Script | Runs from this repository |
 |---|---|---|
-| Figure 1 | drawn by hand (`d3pathway/`) | copied as it is |
+| Figure 1 | `09_1_pathway_figure.R` | yes |
 | Figure 2, Figure S4 | `01_phylogenetic_tree.R` (trees built by `01_0_build_trees.R`) | yes |
 | Figure 3, Figure S6 | `04_2_vd3_genes_heatmap_split.R` | yes |
 | Figure 4, Figure S5 | `05_5_vd3_genes_studies_fig.R` | yes |
@@ -103,18 +105,20 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Figure S2 | `05_4_atlas_heart_liver.R` | needs the large data |
 | Figure S3 | `02_housekeeping_heatmap.R` | yes |
 | Table S3 | `07_3_gc_genome_search.R` | yes, but downloads about 3.5 GB |
-| Table S6 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R`) | yes |
+| Table S6 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R` and `07_4_vdr_synteny.R`) | yes |
 | Table S7 | `08_1_ligand_contacts.R` | yes |
 | Table S8 | `04_1_vd3_genes_heatmap.R` | yes |
-| Table S9 | `06_1_paralog_similarity.R` (with the results of `06_2_paralog_simulation.R`) | yes |
+| Table S9 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
 | Table S10 | `05_6_study_table.R` | yes |
-| Table S11 | `05_7_kidney_detection.R` | needs the large data |
+| Table S11 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R`) | needs the large data |
+| Table S12 | `05_8_related_genes.R` | needs the large data |
 
 Tables S1, S2, S4 and S5 were compiled by hand from the gene search and are provided with the manuscript.
 
-Three scripts are not part of `run_all.R`, because they download large files to `annotation/` and take an hour
-or more: `06_2_paralog_simulation.R`, `07_1_annotation_check.R` and `07_3_gc_genome_search.R`. Their results are
-included, so the tables that use them can still be rebuilt.
+Six scripts are not part of `run_all.R`, because they download large files to `annotation/` and can take an hour
+or more: `06_2_paralog_simulation.R`, `06_3_pike_expression.R` (about 9 GB of pike reads), `07_1_annotation_check.R`,
+`07_3_gc_genome_search.R`, `07_4_vdr_synteny.R` and `07_5_cyp27b1_genome_search.R` (both use the downloads of
+`07_3`). Their results are included, so the tables that use them can still be rebuilt.
 
 `01_0_build_trees.R` reuses the trees in `msa/` and only rebuilds a tree when its sequence file is newer than the
 tree. Without `muscle5` and `iqtree2` it may fail, and `01_phylogenetic_tree.R` still draws the included trees.

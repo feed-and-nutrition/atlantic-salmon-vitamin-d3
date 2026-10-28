@@ -7,8 +7,9 @@ source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 steps <- c("00_1_export_tpm.R", "01_0_build_trees.R", "01_phylogenetic_tree.R", "02_housekeeping_heatmap.R",
            "03_2_salmon_quant_pca.R", "04_1_vd3_genes_heatmap.R", "04_2_vd3_genes_heatmap_split.R",
            "05_2_combine_studies.R", "05_3_vd3_genes_studies.R", "05_4_atlas_heart_liver.R",
-           "05_5_vd3_genes_studies_fig.R", "05_6_study_table.R", "05_7_kidney_detection.R", "06_1_paralog_similarity.R",
-           "07_2_synteny_table.R", "08_1_ligand_contacts.R")
+           "05_5_vd3_genes_studies_fig.R", "05_6_study_table.R", "05_7_kidney_detection.R", "05_8_related_genes.R",
+           "06_1_paralog_similarity.R", "06_4_paralog_fate.R", "07_2_synteny_table.R", "08_1_ligand_contacts.R",
+           "09_1_pathway_figure.R")
 
 old_wd <- setwd(file.path(proj_dir, "scripts"))
 status <- map_chr(steps, function(f) {
@@ -23,7 +24,7 @@ status <- map_chr(steps, function(f) {
 })
 setwd(old_wd)
 
-# Figure number -> source PNG (Fig 1 is drawn by hand in d3pathway/vd3_pathwa_colors.svg, see CLAUDE.md)
+# Figure number -> source PNG
 figures <- c(fig1 = "d3pathway/pathway.png",
              fig2 = "msa/tree2.png",
              fig3 = "vd3_genes/vd3_genes_all_expr.png",
@@ -34,7 +35,7 @@ figures <- c(fig1 = "d3pathway/pathway.png",
              fig_s4 = "msa/tree1.png",
              fig_s5 = "vd3_genes/studies/vd3_genes_per_study.png",
              fig_s6 = "vd3_genes/vd3_genes_all_expr_z.png")
-made_by <- c(fig1 = NA, fig2 = "01_phylogenetic_tree.R",
+made_by <- c(fig1 = "09_1_pathway_figure.R", fig2 = "01_phylogenetic_tree.R",
              fig3 = "04_2_vd3_genes_heatmap_split.R", fig4 = "05_5_vd3_genes_studies_fig.R",
              fig_s1 = "03_2_salmon_quant_pca.R", fig_s2 = "05_4_atlas_heart_liver.R",
              fig_s3 = "02_housekeeping_heatmap.R", fig_s4 = "01_phylogenetic_tree.R",

@@ -1,0 +1,13 @@
+Species	Gene	Gene ID	Chromosome	Flanking genes with a zebrafish match	On zebrafish chr 23 (vdra)	On zebrafish chr 6 (vdrb)	Within 100 genes of zebrafish vdra	Within 100 genes of zebrafish vdrb	Gar flanking genes within 100 genes	Lineage
+Atlantic salmon	vdra.a	106566896	13	20	14	1	9	0	3	vdra
+Atlantic salmon	vdra.b	100136412	15	20	13	0	9	0	3	vdra
+Atlantic salmon	vdrb.a	106565233	12	20	9	10	1	6	3	vdrb
+Atlantic salmon	vdrb.b	100136371	22	20	11	8	2	4	11	vdrb
+Northern pike	LOC105022772	105022772	12	19	15	0	10	0	3	vdra
+Northern pike	LOC105024800	105024800	17	20	9	7	0	5	9	vdrb
+Medaka	vdr	100169845	5	19	6	9	1	3	2	vdrb
+Medaka	vdralpha	100169844	7	20	16	2	7	0	4	vdra
+Zebrafish	vdra	30076	23						1	vdra
+Zebrafish	vdrb	564511	6						1	vdrb
+										
+For each receptor gene, the ten protein-coding genes on each side were searched with BLASTp (E <= 1e-10) against the zebrafish proteins, and the best match was counted on the chromosome of zebrafish vdra (chr 23) or vdrb (chr 6) and within 100 genes of either. Gar flanking genes: the ten genes on each side of the single spotted gar vdr (LOC102691130) with a match (within 80% of the best bit score) within 100 genes of the receptor gene. The lineage follows the matches within 100 genes, because the other matches on chr 23 and chr 6 lie far from both genes. Salmon chromosomes are those of fSalSal1.										
