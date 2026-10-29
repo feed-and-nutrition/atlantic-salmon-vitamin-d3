@@ -1,0 +1,13 @@
+sample	strain	fish_id	dose	m_counts	r_within	group
+dhun_b1_skin	Native Irish	DHUN_B1	866	26.44	0.88	skin
+dhun_b2_skin	Native Irish	DHUN_B2	866	33.13	0.901	skin
+dhun_b3_skin	Native Irish	DHUN_B3	866	37.84	0.889	skin
+dhun_s1_skin	Norwegian commercial	DHUN_S1	866	32.94	0.728	skin atypical
+dhun_s2_skin	Norwegian commercial	DHUN_S2	866	38.37	0.701	skin atypical
+dhun_s3_skin	Norwegian commercial	DHUN_S3	866	31.52	0.675	skin atypical
+dtho_b1_skin	Native Irish	DTHO_B1	1779	31.24	0.892	skin
+dtho_b2_skin	Native Irish	DTHO_B2	1779	40.03	0.86	skin
+dtho_b3_skin	Native Irish	DTHO_B3	1779	33.46	0.869	skin
+dtho_s1_skin	Norwegian commercial	DTHO_S1	1779	30.79	0.892	skin
+dtho_s2_skin	Norwegian commercial	DTHO_S2	1779	36.82	0.882	skin
+dtho_s3_skin	Norwegian commercial	DTHO_S3	1779	31.92	0.883	skin

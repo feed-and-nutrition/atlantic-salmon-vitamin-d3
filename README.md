@@ -14,6 +14,7 @@ The scripts:
 - **build protein trees** to tell orthologs and paralogs apart,
 - **search six fish genomes** for the vitamin D-binding protein gene (*gc*),
 - **profile expression** in a 14-tissue atlas and seven independent RNA-seq studies,
+- **test dietary vitamin D3** in the skin of salmon fed two vitamin D3 levels,
 - and **draw the figures and write the supplementary tables** of the manuscript.
 
 ## Quick start
@@ -60,6 +61,7 @@ Only some steps need these. The versions used for the manuscript are given in br
 | BLAST+ (2.12.0) | 05_8, 06_1, 07_1, 07_3, 07_4, 07_5 | sequence comparisons and genome searches |
 | `wgsim` (1.19.2) and `salmon` (1.10.2) | 06_2, 06_3 | the paralog read simulation and the pike expression |
 | `fastq-dump` (sra-tools) | 06_3 | downloading the pike reads |
+| `wget` or `curl`, `md5sum` | 05_0 | downloading FASTQ files from ENA |
 | `yn00` (PAML 4.10.10) | 06_4 | dN/dS of the paralog pairs (only if `divergence.tsv` is missing; set `PAML_YN00` to its path if it is not on the `PATH`) |
 
 The tools must be on your `PATH`. With conda, for example:
@@ -110,7 +112,7 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Table S8 | `04_1_vd3_genes_heatmap.R` | yes |
 | Table S9 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
 | Table S10 | `05_6_study_table.R` | yes |
-| Table S11 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R`) | needs the large data |
+| Table S11 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R` and `05_9_diet_response.R`) | needs the large data |
 | Table S12 | `05_8_related_genes.R` | needs the large data |
 
 Tables S1, S2, S4 and S5 were compiled by hand from the gene search and are provided with the manuscript.
@@ -129,7 +131,15 @@ The genome-wide expression tables are not included because of their size. They a
 in three steps.
 
 1. **Quantify the reads.** Download the reads of each study from the SRA (run accessions in Supplementary
-   Table S10 and `ncbi_samples/runinfo/`). In the manuscript, reads were checked with FastQC (0.11.9) and MultiQC
+   Tables S10 and S11 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
+   four at a time and checks their MD5 sums, from a list such as `ncbi_samples/PRJNA1160017_skin_stomach_fastq.tsv`
+   (its stomach runs were quantified but are not used):
+
+   ```bash
+   bash scripts/05_0_download_fastq.sh ncbi_samples/PRJNA1160017_skin_stomach_fastq.tsv fastq/
+   ```
+
+   In the manuscript, reads were checked with FastQC (0.11.9) and MultiQC
    (1.17), trimmed with TrimGalore! (0.6.7), quantified against the RefSeq RS_2025_05 transcripts with Salmon
    (1.4.0, options `-l A --seqBias --gcBias`) and summarized to genes with the tximport R package (1.40.0). Save
    the result of each study as `txi_gene.rds`, one directory per study.

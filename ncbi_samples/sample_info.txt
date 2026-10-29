@@ -8,3 +8,4 @@ PRJNA380580, vd3f.txt, vd3f
 PRJEB47409, vd3g.txt, vd3g
 PRJNA543940, vd3h.txt, vd3h
 PRJNA647285, vd3i.txt, vd3i
+PRJNA1160017, vd3j.txt, vd3j

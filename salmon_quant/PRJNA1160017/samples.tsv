@@ -1,0 +1,13 @@
+study	no	tissue	sex	sample	treatment	read_file	lims	fish_id	stage	strain	txi_column
+PRJNA1160017	1	Skin		dhun_b1_skin	vd3_866	SRR31697086		DHUN_B1	juvenile	Native Irish	dhun_b1_skin
+PRJNA1160017	2	Skin		dhun_b2_skin	vd3_866	SRR31697085		DHUN_B2	juvenile	Native Irish	dhun_b2_skin
+PRJNA1160017	3	Skin		dhun_b3_skin	vd3_866	SRR31697082		DHUN_B3	juvenile	Native Irish	dhun_b3_skin
+PRJNA1160017	4	Skin		dhun_s1_skin	vd3_866	SRR31697081		DHUN_S1	juvenile	Norwegian commercial	dhun_s1_skin
+PRJNA1160017	5	Skin		dhun_s2_skin	vd3_866	SRR31697080		DHUN_S2	juvenile	Norwegian commercial	dhun_s2_skin
+PRJNA1160017	6	Skin		dhun_s3_skin	vd3_866	SRR31697079		DHUN_S3	juvenile	Norwegian commercial	dhun_s3_skin
+PRJNA1160017	7	Skin		dtho_b1_skin	vd3_1779	SRR31697078		DTHO_B1	juvenile	Native Irish	dtho_b1_skin
+PRJNA1160017	8	Skin		dtho_b2_skin	vd3_1779	SRR31697077		DTHO_B2	juvenile	Native Irish	dtho_b2_skin
+PRJNA1160017	9	Skin		dtho_b3_skin	vd3_1779	SRR31697076		DTHO_B3	juvenile	Native Irish	dtho_b3_skin
+PRJNA1160017	10	Skin		dtho_s1_skin	vd3_1779	SRR31697075		DTHO_S1	juvenile	Norwegian commercial	dtho_s1_skin
+PRJNA1160017	11	Skin		dtho_s2_skin	vd3_1779	SRR31697084		DTHO_S2	juvenile	Norwegian commercial	dtho_s2_skin
+PRJNA1160017	12	Skin		dtho_s3_skin	vd3_1779	SRR31697083		DTHO_S3	juvenile	Norwegian commercial	dtho_s3_skin

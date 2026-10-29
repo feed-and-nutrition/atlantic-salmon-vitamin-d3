@@ -14,7 +14,9 @@ library(ggrepel)
 set_colnames <- function(m, nm) { colnames(m) <- nm; m }
 
 atlas <- "PRJNA72713"
-samples <- read_tsv(file.path(proj_dir, "salmon_quant", "samples_all.tsv"), show_col_types = FALSE)
+# Studies of the expression analyses only (later studies such as PRJNA1160017 would shift the correlations)
+samples <- read_tsv(file.path(proj_dir, "salmon_quant", "samples_all.tsv"), show_col_types = FALSE) %>%
+  filter(study %in% c(atlas, "PRJNA260929", replicate_studies))
 read_tpm <- function(study) {
   d <- read_tsv(file.path(proj_dir, "salmon_quant", study, "tpm_gene.tsv.gz"),
                 col_types = cols(gene_id = col_character(), .default = col_double()))

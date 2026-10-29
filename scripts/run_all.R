@@ -7,7 +7,8 @@ source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 steps <- c("00_1_export_tpm.R", "01_0_build_trees.R", "01_phylogenetic_tree.R", "02_housekeeping_heatmap.R",
            "03_2_salmon_quant_pca.R", "04_1_vd3_genes_heatmap.R", "04_2_vd3_genes_heatmap_split.R",
            "05_2_combine_studies.R", "05_3_vd3_genes_studies.R", "05_4_atlas_heart_liver.R",
-           "05_5_vd3_genes_studies_fig.R", "05_6_study_table.R", "05_7_kidney_detection.R", "05_8_related_genes.R",
+           "05_5_vd3_genes_studies_fig.R", "05_6_study_table.R", "05_9_diet_response.R",
+           "05_7_kidney_detection.R", "05_8_related_genes.R",
            "06_1_paralog_similarity.R", "06_4_paralog_fate.R", "07_2_synteny_table.R", "08_1_ligand_contacts.R",
            "09_1_pathway_figure.R")
 

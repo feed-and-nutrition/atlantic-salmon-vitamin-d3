@@ -22,8 +22,8 @@ authors:
 license: MIT
 repository-code: "https://github.com/feed-and-nutrition/atlantic-salmon-vitamin-d3"
 doi: 10.5281/zenodo.23711905
-version: 1.1.0
-date-released: 2026-10-28
+version: 1.2.0
+date-released: 2026-10-29
 keywords:
   - Atlantic salmon
   - Salmo salar
