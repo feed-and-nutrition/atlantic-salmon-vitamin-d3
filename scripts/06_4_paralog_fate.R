@@ -14,7 +14,7 @@
 # Needs muscle5 and yn00 on the PATH (or PAML_YN00 set to yn00) only when divergence.tsv is missing.
 # Input:  vd3_genes/paralogs/ (06_1, 06_3), vd3_genes/annotation_check/synteny.tsv (07_1),
 #         vd3_genes/tpm_vd3_genes.tsv, vd3_genes/tpm_vd3_genes_studies.tsv
-# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v6/Table S9 ... .xlsx
+# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v7/Table S9 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

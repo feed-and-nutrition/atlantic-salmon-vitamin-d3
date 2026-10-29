@@ -6,7 +6,7 @@
 # and spotted gar (07_4).
 # Input:  vd3_genes/annotation_check/synteny.tsv (07_1), vd3_genes/vdr_synteny/summary.tsv (07_4)
 # Output: vd3_genes/annotation_check/table_s6.tsv, vd3_genes/vdr_synteny/table_s6_vdr.tsv,
-#         manuscript/v6/Table S6 ... .xlsx
+#         manuscript/v7/Table S6 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

@@ -8,7 +8,7 @@
 # msa/ligand_contacts/pdb/ (internet access on the first run).
 # Input:  msa/vdr/vdr.afa, msa/cyp2r1/cyp2r1.afa, msa/gc/gc.afa
 # Output: msa/ligand_contacts/contacts.tsv (one row per contact residue), summary.tsv (per sequence),
-#         <protein>.tsv (one sheet each) and manuscript/v6/Table S7 ... .xlsx
+#         <protein>.tsv (one sheet each) and manuscript/v7/Table S7 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 suppressPackageStartupMessages(library(Biostrings))

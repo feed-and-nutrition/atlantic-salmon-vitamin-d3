@@ -22,7 +22,7 @@
 # Table S3 holds the BLASTp search of the Methods (gc_blast/blast_results.tsv) and the three searches.
 # Input:  NCBI FTP (genomes, feature tables, proteomes), E-utilities (panel proteins, gc genes),
 #         gc_blast/blast_results.tsv
-# Output: vd3_genes/gc_search/{annotated_gc,loci,neighbourhood}.tsv, manuscript/v6/Table S3 ... .xlsx
+# Output: vd3_genes/gc_search/{annotated_gc,loci,neighbourhood}.tsv, manuscript/v7/Table S3 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

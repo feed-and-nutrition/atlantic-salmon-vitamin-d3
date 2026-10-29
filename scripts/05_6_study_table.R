@@ -6,7 +6,7 @@
 # A sample is matched to its runs by the run accession in its sample sheet, or else by the SRA library name.
 # Needs python3 for the Excel file, and internet access on the first run.
 # Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv
-# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v6/Table S10 ... .xlsx
+# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v7/Table S10 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

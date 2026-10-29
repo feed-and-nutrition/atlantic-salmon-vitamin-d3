@@ -13,7 +13,7 @@
 #         vd3_genes/tpm_vd3_genes.tsv (gene IDs), vd3_genes/tpm_vd3_genes_studies.tsv (05_2),
 #         vd3_genes/cyp27b1_search/loci.tsv (07_5), vd3_genes/studies/diet_PRJNA1160017/{medians,fits}.tsv (05_9),
 #         msa/cyp27a1/cyp27a1_accessions.tsv (names of the cyp27a2/a3-like genes)
-# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v6/Table S11 ... .xlsx
+# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v7/Table S11 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

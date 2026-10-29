@@ -4,7 +4,7 @@
 # Output: vd3_genes/summary_vd3_genes.tsv (level, peak TPM, SD, tau, Table 2 pattern per gene)
 #         vd3_genes/top3_tissues_vd3_genes.tsv (highest tissue, and the next two if their TPM is above 1)
 #         vd3_genes/pattern_sensitivity.tsv (Table 2 pattern under other cutoffs and in PRJNA359635)
-#         manuscript/v6/Table S8 ... .xlsx (sheet TPM: TPM per gene and atlas tissue with SD and tau, via
+#         manuscript/v7/Table S8 ... .xlsx (sheet TPM: TPM per gene and atlas tissue with SD and tau, via
 #         vd3_genes/table_s8.tsv; sheet Sensitivity: pattern_sensitivity.tsv)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")

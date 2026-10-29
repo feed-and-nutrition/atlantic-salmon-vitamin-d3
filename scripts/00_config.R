@@ -4,7 +4,7 @@
 #   VD3_TXI_DIR  directory holding txi_gene.rds of the atlas from tximport (only 00_1, and only without
 #                salmon_quant/PRJNA72713/tpm_gene.tsv.gz from 05_1)
 #   VD3_FIG_DIR  where run_all.R copies the figures and the scripts write the supplementary tables
-#                (default: manuscript/v6)
+#                (default: manuscript/v7)
 # Scripts start with:
 #   source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -36,7 +36,7 @@ msa_dir   <- file.path(proj_dir, "msa")
 hk_dir    <- file.path(proj_dir, "hk_genes")
 vd3_dir   <- file.path(proj_dir, "vd3_genes")
 quant_dir <- file.path(proj_dir, "salmon_quant", "PRJNA72713")
-fig_dir   <- Sys.getenv("VD3_FIG_DIR", unset = file.path(proj_dir, "manuscript", "v6"))  # current manuscript version
+fig_dir   <- Sys.getenv("VD3_FIG_DIR", unset = file.path(proj_dir, "manuscript", "v7"))  # current manuscript version
 txi_dir   <- Sys.getenv("VD3_TXI_DIR", unset = NA)
 dir.create(fig_dir, showWarnings = FALSE, recursive = TRUE)
 

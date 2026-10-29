@@ -1,4 +1,4 @@
-# Rebuild all tables and figures, then copy the figure PNGs into manuscript/v6 (fig_dir in 00_config.R).
+# Rebuild all tables and figures, then copy the figure PNGs into manuscript/v7 (fig_dir in 00_config.R).
 # Run from the project root or scripts/:  Rscript scripts/run_all.R
 # A step that fails (for example 00_1 without the 15-tissue txi) is reported and skipped.
 
