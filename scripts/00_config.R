@@ -59,7 +59,7 @@ excluded_samples <- c("PRJNA72713:heart" = "mostly liver",
 # (si:dkey-286h2.3), a fish CYP2 subfamily without a mammalian ortholog. It stays in the cyp2r1 tree (Fig 2c).
 excluded_genes <- c(cyp2r1.c = "LOC106586122")
 
-# Replicate studies (Fig 4, Fig S5, Table S10), studies with the most tissues first. Not the PRJNA72713 atlas (Fig 3)
+# Replicate studies (Fig 4, Fig S5, Table S9), studies with the most tissues first. Not the PRJNA72713 atlas (Fig 3)
 # or PRJNA260929 (one sample per tissue, and its heart sample does not match heart in other studies).
 replicate_studies <- c("PRJNA359635", "PRJEB47409", "ROS_1", "PRJNA647285", "PRJNA543940", "PRJNA380580", "PRJNA626461")
 

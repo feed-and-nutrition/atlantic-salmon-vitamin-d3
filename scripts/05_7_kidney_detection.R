@@ -1,4 +1,4 @@
-# Table S11, sheet Kidney: detection power for cyp27b1 in the kidney and head kidney samples (atlas and replicate
+# Table S10, sheet Kidney: detection power for cyp27b1 in the kidney and head kidney samples (atlas and replicate
 # studies). For each sample: library size (estimated reads), estimated reads and TPM of both cyp27b1 paralogs, and the TPM
 # that one read of each paralog corresponds to. Where a sample has no read of the gene, that value is estimated
 # from the samples of the same study that have reads, scaled by library size (TPM per read is about inversely
@@ -13,14 +13,14 @@
 #         vd3_genes/tpm_vd3_genes.tsv (gene IDs), vd3_genes/tpm_vd3_genes_studies.tsv (05_2),
 #         vd3_genes/cyp27b1_search/loci.tsv (07_5), vd3_genes/studies/diet_PRJNA1160017/{medians,fits}.tsv (05_9),
 #         msa/cyp27a1/cyp27a1_accessions.tsv (names of the cyp27a2/a3-like genes)
-# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v7/Table S11 ... .xlsx
+# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v7/Table S10 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_file <- file.path(vd3_dir, "studies", "kidney_cyp27b1.tsv")
 fw_sw_file <- file.path(vd3_dir, "studies", "freshwater_seawater.tsv")
 diet_dir <- file.path(vd3_dir, "studies", "diet_PRJNA1160017")
-table_file <- file.path(fig_dir, paste("Table S11 Detection of cyp27b1 in kidney samples, CYP27B1 genome search, and",
+table_file <- file.path(fig_dir, paste("Table S10 Detection of cyp27b1 in kidney samples, CYP27B1 genome search, and",
                                        "VD3-related genes by environment and diet.xlsx"))
 
 genes <- read_tsv(file.path(vd3_dir, "tpm_vd3_genes.tsv"), col_types = cols(Gene_id = col_character())) %>%

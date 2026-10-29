@@ -5,7 +5,7 @@
 # Skin samples whose median Spearman correlation with the other skin samples is below 0.8 are flagged as atypical (the
 # three Norwegian fish fed 866 ng/g, 0.71 to 0.76, the others 0.88 or more), and skin is fitted with and without them.
 # Model per gene: log2(TPM + 1) ~ strain + log2(dose), genes with median TPM >= 1, BH within each sample set.
-# Sheet Dietary vitamin D3 of Table S11 (05_7).
+# Sheet Dietary vitamin D3 of Table S10 (05_7).
 # Input:  salmon_quant/samples_all.tsv, vd3_genes/tpm_vd3_genes_studies.tsv (05_2),
 #         salmon_quant/PRJNA1160017/{samples,tpm_gene}.tsv(.gz) (05_1 on the server)
 # Output: vd3_genes/studies/diet_PRJNA1160017/{samples,medians,fits}.tsv

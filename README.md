@@ -110,9 +110,9 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Table S6 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R` and `07_4_vdr_synteny.R`) | yes |
 | Table S7 | `08_1_ligand_contacts.R` | yes |
 | Table S8 | `04_1_vd3_genes_heatmap.R` | yes |
-| Table S9 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
-| Table S10 | `05_6_study_table.R` | yes |
-| Table S11 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R` and `05_9_diet_response.R`) | needs the large data |
+| Table S9 | `05_6_study_table.R` | yes |
+| Table S10 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R` and `05_9_diet_response.R`) | needs the large data |
+| Table S11 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
 | Table S12 | `05_8_related_genes.R` | needs the large data |
 
 Tables S1, S2, S4 and S5 were compiled by hand from the gene search and are provided with the manuscript.
@@ -131,7 +131,7 @@ The genome-wide expression tables are not included because of their size. They a
 in three steps.
 
 1. **Quantify the reads.** Download the reads of each study from the SRA (run accessions in Supplementary
-   Tables S10 and S11 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
+   Tables S9 and S10 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
    four at a time and checks their MD5 sums, from a list such as `ncbi_samples/PRJNA1160017_skin_stomach_fastq.tsv`
    (its stomach runs were quantified but are not used):
 

@@ -1,4 +1,4 @@
-# Table S10: the RNA-seq studies, with tissues and sample counts as analyzed (atlas and replicate studies),
+# Table S9: the RNA-seq studies, with tissues and sample counts as analyzed (atlas and replicate studies),
 # and one row per sample with its SRA runs, layout, instrument and read length.
 # Counts come from samples_all.tsv (05_2). Excluded samples (00_config.R) are listed but not counted, and
 # relabelled tissues (tissue_raw differs from tissue) are noted. Design and references are written by hand
@@ -6,12 +6,12 @@
 # A sample is matched to its runs by the run accession in its sample sheet, or else by the SRA library name.
 # Needs python3 for the Excel file, and internet access on the first run.
 # Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv
-# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v7/Table S10 ... .xlsx
+# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v7/Table S9 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_file <- file.path(vd3_dir, "studies", "study_table.tsv")
-table_file <- file.path(fig_dir, "Table S10 RNA-seq studies and samples.xlsx")
+table_file <- file.path(fig_dir, "Table S9 RNA-seq studies and samples.xlsx")
 
 design <- tribble(
   ~study, ~bioproject, ~reference, ~design,

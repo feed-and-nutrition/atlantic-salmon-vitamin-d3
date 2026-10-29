@@ -1,10 +1,10 @@
-# Table S12: expression of genes related to the VD3 pathway but outside the 16 genes (tracker item 45).
+# Table S12: expression of genes outside the 16 that help to read two results (tracker item 45): other
+# 25-hydroxylase candidates, for the low liver expression of cyp2r1 and cyp27a1, and cholesterol synthesis, for the low
+# skin expression of dhcr7. The renal uptake receptors (LRP2, CUBN, AMN) were dropped in v7 round 3.
 # Groups:
 #   25-hydroxylase candidates: CYP3A4 and CYP2J2, which also 25-hydroxylate vitamin D3 in mammals, the four
 #     cyp27a2/a3-like genes named "sterol 26-hydroxylase" (Fig 2a) and LOC106586122 (cyp2x, excluded_genes)
 #   Cholesterol synthesis: HMGCR and the post-squalene enzymes, to place dhcr7 against the pathway that makes 7-DHC
-#   Renal uptake: LRP2 (megalin), CUBN (cubilin) and AMN (amnionless), the receptor complex that takes up GC-bound
-#     25(OH)D3 in the mammalian proximal tubule
 # Salmon genes: the human protein (longest isoform) was searched with BLASTp (E <= 1e-10) against the RS_2025_05
 # proteome, and a hit gene was kept when its longest protein had its best human hit in the query gene (any CYP3A for
 # CYP3A4). The search is cached in vd3_genes/related_genes/genes.tsv. Without it, it needs blastp and makeblastdb and
@@ -21,8 +21,7 @@ source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 out_dir <- file.path(vd3_dir, "related_genes")
 dir.create(out_dir, showWarnings = FALSE)
 genes_file <- file.path(out_dir, "genes.tsv")
-table_file <- file.path(fig_dir, paste("Table S12 Expression of 25-hydroxylase candidates, cholesterol synthesis genes,",
-                                       "and renal uptake receptors.xlsx"))
+table_file <- file.path(fig_dir, "Table S12 Expression of 25-hydroxylase candidates and cholesterol synthesis genes.xlsx")
 
 queries <- tribble(
   ~group,                       ~human,    ~accept,
@@ -41,10 +40,7 @@ queries <- tribble(
   "Cholesterol synthesis",      "EBP",     "EBP",
   "Cholesterol synthesis",      "SC5D",    "SC5D",
   "Cholesterol synthesis",      "DHCR7",   "DHCR7",
-  "Cholesterol synthesis",      "DHCR24",  "DHCR24",
-  "Renal uptake",               "LRP2",    "LRP2",
-  "Renal uptake",               "CUBN",    "CUBN",
-  "Renal uptake",               "AMN",     "AMN")
+  "Cholesterol synthesis",      "DHCR24",  "DHCR24")
 
 vd3 <- read_tsv(file.path(vd3_dir, "salmon_vd3_orthologs_v1.tsv"), col_types = cols(.default = "c")) %>%
   select(name, gene_id)
@@ -132,7 +128,8 @@ if (!file.exists(genes_file)) {
   stopifnot(!anyDuplicated(genes$gene_id))
   write_tsv(genes, genes_file, na = "")
 }
-genes <- read_tsv(genes_file, col_types = cols(.default = "c"))
+genes <- read_tsv(genes_file, col_types = cols(.default = "c")) %>%
+  filter(group %in% queries$group)  # the cache also holds the renal uptake receptors of v7 round 1
 
 # --- Expression
 atlas <- read_tsv(file.path(quant_dir, "tpm_atlantic_salmon_15_tissues.tsv.gz"),

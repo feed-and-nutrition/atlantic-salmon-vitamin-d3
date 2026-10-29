@@ -1,4 +1,4 @@
-# Table S9: sequence similarity (06_1), sequence divergence and expression profiles of the Ss4R paralog pairs.
+# Table S11: sequence similarity (06_1), sequence divergence and expression profiles of the Ss4R paralog pairs.
 # Divergence: the proteins of each pair (the transcripts with the longest CDS, cached by 06_1) are aligned with
 # MUSCLE 5 and the CDS are aligned codon by codon on the protein alignment. dN, dS and dN/dS are estimated with yn00
 # (PAML, Yang and Nielsen 2000). ORF: start and stop codon, no internal stop. Motifs: the heme-binding motif of
@@ -14,7 +14,7 @@
 # Needs muscle5 and yn00 on the PATH (or PAML_YN00 set to yn00) only when divergence.tsv is missing.
 # Input:  vd3_genes/paralogs/ (06_1, 06_3), vd3_genes/annotation_check/synteny.tsv (07_1),
 #         vd3_genes/tpm_vd3_genes.tsv, vd3_genes/tpm_vd3_genes_studies.tsv
-# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v7/Table S9 ... .xlsx
+# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v7/Table S11 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -22,7 +22,7 @@ out_dir <- file.path(vd3_dir, "paralogs")
 seq_dir <- file.path(out_dir, "seq")
 divergence_file <- file.path(out_dir, "divergence.tsv")
 profiles_file <- file.path(out_dir, "profiles.tsv")
-table_file <- file.path(fig_dir, paste("Table S9 Sequence similarity, divergence, and expression profiles of",
+table_file <- file.path(fig_dir, paste("Table S11 Sequence similarity, divergence, and expression profiles of",
                                       "VD3-related paralog pairs.xlsx"))
 pairs <- c("dhcr7", "cyp2r1", "cyp27a1", "cyp27b1", "cyp24a1", "vdra", "vdrb")
 
@@ -172,7 +172,7 @@ profiles <- map_dfr(pairs, function(pair) {
 write_tsv(profiles, profiles_file)
 print(as.data.frame(left_join(divergence, select(profiles, pair, starts_with("r_")), by = "pair")))
 
-# --- Table S9: Similarity (06_1), Divergence and Profiles
+# --- Table S11: Similarity (06_1), Divergence and Profiles
 divergence_tsv <- file.path(out_dir, "table_s9_divergence.tsv")
 profiles_tsv <- file.path(out_dir, "table_s9_profiles.tsv")
 by_copy <- function(col) set_names(orf[[col]], orf$gene)
