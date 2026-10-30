@@ -11,7 +11,7 @@
 #    show that vdra and vdrb come from the teleost genome duplication.
 # Needs blastp and makeblastdb.
 # Input:  NCBI FTP (feature tables and proteomes, cached in annotation/)
-# Output: vd3_genes/vdr_synteny/{zebrafish_matches,gar_matches,summary}.tsv (summary is a sheet of Table S6, 07_2)
+# Output: vd3_genes/vdr_synteny/{zebrafish_matches,gar_matches,summary}.tsv (summary is a sheet of Table S5, 07_2)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

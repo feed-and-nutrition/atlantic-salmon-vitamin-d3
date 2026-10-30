@@ -1,12 +1,13 @@
-# Fig 4 and Fig S5: VD3-related gene expression in independent RNA-seq studies
+# Fig 4 and Fig S4: VD3-related gene expression in independent RNA-seq studies
 # Uses the replicate studies (replicate_studies in 00_config.R). Excluded samples (00_config.R) are dropped.
 # All samples of a tissue are used, whatever their treatment, sex, or stage.
 # Fig 4 pools the studies per tissue, with each study weighted equally so a large study does not dominate.
-# Fig S5 keeps the studies apart (per-study medians and cyp27b1 in individual samples).
+# Fig S4 keeps the studies apart (per-study medians and cyp27b1 in individual samples).
 # Input:  vd3_genes/tpm_vd3_genes_studies.tsv (from 05_2), vd3_genes/tpm_vd3_genes.tsv (Fig 3 gene groups)
 # Output: vd3_genes/studies/vd3_genes_tissues.{svg,png} (Fig 4)
-#         vd3_genes/studies/vd3_genes_per_study.{svg,png} (Fig S5)
+#         vd3_genes/studies/vd3_genes_per_study.{svg,png} (Fig S4)
 #         vd3_genes/studies/tissue_means.tsv (Fig 4 values per gene and tissue)
+#         vd3_genes/studies/atlas_comparison.tsv, atlas_peaks.tsv (Fig 4 tiles that differ from Fig 3, atlas peaks)
 #         vd3_genes/studies/study_medians.tsv (n, median and maximum TPM per gene, study, and tissue)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
@@ -40,13 +41,14 @@ tile_df <- medians %>%
 p_tile <- ggplot(tile_df, aes(name, row, fill = log_tpm)) +
   geom_tile() +
   geom_point(data = filter(tile_df, median_tpm <= 1), colour = "white", shape = 4, size = 1.2) +
-  facet_grid(study ~ ., scales = "free_y", space = "free_y", switch = "y") +
+  facet_grid(study ~ ., scales = "free_y", space = "free_y", switch = "y",
+             labeller = as_labeller(\(x) paste0(study_names[x], "\n", x))) +  # name over project number
   scale_fill_viridis_c(name = "log2(median\nTPM + 1)") +
   scale_y_discrete(position = "right") +
   labs(x = NULL, y = NULL, title = "Median expression of VD3-related genes per study and tissue") +
   theme_grey(base_size = 9) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, face = "italic"),
-        strip.text.y.left = element_text(angle = 0, hjust = 0),
+        strip.text.y.left = element_text(angle = 0, hjust = 0, size = 7.5, lineheight = 0.85, margin = margin(1, 4, 1, 4)),
         strip.placement = "outside",
         panel.spacing.y = unit(0.6, "mm"),
         plot.title = element_text(size = 10, hjust = 0.5),
@@ -69,8 +71,8 @@ p_points <- ggplot(point_df, aes(tissue, log_tpm, fill = study, shape = study)) 
   geom_point(position = position_jitter(width = 0.25, height = 0, seed = 1),
              size = 1.3, stroke = 0.2, colour = "grey15", alpha = 0.85) +
   facet_wrap(~name, ncol = 1, scales = "free_y") +
-  scale_fill_manual(values = study_colors, name = NULL) +
-  scale_shape_manual(values = study_shapes, name = NULL) +
+  scale_fill_manual(values = study_colors, labels = study_names[fig_studies], name = NULL) +
+  scale_shape_manual(values = study_shapes, labels = study_names[fig_studies], name = NULL) +
   labs(x = NULL, y = "log2(TPM + 1)", title = "cyp27b1 paralogs in individual samples") +
   theme_bw(base_size = 9) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
@@ -102,30 +104,86 @@ tissue_labels <- tissue_means %>%
   mutate(label = paste0(tissue_label(tissue), " (", n, ", ", n_studies, ")"))
 stopifnot(!anyDuplicated(tissue_labels$tissue))
 
+# Comparison with the atlas (Fig 3), in the 14 tissues it shares with the studies. A tile differs when the studies and
+# the atlas lie on opposite sides of 1 TPM (log2(TPM + 1) = 1) and differ at least twofold (1 log2 unit), so that
+# values near the cutoff do not count. The peak column shows whether the atlas peak tissue of each gene is also the
+# highest of these tissues in the studies. Tissues without an atlas sample (heart excluded) are marked below the heatmaps.
+atlas <- read_gene_tpm(file.path(vd3_dir, "tpm_vd3_genes.tsv"))$log_tpm %>%
+  as_tibble(rownames = "name") %>%
+  pivot_longer(-name, names_to = "label", values_to = "atlas_log")
+compare <- tissue_means %>%
+  mutate(label = tissue_label(tissue)) %>%
+  left_join(atlas, by = c("name", "label")) %>%
+  mutate(differs = !is.na(atlas_log) & (mean_log > 1) != (atlas_log > 1) & abs(mean_log - atlas_log) >= 1)
+peaks <- compare %>%
+  filter(!is.na(atlas_log)) %>%
+  group_by(name) %>%
+  summarise(atlas_peak = label[which.max(atlas_log)], studies_peak = label[which.max(mean_log)], .groups = "drop") %>%
+  mutate(same_peak = atlas_peak == studies_peak)
+write_tsv(mutate(select(compare, name, tissue, mean_log, atlas_log, differs), across(where(is.double), ~ round(.x, 2))),
+          file.path(out_dir, "atlas_comparison.tsv"))
+write_tsv(peaks, file.path(out_dir, "atlas_peaks.tsv"))
+message(sum(compare$differs), " of ", sum(!is.na(compare$atlas_log)), " shared tiles differ from the atlas, ",
+        sum(peaks$same_peak), " of ", nrow(peaks), " atlas peaks reproduced")
+new_tissues <- tissue_labels$tissue[!tissue_label(tissue_labels$tissue) %in% atlas$label]
+x_levels <- c(tissue_labels$label, "Atlas peak")
+diff_colour <- "#FF4500"
+
 tile_panel <- function(level, bottom) {
-  d <- tissue_means %>%
+  d <- compare %>%
     filter(name %in% groups[[level]]) %>%
     mutate(tissue = factor(tissue, levels = tissue_labels$tissue, labels = tissue_labels$label),
            name = fct_rev(factor(name, levels = gene_levels)))
-  ggplot(d, aes(tissue, name, fill = mean_log)) +
-    geom_tile() +
+  y_levels <- c(if (bottom) "new", levels(droplevels(d$name)))  # the bottom panel ends with a row marking the new tissues
+  d <- mutate(d, name = factor(name, levels = y_levels))
+  pk <- peaks %>%
+    filter(name %in% groups[[level]]) %>%
+    mutate(x = factor("Atlas peak", levels = x_levels), name = factor(name, levels = y_levels),
+           peak = if_else(same_peak, "also highest in the studies", "not highest in the studies"))
+  new_row <- tibble(x = factor(tissue_labels$label[match(new_tissues, tissue_labels$tissue)], levels = x_levels),
+                    name = factor("new", levels = y_levels))
+  p <- ggplot(d, aes(factor(tissue, levels = x_levels), name)) +
+    geom_tile(aes(fill = mean_log)) +
     geom_point(data = filter(d, mean_log <= 1), colour = "white", shape = 4, size = 1.2) +
+    geom_tile(data = filter(d, differs), aes(colour = "differs from atlas"), fill = NA,
+              linewidth = 0.7, width = 0.9, height = 0.9) +
+    geom_point(data = pk, aes(x, name, shape = peak), size = 2, stroke = 0.6, colour = "grey15", fill = "grey15",
+               inherit.aes = FALSE) +
     scale_fill_viridis_c(name = "Mean\nlog2(TPM + 1)", limits = c(0, NA)) +
-    scale_y_discrete(position = "right") +
+    scale_colour_manual(values = diff_colour, name = NULL,
+                        guide = if (bottom) guide_legend(position = "bottom") else "none") +
+    scale_shape_manual(values = c(`also highest in the studies` = 16, `not highest in the studies` = 1),
+                       limits = c("also highest in the studies", "not highest in the studies"),
+                       guide = "none") +  # filled and open circles are explained in the figure legend
+    scale_x_discrete(drop = FALSE) +
+    scale_y_discrete(position = "right", drop = FALSE, breaks = setdiff(y_levels, "new")) +
     labs(x = NULL, y = NULL, title = paste(level, "expression")) +
     theme_grey(base_size = 9) +
     theme(axis.text.x = if (bottom) element_text(angle = 45, hjust = 1, vjust = 1) else element_blank(),
           axis.ticks.x = if (bottom) element_line() else element_blank(),
           axis.text.y = element_text(face = "italic"),
+          panel.background = element_blank(),  # white behind the Atlas peak column
+          panel.grid = element_blank(),
           plot.title = element_text(size = 9, hjust = 0),
-          plot.margin = margin(5.5, 5.5, 5.5, 30),  # room for the a/b/c labels and the first rotated tissue label
+          plot.margin = margin(8, 5.5, 2, 30),  # room for the a/b/c labels and the first rotated tissue label
           legend.title = element_text(size = 7),
           legend.text = element_text(size = 7),
-          legend.key.height = unit(if (level == "High") 0.22 else 0.35, "cm"))
+          legend.key = element_blank(),
+          legend.key.height = unit(if (level == "High") 0.22 else 0.3, "cm"),
+          legend.key.width = unit(0.35, "cm"),
+          legend.spacing.y = unit(0.5, "mm"),
+          legend.margin = margin(0, 0, 0, 0))
+  # tissues without an atlas sample, labelled "new" below the bottom heatmap (explained in the figure legend)
+  if (bottom) p <- p +
+    geom_tile(data = new_row, aes(x, name), fill = "grey25", height = 0.7, inherit.aes = FALSE) +
+    geom_text(data = new_row, aes(x, name), label = "new", colour = "white", size = 2.2, inherit.aes = FALSE)
+  p
 }
 
-p_fig4 <- plot_grid(tile_panel("High", FALSE), tile_panel("Medium", FALSE), tile_panel("Low", TRUE),
-                    ncol = 1, rel_heights = c(length(groups$High) + 3.5, length(groups$Medium) + 1.5,
-                                              length(groups$Low) + 6.5),
-                    labels = c("a", "b", "c"), label_size = 11, align = "v", axis = "lr")
+# Panel heights proportional to the number of rows (panel c has the extra "new" row), so all tiles are the same height
+p_fig4 <- patchwork::wrap_plots(tile_panel("High", FALSE), tile_panel("Medium", FALSE), tile_panel("Low", TRUE),
+                                ncol = 1, heights = c(length(groups$High), length(groups$Medium), length(groups$Low) + 1)) +
+  patchwork::plot_annotation(tag_levels = "a") &
+  theme(plot.tag = element_text(size = 11, face = "bold", hjust = 0, vjust = 1), plot.tag.location = "plot",
+        plot.tag.position = c(-0.03, 1))  # the tag shares the line of the panel title, in the left margin (as in Fig 3)
 save_fig(p_fig4, file.path(out_dir, "vd3_genes_tissues"), 180, 125)

@@ -1,8 +1,8 @@
-# Fig 2 (cyp27a1 with cyp27a2/a3, gc, cyp2r1, vdr, one protein per gene) and Fig S4 (cyp27b1, cyp24a1, and the
+# Fig 2 (cyp27a1 with cyp27a2/a3, cyp2r1, gc, vdr, one protein per gene) and Fig S3 (cyp27b1, cyp24a1, and the
 # dhcr7 and vdr trees with all salmon isoforms)
 # Input:  msa/<tree>/<tree>.afa.treefile (IQ-TREE 2, -m MFP -B 1000). The gc, vdr_extended and cyp27a1 trees are built
 #         by 01_0_build_trees.R
-# Output: msa/tree2.{svg,png} (Fig 2), msa/tree1.{svg,png} (Fig S4)
+# Output: msa/tree2.{svg,png} (Fig 2), msa/tree1.{svg,png} (Fig S3)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 suppressPackageStartupMessages({
@@ -34,18 +34,23 @@ load_tree <- function(gene) {
   if (length(mammal_id) > 0) root(tree, outgroup = mammal_id[1], resolve.root = TRUE, edgelabel = TRUE) else tree
 }
 
-# gc (Fig 2b) is drawn as a cladogram: its salmonid branches are too short to show next to the
+# gc (Fig 2c) is drawn as a cladogram: its salmonid branches are too short to show next to the
 # GC/albumin split, and the panel is about topology. The other trees are phylograms.
 cladograms <- "gc"
 panel_titles <- c(gc = "gc and albumins", cyp27a1 = "cyp27a1, cyp27a2 and cyp27a3",
                   vdr_extended = "vdr", dhcr7 = "dhcr7, all salmon isoforms", vdr = "vdr, all salmon isoforms")
 
+salmon_colour <- "#B2182B"
 create_tree <- function(gene, xlim) {
   clado <- gene %in% cladograms
-  p <- ggtree(load_tree(gene), branch.length = if (clado) "none" else "branch.length") +
+  tree <- load_tree(gene)
+  tips <- tibble(label = tree$tip.label, salmon = str_starts(tree$tip.label, "Salmon "))
+  p <- ggtree(tree, branch.length = if (clado) "none" else "branch.length") %<+% tips +
     geom_tree(size = 0.8) +
-    geom_tiplab(size = 3, fontface = "italic", family = "serif",
+    # Atlantic salmon genes in bold dark red, so they stand out among the other species (also in grayscale)
+    geom_tiplab(aes(colour = salmon, fontface = if_else(salmon, "bold.italic", "italic")), size = 3, family = "serif",
                 align = TRUE, linesize = 0.5, linetype = "dotted", offset = if (clado) 0.3 else 0.05) +
+    scale_colour_manual(values = c(`FALSE` = "black", `TRUE` = salmon_colour), guide = "none") +
     # UFBoot support, shown only above 70
     geom_nodelab(aes(x = branch, label = label,
                      subset = !isTip & (suppressWarnings(as.numeric(label)) > 70)),
@@ -68,12 +73,11 @@ p_tree1 <- plot_grid(plot_grid(p$cyp27b1, p$cyp24a1, p$dhcr7, ncol = 1, rel_heig
                                labels = c("a", "b", "c"), label_size = 11),
                      plot_grid(p$vdr, labels = "d", label_size = 11),
                      ncol = 2)
-# Columns are stacked separately so each tree gets a height that suits its number of tips
-p_tree2 <- plot_grid(plot_grid(p$cyp27a1, p$cyp2r1, ncol = 1, rel_heights = c(1.5, 1), labels = c("a", "c"),
-                               label_size = 11),
-                     plot_grid(p$gc, p$vdr_extended, ncol = 1, rel_heights = c(1.45, 1.1), labels = c("b", "d"),
-                               label_size = 11),
-                     ncol = 2)
+# Panels in reading order (cyp27a1, cyp2r1 / gc, vdr). Each row is as tall as its larger tree (15 and 23 tips, plus
+# the title and axis)
+p_tree2 <- plot_grid(plot_grid(p$cyp27a1, p$cyp2r1, ncol = 2, labels = c("a", "b"), label_size = 11),
+                     plot_grid(p$gc, p$vdr_extended, ncol = 2, labels = c("c", "d"), label_size = 11),
+                     ncol = 1, rel_heights = c(19, 27))
 
 save_fig(p_tree1, file.path(msa_dir, "tree1"), 180, 170)
 save_fig(p_tree2, file.path(msa_dir, "tree2"), 180, 190)

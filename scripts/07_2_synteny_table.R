@@ -1,4 +1,4 @@
-# Table S6, sheet Paralog pairs: synteny of the paralog pairs in RS_2026_09 (fSalSal1), from the flanking-gene test
+# Table S5, sheet Paralog pairs: synteny of the paralog pairs in RS_2026_09 (fSalSal1), from the flanking-gene test
 # of 07_1. For each copy, the proteins of the ten genes on each side were searched against the proteome, and the best
 # match on another chromosome was counted. cyp2r1.c (excluded_genes) is left out. alb1 and alb2 are listed as a
 # contrast: they are not Ss4R paralogs (Results), and the flanking genes of alb1 point to LOC100136922 instead.
@@ -6,16 +6,16 @@
 # and spotted gar (07_4).
 # Input:  vd3_genes/annotation_check/synteny.tsv (07_1), vd3_genes/vdr_synteny/summary.tsv (07_4)
 # Output: vd3_genes/annotation_check/table_s6.tsv, vd3_genes/vdr_synteny/table_s6_vdr.tsv,
-#         manuscript/v7/Table S6 ... .xlsx
+#         manuscript/v7/Table S5 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 check_dir <- file.path(vd3_dir, "annotation_check")
 table_tsv <- file.path(check_dir, "table_s6.tsv")
 vdr_tsv <- file.path(vd3_dir, "vdr_synteny", "table_s6_vdr.tsv")
-table_file <- file.path(fig_dir, "Table S6 Synteny of VD3-related paralog pairs and vdr genes.xlsx")
+table_file <- file.path(fig_dir, "Table S5 Synteny of VD3-related paralog pairs and vdr genes.xlsx")
 
-# Pairs in the order of Table 1, the albumin pairs last
+# Pairs in the order of Table 2, the albumin pairs last
 pair_order <- c("dhcr7", "cyp2r1", "cyp27a1", "cyp27b1", "cyp24a1", "vdra", "vdrb", "alb1/LOC100136922", "alb1/alb2")
 note <- paste("Chromosomes (ssa) are those of the fSalSal1 assembly (RefSeq RS_2026_09). Flanking genes: the ten",
               "protein-coding genes on each side of the gene. For each, the best BLASTp match (E <= 1e-10) on another",

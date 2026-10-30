@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Write TSV files as an .xlsx with one sheet per file and a bold header row. No dependencies.
 
-    python3 scripts/tsv_to_xlsx.py table.tsv "Table S8 ....xlsx"
-    python3 scripts/tsv_to_xlsx.py VDR.tsv GC.tsv "Table S7 ....xlsx"   # sheets named VDR and GC
+    python3 scripts/tsv_to_xlsx.py table.tsv "Table S7 ....xlsx"
+    python3 scripts/tsv_to_xlsx.py VDR.tsv GC.tsv "Table S6 ....xlsx"   # sheets named VDR and GC
 
 A single file gives one sheet named Sheet1. With several, each sheet is named after its file (without .tsv).
 

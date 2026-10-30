@@ -1,4 +1,4 @@
-Gene	Peak TPM	SD	tau	Table 2 (SD >= 1 or tau >= 0.8)	SD >= 0.75	SD >= 1.25	tau >= 0.7	tau >= 0.9	tau of TPM	tau with TPM below 1 set to 0	PRJNA359635 SD	PRJNA359635 tau	PRJNA359635 pattern
+Gene	Peak TPM	SD	tau	Table 3 (SD >= 1 or tau >= 0.8)	SD >= 0.75	SD >= 1.25	tau >= 0.7	tau >= 0.9	tau of TPM	tau with TPM below 1 set to 0	PRJNA359635 SD	PRJNA359635 tau	PRJNA359635 pattern
 alb1	43076.68	4.22	0.83	Restricted	Restricted	Restricted	Restricted	Restricted	Restricted	Restricted	4.014	0.929	Restricted
 alb2	253.06	2.53	0.82	Restricted	Restricted	Restricted	Restricted	Restricted	Restricted	Restricted	2.101	0.89	Restricted
 cyp24a1.a	43.17	1.44	0.83	Restricted	Restricted	Restricted	Restricted	Restricted	Restricted	Restricted	1.424	0.91	Restricted
@@ -16,4 +16,4 @@ vdra.b	5.94	0.73	0.5	Broad	Broad	Broad	Broad	Broad	Broad	Broad	0.564	0.365	Broad
 vdrb.a	7.66	0.87	0.47	Broad	Restricted	Broad	Broad	Broad	Broad	Broad	0.667	0.414	Broad
 vdrb.b	15.92	0.88	0.5	Broad	Restricted	Broad	Broad	Broad	Broad	Broad	0.734	0.402	Broad
 													
-Pattern of each gene as in Table 2 (atlas, 14 tissues, SD and tau of log2(TPM + 1)) and with one change at a time: other SD or tau cutoffs, tau calculated from TPM, tau after setting values below 1 TPM to 0, or the mean log2(TPM + 1) of the four pooled samples per tissue of PRJNA359635 (10 tissues). Genes below 1 TPM in all tissues are not classified.													
+Pattern of each gene as in Table 3 (atlas, 14 tissues, SD and tau of log2(TPM + 1)) and with one change at a time: other SD or tau cutoffs, tau calculated from TPM, tau after setting values below 1 TPM to 0, or the mean log2(TPM + 1) of the four pooled samples per tissue of PRJNA359635 (10 tissues). Genes below 1 TPM in all tissues are not classified.													

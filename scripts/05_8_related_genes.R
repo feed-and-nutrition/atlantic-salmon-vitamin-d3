@@ -1,4 +1,4 @@
-# Table S12: expression of genes outside the 16 that help to read two results (tracker item 45): other
+# Table S11: expression of genes outside the 16 that help to read two results (tracker item 45): other
 # 25-hydroxylase candidates, for the low liver expression of cyp2r1 and cyp27a1, and cholesterol synthesis, for the low
 # skin expression of dhcr7. The renal uptake receptors (LRP2, CUBN, AMN) were dropped in v7 round 3.
 # Groups:
@@ -14,14 +14,14 @@
 # Needs python3 for the Excel file.
 # Input:  salmon_quant/PRJNA72713/tpm_atlantic_salmon_15_tissues.tsv.gz (00_1), salmon_quant/samples_all.tsv (05_2),
 #         salmon_quant/<study>/tpm_gene.tsv.gz, msa/cyp27a1/cyp27a1_accessions.tsv, vd3_genes/salmon_vd3_orthologs_v1.tsv
-# Output: vd3_genes/related_genes/{genes,atlas_tpm,studies_tpm}.tsv, manuscript/v7/Table S12 ... .xlsx
+# Output: vd3_genes/related_genes/{genes,atlas_tpm,studies_tpm}.tsv, manuscript/v7/Table S11 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_dir <- file.path(vd3_dir, "related_genes")
 dir.create(out_dir, showWarnings = FALSE)
 genes_file <- file.path(out_dir, "genes.tsv")
-table_file <- file.path(fig_dir, "Table S12 Expression of 25-hydroxylase candidates and cholesterol synthesis genes.xlsx")
+table_file <- file.path(fig_dir, "Table S11 Expression of 25-hydroxylase candidates and cholesterol synthesis genes.xlsx")
 
 queries <- tribble(
   ~group,                       ~human,    ~accept,
@@ -121,7 +121,7 @@ if (!file.exists(genes_file)) {
     left_join(cyp27, by = "gene_id") %>%
     # The two cyp27a1 orthologs are among the 16 genes
     filter(human != "CYP27A1" | is.na(name)) %>%
-    mutate(note = if_else(gene_id == cyp2x, "cyp2x (Figure 2c), excluded from the 16 genes", note),
+    mutate(note = if_else(gene_id == cyp2x, "cyp2x (Figure 2b), excluded from the 16 genes", note),
            name = if_else(is.na(name) | gene_id == cyp2x, symbol, name)) %>%
     select(group, query = human, name, gene_id, chr, product, best_human, identity, note) %>%
     arrange(match(group, unique(queries$group)), match(query, c(queries$human, "CYP2R1")), chr, name)
@@ -157,7 +157,7 @@ studies <- map_dfr(replicate_studies, function(s) {
 write_tsv(mutate(atlas, across(-gene_id, ~ round(.x, 3))), file.path(out_dir, "atlas_tpm.tsv"))
 write_tsv(mutate(studies, across(-gene_id, ~ round(.x, 3))), file.path(out_dir, "studies_tpm.tsv"))
 
-# --- Table S12
+# --- Table S11
 fmt <- function(x) ifelse(is.na(x), "", formatC(x, format = "f", digits = 1))
 sheets <- file.path(tempdir(), c("Genes.tsv", "Atlas TPM.tsv", "Studies TPM.tsv"))
 key <- genes %>% transmute(Group = group, Gene = name, `Gene ID` = gene_id)

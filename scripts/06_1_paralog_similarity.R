@@ -1,4 +1,4 @@
-# Table S11, sheet Similarity: can Salmon tell the paralogs apart? Sequence identity and shared read-length windows of paralog pairs.
+# Table S10, sheet Similarity: can Salmon tell the paralogs apart? Sequence identity and shared read-length windows of paralog pairs.
 # Sequences: the RefSeq transcripts (RS_2025_05 versions, as quantified by Salmon) listed in
 # salmon_vd3_orthologs_v1.tsv, with their CDS and proteins, from NCBI E-utilities. Cached in vd3_genes/paralogs/seq/
 # (delete that folder to download again). Each gene is represented by its transcript with the longest CDS.
@@ -105,7 +105,7 @@ result <- pairs %>%
 write_tsv(result, file.path(out_dir, "paralog_similarity.tsv"))
 print(as.data.frame(result))
 
-# Table S11 sheet, with the largest error of the simulated mixtures of 06_2 (simulation.tsv, made once)
+# Table S10 sheet, with the largest error of the simulated mixtures of 06_2 (simulation.tsv, made once)
 simulation <- read_tsv(file.path(out_dir, "simulation.tsv"), show_col_types = FALSE) %>%
   group_by(gene_a, gene_b) %>%
   summarise(sim_error = round(max(abs(est_share_a - true_share_a)), 2), .groups = "drop")

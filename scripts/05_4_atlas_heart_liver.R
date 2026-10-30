@@ -76,22 +76,22 @@ floor_value <- 1e-4
 plot_df <- index %>%
   mutate(group = case_when(tissue == "liver" ~ "Liver", tissue == "heart" ~ "Heart", TRUE ~ "Other tissues"),
          group = factor(group, levels = c("Liver", "Heart", "Other tissues")),
-         source = if_else(study == atlas, "PRJNA72713", "Other studies"),
+         source = if_else(study == atlas, "Atlas", "Other studies"),
          across(c(liver_index, heart_index), ~ pmax(.x, floor_value)),
-         label = if_else(study == atlas & tissue %in% c("heart", "liver"), paste(atlas, tissue_label(tissue)), NA))
+         label = if_else(study == atlas & tissue %in% c("heart", "liver"), paste("Atlas", tissue), NA))
 group_colors <- c(Liver = "#D55E00", Heart = "#0072B2", `Other tissues` = "grey65")
 log_breaks <- 10^(-4:1)
 log_labels <- c("<0.0001", "0.001", "0.01", "0.1", "1", "10")
 
 p_scatter <- ggplot(plot_df, aes(liver_index, heart_index, colour = group, shape = source)) +
-  geom_point(data = filter(plot_df, source != atlas), size = 1.2, alpha = 0.7) +
-  geom_point(data = filter(plot_df, source == atlas), size = 2.2, stroke = 0.8) +
+  geom_point(data = filter(plot_df, source != "Atlas"), size = 1.2, alpha = 0.7) +
+  geom_point(data = filter(plot_df, source == "Atlas"), size = 2.2, stroke = 0.8) +
   geom_text_repel(aes(label = label), size = 2.8, colour = "black", min.segment.length = 0,
                   box.padding = 0.5, na.rm = TRUE, show.legend = FALSE, seed = 1) +
   scale_x_log10(breaks = log_breaks, labels = log_labels) +
   scale_y_log10(breaks = log_breaks, labels = log_labels) +
   scale_colour_manual(values = group_colors, name = NULL) +
-  scale_shape_manual(values = c(`Other studies` = 16, PRJNA72713 = 5), name = NULL) +
+  scale_shape_manual(values = c(`Other studies` = 16, Atlas = 5), name = NULL) +
   labs(x = "Liver marker index", y = "Heart marker index",
        title = paste0("Liver and heart markers in all samples (", nrow(plot_df), ")")) +
   theme_bw(base_size = 10) +
@@ -106,7 +106,7 @@ p_atlas <- ggplot(atlas_df, aes(liver_index, tissue, colour = group)) +
   geom_point(size = 2) +
   scale_x_log10(breaks = log_breaks, labels = log_labels) +
   scale_colour_manual(values = group_colors, guide = "none") +
-  labs(x = "Liver marker index", y = NULL, title = "PRJNA72713 tissues") +
+  labs(x = "Liver marker index", y = NULL, title = "Atlas tissues") +
   theme_bw(base_size = 10) +
   theme(plot.title = element_text(size = 11))
 

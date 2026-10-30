@@ -1,4 +1,4 @@
-# Trees built from an accession list: gc (Fig 2b, the albumin family with the two Atlantic salmon albumins),
+# Trees built from an accession list: gc (Fig 2c, the albumin family with the two Atlantic salmon albumins),
 # vdr_extended (Fig 2d, one protein per gene, with chicken, spotted gar, medaka, fugu, stickleback and northern pike
 # added to resolve the teleost vdra and vdrb lineages) and cyp27a1 (Fig 2a, the CYP27A1 orthologs with the salmon
 # cyp27a2 and cyp27a3 genes, rooted on CYP27B1).

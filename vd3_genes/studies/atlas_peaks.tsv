@@ -1,0 +1,17 @@
+name	atlas_peak	studies_peak	same_peak
+alb1	Liver	Liver	TRUE
+alb2	Liver	Liver	TRUE
+cyp24a1.a	Liver	Liver	TRUE
+cyp24a1.b	Liver	Liver	TRUE
+cyp27a1.a	Gut	Gut	TRUE
+cyp27a1.b	Gut	Gut	TRUE
+cyp27b1.a	Brain	Brain	TRUE
+cyp27b1.b	Liver	Liver	TRUE
+cyp2r1.a	Liver	Liver	TRUE
+cyp2r1.b	Gill	Skin	FALSE
+dhcr7.a	Ovary	Pyloric caecum	FALSE
+dhcr7.b	Pyloric caecum	Liver	FALSE
+vdra.a	Kidney	Testis	FALSE
+vdra.b	Testis	Testis	TRUE
+vdrb.a	Gill	Skin	FALSE
+vdrb.b	Gill	Gill	TRUE

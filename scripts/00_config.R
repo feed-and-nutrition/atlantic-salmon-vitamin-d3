@@ -56,12 +56,16 @@ excluded_samples <- c("PRJNA72713:heart" = "mostly liver",
                       "PRJNA543940:heart_l63" = "pyloric caecum profile")
 # Text-search candidates that are not VD3 genes, left out of the expression analyses (00_1, 05_2). cyp2r1.c
 # (LOC106586122) is named "vitamin D(3) 25-hydroxylase" in RefSeq but is the ortholog of zebrafish cyp2x12
-# (si:dkey-286h2.3), a fish CYP2 subfamily without a mammalian ortholog. It stays in the cyp2r1 tree (Fig 2c).
+# (si:dkey-286h2.3), a fish CYP2 subfamily without a mammalian ortholog. It stays in the cyp2r1 tree (Fig 2b).
 excluded_genes <- c(cyp2r1.c = "LOC106586122")
 
-# Replicate studies (Fig 4, Fig S5, Table S9), studies with the most tissues first. Not the PRJNA72713 atlas (Fig 3)
+# Replicate studies (Fig 4, Fig S4, Table S8), studies with the most tissues first. Not the PRJNA72713 atlas (Fig 3)
 # or PRJNA260929 (one sample per tissue, and its heart sample does not match heart in other studies).
 replicate_studies <- c("PRJNA359635", "PRJEB47409", "ROS_1", "PRJNA647285", "PRJNA543940", "PRJNA380580", "PRJNA626461")
+# Short study names used in the text, figures and tables (Table 1 of the manuscript), named after each study's design
+study_names <- c(PRJNA72713 = "Atlas", PRJNA359635 = "Seawater", PRJEB47409 = "Maturation", ROS_1 = "Antioxidant",
+                 PRJNA647285 = "ISAV", PRJNA543940 = "PD", PRJNA380580 = "Puberty", PRJNA626461 = "Blood",
+                 PRJNA1160017 = "Diet", PRJNA221548 = "Pike")
 
 # Tissue order of Figs 3 and 4, grouped by organ system (atlas and replicate-study tissues)
 tissue_order <- c("brain", "eye", "nose", "gill", "skin", "muscle", "bone", "blood", "heart", "liver", "gut",
@@ -122,7 +126,7 @@ stability_colors <- list(Stability = c(Stable = "#1B9E77", Variable = "#D95F02")
 # Tissue specificity index tau (Yanai et al. 2005) of log2(TPM + 1): 0 = even, 1 = one tissue
 tau_index <- function(x) if (max(x) == 0) NA_real_ else sum(1 - x / max(x)) / (length(x) - 1)
 
-# Table 2 pattern: restricted if the level varies strongly (SD >= 1) or is concentrated in few
+# Table 3 pattern: restricted if the level varies strongly (SD >= 1) or is concentrated in few
 # tissues (tau >= 0.8, Kryuchkova-Mostacci and Robinson-Rechavi 2017). The SD alone misses weakly
 # expressed tissue-specific genes such as cyp27b1. Not "tissue enriched", which has a stricter meaning in the
 # Human Protein Atlas (at least four-fold above all other tissues). Genes below 1 TPM in every tissue are not
@@ -139,7 +143,7 @@ expr_level_groups <- function(log_tpm) {
        Medium = names(max_log)[max_log > 3.5 & max_log <= 7],
        Low = names(max_log)[max_log <= 3.5])
 }
-# Fig S6 sidebars: the two criteria and the resulting pattern, as fixed categories so every panel
+# Fig S5 sidebars: the two criteria and the resulting pattern, as fixed categories so every panel
 # uses the same colours. 04_2 lists "Not classified" only in the panel where it occurs (it does not fit the others)
 pattern_annotation <- function(sd_values, tau_values, peak_tpm) {
   pattern <- expr_pattern(sd_values, tau_values, peak_tpm)
@@ -155,7 +159,7 @@ pattern_colors <- list(SD = c("#4D4D4D", "#E0E0E0"),
 names(pattern_colors$SD) <- c("\u2265 1", "< 1")
 names(pattern_colors$tau) <- c("\u2265 0.8", "< 0.8")
 
-# Z-score heatmap with sidebars: SD/Stability by default (Fig S3b), SD/tau/Pattern for Fig S6
+# Z-score heatmap with sidebars: SD/Stability by default (housekeeping genes, 02), SD/tau/Pattern for Fig S5
 z_heatmap <- function(z, sd_values, title, annotation = stability_annotation(sd_values[rownames(z)]),
                       annotation_colors = stability_colors, ...) {
   pheatmap::pheatmap(

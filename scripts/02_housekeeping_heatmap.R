@@ -1,6 +1,6 @@
-# Fig S3: housekeeping gene expression and stability
+# Housekeeping gene expression and stability (exploratory, Figure S3 until v7 round 8, not in run_all)
 # Input:  hk_genes/tpm_hk_genes.tsv (from 00_1)
-# Output: hk_genes/hk_genes.{svg,png} (Fig S3), hk_genes/summary_hk_genes.tsv
+# Output: hk_genes/hk_genes.{svg,png}, hk_genes/summary_hk_genes.tsv
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

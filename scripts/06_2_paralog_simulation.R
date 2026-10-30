@@ -1,6 +1,6 @@
 # Can Salmon tell the paralogs apart? Mixtures of reads simulated from both genes of a pair, quantified against the
 # whole transcriptome. For each of the eight paralog pairs, 100,000 read pairs are simulated with wgsim from the
-# transcripts with the longest CDS (those compared in Table S11, 06_1), with the first gene contributing 100%, 90%, 50%,
+# transcripts with the longest CDS (those compared in Table S10, 06_1), with the first gene contributing 100%, 90%, 50%,
 # 10% or 0% of them: 2 x 100 nt as in the atlas (HiSeq 2000), fragments of 250 +/- 50 nt, 1% sequencing errors and
 # 0.5% sequence differences from the reference (wgsim -r, 15% of them indels), as a fish differs from the reference. They are quantified with Salmon as in the Methods (-l A --seqBias --gcBias) against an index
 # of all RS_2025_05 transcripts, and the estimated reads are summed per gene.

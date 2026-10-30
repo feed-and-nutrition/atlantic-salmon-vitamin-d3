@@ -1,9 +1,9 @@
 Study	BioProject	Reference	Design	Tissues (samples)	Samples analyzed	Notes
-PRJNA72713	PRJNA72713	Lien et al. 2016	Multi-tissue atlas, one sample per tissue	Brain (1), Eye (1), Gill (1), Gut (1), Head kidney (1), Kidney (1), Liver (1), Muscle (1), Nose (1), Ovary (1), Pyloric caecum (1), Skin (1), Spleen (1), Testis (1)	14	Sample heart excluded (mostly liver)
-PRJNA359635	PRJNA359635	Robertson et al. 2017	Females and males in freshwater and seawater, one pool of three fish per group	Brain (4), Eye (4), Gill (4), Gut (4), Kidney (4), Liver (4), Nose (4), Pyloric caecum (4), Skin (4), Spleen (4)	40	
-PRJEB47409	PRJEB47409	Nguyen et al. 2025	Immature and mature females and males, three fish per group	Brain (12), Distal intestine (12), Gill (12), Head kidney (12), Liver (12), Muscle (12), Ovary (6), Testis (6)	84	
-ROS_1 (ROS Work Package 1)	PRJNA765504, PRJNA765887, PRJNA766174, PRJNA777794	Yin et al. 2022	18 fish fed a low-antioxidant diet (Low and LowSham groups)	Bone (18), Brain (18), Liver (18), Muscle (18)	72	
-PRJNA647285	PRJNA647285	Gervais et al. 2021	Uninfected parr from resistant and susceptible families, before a virus challenge	Head kidney (8), Heart (8)	16	Kidney samples analyzed as head kidney
-PRJNA543940	PRJNA543940	Robinson et al. 2020	Parr from families with high and low genomic breeding values for pancreas disease resistance	Heart (28)	28	Sample heart_h59 excluded (pyloric caecum profile). Sample heart_l63 excluded (pyloric caecum profile)
-PRJNA380580	PRJNA380580	Skaftnesmo et al. 2017	Males at three maturation stages, three fish per stage	Testis (9)	9	
-PRJNA626461	PRJNA626461	Andrew et al. 2021	Immature parr homozygous for the early (EE) or late (LL) vgll3 allele	Blood (9)	9	
+Atlas	PRJNA72713	Lien et al. 2016	Multi-tissue atlas, one sample per tissue	Brain (1), Eye (1), Gill (1), Gut (1), Head kidney (1), Kidney (1), Liver (1), Muscle (1), Nose (1), Ovary (1), Pyloric caecum (1), Skin (1), Spleen (1), Testis (1)	14	Sample heart excluded (mostly liver)
+Seawater	PRJNA359635	Robertson et al. 2017	Females and males in freshwater and seawater, one pool of three fish per group	Brain (4), Eye (4), Gill (4), Gut (4), Kidney (4), Liver (4), Nose (4), Pyloric caecum (4), Skin (4), Spleen (4)	40	
+Maturation	PRJEB47409	Nguyen et al. 2025	Immature and mature females and males, three fish per group	Brain (12), Distal intestine (12), Gill (12), Head kidney (12), Liver (12), Muscle (12), Ovary (6), Testis (6)	84	
+Antioxidant	PRJNA765504, PRJNA765887, PRJNA766174, PRJNA777794	Yin et al. 2022	18 fish fed a low-antioxidant diet (Low and LowSham groups)	Bone (18), Brain (18), Liver (18), Muscle (18)	72	
+ISAV	PRJNA647285	Gervais et al. 2021	Uninfected parr from resistant and susceptible families, before a virus challenge	Head kidney (8), Heart (8)	16	Kidney samples analyzed as head kidney
+PD	PRJNA543940	Robinson et al. 2020	Parr from families with high and low genomic breeding values for pancreas disease resistance	Heart (28)	28	Sample heart_h59 excluded (pyloric caecum profile). Sample heart_l63 excluded (pyloric caecum profile)
+Puberty	PRJNA380580	Skaftnesmo et al. 2017	Males at three maturation stages, three fish per stage	Testis (9)	9	
+Blood	PRJNA626461	Andrew et al. 2021	Immature parr homozygous for the early (EE) or late (LL) vgll3 allele	Blood (9)	9	

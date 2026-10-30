@@ -45,7 +45,7 @@ VD3_FIG_DIR=results Rscript scripts/run_all.R
 R 4.6.1 was used. Install the packages once:
 
 ```r
-install.packages(c("tidyverse", "cowplot", "systemfonts", "ragg", "ggrepel", "pheatmap", "ape",
+install.packages(c("tidyverse", "cowplot", "patchwork", "systemfonts", "ragg", "ggrepel", "pheatmap", "ape",
                    "xml2", "jsonlite", "BiocManager"))
 BiocManager::install(c("ggtree", "Biostrings"))
 ```
@@ -84,7 +84,7 @@ ncbi_samples/   list of the RNA-seq studies and cached SRA run information
 salmon_quant/   sample sheets and sample tables of each RNA-seq study
 msa/            protein sequences, alignments and IQ-TREE results for each tree
 vd3_genes/      the curated gene list and the expression, annotation and gc search results
-hk_genes/       housekeeping genes used as an expression reference
+hk_genes/       housekeeping genes (exploratory, not in the manuscript)
 gc_blast/       BLASTp results of the first GC search (NCBI web BLAST)
 d3pathway/      Figure 1 (and the draw.io drawing of earlier versions)
 ```
@@ -100,27 +100,28 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Output | Script | Runs from this repository |
 |---|---|---|
 | Figure 1 | `09_1_pathway_figure.R` | yes |
-| Figure 2, Figure S4 | `01_phylogenetic_tree.R` (trees built by `01_0_build_trees.R`) | yes |
-| Figure 3, Figure S6 | `04_2_vd3_genes_heatmap_split.R` | yes |
-| Figure 4, Figure S5 | `05_5_vd3_genes_studies_fig.R` | yes |
+| Figure 2, Figure S3 | `01_phylogenetic_tree.R` (trees built by `01_0_build_trees.R`) | yes |
+| Figure 3, Figure S5 | `04_2_vd3_genes_heatmap_split.R` | yes |
+| Figure 4, Figure S4 | `05_5_vd3_genes_studies_fig.R` | yes |
 | Figure S1 | `03_2_salmon_quant_pca.R` | needs the large data |
 | Figure S2 | `05_4_atlas_heart_liver.R` | needs the large data |
-| Figure S3 | `02_housekeeping_heatmap.R` | yes |
 | Table S3 | `07_3_gc_genome_search.R` | yes, but downloads about 3.5 GB |
-| Table S6 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R` and `07_4_vdr_synteny.R`) | yes |
-| Table S7 | `08_1_ligand_contacts.R` | yes |
-| Table S8 | `04_1_vd3_genes_heatmap.R` | yes |
-| Table S9 | `05_6_study_table.R` | yes |
-| Table S10 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R` and `05_9_diet_response.R`) | needs the large data |
-| Table S11 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
-| Table S12 | `05_8_related_genes.R` | needs the large data |
+| Table S5 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R` and `07_4_vdr_synteny.R`) | yes |
+| Table S6 | `08_1_ligand_contacts.R` | yes |
+| Table S7 | `04_1_vd3_genes_heatmap.R` | yes |
+| Table S8 | `05_6_study_table.R` | yes |
+| Table S9 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R` and `05_9_diet_response.R`) | needs the large data |
+| Table S10 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
+| Table S11 | `05_8_related_genes.R` | needs the large data |
 
-Tables S1, S2, S4 and S5 were compiled by hand from the gene search and are provided with the manuscript.
+Tables S1, S2 and S4 were compiled by hand from the gene search and are provided with the manuscript.
 
 Six scripts are not part of `run_all.R`, because they download large files to `annotation/` and can take an hour
 or more: `06_2_paralog_simulation.R`, `06_3_pike_expression.R` (about 9 GB of pike reads), `07_1_annotation_check.R`,
 `07_3_gc_genome_search.R`, `07_4_vdr_synteny.R` and `07_5_cyp27b1_genome_search.R` (both use the downloads of
 `07_3`). Their results are included, so the tables that use them can still be rebuilt.
+`02_housekeeping_heatmap.R` plots housekeeping genes as an expression reference. It is exploratory and not
+used in the manuscript.
 
 `01_0_build_trees.R` reuses the trees in `msa/` and only rebuilds a tree when its sequence file is newer than the
 tree. Without `muscle5` and `iqtree2` it may fail, and `01_phylogenetic_tree.R` still draws the included trees.
@@ -131,7 +132,7 @@ The genome-wide expression tables are not included because of their size. They a
 in three steps.
 
 1. **Quantify the reads.** Download the reads of each study from the SRA (run accessions in Supplementary
-   Tables S9 and S10 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
+   Tables S8 and S9 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
    four at a time and checks their MD5 sums, from a list such as `ncbi_samples/PRJNA1160017_skin_stomach_fastq.tsv`
    (its stomach runs were quantified but are not used):
 
