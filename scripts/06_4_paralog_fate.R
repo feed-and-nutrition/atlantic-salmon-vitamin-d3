@@ -14,7 +14,7 @@
 # Needs muscle5 and yn00 on the PATH (or PAML_YN00 set to yn00) only when divergence.tsv is missing.
 # Input:  vd3_genes/paralogs/ (06_1, 06_3), vd3_genes/annotation_check/synteny.tsv (07_1),
 #         vd3_genes/tpm_vd3_genes.tsv, vd3_genes/tpm_vd3_genes_studies.tsv
-# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v7/Table S10 ... .xlsx
+# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v8/Table S10 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -207,19 +207,19 @@ profiles %>%
   transmute(`Gene a` = gene_a, `Gene b` = gene_b, `Atlas peak TPM, a` = peak_a, `Atlas peak TPM, b` = peak_b,
             `Atlas tissues with a at least 2-fold higher` = a_higher,
             `Atlas tissues with b at least 2-fold higher` = b_higher,
-            `r, a vs b, atlas` = fmt(r_ab_atlas), `r, a vs b, PRJNA359635` = fmt(r_ab_pool),
+            `r, a vs b, atlas` = fmt(r_ab_atlas), `r, a vs b, Seawater` = fmt(r_ab_pool),
             `Pattern, a / b` = paste(pattern_a, pattern_b, sep = " / "),
             `Pike peak TPM (tissue)` = paste0(pike_peak, " (", tissue_label(pike_peak_tissue), ")"),
             `Pike pattern` = pike_pattern,
             `r, a vs pike, atlas` = fmt(r_a_pike), `r, b vs pike, atlas` = fmt(r_b_pike),
             `r, a + b vs pike, atlas` = fmt(r_sum_pike),
-            `r, a vs pike, PRJNA359635` = fmt(r_a_pike_pool), `r, b vs pike, PRJNA359635` = fmt(r_b_pike_pool),
-            `r, a + b vs pike, PRJNA359635` = fmt(r_sum_pike_pool)) %>%
+            `r, a vs pike, Seawater` = fmt(r_a_pike_pool), `r, b vs pike, Seawater` = fmt(r_b_pike_pool),
+            `r, a + b vs pike, Seawater` = fmt(r_sum_pike_pool)) %>%
   mutate(across(everything(), as.character)) %>%
   add_row(`Gene a` = c("", paste0("r: Pearson correlation of log2(TPM + 1) across tissues, not given when a gene stays ",
                                   "below 1 TPM in all of them. Atlas: 14 tissues (a vs b) and the ", profiles$n_pike[1],
-                                  " tissues shared with the pike samples of PRJNA221548. PRJNA359635: mean of the four ",
-                                  "pools per tissue, 10 tissues (a vs b) and ", profiles$n_pike_pool[1], " shared with ",
+                                  " tissues shared with the Pike study (PRJNA221548). Seawater study (PRJNA359635): ",
+                                  "mean of the four pools per tissue, 10 tissues (a vs b) and ", profiles$n_pike_pool[1], " shared with ",
                                   "pike. a + b: the summed TPM of both copies. 2-fold higher: a difference of at least 1 ",
                                   "in log2(TPM + 1), in tissues above 1 TPM. Pattern: the rule of Table 3 (restricted if ",
                                   "SD >= 1 or tau >= 0.8, not classified below 1 TPM), for pike over its 13 tissues."))) %>%
@@ -238,8 +238,8 @@ pike %>%
   relocate(`Salmon genes`) %>%
   rename_with(tissue_label, -c(`Salmon genes`, `Pike gene`, `Gene ID`)) %>%
   mutate(across(everything(), as.character)) %>%
-  add_row(`Salmon genes` = c("", paste("TPM of the pike orthologs in the tissue RNA-seq of PRJNA221548 (one sample per",
-                                       "tissue), from the first 4 million read pairs of each run, quantified with Salmon",
+  add_row(`Salmon genes` = c("", paste("TPM of the pike orthologs in the tissue RNA-seq of the Pike study (PRJNA221548, one",
+                                       "sample per tissue), from the first 4 million read pairs of each run, quantified with Salmon",
                                        "against the fEsoLuc1 RefSeq transcripts."))) %>%
   mutate(across(everything(), ~ replace_na(.x, ""))) %>%
   write_tsv(pike_tsv)

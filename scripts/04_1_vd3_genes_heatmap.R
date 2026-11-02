@@ -4,7 +4,7 @@
 # Output: vd3_genes/summary_vd3_genes.tsv (level, peak TPM, SD, tau, Table 3 pattern per gene)
 #         vd3_genes/top3_tissues_vd3_genes.tsv (highest tissue, and the next two if their TPM is above 1)
 #         vd3_genes/pattern_sensitivity.tsv (Table 3 pattern under other cutoffs and in PRJNA359635)
-#         manuscript/v7/Table S7 ... .xlsx (sheet TPM: TPM per gene and atlas tissue with SD and tau, via
+#         manuscript/v8/Table S7 ... .xlsx (sheet TPM: TPM per gene and atlas tissue with SD and tau, via
 #         vd3_genes/table_s8.tsv; sheet Sensitivity: pattern_sensitivity.tsv)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
@@ -59,15 +59,16 @@ sensitivity <- expr_summary_vd3 %>%
          `tau >= 0.9` = patterns(vd3$log_tpm, tau_cut = 0.9)[Gene],
          `tau of TPM` = expr_pattern(apply(vd3$log_tpm, 1, sd), tau_tpm, apply(vd3$tpm, 1, max))[Gene],
          `tau with TPM below 1 set to 0` = patterns(vd3$log_tpm, floor_tpm = 1)[Gene],
-         `PRJNA359635 SD` = round(apply(rep_log, 1, sd), 3)[Gene],
-         `PRJNA359635 tau` = round(apply(rep_log, 1, tau_index), 3)[Gene],
-         `PRJNA359635 pattern` = patterns(rep_log)[Gene])
-changed <- select(sensitivity, `SD >= 0.75`:`tau with TPM below 1 set to 0`, `PRJNA359635 pattern`) %>%
+         `Seawater SD` = round(apply(rep_log, 1, sd), 3)[Gene],
+         `Seawater tau` = round(apply(rep_log, 1, tau_index), 3)[Gene],
+         `Seawater pattern` = patterns(rep_log)[Gene])
+changed <- select(sensitivity, `SD >= 0.75`:`tau with TPM below 1 set to 0`, `Seawater pattern`) %>%
   map(~ sensitivity$Gene[.x != sensitivity$`Table 3 (SD >= 1 or tau >= 0.8)`])
 print(changed)
 note <- paste("Pattern of each gene as in Table 3 (atlas, 14 tissues, SD and tau of log2(TPM + 1)) and with one",
               "change at a time: other SD or tau cutoffs, tau calculated from TPM, tau after setting values below",
-              "1 TPM to 0, or the mean log2(TPM + 1) of the four pooled samples per tissue of PRJNA359635 (10 tissues).",
+              "1 TPM to 0, or the mean log2(TPM + 1) of the four pooled samples per tissue of the Seawater study",
+              "(PRJNA359635, 10 tissues).",
               "Genes below 1 TPM in all tissues are not classified.")
 sensitivity_tsv <- file.path(vd3_dir, "pattern_sensitivity.tsv")
 sensitivity %>%

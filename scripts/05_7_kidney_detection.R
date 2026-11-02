@@ -13,7 +13,7 @@
 #         vd3_genes/tpm_vd3_genes.tsv (gene IDs), vd3_genes/tpm_vd3_genes_studies.tsv (05_2),
 #         vd3_genes/cyp27b1_search/loci.tsv (07_5), vd3_genes/studies/diet_PRJNA1160017/{medians,fits}.tsv (05_9),
 #         msa/cyp27a1/cyp27a1_accessions.tsv (names of the cyp27a2/a3-like genes)
-# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v7/Table S9 ... .xlsx
+# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v8/Table S9 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -63,7 +63,7 @@ write_tsv(kidney, out_file)
 
 fmt <- function(x, d) formatC(x, format = "f", digits = d)
 table <- kidney %>%
-  transmute(Study = as.character(study), Sample = sample,
+  transmute(Study = unname(study_names[as.character(study)]), Sample = sample,
             Tissue = ifelse(tissue_raw == tissue_label(as.character(tissue)) |
                               str_to_lower(tissue_raw) == str_replace(as.character(tissue), "_", " "),
                             tissue_label(as.character(tissue)),
@@ -79,7 +79,8 @@ sheets <- file.path(sheet_dir, c("Kidney.tsv", "Genome search.tsv", "Freshwater 
 write_tsv(table, sheets[1], na = "")
 note <- paste("Reads are Salmon estimated counts. TPM per read is the TPM that one read of the gene gives in the sample.",
               "Where the sample has no read, it is estimated from the samples of the same study with reads, scaled by",
-              "library size. The PRJNA647285 samples labelled kidney were analysed as head kidney (Methods).")
+              "library size. The ISAV samples labelled kidney were analysed as head kidney (Methods). Studies are named as in",
+              "Table 1.")
 cat("\n", note, "\n", file = sheets[1], append = TRUE, sep = "")
 
 # --- Genome search (07_5): loci of the mitochondrial P450 families, with the names used in this study
@@ -129,7 +130,7 @@ fw_sw %>%
                    .names = "{.col} (TPM)"),
             `Difference in mean log2(TPM + 1), seawater minus freshwater` = fmt(log2fc, 2)) %>%
   write_tsv(sheets[3])
-note <- paste("PRJNA359635 (Robertson et al. 2017): each sample is a pool of three fish of one sex, sampled in",
+note <- paste("Seawater study (PRJNA359635, Robertson et al. 2017): each sample is a pool of three fish of one sex, sampled in",
               "freshwater before smoltification (mean length 18.6 cm) or in seawater after smoltification (25.8 cm).")
 cat("\n", note, "\n", file = sheets[3], append = TRUE, sep = "")
 
@@ -153,14 +154,15 @@ diet %>%
             `FDR, all samples` = fmt(`fdr_all samples`, 3)) %>%
   mutate(across(everything(), ~ replace_na(str_trim(.x), "")), across(everything(), ~ str_replace(.x, "^NA$", ""))) %>%
   write_tsv(sheets[4])
-note <- paste("PRJNA1160017 (Taylor et al. 2026, runs SRR31697075 to SRR31697086): skin of juvenile Atlantic salmon of two",
+note <- paste("Diet study (PRJNA1160017, Taylor et al. 2026, runs SRR31697075 to SRR31697086): skin of juvenile Atlantic salmon of two",
               "strains, fed 866 or 1779 ng/g vitamin D3 for about six months in freshwater, three fish per diet and strain.",
               "TPM values are medians of the three fish. The three Norwegian commercial fish fed 866 ng/g are atypical: their",
               "median Spearman correlation with the other skin samples was 0.71 to 0.76, compared with 0.88 or more for the",
               "other nine. Fold change per doubling of dietary vitamin D3 from the linear model log2(TPM + 1) ~ strain +",
               "log2(dose), fitted for genes with a median TPM of 1 or more, with Benjamini-Hochberg FDR within each sample set.")
 cat("\n", note, "\n", file = sheets[4], append = TRUE, sep = "")
-stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), shQuote(sheets),
-                              shQuote(table_file))) == 0)
+groups <- c("Kidney=Study", "Genome search=Assembly,Species", "Freshwater and seawater=Tissue")
+stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), paste0("--group=", shQuote(groups)),
+                              shQuote(sheets), shQuote(table_file))) == 0)
 print(as.data.frame(filter(fw_sw, tissue == "liver")))
 message("Wrote ", out_file, ", ", fw_sw_file, " and ", table_file)

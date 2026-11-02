@@ -6,7 +6,7 @@
 # A sample is matched to its runs by the run accession in its sample sheet, or else by the SRA library name.
 # Needs python3 for the Excel file, and internet access on the first run.
 # Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv
-# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v7/Table S8 ... .xlsx
+# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v8/Table S8 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -113,6 +113,7 @@ cat("\nRead length is the mean length of one read (one mate for paired runs), fr
     "Salmon reads are the estimated counts summed over all genes.\n", file = file.path(tmp, "Samples.tsv"),
     append = TRUE, sep = "")
 py <- file.path(proj_dir, "scripts", "tsv_to_xlsx.py")
-if (system2("python3", c(shQuote(py), shQuote(file.path(tmp, c("Studies.tsv", "Samples.tsv"))), shQuote(table_file))) != 0)
+if (system2("python3", c(shQuote(py), "--group='Samples=Study'", shQuote(file.path(tmp, c("Studies.tsv", "Samples.tsv"))),
+                         shQuote(table_file))) != 0)
   stop("tsv_to_xlsx.py failed")
 message("Wrote ", out_file, " and ", table_file)

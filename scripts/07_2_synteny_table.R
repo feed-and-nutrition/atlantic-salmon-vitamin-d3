@@ -6,7 +6,7 @@
 # and spotted gar (07_4).
 # Input:  vd3_genes/annotation_check/synteny.tsv (07_1), vd3_genes/vdr_synteny/summary.tsv (07_4)
 # Output: vd3_genes/annotation_check/table_s6.tsv, vd3_genes/vdr_synteny/table_s6_vdr.tsv,
-#         manuscript/v7/Table S5 ... .xlsx
+#         manuscript/v8/Table S5 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -59,6 +59,7 @@ sheet_dir <- tempfile()
 dir.create(sheet_dir)
 sheets <- file.path(sheet_dir, c("Paralog pairs.tsv", "vdr genes.tsv"))
 invisible(file.copy(c(table_tsv, vdr_tsv), sheets))
-stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), shQuote(sheets),
-                              shQuote(table_file))) == 0)
+groups <- "vdr genes=Species"
+stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), paste0("--group=", shQuote(groups)),
+                              shQuote(sheets), shQuote(table_file))) == 0)
 print(as.data.frame(select(synteny, gene_a, gene_b, on_chr_b, near_b_2mb)))

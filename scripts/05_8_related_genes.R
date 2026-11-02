@@ -14,7 +14,7 @@
 # Needs python3 for the Excel file.
 # Input:  salmon_quant/PRJNA72713/tpm_atlantic_salmon_15_tissues.tsv.gz (00_1), salmon_quant/samples_all.tsv (05_2),
 #         salmon_quant/<study>/tpm_gene.tsv.gz, msa/cyp27a1/cyp27a1_accessions.tsv, vd3_genes/salmon_vd3_orthologs_v1.tsv
-# Output: vd3_genes/related_genes/{genes,atlas_tpm,studies_tpm}.tsv, manuscript/v7/Table S11 ... .xlsx
+# Output: vd3_genes/related_genes/{genes,atlas_tpm,studies_tpm}.tsv, manuscript/v8/Table S11 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -175,7 +175,7 @@ key %>%
   mutate(across(any_of(analysis_tissues), fmt)) %>%
   rename_with(tissue_label, any_of(analysis_tissues)) %>%
   write_tsv(sheets[2], na = "")
-cat("\nTPM in the 14 tissues of the PRJNA72713 atlas (heart excluded).\n", file = sheets[2], append = TRUE)
+cat("\nTPM in the 14 tissues of the Atlas study (PRJNA72713), heart excluded.\n", file = sheets[2], append = TRUE)
 n_studies <- samples %>% distinct(study, tissue) %>% count(tissue)
 key %>%
   left_join(studies, by = c(`Gene ID` = "gene_id")) %>%
@@ -185,7 +185,8 @@ key %>%
 note <- paste("TPM in the seven replicate studies, pooled per tissue as in Figure 4: the mean of log2(TPM + 1) over the",
               "samples of each study, averaged over the studies (number in brackets) and given back as TPM.")
 cat("\n", note, "\n", file = sheets[3], append = TRUE, sep = "")
-stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), shQuote(sheets),
-                              shQuote(table_file))) == 0)
+groups <- c("Genes=Group", "Atlas TPM=Group", "Studies TPM=Group")
+stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), paste0("--group=", shQuote(groups)),
+                              shQuote(sheets), shQuote(table_file))) == 0)
 print(as.data.frame(select(genes, group, query, name, chr, best_human, identity, note)))
 message("Wrote ", genes_file, " and ", table_file)

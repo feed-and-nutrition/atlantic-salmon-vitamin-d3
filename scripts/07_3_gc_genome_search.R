@@ -22,7 +22,7 @@
 # Table S3 holds the BLASTp search of the Methods (gc_blast/blast_results.tsv) and the three searches.
 # Input:  NCBI FTP (genomes, feature tables, proteomes), E-utilities (panel proteins, gc genes),
 #         gc_blast/blast_results.tsv
-# Output: vd3_genes/gc_search/{annotated_gc,loci,neighbourhood}.tsv, manuscript/v7/Table S3 ... .xlsx
+# Output: vd3_genes/gc_search/{annotated_gc,loci,neighbourhood}.tsv, manuscript/v8/Table S3 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -375,6 +375,7 @@ sheets <- c(
               "neighbouring genes. The gc row lists the closest genes of each species, which are albumins in the species",
               "without gc, including the argentine gene annotated as gc.")))
 table_file <- file.path(fig_dir, "Table S3 Search for GC in Atlantic salmon and other fishes.xlsx")
-stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), shQuote(sheets),
-                              shQuote(table_file))) == 0)
+groups <- c("Annotated gc genes=Group", "Genome search=Species")
+stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), paste0("--group=", shQuote(groups)),
+                              shQuote(sheets), shQuote(table_file))) == 0)
 message("Wrote ", table_file)
