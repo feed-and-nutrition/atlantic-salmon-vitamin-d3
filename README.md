@@ -30,7 +30,7 @@ Rscript scripts/run_all.R
 
 `run_all.R` runs each step in turn and prints a summary at the end. Steps that need the genome-wide expression
 tables (see [What needs the large data](#what-needs-the-large-data)) are reported as failed and skipped, and the
-others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v8/`.
+others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v9/`.
 
 To write them somewhere else:
 
@@ -86,7 +86,7 @@ msa/            protein sequences, alignments and IQ-TREE results for each tree
 vd3_genes/      the curated gene list and the expression, annotation and gc search results
 hk_genes/       housekeeping genes (exploratory, not in the manuscript)
 gc_blast/       BLASTp results of the first GC search (NCBI web BLAST)
-d3pathway/      Figure 1 (and the draw.io drawing of earlier versions)
+d3pathway/      Figure 1 and the graphical abstract (and the draw.io drawing of earlier versions)
 ```
 
 The curated gene list is `vd3_genes/salmon_vd3_orthologs_v1.tsv`. Expression values of the 16 genes are in
@@ -100,6 +100,7 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Output | Script | Runs from this repository |
 |---|---|---|
 | Figure 1 | `09_1_pathway_figure.R` | yes |
+| Graphical abstract | `09_2_graphical_abstract.R` | yes |
 | Figure 2, Figure S3 | `01_phylogenetic_tree.R` (trees built by `01_0_build_trees.R`) | yes |
 | Figure 3, Figure S5 | `04_2_vd3_genes_heatmap_split.R` | yes |
 | Figure 4, Figure S4 | `05_5_vd3_genes_studies_fig.R` | yes |
@@ -163,7 +164,7 @@ environment variables change the locations:
 | Variable | Meaning | Default |
 |---|---|---|
 | `VD3_ROOT` | repository root | the working directory |
-| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v8` |
+| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v9` |
 | `VD3_TXI_DIR` | directory with the atlas `txi_gene.rds` (used by 00_1 only when `tpm_gene.tsv.gz` is missing) | not set |
 | `VD3_MAPPED_DIR` | directory that holds the study directories (used by 05_1 only) | the working directory |
 

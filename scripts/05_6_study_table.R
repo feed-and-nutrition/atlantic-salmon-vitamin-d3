@@ -1,17 +1,18 @@
 # Table S8: the RNA-seq studies, with tissues and sample counts as analyzed (atlas and replicate studies),
-# and one row per sample with its SRA runs, layout, instrument and read length.
+# one row per sample with its SRA runs, layout, instrument and read length, and the TPM of the 16 genes in each
+# sample (TPM sheet, the values behind Figure 4 and Supplementary Figure S4).
 # Counts come from samples_all.tsv (05_2). Excluded samples (00_config.R) are listed but not counted, and
 # relabelled tissues (tissue_raw differs from tissue) are noted. Design and references are written by hand
 # below and follow the Methods. SRA run info is downloaded once per BioProject to ncbi_samples/runinfo/.
 # A sample is matched to its runs by the run accession in its sample sheet, or else by the SRA library name.
 # Needs python3 for the Excel file, and internet access on the first run.
-# Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv
-# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v8/Table S8 ... .xlsx
+# Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv, vd3_genes/tpm_vd3_genes_studies.tsv (05_2)
+# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v9/Table S8 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_file <- file.path(vd3_dir, "studies", "study_table.tsv")
-table_file <- file.path(fig_dir, "Table S8 RNA-seq studies and samples.xlsx")
+table_file <- file.path(fig_dir, "Table S8 RNA-seq studies, samples, and TPM values of VD3-related genes.xlsx")
 
 design <- tribble(
   ~study, ~bioproject, ~reference, ~design,
@@ -92,18 +93,31 @@ missing <- anti_join(analyzed, sample_runs, by = c("study", "sample"))
 if (nrow(missing)) stop("No SRA run for ", paste(missing$id, collapse = ", "))
 
 # Group: stage and treatment, without "normal" and the read-group labels that some sheets keep as treatment
-sample_table <- analyzed %>%
+sample_rows <- analyzed %>%
   inner_join(sample_runs, by = c("study", "sample")) %>%
   mutate(treatment = if_else(treatment %in% c("normal", stage) | str_detect(treatment, "_"), NA, treatment),
          group = str_squish(paste(replace_na(stage, ""), replace_na(treatment, "")))) %>%
   mutate(study = factor(study, levels = design$study)) %>%
-  arrange(study, tissue, sample) %>%
+  arrange(study, tissue, sample)
+sample_table <- sample_rows %>%
   transmute(Study = unname(study_names[as.character(study)]), Sample = sample, Tissue = tissue_label(tissue),
             Sex = replace_na(na_if(sex, "NA"), ""), Group = group,
             `SRA runs` = runs, Layout = str_to_lower(layout), Instrument = instrument,
             `Read length (nt)` = round(read_length), `Spots (M)` = round(m_spots, 1),
             `Salmon reads (M)` = m_counts)
 write_tsv(sample_table, file.path(vd3_dir, "studies", "sample_runs.tsv"))
+
+# TPM of the 16 genes in the same samples and order, genes in the order of Table S7
+tpm <- read_tsv(file.path(vd3_dir, "tpm_vd3_genes_studies.tsv"), col_types = cols(gene_id = col_character()))
+genes <- unique(tpm$name)
+tpm_table <- sample_rows %>%
+  left_join(tpm %>%
+              filter(id %in% sample_rows$id) %>%
+              transmute(id, name, tpm = round(tpm, 3)) %>%
+              pivot_wider(names_from = name, values_from = tpm), by = "id") %>%
+  mutate(Study = unname(study_names[as.character(study)]), Sample = sample, Tissue = tissue_label(tissue)) %>%
+  select(Study, Sample, Tissue, all_of(genes))
+if (anyNA(tpm_table)) stop("Missing TPM values in ", paste(tpm_table$Sample[!complete.cases(tpm_table)], collapse = ", "))
 
 tmp <- tempfile()
 dir.create(tmp)
@@ -112,8 +126,12 @@ write_tsv(sample_table, file.path(tmp, "Samples.tsv"), na = "")
 cat("\nRead length is the mean length of one read (one mate for paired runs), from the SRA run info. ",
     "Salmon reads are the estimated counts summed over all genes.\n", file = file.path(tmp, "Samples.tsv"),
     append = TRUE, sep = "")
+write_tsv(tpm_table, file.path(tmp, "TPM.tsv"))
+cat("\nTPM of the 16 genes in the samples of the Samples sheet (gene-level Salmon estimates, rounded to three decimals). ",
+    "Figure 4 and Supplementary Figure S4 are based on these values. The atlas values are also given in Supplementary ",
+    "Table S7.\n", file = file.path(tmp, "TPM.tsv"), append = TRUE, sep = "")
 py <- file.path(proj_dir, "scripts", "tsv_to_xlsx.py")
-if (system2("python3", c(shQuote(py), "--group='Samples=Study'", shQuote(file.path(tmp, c("Studies.tsv", "Samples.tsv"))),
-                         shQuote(table_file))) != 0)
+if (system2("python3", c(shQuote(py), "--group='Samples=Study'", "--group='TPM=Study'",
+                         shQuote(file.path(tmp, c("Studies.tsv", "Samples.tsv", "TPM.tsv"))), shQuote(table_file))) != 0)
   stop("tsv_to_xlsx.py failed")
 message("Wrote ", out_file, " and ", table_file)

@@ -14,7 +14,7 @@
 # Needs python3 for the Excel file.
 # Input:  salmon_quant/PRJNA72713/tpm_atlantic_salmon_15_tissues.tsv.gz (00_1), salmon_quant/samples_all.tsv (05_2),
 #         salmon_quant/<study>/tpm_gene.tsv.gz, msa/cyp27a1/cyp27a1_accessions.tsv, vd3_genes/salmon_vd3_orthologs_v1.tsv
-# Output: vd3_genes/related_genes/{genes,atlas_tpm,studies_tpm}.tsv, manuscript/v8/Table S11 ... .xlsx
+# Output: vd3_genes/related_genes/{genes,atlas_tpm,studies_tpm}.tsv, manuscript/v9/Table S11 ... .xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

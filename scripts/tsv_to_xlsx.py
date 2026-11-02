@@ -13,7 +13,8 @@ empty row or the first row with only its first cell filled (a table note), and t
 for each run of rows that share it (and the values of the grouping columns to its left), with one border around the
 run. For a single sheet, SHEET is Sheet1.
 
-Numbers are written as numbers, everything else as text. Column widths follow the longest value (notes excluded).
+Numbers are written as numbers, everything else as text. Column widths follow the widest value (notes excluded),
+with capitals counted wider than other characters.
 A row of empty cells is kept as a blank row.
 """
 import argparse
@@ -38,6 +39,10 @@ STYLES = (
     '<xf numFmtId="0" fontId="1" fillId="0" borderId="1" xfId="0" applyFont="1" applyBorder="1"/>'
     + ''.join(f'<xf numFmtId="0" fontId="0" fillId="0" borderId="{b}" xfId="0" applyBorder="1"/>' for b in (1, 2, 3, 4, 1)) +
     '</cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>')
+
+
+def text_width(s):  # in Arial digit widths: capitals count wider (accessions), and never less than 0.9 per character
+    return max(0.9 * len(s), sum(1.2 if c.isupper() else 1 if c.isdigit() else 0.9 if c.islower() else 0.5 for c in s))
 
 
 def col_name(i):
@@ -69,7 +74,7 @@ def sheet_xml(src, group):
     if missing := set(group) - set(rows[0][:n_group]):
         raise SystemExit(f'{src}: grouping columns must be the leading columns, not found there: {sorted(missing)}')
     sized = [r for r in rows if any(r[1:])]
-    widths = [min(130, round(0.9 * max(len(r[i]) for r in sized if i < len(r))) + 3) for i in range(ncol)]
+    widths = [min(130, round(max(text_width(r[i]) for r in sized if i < len(r))) + 3) for i in range(ncol)]
     cols = ''.join(f'<col min="{i + 1}" max="{i + 1}" width="{w}" customWidth="1"/>' for i, w in enumerate(widths))
 
     def key(r, c):  # a grouping cell continues the run above when it and the grouping cells to its left match
