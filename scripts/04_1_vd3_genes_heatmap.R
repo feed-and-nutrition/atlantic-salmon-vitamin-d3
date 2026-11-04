@@ -4,7 +4,7 @@
 # Output: vd3_genes/summary_vd3_genes.tsv (level, peak TPM, SD, tau, Table 3 pattern per gene)
 #         vd3_genes/top3_tissues_vd3_genes.tsv (highest tissue, and the next two if their TPM is above 1)
 #         vd3_genes/pattern_sensitivity.tsv (Table 3 pattern under other cutoffs and in PRJNA359635)
-#         manuscript/v9/Table S7 ... .xlsx (sheet TPM: TPM per gene and atlas tissue with SD and tau, via
+#         manuscript/v10/Table S7.xlsx (sheet TPM: TPM per gene and atlas tissue with SD and tau, via
 #         vd3_genes/table_s8.tsv; sheet Sensitivity: pattern_sensitivity.tsv)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
@@ -87,7 +87,7 @@ vd3$info %>%
             by = "Name") %>%
   bind_cols(as_tibble(round(vd3$tpm, 6))) %>%
   write_tsv(table_tsv)
-table_file <- file.path(fig_dir, "Table S7 TPM values and expression patterns of VD3-related genes across 14 tissues.xlsx")
+table_file <- file.path(fig_dir, "Table S7.xlsx")
 sheets <- file.path(tempdir(), c("TPM.tsv", "Sensitivity.tsv"))
 invisible(file.copy(c(table_tsv, sensitivity_tsv), sheets, overwrite = TRUE))
 stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), shQuote(sheets),

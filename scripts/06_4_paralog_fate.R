@@ -6,15 +6,16 @@
 # Cx5Cx9Cx2C), and the net charge of the first 30 residues (mitochondrial presequences are positive), each also for
 # the pike ortholog (06_3). The yn00 results are cached in divergence.tsv (delete it to recompute).
 # Rediploidization: pairs on one of the seven pairs of homeologous arms with delayed rediploidization (LORe,
-# Robertson et al. 2017: 2p-5q, 2q-12qa, 3q-6p, 4p-8q, 7q-17qb, 11qa-26, 16qb-17qa) by their fSalSal1 chromosomes
-# (07_1), the others AORe. Matched by chromosome only, which is enough for these pairs.
+# lineage-specific ohnologue resolution, Robertson et al. 2017: 2p-5q, 2q-12qa, 3q-6p, 4p-8q, 7q-17qb, 11qa-26,
+# 16qb-17qa) by their fSalSal1 chromosomes (07_1), the others AORe (ancestral ohnologue resolution). Matched by
+# chromosome only, which is enough for these pairs.
 # Profiles: Pearson correlation of log2(TPM + 1) across tissues, between the two copies (atlas, 14 tissues, and the
 # mean of the four PRJNA359635 pools per tissue, 10 tissues), and between each copy, or the sum of both, and the pike
 # ortholog in the tissues shared with the pike atlas (06_3). Genes below 1 TPM in every tissue have no correlation.
 # Needs muscle5 and yn00 on the PATH (or PAML_YN00 set to yn00) only when divergence.tsv is missing.
 # Input:  vd3_genes/paralogs/ (06_1, 06_3), vd3_genes/annotation_check/synteny.tsv (07_1),
 #         vd3_genes/tpm_vd3_genes.tsv, vd3_genes/tpm_vd3_genes_studies.tsv
-# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v9/Table S10 ... .xlsx
+# Output: vd3_genes/paralogs/divergence.tsv, profiles.tsv, table_s9_*.tsv (sheets), manuscript/v10/Table S10.xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -22,8 +23,7 @@ out_dir <- file.path(vd3_dir, "paralogs")
 seq_dir <- file.path(out_dir, "seq")
 divergence_file <- file.path(out_dir, "divergence.tsv")
 profiles_file <- file.path(out_dir, "profiles.tsv")
-table_file <- file.path(fig_dir, paste("Table S10 Sequence similarity, divergence, and expression profiles of",
-                                      "VD3-related paralog pairs.xlsx"))
+table_file <- file.path(fig_dir, "Table S10.xlsx")
 pairs <- c("dhcr7", "cyp2r1", "cyp27a1", "cyp27b1", "cyp24a1", "vdra", "vdrb")
 
 read_fasta <- function(file) {
@@ -198,8 +198,9 @@ divergence %>%
                                  "and Cx5Cx9Cx2C of the VDR DNA-binding domain. Net charge: R and K minus D and E;",
                                  "mitochondrial presequences are positively charged. Pike ortholog: best BLASTp hit of",
                                  "both copies in the northern pike proteome (fEsoLuc1). Chromosomes of fSalSal1.",
-                                 "Rediploidization: LORe if the chromosomes match one of the seven pairs of homeologous",
-                                 "arms with delayed rediploidization in Robertson et al. (2017), AORe otherwise."))) %>%
+                                 "Rediploidization: LORe (lineage-specific ohnologue resolution) if the chromosomes match",
+                                 "one of the seven pairs of homeologous arms with delayed rediploidization in Robertson",
+                                 "et al. (2017), AORe (ancestral ohnologue resolution) otherwise."))) %>%
   mutate(across(everything(), ~ replace_na(.x, ""))) %>%
   write_tsv(divergence_tsv)
 fmt <- function(x) ifelse(is.na(x), "", sprintf("%.2f", x))

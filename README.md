@@ -30,7 +30,7 @@ Rscript scripts/run_all.R
 
 `run_all.R` runs each step in turn and prints a summary at the end. Steps that need the genome-wide expression
 tables (see [What needs the large data](#what-needs-the-large-data)) are reported as failed and skipped, and the
-others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v9/`.
+others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v10/`.
 
 To write them somewhere else:
 
@@ -164,7 +164,7 @@ environment variables change the locations:
 | Variable | Meaning | Default |
 |---|---|---|
 | `VD3_ROOT` | repository root | the working directory |
-| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v9` |
+| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v10` |
 | `VD3_TXI_DIR` | directory with the atlas `txi_gene.rds` (used by 00_1 only when `tpm_gene.tsv.gz` is missing) | not set |
 | `VD3_MAPPED_DIR` | directory that holds the study directories (used by 05_1 only) | the working directory |
 

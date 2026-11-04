@@ -4,7 +4,7 @@
 # 300 dpi that stays legible when shown 200 px high, so no text is smaller than 10 pt. The heatmap icon is the
 # atlas log2(TPM + 1) of Figure 3.
 # Input:  vd3_genes/tpm_vd3_genes.tsv (00_1)
-# Output: d3pathway/graphical_abstract.{svg,png}, manuscript/v9/graphical_abstract.tiff (600 dpi, LZW)
+# Output: d3pathway/graphical_abstract.{svg,png}, manuscript/v10/graphical_abstract.tiff (600 dpi, LZW)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 

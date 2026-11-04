@@ -6,14 +6,14 @@
 # and spotted gar (07_4).
 # Input:  vd3_genes/annotation_check/synteny.tsv (07_1), vd3_genes/vdr_synteny/summary.tsv (07_4)
 # Output: vd3_genes/annotation_check/table_s6.tsv, vd3_genes/vdr_synteny/table_s6_vdr.tsv,
-#         manuscript/v9/Table S5 ... .xlsx
+#         manuscript/v10/Table S5.xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 check_dir <- file.path(vd3_dir, "annotation_check")
 table_tsv <- file.path(check_dir, "table_s6.tsv")
 vdr_tsv <- file.path(vd3_dir, "vdr_synteny", "table_s6_vdr.tsv")
-table_file <- file.path(fig_dir, "Table S5 Synteny of VD3-related paralog pairs and vdr genes.xlsx")
+table_file <- file.path(fig_dir, "Table S5.xlsx")
 
 # Pairs in the order of Table 2, the albumin pairs last
 pair_order <- c("dhcr7", "cyp2r1", "cyp27a1", "cyp27b1", "cyp24a1", "vdra", "vdrb", "alb1/LOC100136922", "alb1/alb2")

@@ -7,12 +7,12 @@
 # A sample is matched to its runs by the run accession in its sample sheet, or else by the SRA library name.
 # Needs python3 for the Excel file, and internet access on the first run.
 # Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv, vd3_genes/tpm_vd3_genes_studies.tsv (05_2)
-# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v9/Table S8 ... .xlsx
+# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v10/Table S8.xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_file <- file.path(vd3_dir, "studies", "study_table.tsv")
-table_file <- file.path(fig_dir, "Table S8 RNA-seq studies, samples, and TPM values of VD3-related genes.xlsx")
+table_file <- file.path(fig_dir, "Table S8.xlsx")
 
 design <- tribble(
   ~study, ~bioproject, ~reference, ~design,

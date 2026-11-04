@@ -8,7 +8,7 @@
 # msa/ligand_contacts/pdb/ (internet access on the first run).
 # Input:  msa/vdr/vdr.afa, msa/cyp2r1/cyp2r1.afa, msa/gc/gc.afa
 # Output: msa/ligand_contacts/contacts.tsv (one row per contact residue), summary.tsv (per sequence),
-#         <protein>.tsv (one sheet each) and manuscript/v9/Table S6 ... .xlsx
+#         <protein>.tsv (one sheet each) and manuscript/v10/Table S6.xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 suppressPackageStartupMessages(library(Biostrings))
@@ -21,7 +21,7 @@ structures <- tribble(~protein, ~pdb, ~chain, ~ligand, ~msa, ~human,
                       "VDR", "1DB1", "A", "VDX", "vdr", "Human_VDR",
                       "CYP2R1", "3C6G", "A", "VD3", "cyp2r1", "Human_CYP2R1",
                       "GC", "1J78", "B", "VDY", "gc", "Human_GC")
-table_file <- file.path(fig_dir, "Table S6 Ligand-contact residues of VDR, CYP2R1, and GC.xlsx")
+table_file <- file.path(fig_dir, "Table S6.xlsx")
 # Sequences shown after the human one, salmon last: the other orthologs, and for GC the true fish gc genes, the
 # salmonid proteins annotated as GC (albumins, Figure 2c) and human ALB. LOC106586122 is cyp2r1.c (excluded_genes)
 shown <- list(VDR = c("Mouse_Vdr", "Zebrafish_vdra", "Zebrafish_vdrb",
