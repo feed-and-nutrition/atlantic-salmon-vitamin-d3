@@ -1,26 +1,21 @@
-# Table S9, sheet Kidney: detection power for cyp27b1 in the kidney and head kidney samples (atlas and replicate
+# Table S10, sheet Kidney: detection power for cyp27b1 in the kidney and head kidney samples (atlas and replicate
 # studies). For each sample: library size (estimated reads), estimated reads and TPM of both cyp27b1 paralogs, and the TPM
 # that one read of each paralog corresponds to. Where a sample has no read of the gene, that value is estimated
 # from the samples of the same study that have reads, scaled by library size (TPM per read is about inversely
 # proportional to the number of reads).
-# Sheet Freshwater and seawater: TPM of the VD3-related genes in the liver and kidney of PRJNA359635 (tracker item
-# 38), one pool of three fish per sex before (freshwater) and after (seawater) smoltification, with the difference of
-# the mean log2(TPM + 1).
 # Sheet Genome search: the mitochondrial P450 loci found by the CYP27B1 genome search of 07_5 (not in run_all).
-# Sheet Dietary vitamin D3: the VD3-related genes in the skin of PRJNA1160017 fish fed two vitamin D3 levels (05_9).
+# The freshwater and seawater sheet and the dietary vitamin D3 sheet (05_9) were dropped in v11 with the Results section
+# that used them.
 # Needs python3 for the Excel file.
 # Input:  salmon_quant/samples_all.tsv (05_2), salmon_quant/<study>/{tpm_gene,counts_gene}.tsv.gz,
-#         vd3_genes/tpm_vd3_genes.tsv (gene IDs), vd3_genes/tpm_vd3_genes_studies.tsv (05_2),
-#         vd3_genes/cyp27b1_search/loci.tsv (07_5), vd3_genes/studies/diet_PRJNA1160017/{medians,fits}.tsv (05_9),
+#         vd3_genes/tpm_vd3_genes.tsv (gene IDs), vd3_genes/cyp27b1_search/loci.tsv (07_5),
 #         msa/cyp27a1/cyp27a1_accessions.tsv (names of the cyp27a2/a3-like genes)
-# Output: vd3_genes/studies/{kidney_cyp27b1,freshwater_seawater}.tsv, manuscript/v10/Table S9.xlsx
+# Output: vd3_genes/studies/kidney_cyp27b1.tsv, manuscript/v11/Table S10.xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
 out_file <- file.path(vd3_dir, "studies", "kidney_cyp27b1.tsv")
-fw_sw_file <- file.path(vd3_dir, "studies", "freshwater_seawater.tsv")
-diet_dir <- file.path(vd3_dir, "studies", "diet_PRJNA1160017")
-table_file <- file.path(fig_dir, "Table S9.xlsx")
+table_file <- file.path(fig_dir, "Table S10.xlsx")
 
 genes <- read_tsv(file.path(vd3_dir, "tpm_vd3_genes.tsv"), col_types = cols(Gene_id = col_character())) %>%
   filter(Name %in% c("cyp27b1.a", "cyp27b1.b")) %>%
@@ -74,7 +69,7 @@ table <- kidney %>%
             `cyp27b1.b TPM per read` = fmt(cyp27b1.b_per_read, 3))
 sheet_dir <- tempfile()
 dir.create(sheet_dir)
-sheets <- file.path(sheet_dir, c("Kidney.tsv", "Genome search.tsv", "Freshwater and seawater.tsv", "Dietary vitamin D3.tsv"))
+sheets <- file.path(sheet_dir, c("Kidney.tsv", "Genome search.tsv"))
 write_tsv(table, sheets[1], na = "")
 note <- paste("Reads are Salmon estimated counts. TPM per read is the TPM that one read of the gene gives in the sample.",
               "Where the sample has no read, it is estimated from the samples of the same study with reads, scaled by",
@@ -108,60 +103,7 @@ note <- paste("Human, zebrafish, spotted gar and northern pike CYP27B1 were sear
               "mitochondrial P450 family with the highest summed bit score. Loci assigned to microsomal P450s are not shown.")
 cat("\n", note, "\n", file = sheets[2], append = TRUE, sep = "")
 
-# --- Freshwater and seawater (PRJNA359635)
-fw_sw <- read_tsv(file.path(vd3_dir, "tpm_vd3_genes_studies.tsv"), show_col_types = FALSE) %>%
-  filter(study == "PRJNA359635", !excluded, tissue %in% c("liver", "kidney"), !name %in% excluded_genes) %>%
-  mutate(group = paste(str_to_sentence(str_replace(stage, "saltwater", "seawater")), if_else(sex == "F", "female", "male")))
-stopifnot(count(fw_sw, name, tissue)$n == 4)
-fw_sw <- fw_sw %>%
-  group_by(name, tissue) %>%
-  mutate(log2fc = mean(log2(tpm[stage == "saltwater"] + 1)) - mean(log2(tpm[stage == "freshwater"] + 1))) %>%
-  ungroup() %>%
-  select(name, tissue, group, tpm, log2fc) %>%
-  pivot_wider(names_from = group, values_from = tpm) %>%
-  mutate(tissue = factor(tissue, levels = c("liver", "kidney")),
-         name = factor(name, levels = pathway_order(unique(name)))) %>%
-  arrange(tissue, name)
-write_tsv(fw_sw, fw_sw_file)
-fw_sw %>%
-  transmute(Tissue = tissue_label(as.character(tissue)), Gene = as.character(name),
-            across(c(`Freshwater female`, `Freshwater male`, `Seawater female`, `Seawater male`), ~ fmt(.x, 2),
-                   .names = "{.col} (TPM)"),
-            `Difference in mean log2(TPM + 1), seawater minus freshwater` = fmt(log2fc, 2)) %>%
-  write_tsv(sheets[3])
-note <- paste("Seawater study (PRJNA359635, Robertson et al. 2017): each sample is a pool of three fish of one sex, sampled in",
-              "freshwater before smoltification (mean length 18.6 cm) or in seawater after smoltification (25.8 cm).")
-cat("\n", note, "\n", file = sheets[3], append = TRUE, sep = "")
-
-# --- Dietary vitamin D3 (PRJNA1160017 skin, 05_9)
-diet_medians <- read_tsv(file.path(diet_dir, "medians.tsv"), show_col_types = FALSE) %>%
-  mutate(col = paste0(dose, " ng/g, ", strain, if_else(atypical > 0, " (TPM, atypical)", " (TPM)"))) %>%
-  select(name, col, tpm) %>%
-  pivot_wider(names_from = col, values_from = tpm)
-diet_fits <- read_tsv(file.path(diet_dir, "fits.tsv"), show_col_types = FALSE) %>%
-  mutate(samples = if_else(samples == "skin", "without atypical samples", "all samples")) %>%
-  select(name, samples, fold_per_doubling, fdr) %>%
-  pivot_wider(names_from = samples, values_from = c(fold_per_doubling, fdr))
-diet <- left_join(diet_medians, diet_fits, by = "name") %>%
-  arrange(factor(name, levels = pathway_order(levels(fw_sw$name))))
-diet %>%
-  transmute(Gene = name, across(contains("ng/g"), ~ fmt(.x, 2)),
-            `Fold change per doubling of dietary vitamin D3, without atypical samples` =
-              fmt(`fold_per_doubling_without atypical samples`, 2),
-            `FDR, without atypical samples` = fmt(`fdr_without atypical samples`, 3),
-            `Fold change per doubling of dietary vitamin D3, all samples` = fmt(`fold_per_doubling_all samples`, 2),
-            `FDR, all samples` = fmt(`fdr_all samples`, 3)) %>%
-  mutate(across(everything(), ~ replace_na(str_trim(.x), "")), across(everything(), ~ str_replace(.x, "^NA$", ""))) %>%
-  write_tsv(sheets[4])
-note <- paste("Diet study (PRJNA1160017, Taylor et al. 2026, runs SRR31697075 to SRR31697086): skin of juvenile Atlantic salmon of two",
-              "strains, fed 866 or 1779 ng/g vitamin D3 for about six months in freshwater, three fish per diet and strain.",
-              "TPM values are medians of the three fish. The three Norwegian commercial fish fed 866 ng/g are atypical: their",
-              "median Spearman correlation with the other skin samples was 0.71 to 0.76, compared with 0.88 or more for the",
-              "other nine. Fold change per doubling of dietary vitamin D3 from the linear model log2(TPM + 1) ~ strain +",
-              "log2(dose), fitted for genes with a median TPM of 1 or more, with Benjamini-Hochberg FDR within each sample set.")
-cat("\n", note, "\n", file = sheets[4], append = TRUE, sep = "")
-groups <- c("Kidney=Study", "Genome search=Assembly,Species", "Freshwater and seawater=Tissue")
+groups <- c("Kidney=Study", "Genome search=Assembly,Species")
 stopifnot(system2("python3", c(shQuote(file.path(proj_dir, "scripts", "tsv_to_xlsx.py")), paste0("--group=", shQuote(groups)),
                               shQuote(sheets), shQuote(table_file))) == 0)
-print(as.data.frame(filter(fw_sw, tissue == "liver")))
-message("Wrote ", out_file, ", ", fw_sw_file, " and ", table_file)
+message("Wrote ", out_file, " and ", table_file)

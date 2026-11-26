@@ -8,6 +8,7 @@
 #         vd3_genes/studies/vd3_genes_per_study.{svg,png} (Fig S4)
 #         vd3_genes/studies/tissue_means.tsv (Fig 4 values per gene and tissue)
 #         vd3_genes/studies/atlas_comparison.tsv, atlas_peaks.tsv (Fig 4 tiles that differ from Fig 3, atlas peaks)
+#         vd3_genes/studies/atlas_agreement.tsv (the same test per study, Atlas agreement sheet of Table S8 via 05_6)
 #         vd3_genes/studies/study_medians.tsv (n, median and maximum TPM per gene, study, and tissue)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
@@ -45,7 +46,7 @@ p_tile <- ggplot(tile_df, aes(name, row, fill = log_tpm)) +
              labeller = as_labeller(\(x) paste0(study_names[x], "\n", x))) +  # name over project number
   scale_fill_viridis_c(name = "log2(median\nTPM + 1)") +
   scale_y_discrete(position = "right") +
-  labs(x = NULL, y = NULL, title = "Median expression of VD3-related genes per study and tissue") +
+  labs(x = NULL, y = NULL, title = "Median expression of vitamin D3-related genes per study and tissue") +
   theme_grey(base_size = 9) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, face = "italic"),
         strip.text.y.left = element_text(angle = 0, hjust = 0, size = 7.5, lineheight = 0.85, margin = margin(1, 4, 1, 4)),
@@ -125,6 +126,39 @@ write_tsv(mutate(select(compare, name, tissue, mean_log, atlas_log, differs), ac
 write_tsv(peaks, file.path(out_dir, "atlas_peaks.tsv"))
 message(sum(compare$differs), " of ", sum(!is.na(compare$atlas_log)), " shared tiles differ from the atlas, ",
         sum(peaks$same_peak), " of ", nrow(peaks), " atlas peaks reproduced")
+
+# The same test for each study alone (Table S8, Atlas agreement sheet): the study's mean log2(TPM + 1) per gene and
+# tissue against the atlas, in the atlas tissues it sampled (one row per study and tissue, after a total row for the
+# study). The last row repeats the pooled test of Fig 4.
+per_study <- vd3 %>%
+  group_by(name, tissue, study) %>%
+  summarise(mean_log = mean(log2(tpm + 1)), .groups = "drop") %>%
+  mutate(label = tissue_label(tissue)) %>%
+  inner_join(atlas, by = c("name", "label")) %>%
+  mutate(differs = (mean_log > 1) != (atlas_log > 1) & abs(mean_log - atlas_log) >= 1)
+count_agreement <- function(d) {
+  tibble(`Combinations compared` = nrow(d), Agree = sum(!d$differs), `Agree (%)` = round(100 * mean(!d$differs)),
+         `Genes that differ` = paste(d$name[d$differs][order(match(d$name[d$differs], gene_levels))], collapse = ", "))
+}
+# One row per study and atlas tissue, after a total row for a study with several tissues
+agreement <- bind_rows(
+  map(fig_studies, \(s) {
+    d <- filter(per_study, study == s)
+    if (!nrow(d)) return(tibble(Study = unname(study_names[s]), Tissue = "No atlas tissue"))
+    by_tissue <- d %>%
+      group_by(tissue, label) %>%
+      group_modify(\(x, k) count_agreement(x)) %>%
+      ungroup() %>%
+      arrange(match(tissue, tissue_order)) %>%
+      transmute(Tissue = label, `Combinations compared`, Agree, `Agree (%)`, `Genes that differ`)
+    total <- mutate(count_agreement(d), Tissue = paste("All", n_distinct(d$tissue), "tissues"), .before = 1,
+                    `Genes that differ` = "")
+    bind_rows(if (nrow(by_tissue) > 1) total, by_tissue) %>%
+      mutate(Study = unname(study_names[s]), .before = 1)
+  }),
+  mutate(count_agreement(filter(compare, !is.na(atlas_log))), Study = "All studies pooled (Figure 4)",
+         Tissue = "All 14 tissues", .before = 1, `Genes that differ` = "See Figure 4"))
+write_tsv(agreement, file.path(out_dir, "atlas_agreement.tsv"), na = "")
 new_tissues <- tissue_labels$tissue[!tissue_label(tissue_labels$tissue) %in% atlas$label]
 x_levels <- c(tissue_labels$label, "Atlas peak")
 diff_colour <- "#FF4500"

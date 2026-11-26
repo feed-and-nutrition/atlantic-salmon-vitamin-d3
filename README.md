@@ -14,7 +14,6 @@ The scripts:
 - **build protein trees** to tell orthologs and paralogs apart,
 - **search six fish genomes** for the vitamin D-binding protein gene (*gc*),
 - **profile expression** in a 14-tissue atlas and seven independent RNA-seq studies,
-- **test dietary vitamin D3** in the skin of salmon fed two vitamin D3 levels,
 - and **draw the figures and write the supplementary tables** of the manuscript.
 
 ## Quick start
@@ -30,7 +29,7 @@ Rscript scripts/run_all.R
 
 `run_all.R` runs each step in turn and prints a summary at the end. Steps that need the genome-wide expression
 tables (see [What needs the large data](#what-needs-the-large-data)) are reported as failed and skipped, and the
-others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v10/`.
+others still run. Figures and Supplementary Tables (Excel files) are written to `manuscript/v11/`.
 
 To write them somewhere else:
 
@@ -58,7 +57,7 @@ Only some steps need these. The versions used for the manuscript are given in br
 |---|---|---|
 | python3 (standard library only) | most table scripts | writing the Excel tables |
 | `muscle5` (5.3) and `iqtree2` (2.0.7) | 01_0, 06_4 (muscle5 only) | rebuilding the protein trees, codon alignments of the paralog pairs |
-| BLAST+ (2.12.0) | 05_8, 06_1, 07_1, 07_3, 07_4, 07_5 | sequence comparisons and genome searches |
+| BLAST+ (2.12.0) | 05_8, 06_1, 07_1, 07_3, 07_4, 07_5, 07_6 | sequence comparisons and genome searches |
 | `wgsim` (1.19.2) and `salmon` (1.10.2) | 06_2, 06_3 | the paralog read simulation and the pike expression |
 | `fastq-dump` (sra-tools) | 06_3 | downloading the pike reads |
 | `wget` or `curl`, `md5sum` | 05_0 | downloading FASTQ files from ENA |
@@ -86,7 +85,8 @@ msa/            protein sequences, alignments and IQ-TREE results for each tree
 vd3_genes/      the curated gene list and the expression, annotation and gc search results
 hk_genes/       housekeeping genes (exploratory, not in the manuscript)
 gc_blast/       BLASTp results of the first GC search (NCBI web BLAST)
-d3pathway/      Figure 1 and the graphical abstract (and the draw.io drawing of earlier versions)
+d3pathway/      Figure 1, the graphical abstract and the salmon drawing its outline is traced from (and the
+                draw.io drawing of earlier versions)
 ```
 
 The curated gene list is `vd3_genes/salmon_vd3_orthologs_v1.tsv`. Expression values of the 16 genes are in
@@ -100,7 +100,7 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Output | Script | Runs from this repository |
 |---|---|---|
 | Figure 1 | `09_1_pathway_figure.R` | yes |
-| Graphical abstract | `09_2_graphical_abstract.R` | yes |
+| Graphical abstract | `09_2_graphical_abstract.R` (salmon outline traced by `09_0_salmon_outline.R` from a public-domain drawing by Timothy Knepp, U.S. Fish and Wildlife Service) | yes |
 | Figure 2, Figure S3 | `01_phylogenetic_tree.R` (trees built by `01_0_build_trees.R`) | yes |
 | Figure 3, Figure S5 | `04_2_vd3_genes_heatmap_split.R` | yes |
 | Figure 4, Figure S4 | `05_5_vd3_genes_studies_fig.R` | yes |
@@ -110,19 +110,23 @@ expression tables (`*.tsv.gz`) and downloaded genomes and BLAST databases (`anno
 | Table S5 | `07_2_synteny_table.R` (from the results of `07_1_annotation_check.R` and `07_4_vdr_synteny.R`) | yes |
 | Table S6 | `08_1_ligand_contacts.R` | yes |
 | Table S7 | `04_1_vd3_genes_heatmap.R` | yes |
-| Table S8 | `05_6_study_table.R` | yes |
-| Table S9 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R` and `05_9_diet_response.R`) | needs the large data |
-| Table S10 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
+| Table S8 | `05_6_study_table.R` (its Atlas agreement sheet comes from `05_5_vd3_genes_studies_fig.R`) | yes |
+| Table S9 | `06_4_paralog_fate.R` (with the results of `06_1_paralog_similarity.R`, `06_2_paralog_simulation.R` and `06_3_pike_expression.R`) | yes |
+| Table S10 | `05_7_kidney_detection.R` (with the results of `07_5_cyp27b1_genome_search.R`) | needs the large data |
 | Table S11 | `05_8_related_genes.R` | needs the large data |
 
 Tables S1, S2 and S4 were compiled by hand from the gene search and are provided with the manuscript.
 
-Six scripts are not part of `run_all.R`, because they download large files to `annotation/` and can take an hour
+Seven scripts are not part of `run_all.R`, because they download large files to `annotation/` and can take an hour
 or more: `06_2_paralog_simulation.R`, `06_3_pike_expression.R` (about 9 GB of pike reads), `07_1_annotation_check.R`,
 `07_3_gc_genome_search.R`, `07_4_vdr_synteny.R` and `07_5_cyp27b1_genome_search.R` (both use the downloads of
-`07_3`). Their results are included, so the tables that use them can still be rebuilt.
-`02_housekeeping_heatmap.R` plots housekeeping genes as an expression reference. It is exploratory and not
-used in the manuscript.
+`07_3`), and `07_6_zebrafish_orthologs.R` (uses the downloads of `07_1` and `07_3`). Their results are included, so
+the tables that use them can still be rebuilt.
+`09_0_salmon_outline.R` traces the salmon outline of the graphical abstract into `d3pathway/salmon_outline.tsv`,
+which is included, so it is not in `run_all.R` either.
+`02_housekeeping_heatmap.R` plots housekeeping genes as an expression reference, `05_3_vd3_genes_studies.R` writes
+exploratory plots of all studies, and `05_9_diet_response.R` tests dietary vitamin D3 in the skin samples of
+PRJNA1160017. They are exploratory and not used in the manuscript.
 
 `01_0_build_trees.R` reuses the trees in `msa/` and only rebuilds a tree when its sequence file is newer than the
 tree. Without `muscle5` and `iqtree2` it may fail, and `01_phylogenetic_tree.R` still draws the included trees.
@@ -133,7 +137,7 @@ The genome-wide expression tables are not included because of their size. They a
 in three steps.
 
 1. **Quantify the reads.** Download the reads of each study from the SRA (run accessions in Supplementary
-   Tables S8 and S9 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
+   Table S8 and `ncbi_samples/runinfo/`). `scripts/05_0_download_fastq.sh` downloads FASTQ files from ENA
    four at a time and checks their MD5 sums, from a list such as `ncbi_samples/PRJNA1160017_skin_stomach_fastq.tsv`
    (its stomach runs were quantified but are not used):
 
@@ -164,7 +168,7 @@ environment variables change the locations:
 | Variable | Meaning | Default |
 |---|---|---|
 | `VD3_ROOT` | repository root | the working directory |
-| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v10` |
+| `VD3_FIG_DIR` | where figures and Supplementary Tables are written | `manuscript/v11` |
 | `VD3_TXI_DIR` | directory with the atlas `txi_gene.rds` (used by 00_1 only when `tpm_gene.tsv.gz` is missing) | not set |
 | `VD3_MAPPED_DIR` | directory that holds the study directories (used by 05_1 only) | the working directory |
 

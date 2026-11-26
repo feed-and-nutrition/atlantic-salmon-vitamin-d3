@@ -3,7 +3,7 @@
 
     python3 scripts/tsv_to_xlsx.py table.tsv "Table S7.xlsx"
     python3 scripts/tsv_to_xlsx.py VDR.tsv GC.tsv "Table S6.xlsx"   # sheets named VDR and GC
-    python3 scripts/tsv_to_xlsx.py --group "Genome search=Assembly,Species" ... "Table S9.xlsx"
+    python3 scripts/tsv_to_xlsx.py --group "Genome search=Assembly,Species" ... "Table S10.xlsx"
 
 A single file gives one sheet named Sheet1. With several, each sheet is named after its file (without .tsv).
 

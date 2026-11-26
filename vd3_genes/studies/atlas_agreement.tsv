@@ -1,0 +1,29 @@
+Study	Tissue	Combinations compared	Agree	Agree (%)	Genes that differ
+Seawater	All 10 tissues	160	138	86	
+Seawater	Brain	16	16	100	
+Seawater	Eye	16	15	94	alb1
+Seawater	Nose	16	14	88	cyp2r1.b, cyp27b1.a
+Seawater	Gill	16	13	81	dhcr7.a, dhcr7.b, alb1
+Seawater	Skin	16	8	50	dhcr7.a, cyp2r1.b, cyp27a1.a, cyp27b1.a, vdra.a, vdra.b, vdrb.a, vdrb.b
+Seawater	Liver	16	15	94	cyp2r1.b
+Seawater	Gut	16	15	94	alb1
+Seawater	Pyloric caecum	16	13	81	alb1, alb2, cyp24a1.a
+Seawater	Spleen	16	15	94	alb1
+Seawater	Kidney	16	14	88	alb1, cyp24a1.a
+Maturation	All 7 tissues	112	106	95	
+Maturation	Brain	16	16	100	
+Maturation	Gill	16	13	81	dhcr7.a, alb1, cyp24a1.a
+Maturation	Muscle	16	15	94	cyp24a1.a
+Maturation	Liver	16	15	94	cyp24a1.b
+Maturation	Head kidney	16	15	94	alb1
+Maturation	Ovary	16	16	100	
+Maturation	Testis	16	16	100	
+Antioxidant	All 3 tissues	48	44	92	
+Antioxidant	Brain	16	16	100	
+Antioxidant	Muscle	16	13	81	alb1, cyp27a1.b, cyp24a1.a
+Antioxidant	Liver	16	15	94	cyp2r1.b
+ISAV	Head kidney	16	15	94	vdra.b
+PD	No atlas tissue				
+Puberty	Testis	16	16	100	
+Blood	No atlas tissue				
+All studies pooled (Figure 4)	All 14 tissues	224	200	89	See Figure 4

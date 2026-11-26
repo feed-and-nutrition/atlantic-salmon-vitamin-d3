@@ -1,13 +1,15 @@
 # Table S8: the RNA-seq studies, with tissues and sample counts as analyzed (atlas and replicate studies),
 # one row per sample with its SRA runs, layout, instrument and read length, and the TPM of the 16 genes in each
-# sample (TPM sheet, the values behind Figure 4 and Supplementary Figure S4).
+# sample (TPM sheet, the values behind Figure 4 and Supplementary Figure S4), and the agreement of each study with
+# the atlas (Atlas agreement sheet, from vd3_genes/studies/atlas_agreement.tsv of 05_5).
 # Counts come from samples_all.tsv (05_2). Excluded samples (00_config.R) are listed but not counted, and
 # relabelled tissues (tissue_raw differs from tissue) are noted. Design and references are written by hand
 # below and follow the Methods. SRA run info is downloaded once per BioProject to ncbi_samples/runinfo/.
 # A sample is matched to its runs by the run accession in its sample sheet, or else by the SRA library name.
 # Needs python3 for the Excel file, and internet access on the first run.
-# Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv, vd3_genes/tpm_vd3_genes_studies.tsv (05_2)
-# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v10/Table S8.xlsx
+# Input:  salmon_quant/samples_all.tsv, salmon_quant/<study>/samples.tsv, vd3_genes/tpm_vd3_genes_studies.tsv (05_2),
+#         vd3_genes/studies/atlas_agreement.tsv (05_5)
+# Output: vd3_genes/studies/{study_table,sample_runs}.tsv, manuscript/v11/Table S8.xlsx
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
 
@@ -130,8 +132,18 @@ write_tsv(tpm_table, file.path(tmp, "TPM.tsv"))
 cat("\nTPM of the 16 genes in the samples of the Samples sheet (gene-level Salmon estimates, rounded to three decimals). ",
     "Figure 4 and Supplementary Figure S4 are based on these values. The atlas values are also given in Supplementary ",
     "Table S7.\n", file = file.path(tmp, "TPM.tsv"), append = TRUE, sep = "")
+# Atlas agreement sheet: the Figure 4 test against the atlas for each study alone (from 05_5)
+invisible(file.copy(file.path(vd3_dir, "studies", "atlas_agreement.tsv"), file.path(tmp, "Atlas agreement.tsv")))
+cat("\nEach study was compared with the atlas (Supplementary Table S7) in the atlas tissues it sampled, using the mean ",
+    "log2(TPM + 1) of its samples for each gene and tissue, with one row per tissue after a total row for a study ",
+    "with several tissues. A gene and tissue combination differs when the two values lie on opposite ",
+    "sides of 1 (1 TPM) and differ at least twofold, as in Figure 4. The last row is the pooled comparison of Figure 4, ",
+    "with each study weighted equally. The PD and Blood studies sampled only heart and blood, which have no atlas ",
+    "sample (the atlas heart was excluded).\n", file = file.path(tmp, "Atlas agreement.tsv"), append = TRUE, sep = "")
 py <- file.path(proj_dir, "scripts", "tsv_to_xlsx.py")
 if (system2("python3", c(shQuote(py), "--group='Samples=Study'", "--group='TPM=Study'",
-                         shQuote(file.path(tmp, c("Studies.tsv", "Samples.tsv", "TPM.tsv"))), shQuote(table_file))) != 0)
+                         "--group='Atlas agreement=Study'",
+                         shQuote(file.path(tmp, c("Studies.tsv", "Samples.tsv", "TPM.tsv", "Atlas agreement.tsv"))),
+                         shQuote(table_file))) != 0)
   stop("tsv_to_xlsx.py failed")
 message("Wrote ", out_file, " and ", table_file)

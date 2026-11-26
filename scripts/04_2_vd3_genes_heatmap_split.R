@@ -20,7 +20,7 @@ panels <- imap(groups, function(genes, level) {
   colors <- modifyList(pattern_colors, list(Pattern = pattern_colors$Pattern[levels(annotation$Pattern)]))
   extra <- if (anyNA(legend_breaks[[level]])) list() else list(legend_breaks = legend_breaks[[level]])
   ph <- do.call(z_heatmap, c(list(z, vd3$sd,
-                                  paste0("Relative tissue-specific expression of VD3-related genes (", level, " expression)"),
+                                  paste0("Relative tissue-specific expression of vitamin D3-related genes (", level, " expression)"),
                                   annotation = annotation, annotation_colors = colors),
                              extra))
   tissues <- tissue_label(intersect(tissue_order, str_to_lower(str_replace_all(colnames(z), " ", "_"))))

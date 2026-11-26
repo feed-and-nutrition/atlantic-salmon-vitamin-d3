@@ -1,7 +1,9 @@
 # Fig 1: the canonical vitamin D3 pathway (human model), redrawn in the style of the draw.io figure of v2 to v5
-# (d3pathway/vd3_pathwa_colors.svg). Previtamin D3 and its thermal isomerization to vitamin D3 lie in the skin,
+# (d3pathway/vd3_pathwa_colors.svg). The content follows the human pathway "Vitamin D metabolism" of WikiPathways
+# (WP1531, https://www.wikipathways.org/instance/WP1531), cited in the legend. Previtamin D3 and its thermal isomerization to vitamin D3 lie in the skin,
 # dietary vitamin D is absorbed with lipids (not carried by DBP from the gut), and CYP24A1 acts on both 25(OH)D3 and
-# 1,25(OH)2D3. Coordinates are those of a 640 x 376.5 canvas (170 x 100 mm), y downwards, 10 units = 10 px font.
+# 1,25(OH)2D3. The steps that differ in fish (DBP/GC, CYP27B1) have dashed outlines and are explained in a key below
+# the line legend (v11, Reviewer 1 minor 3). Coordinates are those of a 640 x 376.5 canvas (170 x 100 mm), y downwards, 10 units = 10 px font.
 # Output: d3pathway/pathway.{svg,png} (Fig 1)
 
 source(if (file.exists("00_config.R")) "00_config.R" else "scripts/00_config.R")
@@ -42,6 +44,7 @@ regions <- tribble(~name, ~x0, ~y0, ~x1, ~y1, ~lx, ~ly, ~hjust,
   "Liver",  12,  214, 256, 310, 14,  206, 0,
   "Kidney", 340, 214, 628, 366, 342, 206, 0)
 # Metabolites (square corners) and enzymes or binding proteins (rounded, bold)
+fish_differs <- c("dbp1", "dbp2", "dbp3", "cyp27b1")   # dashed outline
 boxes <- tribble(~id, ~type, ~x0, ~y0, ~x1, ~y1, ~label,
   "chol",   "metabolite", 476, 20,  616, 48,  "Cholesterol",
   "dhcr7",  "enzyme",     540, 62,  616, 88,  "DHCR7",
@@ -60,7 +63,8 @@ boxes <- tribble(~id, ~type, ~x0, ~y0, ~x1, ~y1, ~label,
   "oh24",   "metabolite", 520, 230, 620, 260, "24,25(OH)₂D₃\n(inactive)",
   "oh124",  "metabolite", 520, 326, 620, 356, "1,24,25(OH)₃D₃\n(inactive)",
   "vdr",    "enzyme",     100, 330, 170, 356, "VDR",
-  "dbp3",   "enzyme",     230, 350, 296, 374, "DBP / GC")
+  "dbp3",   "enzyme",     230, 350, 296, 374, "DBP / GC") %>%
+  mutate(dashed = id %in% fish_differs)
 # Edges as polylines; end: block = conversion, oval = catalysis, open = binding, none = translocation
 edges <- list(
   list(c(510, 100, 510, 48), "block"),                       # 7-DHC -> cholesterol
@@ -124,7 +128,14 @@ poly_df <- function(d, fn) pmap_dfr(d, function(...) {
 region_outer <- poly_df(regions, function(r) rounded_rect(r$x0, r$y0, r$x1, r$y1, 16))
 region_inner <- poly_df(regions, function(r) rounded_rect(r$x0 + 2, r$y0 + 2, r$x1 - 2, r$y1 - 2, 14.5))
 box_poly <- poly_df(boxes, function(r) rounded_rect(r$x0, r$y0, r$x1, r$y1, if (r$type == "enzyme") 5 else 0)) %>%
-  left_join(transmute(boxes, id = paste(x0, y0, x1, y1), type), by = "id")
+  left_join(transmute(boxes, id = paste(x0, y0, x1, y1), type, dashed), by = "id")
+# Key to the dashed outlines, below the line legend
+fish_swatch <- mutate(rounded_rect(14, 147, 46, 158, 3), id = "swatch")
+fish_key <- tribble(~x, ~y, ~label, ~face,
+  52, 152.5, "Differs in fish", "bold",
+  14, 166, "DBP / GC: gene absent in salmon", "plain",
+  14, 177, "CYP27B1: also in liver and", "plain",
+  14, 188, "other tissues", "plain")
 txt <- function(size) size * u     # font size in canvas units -> geom_text size (mm)
 
 p <- ggplot() +
@@ -152,11 +163,16 @@ p <- ggplot() +
   geom_path(data = filter(heads, end == "open"), aes(x, y, group = edge), linewidth = lw) +
   geom_polygon(data = filter(heads, end == "oval"), aes(x, y, group = edge), fill = "white", colour = "black",
                linewidth = lw) +
-  geom_polygon(data = box_poly, aes(x, y, group = id, fill = type), colour = "black", linewidth = lw) +
+  geom_polygon(data = box_poly, aes(x, y, group = id, fill = type, linetype = dashed), colour = "black",
+               linewidth = lw) +
+  geom_polygon(data = fish_swatch, aes(x, y, group = id), fill = col[["enzyme"]], colour = "black", linewidth = lw,
+               linetype = "22") +
+  geom_text(data = fish_key, aes(x, y, label = label, fontface = face), hjust = 0, size = txt(9), family = "sans") +
   geom_text(data = boxes, aes((x0 + x1) / 2, (y0 + y1) / 2, label = label,
                               fontface = if_else(type == "enzyme", "bold", "plain")),
             size = txt(10), lineheight = 0.95, family = "sans") +
   scale_fill_manual(values = col, guide = "none") +
+  scale_linetype_manual(values = c(`FALSE` = "solid", `TRUE` = "22"), guide = "none") +
   scale_x_continuous(limits = c(0, W), expand = c(0, 0)) +
   scale_y_reverse(limits = c(H, 0), expand = c(0, 0)) +
   coord_fixed() +

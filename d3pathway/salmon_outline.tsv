@@ -1,0 +1,3259 @@
+part	group	x	y
+body	body	0.8286	-0.015
+body	body	0.827	-0.0149
+body	body	0.8254	-0.0148
+body	body	0.8237	-0.0147
+body	body	0.8221	-0.0147
+body	body	0.8189	-0.0146
+body	body	0.8157	-0.0145
+body	body	0.8124	-0.0145
+body	body	0.8091	-0.0146
+body	body	0.8059	-0.0148
+body	body	0.8026	-0.015
+body	body	0.7994	-0.0152
+body	body	0.7962	-0.0155
+body	body	0.793	-0.0157
+body	body	0.7898	-0.016
+body	body	0.7867	-0.0163
+body	body	0.7835	-0.0166
+body	body	0.7804	-0.017
+body	body	0.7774	-0.0173
+body	body	0.7744	-0.0178
+body	body	0.7713	-0.0182
+body	body	0.7683	-0.0186
+body	body	0.7653	-0.0191
+body	body	0.7624	-0.0196
+body	body	0.7596	-0.0201
+body	body	0.757	-0.0206
+body	body	0.7545	-0.0212
+body	body	0.7518	-0.0219
+body	body	0.7489	-0.0228
+body	body	0.7457	-0.0238
+body	body	0.7424	-0.0249
+body	body	0.7389	-0.0262
+body	body	0.735	-0.0276
+body	body	0.7309	-0.0292
+body	body	0.7263	-0.0308
+body	body	0.7214	-0.0326
+body	body	0.7165	-0.0343
+body	body	0.7115	-0.036
+body	body	0.7066	-0.0377
+body	body	0.7016	-0.0393
+body	body	0.6967	-0.041
+body	body	0.6917	-0.0426
+body	body	0.6867	-0.0442
+body	body	0.6817	-0.0457
+body	body	0.6767	-0.0472
+body	body	0.6717	-0.0487
+body	body	0.6667	-0.0502
+body	body	0.6617	-0.0516
+body	body	0.6566	-0.053
+body	body	0.6516	-0.0544
+body	body	0.6468	-0.0556
+body	body	0.6423	-0.0568
+body	body	0.6381	-0.0579
+body	body	0.6341	-0.0589
+body	body	0.6303	-0.0598
+body	body	0.6269	-0.0607
+body	body	0.6237	-0.0616
+body	body	0.6209	-0.0624
+body	body	0.6183	-0.0633
+body	body	0.6158	-0.0642
+body	body	0.6132	-0.0651
+body	body	0.6105	-0.0658
+body	body	0.6078	-0.0666
+body	body	0.6051	-0.0673
+body	body	0.6023	-0.068
+body	body	0.5995	-0.0686
+body	body	0.5966	-0.0691
+body	body	0.5936	-0.0696
+body	body	0.5906	-0.0701
+body	body	0.5877	-0.0705
+body	body	0.5848	-0.0711
+body	body	0.5819	-0.0717
+body	body	0.579	-0.0722
+body	body	0.5762	-0.0728
+body	body	0.5733	-0.0734
+body	body	0.5704	-0.074
+body	body	0.5676	-0.0746
+body	body	0.5648	-0.0752
+body	body	0.5619	-0.0758
+body	body	0.559	-0.0763
+body	body	0.5561	-0.0769
+body	body	0.5532	-0.0774
+body	body	0.5503	-0.078
+body	body	0.5474	-0.0785
+body	body	0.5444	-0.079
+body	body	0.5415	-0.0795
+body	body	0.5385	-0.0799
+body	body	0.5355	-0.0804
+body	body	0.5325	-0.0808
+body	body	0.5295	-0.0813
+body	body	0.5265	-0.0817
+body	body	0.5236	-0.0822
+body	body	0.5209	-0.0827
+body	body	0.5183	-0.0832
+body	body	0.516	-0.0836
+body	body	0.5139	-0.0839
+body	body	0.5118	-0.0841
+body	body	0.5098	-0.0844
+body	body	0.5077	-0.0846
+body	body	0.5056	-0.0848
+body	body	0.5033	-0.0849
+body	body	0.5009	-0.085
+body	body	0.4984	-0.0851
+body	body	0.4956	-0.0853
+body	body	0.4928	-0.0855
+body	body	0.4899	-0.0858
+body	body	0.4871	-0.086
+body	body	0.4843	-0.0863
+body	body	0.4815	-0.0865
+body	body	0.4788	-0.0867
+body	body	0.4762	-0.0869
+body	body	0.4735	-0.0872
+body	body	0.4709	-0.0874
+body	body	0.4682	-0.0876
+body	body	0.4654	-0.0878
+body	body	0.4627	-0.088
+body	body	0.46	-0.0881
+body	body	0.4572	-0.0883
+body	body	0.4545	-0.0884
+body	body	0.4517	-0.0886
+body	body	0.449	-0.0887
+body	body	0.4463	-0.0888
+body	body	0.4435	-0.0889
+body	body	0.4408	-0.0889
+body	body	0.438	-0.089
+body	body	0.4353	-0.089
+body	body	0.4326	-0.089
+body	body	0.4298	-0.089
+body	body	0.4271	-0.0889
+body	body	0.4244	-0.0887
+body	body	0.4216	-0.0886
+body	body	0.4188	-0.0885
+body	body	0.4159	-0.0884
+body	body	0.413	-0.0883
+body	body	0.41	-0.0882
+body	body	0.4071	-0.0881
+body	body	0.4042	-0.088
+body	body	0.4014	-0.088
+body	body	0.3986	-0.088
+body	body	0.3958	-0.088
+body	body	0.3931	-0.0879
+body	body	0.3903	-0.0878
+body	body	0.3875	-0.0877
+body	body	0.3848	-0.0876
+body	body	0.382	-0.0875
+body	body	0.379	-0.0874
+body	body	0.376	-0.0874
+body	body	0.3728	-0.0874
+body	body	0.3696	-0.0873
+body	body	0.3663	-0.0873
+body	body	0.3631	-0.0873
+body	body	0.3598	-0.0873
+body	body	0.3565	-0.0873
+body	body	0.3532	-0.0872
+body	body	0.3499	-0.0871
+body	body	0.3467	-0.0869
+body	body	0.3435	-0.0867
+body	body	0.3403	-0.0864
+body	body	0.3372	-0.0861
+body	body	0.3341	-0.0858
+body	body	0.3312	-0.0854
+body	body	0.3284	-0.0852
+body	body	0.3257	-0.085
+body	body	0.3235	-0.0847
+body	body	0.3215	-0.0845
+body	body	0.3198	-0.0842
+body	body	0.318	-0.0841
+body	body	0.3164	-0.084
+body	body	0.3146	-0.0839
+body	body	0.3127	-0.0839
+body	body	0.3108	-0.0837
+body	body	0.3086	-0.0836
+body	body	0.3061	-0.0834
+body	body	0.3033	-0.0833
+body	body	0.3003	-0.0831
+body	body	0.2974	-0.0829
+body	body	0.2944	-0.0826
+body	body	0.2915	-0.0823
+body	body	0.2886	-0.082
+body	body	0.2856	-0.0817
+body	body	0.2826	-0.0814
+body	body	0.2797	-0.0811
+body	body	0.2767	-0.0808
+body	body	0.2737	-0.0806
+body	body	0.2708	-0.0803
+body	body	0.2678	-0.08
+body	body	0.265	-0.0797
+body	body	0.2622	-0.0794
+body	body	0.2594	-0.0792
+body	body	0.2566	-0.0789
+body	body	0.2538	-0.0786
+body	body	0.2511	-0.0784
+body	body	0.2484	-0.0781
+body	body	0.2456	-0.0779
+body	body	0.2428	-0.0776
+body	body	0.2399	-0.0774
+body	body	0.2369	-0.0771
+body	body	0.2339	-0.0769
+body	body	0.231	-0.0766
+body	body	0.228	-0.0762
+body	body	0.225	-0.0759
+body	body	0.222	-0.0755
+body	body	0.2191	-0.0752
+body	body	0.2162	-0.0748
+body	body	0.2134	-0.0744
+body	body	0.2105	-0.0739
+body	body	0.2077	-0.0735
+body	body	0.2049	-0.0731
+body	body	0.2022	-0.0726
+body	body	0.1994	-0.0721
+body	body	0.1966	-0.0716
+body	body	0.1937	-0.071
+body	body	0.1908	-0.0705
+body	body	0.1879	-0.0699
+body	body	0.1851	-0.0693
+body	body	0.1822	-0.0687
+body	body	0.1794	-0.0681
+body	body	0.1766	-0.0674
+body	body	0.1738	-0.0668
+body	body	0.1711	-0.0661
+body	body	0.1684	-0.0653
+body	body	0.1657	-0.0645
+body	body	0.1631	-0.0637
+body	body	0.1605	-0.0629
+body	body	0.1579	-0.0621
+body	body	0.1552	-0.0613
+body	body	0.1526	-0.0605
+body	body	0.1499	-0.0597
+body	body	0.1472	-0.059
+body	body	0.1444	-0.0583
+body	body	0.1417	-0.0577
+body	body	0.139	-0.0572
+body	body	0.1363	-0.0567
+body	body	0.1336	-0.0563
+body	body	0.1309	-0.0559
+body	body	0.1283	-0.0556
+body	body	0.1257	-0.0553
+body	body	0.1231	-0.055
+body	body	0.1205	-0.0547
+body	body	0.1178	-0.0543
+body	body	0.1151	-0.054
+body	body	0.1125	-0.0536
+body	body	0.1098	-0.0531
+body	body	0.1072	-0.0527
+body	body	0.1046	-0.0522
+body	body	0.1019	-0.0517
+body	body	0.0991	-0.0512
+body	body	0.0964	-0.0506
+body	body	0.0937	-0.0501
+body	body	0.091	-0.0495
+body	body	0.0882	-0.049
+body	body	0.0855	-0.0484
+body	body	0.0828	-0.0478
+body	body	0.0796	-0.0473
+body	body	0.0769	-0.0468
+body	body	0.0747	-0.0462
+body	body	0.0728	-0.0453
+body	body	0.0708	-0.0441
+body	body	0.0684	-0.043
+body	body	0.0659	-0.042
+body	body	0.0636	-0.0409
+body	body	0.0612	-0.0399
+body	body	0.0586	-0.039
+body	body	0.0561	-0.0381
+body	body	0.0535	-0.0372
+body	body	0.051	-0.0363
+body	body	0.0485	-0.0353
+body	body	0.0461	-0.0343
+body	body	0.0437	-0.0333
+body	body	0.0411	-0.0324
+body	body	0.0386	-0.0315
+body	body	0.0361	-0.0305
+body	body	0.0337	-0.0294
+body	body	0.0313	-0.0284
+body	body	0.0289	-0.0274
+body	body	0.0265	-0.0264
+body	body	0.0241	-0.0253
+body	body	0.0217	-0.0242
+body	body	0.0193	-0.0232
+body	body	0.0168	-0.0222
+body	body	0.0144	-0.0212
+body	body	0.0121	-0.0201
+body	body	0.0098	-0.0189
+body	body	0.0077	-0.0176
+body	body	0.0055	-0.0163
+body	body	0.0035	-0.0149
+body	body	0.0016	-0.0134
+body	body	3e-4	-0.0113
+body	body	0	-0.009
+body	body	9e-4	-0.0067
+body	body	0.0027	-0.0051
+body	body	0.0053	-0.0042
+body	body	0.008	-0.0043
+body	body	0.0106	-0.0052
+body	body	0.013	-0.0062
+body	body	0.0157	-0.0069
+body	body	0.0186	-0.0076
+body	body	0.0215	-0.008
+body	body	0.0244	-0.0086
+body	body	0.0275	-0.009
+body	body	0.0305	-0.0094
+body	body	0.0336	-0.0097
+body	body	0.0367	-0.0097
+body	body	0.0394	-0.0092
+body	body	0.0408	-0.0093
+body	body	0.0422	-0.0097
+body	body	0.0434	-0.0097
+body	body	0.0435	-0.0087
+body	body	0.0422	-0.0072
+body	body	0.0403	-0.0056
+body	body	0.0385	-0.004
+body	body	0.0366	-0.0024
+body	body	0.0346	-0.001
+body	body	0.0327	5e-4
+body	body	0.0307	0.0014
+body	body	0.0295	0.0023
+body	body	0.0284	0.0028
+body	body	0.0274	0.003
+body	body	0.0261	0.0032
+body	body	0.0244	0.0043
+body	body	0.0219	0.0053
+body	body	0.0189	0.0055
+body	body	0.0158	0.0052
+body	body	0.0126	0.0049
+body	body	0.0095	0.0045
+body	body	0.0067	0.0045
+body	body	0.004	0.0046
+body	body	0.0018	0.0058
+body	body	5e-4	0.0079
+body	body	7e-4	0.0108
+body	body	0.0015	0.0134
+body	body	0.0029	0.0155
+body	body	0.0047	0.0172
+body	body	0.0066	0.0187
+body	body	0.0087	0.02
+body	body	0.011	0.0211
+body	body	0.0134	0.0222
+body	body	0.0157	0.0234
+body	body	0.0179	0.0246
+body	body	0.0201	0.0258
+body	body	0.0224	0.027
+body	body	0.0247	0.0282
+body	body	0.0271	0.0292
+body	body	0.0295	0.0302
+body	body	0.0319	0.0313
+body	body	0.0342	0.0324
+body	body	0.0366	0.0334
+body	body	0.039	0.0345
+body	body	0.0413	0.0357
+body	body	0.0429	0.0368
+body	body	0.0443	0.0376
+body	body	0.0451	0.0382
+body	body	0.0465	0.0386
+body	body	0.0483	0.0392
+body	body	0.0507	0.0401
+body	body	0.0531	0.0411
+body	body	0.0555	0.0421
+body	body	0.0579	0.0431
+body	body	0.0603	0.0442
+body	body	0.0628	0.0452
+body	body	0.0653	0.0461
+body	body	0.0678	0.0471
+body	body	0.0703	0.048
+body	body	0.0728	0.0489
+body	body	0.0752	0.05
+body	body	0.0776	0.0511
+body	body	0.0802	0.0519
+body	body	0.0827	0.0528
+body	body	0.0852	0.0538
+body	body	0.0877	0.0547
+body	body	0.0903	0.0555
+body	body	0.0929	0.0564
+body	body	0.0955	0.0572
+body	body	0.0981	0.0581
+body	body	0.1007	0.0589
+body	body	0.1033	0.0598
+body	body	0.1059	0.0606
+body	body	0.1086	0.0614
+body	body	0.1112	0.0622
+body	body	0.1138	0.0631
+body	body	0.1164	0.0639
+body	body	0.1189	0.0648
+body	body	0.1215	0.0657
+body	body	0.124	0.0666
+body	body	0.1265	0.0676
+body	body	0.129	0.0685
+body	body	0.1315	0.0695
+body	body	0.134	0.0705
+body	body	0.1364	0.0715
+body	body	0.1389	0.0724
+body	body	0.1414	0.0734
+body	body	0.1439	0.0743
+body	body	0.1465	0.0752
+body	body	0.1491	0.076
+body	body	0.1517	0.0768
+body	body	0.1544	0.0776
+body	body	0.1571	0.0784
+body	body	0.1598	0.0791
+body	body	0.1625	0.0798
+body	body	0.1652	0.0805
+body	body	0.168	0.0813
+body	body	0.1707	0.082
+body	body	0.1734	0.0827
+body	body	0.1762	0.0834
+body	body	0.1789	0.0841
+body	body	0.1817	0.0848
+body	body	0.1844	0.0855
+body	body	0.1872	0.0861
+body	body	0.19	0.0868
+body	body	0.1928	0.0874
+body	body	0.1956	0.0881
+body	body	0.1984	0.0887
+body	body	0.2013	0.0893
+body	body	0.2041	0.0899
+body	body	0.2069	0.0905
+body	body	0.2098	0.0912
+body	body	0.2126	0.0918
+body	body	0.2155	0.0924
+body	body	0.2183	0.0929
+body	body	0.2212	0.0935
+body	body	0.2241	0.0941
+body	body	0.227	0.0946
+body	body	0.2299	0.0952
+body	body	0.2328	0.0957
+body	body	0.2357	0.0962
+body	body	0.2386	0.0967
+body	body	0.2416	0.0973
+body	body	0.2445	0.0978
+body	body	0.2474	0.0983
+body	body	0.2504	0.0988
+body	body	0.2533	0.0993
+body	body	0.2563	0.0998
+body	body	0.2592	0.1003
+body	body	0.2622	0.1007
+body	body	0.2652	0.1012
+body	body	0.2682	0.1016
+body	body	0.2712	0.1021
+body	body	0.2742	0.1025
+body	body	0.2773	0.1029
+body	body	0.2803	0.1033
+body	body	0.2834	0.1037
+body	body	0.2865	0.104
+body	body	0.2896	0.1044
+body	body	0.2926	0.1047
+body	body	0.2957	0.1051
+body	body	0.2988	0.1055
+body	body	0.3019	0.1058
+body	body	0.305	0.1062
+body	body	0.3081	0.1065
+body	body	0.3111	0.1069
+body	body	0.3142	0.1073
+body	body	0.3173	0.1077
+body	body	0.3203	0.1081
+body	body	0.3234	0.1085
+body	body	0.3264	0.1089
+body	body	0.3293	0.1094
+body	body	0.3325	0.11
+body	body	0.3361	0.1107
+body	body	0.3399	0.1114
+body	body	0.3441	0.1121
+body	body	0.3485	0.1128
+body	body	0.3533	0.1135
+body	body	0.3584	0.1141
+body	body	0.3639	0.1146
+body	body	0.3697	0.115
+body	body	0.3756	0.1153
+body	body	0.3814	0.1154
+body	body	0.3873	0.1154
+body	body	0.3932	0.1152
+body	body	0.3991	0.115
+body	body	0.405	0.1146
+body	body	0.4109	0.1142
+body	body	0.4168	0.1137
+body	body	0.4227	0.1132
+body	body	0.4286	0.1126
+body	body	0.4345	0.1121
+body	body	0.4405	0.1115
+body	body	0.4464	0.1109
+body	body	0.4523	0.1103
+body	body	0.4578	0.1098
+body	body	0.4631	0.1094
+body	body	0.4681	0.109
+body	body	0.4728	0.1086
+body	body	0.4772	0.1083
+body	body	0.4813	0.108
+body	body	0.4852	0.10780000000000001
+body	body	0.4887	0.1077
+body	body	0.4919	0.1075
+body	body	0.4951	0.1073
+body	body	0.4981	0.1071
+body	body	0.5012	0.107
+body	body	0.5043	0.1068
+body	body	0.5075	0.1067
+body	body	0.5106	0.1066
+body	body	0.5136	0.1064
+body	body	0.5167	0.1062
+body	body	0.5199	0.1061
+body	body	0.5231	0.1059
+body	body	0.5264	0.1057
+body	body	0.5296	0.1055
+body	body	0.5329	0.1053
+body	body	0.5361	0.1051
+body	body	0.5394	0.1049
+body	body	0.5426	0.1047
+body	body	0.5458	0.1045
+body	body	0.549	0.1043
+body	body	0.5522	0.104
+body	body	0.5554	0.1038
+body	body	0.5586	0.1035
+body	body	0.5618	0.1032
+body	body	0.5649	0.1029
+body	body	0.5681	0.1026
+body	body	0.5712	0.1023
+body	body	0.5744	0.102
+body	body	0.5775	0.1017
+body	body	0.5807	0.1014
+body	body	0.5838	0.1011
+body	body	0.5869	0.1008
+body	body	0.59	0.1005
+body	body	0.5932	0.1002
+body	body	0.5963	0.0998
+body	body	0.5994	0.0995
+body	body	0.6025	0.0992
+body	body	0.6056	0.0988
+body	body	0.6087	0.0985
+body	body	0.6118	0.0981
+body	body	0.6149	0.0978
+body	body	0.618	0.0974
+body	body	0.621	0.097
+body	body	0.6241	0.0967
+body	body	0.6272	0.0963
+body	body	0.6303	0.0959
+body	body	0.6333	0.0955
+body	body	0.6364	0.0952
+body	body	0.6395	0.0948
+body	body	0.6426	0.0944
+body	body	0.6456	0.0941
+body	body	0.6487	0.0937
+body	body	0.6517	0.0932
+body	body	0.6548	0.0928
+body	body	0.6578	0.0924
+body	body	0.6608	0.092
+body	body	0.6638	0.0915
+body	body	0.6667	0.091
+body	body	0.6697	0.0905
+body	body	0.6727	0.0901
+body	body	0.6757	0.0896
+body	body	0.6786	0.0891
+body	body	0.6816	0.0887
+body	body	0.6846	0.0883
+body	body	0.6875	0.0881
+body	body	0.6904	0.088
+body	body	0.6932	0.088
+body	body	0.6961	0.0882
+body	body	0.6988	0.0885
+body	body	0.7014	0.0889
+body	body	0.7038	0.0894
+body	body	0.7061	0.0899
+body	body	0.7082	0.0903
+body	body	0.7102	0.0907
+body	body	0.7121	0.091
+body	body	0.7138	0.0912
+body	body	0.7154	0.0911
+body	body	0.7168	0.091
+body	body	0.7183	0.0907
+body	body	0.7197	0.0903
+body	body	0.7212	0.0897
+body	body	0.7226	0.0892
+body	body	0.724	0.0885
+body	body	0.7255	0.0878
+body	body	0.7269	0.087
+body	body	0.7283	0.0862
+body	body	0.7298	0.0853
+body	body	0.7312	0.0845
+body	body	0.7326	0.0836
+body	body	0.7341	0.0827
+body	body	0.7355	0.0819
+body	body	0.7369	0.0811
+body	body	0.7382	0.0802
+body	body	0.7395	0.0794
+body	body	0.741	0.0785
+body	body	0.7427	0.0778
+body	body	0.7445	0.077
+body	body	0.7465	0.0763
+body	body	0.7486	0.0756
+body	body	0.7509	0.0749
+body	body	0.7534	0.0743
+body	body	0.7562	0.0737
+body	body	0.7591	0.0731
+body	body	0.7619	0.0725
+body	body	0.7648	0.0719
+body	body	0.7677	0.0714
+body	body	0.7705	0.0708
+body	body	0.7734	0.0702
+body	body	0.7762	0.0696
+body	body	0.7791	0.069
+body	body	0.7819	0.0684
+body	body	0.7848	0.0678
+body	body	0.7876	0.0672
+body	body	0.7905	0.0666
+body	body	0.7934	0.066
+body	body	0.7962	0.0654
+body	body	0.7991	0.0649
+body	body	0.8019	0.0643
+body	body	0.8048	0.0637
+body	body	0.8077	0.0632
+body	body	0.8106	0.0626
+body	body	0.8136	0.0621
+body	body	0.8165	0.0616
+body	body	0.8194	0.0611
+body	body	0.8223	0.0608
+body	body	0.8238	0.0605
+body	body	0.8252	0.0603
+body	body	0.8267	0.0601
+body	body	0.8282	0.0599
+fin	dorsal	0.3407	0.1118
+fin	dorsal	0.3431	0.1129
+fin	dorsal	0.3453	0.1141
+fin	dorsal	0.3474	0.1155
+fin	dorsal	0.3495	0.1168
+fin	dorsal	0.3516	0.1181
+fin	dorsal	0.3539	0.1193
+fin	dorsal	0.3561	0.1205
+fin	dorsal	0.3584	0.1217
+fin	dorsal	0.3605	0.1231
+fin	dorsal	0.3627	0.1243
+fin	dorsal	0.3648	0.1256
+fin	dorsal	0.3668	0.1271
+fin	dorsal	0.36870000000000003	0.1286
+fin	dorsal	0.3706	0.1302
+fin	dorsal	0.3724	0.1318
+fin	dorsal	0.3741	0.1335
+fin	dorsal	0.376	0.1351
+fin	dorsal	0.3779	0.1367
+fin	dorsal	0.3796	0.1384
+fin	dorsal	0.3811	0.1403
+fin	dorsal	0.3828	0.1421
+fin	dorsal	0.3847	0.1436
+fin	dorsal	0.3865	0.1453
+fin	dorsal	0.3881	0.1471
+fin	dorsal	0.3897	0.149
+fin	dorsal	0.3915	0.1506
+fin	dorsal	0.3934	0.1522
+fin	dorsal	0.3952	0.1538
+fin	dorsal	0.397	0.1555
+fin	dorsal	0.3987	0.1572
+fin	dorsal	0.4004	0.1589
+fin	dorsal	0.4021	0.1607
+fin	dorsal	0.4039	0.1624
+fin	dorsal	0.4057	0.164
+fin	dorsal	0.4076	0.1656
+fin	dorsal	0.4095	0.1671
+fin	dorsal	0.4112	0.1688
+fin	dorsal	0.4131	0.1704
+fin	dorsal	0.415	0.1719
+fin	dorsal	0.417	0.1734
+fin	dorsal	0.4188	0.1749
+fin	dorsal	0.4203	0.1766
+fin	dorsal	0.4214	0.1777
+fin	dorsal	0.4228	0.1785
+fin	dorsal	0.425	0.1792
+fin	dorsal	0.4275	0.18
+fin	dorsal	0.4302	0.18
+fin	dorsal	0.4328	0.1793
+fin	dorsal	0.435	0.178
+fin	dorsal	0.4371	0.1767
+fin	dorsal	0.4391	0.1752
+fin	dorsal	0.4409	0.1736
+fin	dorsal	0.4425	0.1718
+fin	dorsal	0.4443	0.1701
+fin	dorsal	0.4461	0.1684
+fin	dorsal	0.4481	0.167
+fin	dorsal	0.4499	0.1654
+fin	dorsal	0.4517	0.1637
+fin	dorsal	0.4534	0.1619
+fin	dorsal	0.4551	0.1602
+fin	dorsal	0.4568	0.1585
+fin	dorsal	0.4584	0.1566
+fin	dorsal	0.4601	0.1549
+fin	dorsal	0.462	0.1533
+fin	dorsal	0.464	0.1518
+fin	dorsal	0.466	0.1504
+fin	dorsal	0.4679	0.1489
+fin	dorsal	0.4697	0.1472
+fin	dorsal	0.4713	0.1454
+fin	dorsal	0.473	0.1436
+fin	dorsal	0.4748	0.1421
+fin	dorsal	0.4769	0.1406
+fin	dorsal	0.4789	0.1392
+fin	dorsal	0.4809	0.1378
+fin	dorsal	0.4829	0.1364
+fin	dorsal	0.485	0.135
+fin	dorsal	0.4869	0.1334
+fin	dorsal	0.4887	0.1318
+fin	dorsal	0.4905	0.1302
+fin	dorsal	0.4922	0.1284
+fin	dorsal	0.4941	0.1268
+fin	dorsal	0.4958	0.1251
+fin	dorsal	0.4974	0.1233
+fin	dorsal	0.499	0.1215
+fin	dorsal	0.5006	0.1196
+fin	dorsal	0.5018	0.1174
+fin	dorsal	0.5018	0.115
+fin	dorsal	0.5005	0.1132
+fin	dorsal	0.4981	0.1121
+fin	dorsal	0.495	0.1117
+fin	dorsal	0.4917	0.1116
+fin	dorsal	0.4885	0.1114
+fin	dorsal	0.4854	0.111
+fin	dorsal	0.4826	0.1104
+fin	dorsal	0.4797	0.1098
+fin	dorsal	0.4768	0.1092
+fin	dorsal	0.4752	0.1086
+fin	dorsal	0.4759	0.1083
+fin	dorsal	0.4759	0.1083
+fin	dorsal	0.47	0.1087
+fin	dorsal	0.4641	0.1091
+fin	dorsal	0.4582	0.1096
+fin	dorsal	0.4523	0.1102
+fin	dorsal	0.4464	0.1108
+fin	dorsal	0.4405	0.1114
+fin	dorsal	0.4345	0.1121
+fin	dorsal	0.4286	0.1127
+fin	dorsal	0.4227	0.1133
+fin	dorsal	0.4168	0.1139
+fin	dorsal	0.4109	0.1144
+fin	dorsal	0.4049	0.1149
+fin	dorsal	0.399	0.1153
+fin	dorsal	0.3931	0.1156
+fin	dorsal	0.3873	0.1158
+fin	dorsal	0.3814	0.1158
+fin	dorsal	0.3755	0.1158
+fin	dorsal	0.3697	0.1156
+fin	dorsal	0.3638	0.1152
+fin	dorsal	0.358	0.1147
+fin	dorsal	0.3522	0.1139
+fin	dorsal	0.3464	0.113
+fin	dorsal	0.3407	0.1118
+fin	adipose	0.7095	0.091
+fin	adipose	0.7122	0.0918
+fin	adipose	0.7148	0.0926
+fin	adipose	0.7174	0.0935
+fin	adipose	0.7201	0.0942
+fin	adipose	0.7229	0.0948
+fin	adipose	0.7258	0.0954
+fin	adipose	0.7289	0.0958
+fin	adipose	0.7321	0.096
+fin	adipose	0.7355	0.096
+fin	adipose	0.7389	0.096
+fin	adipose	0.7422	0.0959
+fin	adipose	0.7451	0.0953
+fin	adipose	0.7478	0.0946
+fin	adipose	0.7506	0.0939
+fin	adipose	0.7531	0.093
+fin	adipose	0.7553	0.0917
+fin	adipose	0.757	0.0899
+fin	adipose	0.7583	0.0878
+fin	adipose	0.7588	0.0853
+fin	adipose	0.7582	0.0829
+fin	adipose	0.7565	0.0811
+fin	adipose	0.754	0.0802
+fin	adipose	0.751	0.0797
+fin	adipose	0.7476	0.0796
+fin	adipose	0.7446	0.0792
+fin	adipose	0.7426	0.078
+fin	adipose	0.7426	0.078
+fin	adipose	0.7412	0.0787
+fin	adipose	0.7398	0.0794
+fin	adipose	0.7383	0.0801
+fin	adipose	0.7369	0.0809
+fin	adipose	0.7355	0.0818
+fin	adipose	0.7341	0.0827
+fin	adipose	0.7326	0.0836
+fin	adipose	0.7312	0.0845
+fin	adipose	0.7298	0.0854
+fin	adipose	0.7283	0.0863
+fin	adipose	0.7269	0.0871
+fin	adipose	0.7255	0.0879
+fin	adipose	0.724	0.0887
+fin	adipose	0.7226	0.0894
+fin	adipose	0.7212	0.09
+fin	adipose	0.7197	0.0906
+fin	adipose	0.7183	0.091
+fin	adipose	0.7168	0.0914
+fin	adipose	0.7154	0.0916
+fin	adipose	0.7139	0.0917
+fin	adipose	0.7124	0.0916
+fin	adipose	0.711	0.0914
+fin	adipose	0.7095	0.091
+fin	caudal	0.8338	0.0598
+fin	caudal	0.8364	0.0606
+fin	caudal	0.8391	0.0614
+fin	caudal	0.8415	0.0624
+fin	caudal	0.844	0.0634
+fin	caudal	0.8464	0.0645
+fin	caudal	0.8489	0.0654
+fin	caudal	0.8513	0.0664
+fin	caudal	0.8538	0.0673
+fin	caudal	0.8564	0.0682
+fin	caudal	0.859	0.069
+fin	caudal	0.8617	0.0698
+fin	caudal	0.8642	0.0707
+fin	caudal	0.8666	0.0718
+fin	caudal	0.8689	0.0729
+fin	caudal	0.8711	0.0741
+fin	caudal	0.8733	0.0754
+fin	caudal	0.8754	0.0767
+fin	caudal	0.8776	0.078
+fin	caudal	0.8797	0.0794
+fin	caudal	0.8819	0.0806
+fin	caudal	0.884	0.082
+fin	caudal	0.8861	0.0833
+fin	caudal	0.8882	0.0846
+fin	caudal	0.8903	0.086
+fin	caudal	0.8924	0.0874
+fin	caudal	0.8944	0.0887
+fin	caudal	0.8966	0.09
+fin	caudal	0.8987	0.0913
+fin	caudal	0.9009	0.0926
+fin	caudal	0.903	0.094
+fin	caudal	0.9051	0.0953
+fin	caudal	0.9072	0.0966
+fin	caudal	0.9094	0.0979
+fin	caudal	0.9115	0.0992
+fin	caudal	0.9137	0.1005
+fin	caudal	0.9159	0.1018
+fin	caudal	0.918	0.103
+fin	caudal	0.9203	0.1042
+fin	caudal	0.9224	0.1055
+fin	caudal	0.9246	0.1068
+fin	caudal	0.9268	0.108
+fin	caudal	0.929	0.1093
+fin	caudal	0.9312	0.1105
+fin	caudal	0.9335	0.1117
+fin	caudal	0.9358	0.1128
+fin	caudal	0.9381	0.114
+fin	caudal	0.9404	0.1152
+fin	caudal	0.9427	0.1163
+fin	caudal	0.945	0.1174
+fin	caudal	0.9473	0.1186
+fin	caudal	0.9496	0.1197
+fin	caudal	0.9519	0.1208
+fin	caudal	0.9543	0.1219
+fin	caudal	0.9567	0.1229
+fin	caudal	0.959	0.124
+fin	caudal	0.9615	0.1251
+fin	caudal	0.9639	0.1261
+fin	caudal	0.9664	0.1271
+fin	caudal	0.9688	0.128
+fin	caudal	0.9713	0.1291
+fin	caudal	0.9737	0.1301
+fin	caudal	0.9761	0.1311
+fin	caudal	0.9786	0.132
+fin	caudal	0.9812	0.1329
+fin	caudal	0.9838	0.1338
+fin	caudal	0.9865	0.1345
+fin	caudal	0.9892	0.1352
+fin	caudal	0.9923	0.1356
+fin	caudal	0.9949	0.1353
+fin	caudal	0.9968	0.1344
+fin	caudal	0.9978	0.1326
+fin	caudal	0.9985	0.13
+fin	caudal	0.9983	0.127
+fin	caudal	0.9976	0.1242
+fin	caudal	0.9968	0.1216
+fin	caudal	0.9962	0.1187
+fin	caudal	0.9956	0.1159
+fin	caudal	0.9948	0.1133
+fin	caudal	0.9937	0.111
+fin	caudal	0.9926	0.1086
+fin	caudal	0.9916	0.1061
+fin	caudal	0.9908	0.1034
+fin	caudal	0.9901	0.1007
+fin	caudal	0.9894	0.098
+fin	caudal	0.9888	0.0952
+fin	caudal	0.988	0.0925
+fin	caudal	0.9871	0.0899
+fin	caudal	0.986	0.0876
+fin	caudal	0.9849	0.0852
+fin	caudal	0.9839	0.0828
+fin	caudal	0.9832	0.08
+fin	caudal	0.9825	0.0773
+fin	caudal	0.9819	0.0745
+fin	caudal	0.9814	0.0716
+fin	caudal	0.9808	0.0687
+fin	caudal	0.98	0.0661
+fin	caudal	0.9791	0.0635
+fin	caudal	0.978	0.0611
+fin	caudal	0.9771	0.0587
+fin	caudal	0.9762	0.0561
+fin	caudal	0.9754	0.0534
+fin	caudal	0.9748	0.0506
+fin	caudal	0.9742	0.0478
+fin	caudal	0.9735	0.045
+fin	caudal	0.973	0.0421
+fin	caudal	0.9723	0.0393
+fin	caudal	0.9716	0.0365
+fin	caudal	0.9709	0.0338
+fin	caudal	0.9702	0.0311
+fin	caudal	0.9697	0.0282
+fin	caudal	0.9694	0.025
+fin	caudal	0.9698	0.0219
+fin	caudal	0.9705	0.0192
+fin	caudal	0.9715	0.0167
+fin	caudal	0.9724	0.0142
+fin	caudal	0.9733	0.0116
+fin	caudal	0.974	0.009
+fin	caudal	0.9748	0.0063
+fin	caudal	0.9755	0.0036
+fin	caudal	0.9764	0.001
+fin	caudal	0.9774	-0.0014
+fin	caudal	0.9783	-0.004
+fin	caudal	0.9791	-0.0067
+fin	caudal	0.9797	-0.0095
+fin	caudal	0.9802	-0.0124
+fin	caudal	0.9808	-0.0153
+fin	caudal	0.9814	-0.0181
+fin	caudal	0.9821	-0.0208
+fin	caudal	0.9827	-0.0237
+fin	caudal	0.9833	-0.0265
+fin	caudal	0.9839	-0.0294
+fin	caudal	0.9849	-0.0318
+fin	caudal	0.9859	-0.0343
+fin	caudal	0.987	-0.0367
+fin	caudal	0.9878	-0.0393
+fin	caudal	0.9888	-0.0417
+fin	caudal	0.9898	-0.0442
+fin	caudal	0.9908	-0.0466
+fin	caudal	0.9918	-0.0491
+fin	caudal	0.9929	-0.0514
+fin	caudal	0.994	-0.0538
+fin	caudal	0.9951	-0.0561
+fin	caudal	0.996	-0.0586
+fin	caudal	0.9969	-0.0612
+fin	caudal	0.9978	-0.0637
+fin	caudal	0.9987	-0.0663
+fin	caudal	0.9996	-0.0688
+fin	caudal	1	-0.0717
+fin	caudal	0.9997	-0.0743
+fin	caudal	0.9984	-0.0764
+fin	caudal	0.9964	-0.0778
+fin	caudal	0.9937	-0.0785
+fin	caudal	0.9905	-0.0788
+fin	caudal	0.9873	-0.0785
+fin	caudal	0.9845	-0.078
+fin	caudal	0.9818	-0.0772
+fin	caudal	0.9791	-0.0764
+fin	caudal	0.9765	-0.0756
+fin	caudal	0.974	-0.0746
+fin	caudal	0.9715	-0.0737
+fin	caudal	0.969	-0.0728
+fin	caudal	0.9664	-0.0719
+fin	caudal	0.9639	-0.071
+fin	caudal	0.9613	-0.0701
+fin	caudal	0.959	-0.069
+fin	caudal	0.9566	-0.0679
+fin	caudal	0.9541	-0.0669
+fin	caudal	0.9517	-0.0659
+fin	caudal	0.9494	-0.0648
+fin	caudal	0.947	-0.0637
+fin	caudal	0.9447	-0.0626
+fin	caudal	0.9423	-0.0615
+fin	caudal	0.9399	-0.0605
+fin	caudal	0.9375	-0.0594
+fin	caudal	0.9352	-0.0583
+fin	caudal	0.9328	-0.0573
+fin	caudal	0.9304	-0.0562
+fin	caudal	0.9281	-0.055
+fin	caudal	0.9259	-0.0538
+fin	caudal	0.9236	-0.0527
+fin	caudal	0.9213	-0.0516
+fin	caudal	0.919	-0.0504
+fin	caudal	0.9167	-0.0493
+fin	caudal	0.9144	-0.0481
+fin	caudal	0.9122	-0.0469
+fin	caudal	0.9099	-0.0457
+fin	caudal	0.9076	-0.0446
+fin	caudal	0.9053	-0.0434
+fin	caudal	0.903	-0.0423
+fin	caudal	0.9006	-0.0412
+fin	caudal	0.8983	-0.0401
+fin	caudal	0.8961	-0.0388
+fin	caudal	0.8938	-0.0377
+fin	caudal	0.8915	-0.0365
+fin	caudal	0.8892	-0.0354
+fin	caudal	0.8868	-0.0343
+fin	caudal	0.8845	-0.0332
+fin	caudal	0.8821	-0.0321
+fin	caudal	0.8796	-0.0312
+fin	caudal	0.8771	-0.0302
+fin	caudal	0.8746	-0.0293
+fin	caudal	0.8721	-0.0283
+fin	caudal	0.8696	-0.0274
+fin	caudal	0.8671	-0.0265
+fin	caudal	0.8647	-0.0255
+fin	caudal	0.8622	-0.0245
+fin	caudal	0.8597	-0.0235
+fin	caudal	0.8573	-0.0225
+fin	caudal	0.8548	-0.0215
+fin	caudal	0.8523	-0.0206
+fin	caudal	0.8498	-0.0197
+fin	caudal	0.8473	-0.0187
+fin	caudal	0.8448	-0.0178
+fin	caudal	0.8421	-0.017
+fin	caudal	0.8395	-0.0165
+fin	caudal	0.837	-0.0162
+fin	caudal	0.8344	-0.016
+fin	caudal	0.8344	-0.016
+fin	caudal	0.8215	-0.016
+fin	caudal	0.8209	0.0598
+fin	caudal	0.8338	0.0598
+fin	anal	0.746	-0.0237
+fin	anal	0.7465	-0.0244
+fin	anal	0.7487	-0.0251
+fin	anal	0.7515	-0.0258
+fin	anal	0.7543	-0.0264
+fin	anal	0.7572	-0.0269
+fin	anal	0.7602	-0.0274
+fin	anal	0.7632	-0.0278
+fin	anal	0.7657	-0.0289
+fin	anal	0.7669	-0.0304
+fin	anal	0.7667	-0.0326
+fin	anal	0.7656	-0.0348
+fin	anal	0.7644	-0.0371
+fin	anal	0.7632	-0.0393
+fin	anal	0.7621	-0.0417
+fin	anal	0.7611	-0.0441
+fin	anal	0.7601	-0.0465
+fin	anal	0.7588	-0.0487
+fin	anal	0.7574	-0.0507
+fin	anal	0.7559	-0.0527
+fin	anal	0.7545	-0.0548
+fin	anal	0.7532	-0.0569
+fin	anal	0.7517	-0.0589
+fin	anal	0.7502	-0.0608
+fin	anal	0.7487	-0.0627
+fin	anal	0.7475	-0.065
+fin	anal	0.7463	-0.0673
+fin	anal	0.7453	-0.0696
+fin	anal	0.7441	-0.0719
+fin	anal	0.7428	-0.0741
+fin	anal	0.7416	-0.0763
+fin	anal	0.7405	-0.0787
+fin	anal	0.7395	-0.0811
+fin	anal	0.7384	-0.0834
+fin	anal	0.737	-0.0855
+fin	anal	0.7354	-0.0873
+fin	anal	0.7333	-0.0887
+fin	anal	0.7307	-0.0895
+fin	anal	0.7277	-0.09
+fin	anal	0.7246	-0.0897
+fin	anal	0.7216	-0.0893
+fin	anal	0.7187	-0.0887
+fin	anal	0.716	-0.088
+fin	anal	0.7133	-0.0873
+fin	anal	0.7106	-0.0865
+fin	anal	0.708	-0.0857
+fin	anal	0.7054	-0.0848
+fin	anal	0.7029	-0.0839
+fin	anal	0.7003	-0.083
+fin	anal	0.6978	-0.0821
+fin	anal	0.6953	-0.0811
+fin	anal	0.6929	-0.0801
+fin	anal	0.6905	-0.079
+fin	anal	0.6881	-0.078
+fin	anal	0.6857	-0.0769
+fin	anal	0.6834	-0.0758
+fin	anal	0.681	-0.0748
+fin	anal	0.6786	-0.0737
+fin	anal	0.6761	-0.0727
+fin	anal	0.6738	-0.0717
+fin	anal	0.6713	-0.0706
+fin	anal	0.669	-0.0695
+fin	anal	0.6665	-0.0685
+fin	anal	0.664	-0.0676
+fin	anal	0.6615	-0.0666
+fin	anal	0.659	-0.0657
+fin	anal	0.6565	-0.0648
+fin	anal	0.654	-0.0638
+fin	anal	0.6515	-0.0629
+fin	anal	0.649	-0.0619
+fin	anal	0.6466	-0.0609
+fin	anal	0.644	-0.0603
+fin	anal	0.6415	-0.06
+fin	anal	0.6386	-0.06
+fin	anal	0.636	-0.0597
+fin	anal	0.6335	-0.0596
+fin	anal	0.6313	-0.0596
+fin	anal	0.6313	-0.0596
+fin	anal	0.6364	-0.0584
+fin	anal	0.6415	-0.0571
+fin	anal	0.6466	-0.0558
+fin	anal	0.6516	-0.0545
+fin	anal	0.6566	-0.0531
+fin	anal	0.6617	-0.0517
+fin	anal	0.6667	-0.0503
+fin	anal	0.6717	-0.0488
+fin	anal	0.6767	-0.0473
+fin	anal	0.6817	-0.0458
+fin	anal	0.6867	-0.0443
+fin	anal	0.6917	-0.0427
+fin	anal	0.6967	-0.0411
+fin	anal	0.7017	-0.0394
+fin	anal	0.7066	-0.0378
+fin	anal	0.7116	-0.0361
+fin	anal	0.7165	-0.0344
+fin	anal	0.7214	-0.0326
+fin	anal	0.7264	-0.0309
+fin	anal	0.7313	-0.0291
+fin	anal	0.7362	-0.0273
+fin	anal	0.7411	-0.0255
+fin	anal	0.746	-0.0237
+fin	pelvic	0.4818	-0.0865
+fin	pelvic	0.4813	-0.088
+fin	pelvic	0.4824	-0.0898
+fin	pelvic	0.4842	-0.0915
+fin	pelvic	0.4862	-0.093
+fin	pelvic	0.4879	-0.0947
+fin	pelvic	0.4894	-0.0966
+fin	pelvic	0.4907	-0.0988
+fin	pelvic	0.4923	-0.1006
+fin	pelvic	0.4941	-0.1023
+fin	pelvic	0.4958	-0.1041
+fin	pelvic	0.4972	-0.106
+fin	pelvic	0.4988	-0.108
+fin	pelvic	0.5003	-0.1098
+fin	pelvic	0.5016	-0.112
+fin	pelvic	0.5023	-0.1147
+fin	pelvic	0.5016	-0.1172
+fin	pelvic	0.5	-0.1187
+fin	pelvic	0.4982	-0.1189
+fin	pelvic	0.4956	-0.1188
+fin	pelvic	0.4925	-0.1185
+fin	pelvic	0.4893	-0.1183
+fin	pelvic	0.4862	-0.1179
+fin	pelvic	0.4835	-0.1172
+fin	pelvic	0.4807	-0.1166
+fin	pelvic	0.4779	-0.1159
+fin	pelvic	0.4753	-0.1151
+fin	pelvic	0.4727	-0.1142
+fin	pelvic	0.4702	-0.1133
+fin	pelvic	0.4676	-0.1124
+fin	pelvic	0.4651	-0.1114
+fin	pelvic	0.4626	-0.1105
+fin	pelvic	0.4601	-0.1096
+fin	pelvic	0.4576	-0.1086
+fin	pelvic	0.4552	-0.1076
+fin	pelvic	0.4527	-0.1066
+fin	pelvic	0.4504	-0.1055
+fin	pelvic	0.448	-0.1044
+fin	pelvic	0.4456	-0.1034
+fin	pelvic	0.4433	-0.1022
+fin	pelvic	0.4411	-0.1011
+fin	pelvic	0.4387	-0.0999
+fin	pelvic	0.4364	-0.0988
+fin	pelvic	0.4342	-0.0976
+fin	pelvic	0.4318	-0.0965
+fin	pelvic	0.4296	-0.0953
+fin	pelvic	0.4275	-0.094
+fin	pelvic	0.4254	-0.0926
+fin	pelvic	0.4232	-0.0913
+fin	pelvic	0.4211	-0.09
+fin	pelvic	0.4189	-0.0888
+fin	pelvic	0.4189	-0.0888
+fin	pelvic	0.4216	-0.0889
+fin	pelvic	0.4244	-0.089
+fin	pelvic	0.4271	-0.089
+fin	pelvic	0.4298	-0.0891
+fin	pelvic	0.4326	-0.0891
+fin	pelvic	0.4353	-0.0891
+fin	pelvic	0.438	-0.089
+fin	pelvic	0.4408	-0.089
+fin	pelvic	0.4435	-0.0889
+fin	pelvic	0.4463	-0.0888
+fin	pelvic	0.449	-0.0887
+fin	pelvic	0.4517	-0.0886
+fin	pelvic	0.4545	-0.0885
+fin	pelvic	0.4572	-0.0884
+fin	pelvic	0.46	-0.0882
+fin	pelvic	0.4627	-0.088
+fin	pelvic	0.4654	-0.0878
+fin	pelvic	0.4682	-0.0876
+fin	pelvic	0.4709	-0.0874
+fin	pelvic	0.4736	-0.0872
+fin	pelvic	0.4764	-0.087
+fin	pelvic	0.4791	-0.0868
+fin	pelvic	0.4818	-0.0865
+ray	dorsal 1	0.3528	0.114
+ray	dorsal 1	0.4275	0.18
+ray	dorsal 2	0.3651	0.1153
+ray	dorsal 2	0.4375	0.1763
+ray	dorsal 3	0.3774	0.1158
+ray	dorsal 3	0.4456	0.1689
+ray	dorsal 4	0.3898	0.1157
+ray	dorsal 4	0.4537	0.1616
+ray	dorsal 5	0.4021	0.1151
+ray	dorsal 5	0.4614	0.1538
+ray	dorsal 6	0.4144	0.1141
+ray	dorsal 6	0.4699	0.147
+ray	dorsal 7	0.4267	0.1129
+ray	dorsal 7	0.4781	0.1398
+ray	dorsal 8	0.439	0.1116
+ray	dorsal 8	0.487	0.1334
+ray	dorsal 9	0.4513	0.1103
+ray	dorsal 9	0.495	0.1259
+ray	dorsal 10	0.4635	0.1092
+ray	dorsal 10	0.5018	0.1174
+ray	caudal 1	0.8338	0.0551
+ray	caudal 1	0.9923	0.1356
+ray	caudal 2	0.8339	0.0503
+ray	caudal 2	0.9972	0.1229
+ray	caudal 3	0.8339	0.0456
+ray	caudal 3	0.992	0.1071
+ray	caudal 4	0.834	0.0408
+ray	caudal 4	0.9875	0.091
+ray	caudal 5	0.834	0.0361
+ray	caudal 5	0.9821	0.0752
+ray	caudal 6	0.834	0.0314
+ray	caudal 6	0.9773	0.0592
+ray	caudal 7	0.8341	0.0266
+ray	caudal 7	0.9732	0.043
+ray	caudal 8	0.8341	0.0219
+ray	caudal 8	0.9695	0.0267
+ray	caudal 9	0.8342	0.0172
+ray	caudal 9	0.9735	0.0106
+ray	caudal 10	0.8342	0.0124
+ray	caudal 10	0.9787	-0.0053
+ray	caudal 11	0.8342	0.0077
+ray	caudal 11	0.9823	-0.0216
+ray	caudal 12	0.8343	0.003
+ray	caudal 12	0.9872	-0.0375
+ray	caudal 13	0.8343	-0.0018
+ray	caudal 13	0.9936	-0.053
+ray	caudal 14	0.8344	-0.0065
+ray	caudal 14	0.9995	-0.0686
+ray	caudal 15	0.8344	-0.0112
+ray	caudal 15	0.9905	-0.0788
+ray	anal 1	0.7335	-0.0283
+ray	anal 1	0.7669	-0.0304
+ray	anal 2	0.7209	-0.0328
+ray	anal 2	0.7629	-0.04
+ray	anal 3	0.7083	-0.0372
+ray	anal 3	0.7583	-0.0495
+ray	anal 4	0.6956	-0.0414
+ray	anal 4	0.7523	-0.0581
+ray	anal 5	0.6829	-0.0455
+ray	anal 5	0.7465	-0.0669
+ray	anal 6	0.6701	-0.0493
+ray	anal 6	0.7416	-0.0762
+ray	anal 7	0.6572	-0.053
+ray	anal 7	0.7369	-0.0856
+ray	anal 8	0.6443	-0.0564
+ray	anal 8	0.7277	-0.09
+ray	pelvic 1	0.474	-0.0872
+ray	pelvic 1	0.4842	-0.0915
+ray	pelvic 2	0.4661	-0.0878
+ray	pelvic 2	0.4886	-0.0956
+ray	pelvic 3	0.4582	-0.0883
+ray	pelvic 3	0.4922	-0.1005
+ray	pelvic 4	0.4504	-0.0887
+ray	pelvic 4	0.4964	-0.1049
+ray	pelvic 5	0.4425	-0.0889
+ray	pelvic 5	0.5002	-0.1096
+ray	pelvic 6	0.4346	-0.0891
+ray	pelvic 6	0.5021	-0.1152
+ray	pelvic 7	0.4268	-0.089
+ray	pelvic 7	0.4982	-0.1189
+pectoral_ray	pectoral 1	0.1868	-0.0431
+pectoral_ray	pectoral 1	0.2867	-0.0293
+pectoral_ray	pectoral 2	0.1882	-0.0451
+pectoral_ray	pectoral 2	0.2804	-0.0396
+pectoral_ray	pectoral 3	0.1896	-0.0471
+pectoral_ray	pectoral 3	0.27	-0.0456
+pectoral_ray	pectoral 4	0.1911	-0.0491
+pectoral_ray	pectoral 4	0.2592	-0.0512
+pectoral_ray	pectoral 5	0.1925	-0.0511
+pectoral_ray	pectoral 5	0.2476	-0.0542
+pectoral_ray	pectoral 6	0.194	-0.0531
+pectoral_ray	pectoral 6	0.2357	-0.0564
+pectoral_ray	pectoral 7	0.1954	-0.0551
+pectoral_ray	pectoral 7	0.2238	-0.0586
+spot	spot 1	0.1993	0.0612
+spot	spot 1	0.199	0.0599
+spot	spot 1	0.1981	0.0589
+spot	spot 1	0.1968	0.0582
+spot	spot 1	0.1953	0.0581
+spot	spot 1	0.1939	0.0585
+spot	spot 1	0.1928	0.0593
+spot	spot 1	0.1922	0.0605
+spot	spot 1	0.1922	0.0618
+spot	spot 1	0.1928	0.063
+spot	spot 1	0.1939	0.0638
+spot	spot 1	0.1953	0.0642
+spot	spot 1	0.1968	0.0641
+spot	spot 1	0.1981	0.0635
+spot	spot 1	0.199	0.0624
+spot	spot 1	0.1993	0.0612
+spot	spot 2	0.2015	0.0688
+spot	spot 2	0.2012	0.0676
+spot	spot 2	0.2003	0.0665
+spot	spot 2	0.199	0.0659
+spot	spot 2	0.1975	0.0657
+spot	spot 2	0.1961	0.0661
+spot	spot 2	0.195	0.067
+spot	spot 2	0.1944	0.0682
+spot	spot 2	0.1944	0.0695
+spot	spot 2	0.195	0.0706
+spot	spot 2	0.1961	0.0715
+spot	spot 2	0.1975	0.0719
+spot	spot 2	0.199	0.0718
+spot	spot 2	0.2003	0.0711
+spot	spot 2	0.2012	0.0701
+spot	spot 2	0.2015	0.0688
+spot	spot 3	0.2453	0.0555
+spot	spot 3	0.245	0.0542
+spot	spot 3	0.2441	0.0532
+spot	spot 3	0.2428	0.0526
+spot	spot 3	0.2413	0.0524
+spot	spot 3	0.2399	0.0528
+spot	spot 3	0.2388	0.0537
+spot	spot 3	0.2381	0.0549
+spot	spot 3	0.2381	0.0562
+spot	spot 3	0.2388	0.0573
+spot	spot 3	0.2399	0.0582
+spot	spot 3	0.2413	0.0586
+spot	spot 3	0.2428	0.0585
+spot	spot 3	0.2441	0.0578
+spot	spot 3	0.245	0.0568
+spot	spot 3	0.2453	0.0555
+spot	spot 4	0.2522	0.0606
+spot	spot 4	0.2519	0.0593
+spot	spot 4	0.251	0.0583
+spot	spot 4	0.2497	0.0577
+spot	spot 4	0.2482	0.0575
+spot	spot 4	0.2468	0.0579
+spot	spot 4	0.2457	0.0588
+spot	spot 4	0.2451	0.06
+spot	spot 4	0.2451	0.0612
+spot	spot 4	0.2457	0.0624
+spot	spot 4	0.2468	0.0633
+spot	spot 4	0.2482	0.0637
+spot	spot 4	0.2497	0.0636
+spot	spot 4	0.251	0.0629
+spot	spot 4	0.2519	0.0619
+spot	spot 4	0.2522	0.0606
+spot	spot 5	0.2773	0.0579
+spot	spot 5	0.2769	0.0566
+spot	spot 5	0.2761	0.0556
+spot	spot 5	0.2748	0.0549
+spot	spot 5	0.2733	0.0548
+spot	spot 5	0.2718	0.0552
+spot	spot 5	0.2707	0.0561
+spot	spot 5	0.2701	0.0572
+spot	spot 5	0.2701	0.0585
+spot	spot 5	0.2707	0.0597
+spot	spot 5	0.2718	0.0606
+spot	spot 5	0.2733	0.061
+spot	spot 5	0.2748	0.0608
+spot	spot 5	0.2761	0.0602
+spot	spot 5	0.2769	0.0591
+spot	spot 5	0.2773	0.0579
+spot	spot 6	0.2917	0.0814
+spot	spot 6	0.2913	0.0802
+spot	spot 6	0.2905	0.0791
+spot	spot 6	0.2892	0.0785
+spot	spot 6	0.2877	0.0783
+spot	spot 6	0.2862	0.0787
+spot	spot 6	0.2851	0.0796
+spot	spot 6	0.2845	0.0808
+spot	spot 6	0.2845	0.0821
+spot	spot 6	0.2851	0.0832
+spot	spot 6	0.2862	0.0841
+spot	spot 6	0.2877	0.0845
+spot	spot 6	0.2892	0.0844
+spot	spot 6	0.2905	0.0837
+spot	spot 6	0.2913	0.0827
+spot	spot 6	0.2917	0.0814
+spot	spot 7	0.3322	0.0624
+spot	spot 7	0.3319	0.0611
+spot	spot 7	0.331	0.0601
+spot	spot 7	0.3297	0.0594
+spot	spot 7	0.3282	0.0593
+spot	spot 7	0.3268	0.0597
+spot	spot 7	0.3257	0.0605
+spot	spot 7	0.3251	0.0617
+spot	spot 7	0.3251	0.063
+spot	spot 7	0.3257	0.0642
+spot	spot 7	0.3268	0.065
+spot	spot 7	0.3282	0.0654
+spot	spot 7	0.3297	0.0653
+spot	spot 7	0.331	0.0647
+spot	spot 7	0.3319	0.0636
+spot	spot 7	0.3322	0.0624
+spot	spot 8	0.3264	0.0734
+spot	spot 8	0.3261	0.0721
+spot	spot 8	0.3252	0.0711
+spot	spot 8	0.3239	0.0704
+spot	spot 8	0.3224	0.0703
+spot	spot 8	0.3209	0.0707
+spot	spot 8	0.3198	0.0715
+spot	spot 8	0.3192	0.0727
+spot	spot 8	0.3192	0.074
+spot	spot 8	0.3198	0.0752
+spot	spot 8	0.3209	0.076
+spot	spot 8	0.3224	0.0764
+spot	spot 8	0.3239	0.0763
+spot	spot 8	0.3252	0.0757
+spot	spot 8	0.3261	0.0746
+spot	spot 8	0.3264	0.0734
+spot	spot 9	0.3653	0.0601
+spot	spot 9	0.365	0.0588
+spot	spot 9	0.3641	0.0578
+spot	spot 9	0.3628	0.0572
+spot	spot 9	0.3613	0.057
+spot	spot 9	0.3599	0.0574
+spot	spot 9	0.3588	0.0583
+spot	spot 9	0.3582	0.0595
+spot	spot 9	0.3582	0.0608
+spot	spot 9	0.3588	0.0619
+spot	spot 9	0.3599	0.0628
+spot	spot 9	0.3613	0.0632
+spot	spot 9	0.3628	0.0631
+spot	spot 9	0.3641	0.0624
+spot	spot 9	0.365	0.0614
+spot	spot 9	0.3653	0.0601
+spot	spot 10	0.3536	0.0665
+spot	spot 10	0.3533	0.0652
+spot	spot 10	0.3524	0.0642
+spot	spot 10	0.3511	0.0636
+spot	spot 10	0.3496	0.0634
+spot	spot 10	0.3482	0.0638
+spot	spot 10	0.3471	0.0647
+spot	spot 10	0.3465	0.0659
+spot	spot 10	0.3465	0.0671
+spot	spot 10	0.3471	0.0683
+spot	spot 10	0.3482	0.0692
+spot	spot 10	0.3496	0.0696
+spot	spot 10	0.3511	0.0695
+spot	spot 10	0.3524	0.0688
+spot	spot 10	0.3533	0.0678
+spot	spot 10	0.3536	0.0665
+spot	spot 11	0.3962	0.0618
+spot	spot 11	0.3959	0.0606
+spot	spot 11	0.395	0.0595
+spot	spot 11	0.3937	0.0589
+spot	spot 11	0.3922	0.0588
+spot	spot 11	0.3908	0.0592
+spot	spot 11	0.3897	0.06
+spot	spot 11	0.3891	0.0612
+spot	spot 11	0.3891	0.0625
+spot	spot 11	0.3897	0.0637
+spot	spot 11	0.3908	0.0645
+spot	spot 11	0.3922	0.0649
+spot	spot 11	0.3937	0.0648
+spot	spot 11	0.395	0.0642
+spot	spot 11	0.3959	0.0631
+spot	spot 11	0.3962	0.0618
+spot	spot 12	0.3956	0.0711
+spot	spot 12	0.3953	0.0698
+spot	spot 12	0.3944	0.0688
+spot	spot 12	0.3931	0.0681
+spot	spot 12	0.3916	0.068
+spot	spot 12	0.3902	0.0684
+spot	spot 12	0.3891	0.0693
+spot	spot 12	0.3885	0.0705
+spot	spot 12	0.3885	0.0717
+spot	spot 12	0.3891	0.0729
+spot	spot 12	0.3902	0.0738
+spot	spot 12	0.3916	0.0742
+spot	spot 12	0.3931	0.074
+spot	spot 12	0.3944	0.0734
+spot	spot 12	0.3953	0.0724
+spot	spot 12	0.3956	0.0711
+spot	spot 13	0.4458	0.0703
+spot	spot 13	0.4455	0.0691
+spot	spot 13	0.4446	0.068
+spot	spot 13	0.4433	0.0674
+spot	spot 13	0.4418	0.0672
+spot	spot 13	0.4404	0.0676
+spot	spot 13	0.4392	0.0685
+spot	spot 13	0.4386	0.0697
+spot	spot 13	0.4386	0.071
+spot	spot 13	0.4392	0.0721
+spot	spot 13	0.4404	0.073
+spot	spot 13	0.4418	0.0734
+spot	spot 13	0.4433	0.0733
+spot	spot 13	0.4446	0.0726
+spot	spot 13	0.4455	0.0716
+spot	spot 13	0.4458	0.0703
+spot	spot 14	0.4395	0.0607
+spot	spot 14	0.4392	0.0594
+spot	spot 14	0.4383	0.0584
+spot	spot 14	0.437	0.0577
+spot	spot 14	0.4355	0.0576
+spot	spot 14	0.4341	0.058
+spot	spot 14	0.433	0.0588
+spot	spot 14	0.4324	0.06
+spot	spot 14	0.4324	0.0613
+spot	spot 14	0.433	0.0625
+spot	spot 14	0.4341	0.0634
+spot	spot 14	0.4355	0.0638
+spot	spot 14	0.437	0.0636
+spot	spot 14	0.4383	0.063
+spot	spot 14	0.4392	0.0619
+spot	spot 14	0.4395	0.0607
+spot	spot 15	0.4871	0.087
+spot	spot 15	0.4868	0.0857
+spot	spot 15	0.4859	0.0847
+spot	spot 15	0.4846	0.084
+spot	spot 15	0.4831	0.0839
+spot	spot 15	0.4817	0.0843
+spot	spot 15	0.4806	0.0852
+spot	spot 15	0.48	0.0864
+spot	spot 15	0.48	0.0876
+spot	spot 15	0.4806	0.0888
+spot	spot 15	0.4817	0.0897
+spot	spot 15	0.4831	0.0901
+spot	spot 15	0.4846	0.0899
+spot	spot 15	0.4859	0.0893
+spot	spot 15	0.4868	0.0883
+spot	spot 15	0.4871	0.087
+spot	spot 16	0.4815	0.0709
+spot	spot 16	0.4812	0.0696
+spot	spot 16	0.4803	0.0686
+spot	spot 16	0.479	0.068
+spot	spot 16	0.4775	0.0678
+spot	spot 16	0.4761	0.0682
+spot	spot 16	0.475	0.0691
+spot	spot 16	0.4743	0.0703
+spot	spot 16	0.4743	0.0715
+spot	spot 16	0.475	0.0727
+spot	spot 16	0.4761	0.0736
+spot	spot 16	0.4775	0.074
+spot	spot 16	0.479	0.0739
+spot	spot 16	0.4803	0.0732
+spot	spot 16	0.4812	0.0722
+spot	spot 16	0.4815	0.0709
+spot	spot 17	0.5257	0.061
+spot	spot 17	0.5254	0.0597
+spot	spot 17	0.5245	0.0587
+spot	spot 17	0.5232	0.058
+spot	spot 17	0.5217	0.0579
+spot	spot 17	0.5203	0.0583
+spot	spot 17	0.5191	0.0592
+spot	spot 17	0.5185	0.0604
+spot	spot 17	0.5185	0.0616
+spot	spot 17	0.5191	0.0628
+spot	spot 17	0.5203	0.0637
+spot	spot 17	0.5217	0.0641
+spot	spot 17	0.5232	0.0639
+spot	spot 17	0.5245	0.0633
+spot	spot 17	0.5254	0.0623
+spot	spot 17	0.5257	0.061
+spot	spot 18	0.5313	0.0623
+spot	spot 18	0.531	0.061
+spot	spot 18	0.5302	0.06
+spot	spot 18	0.5288	0.0593
+spot	spot 18	0.5274	0.0592
+spot	spot 18	0.5259	0.0596
+spot	spot 18	0.5248	0.0604
+spot	spot 18	0.5242	0.0616
+spot	spot 18	0.5242	0.0629
+spot	spot 18	0.5248	0.0641
+spot	spot 18	0.5259	0.0649
+spot	spot 18	0.5274	0.0653
+spot	spot 18	0.5288	0.0652
+spot	spot 18	0.5302	0.0646
+spot	spot 18	0.531	0.0635
+spot	spot 18	0.5313	0.0623
+spot	spot 19	0.5583	0.0688
+spot	spot 19	0.558	0.0676
+spot	spot 19	0.5571	0.0665
+spot	spot 19	0.5558	0.0659
+spot	spot 19	0.5543	0.0657
+spot	spot 19	0.5529	0.0661
+spot	spot 19	0.5518	0.067
+spot	spot 19	0.5512	0.0682
+spot	spot 19	0.5512	0.0695
+spot	spot 19	0.5518	0.0707
+spot	spot 19	0.5529	0.0715
+spot	spot 19	0.5543	0.0719
+spot	spot 19	0.5558	0.0718
+spot	spot 19	0.5571	0.0711
+spot	spot 19	0.558	0.0701
+spot	spot 19	0.5583	0.0688
+spot	spot 20	0.5665	0.0559
+spot	spot 20	0.5662	0.0546
+spot	spot 20	0.5653	0.0536
+spot	spot 20	0.564	0.0529
+spot	spot 20	0.5625	0.0528
+spot	spot 20	0.5611	0.0532
+spot	spot 20	0.56	0.054
+spot	spot 20	0.5594	0.0552
+spot	spot 20	0.5594	0.0565
+spot	spot 20	0.56	0.0577
+spot	spot 20	0.5611	0.0586
+spot	spot 20	0.5625	0.059
+spot	spot 20	0.564	0.0588
+spot	spot 20	0.5653	0.0582
+spot	spot 20	0.5662	0.0571
+spot	spot 20	0.5665	0.0559
+spot	spot 21	0.6432	0.076
+spot	spot 21	0.6429	0.0747
+spot	spot 21	0.642	0.0737
+spot	spot 21	0.6407	0.0731
+spot	spot 21	0.6392	0.0729
+spot	spot 21	0.6378	0.0733
+spot	spot 21	0.6366	0.0742
+spot	spot 21	0.636	0.0754
+spot	spot 21	0.636	0.0767
+spot	spot 21	0.6366	0.0778
+spot	spot 21	0.6378	0.0787
+spot	spot 21	0.6392	0.0791
+spot	spot 21	0.6407	0.079
+spot	spot 21	0.642	0.0783
+spot	spot 21	0.6429	0.0773
+spot	spot 21	0.6432	0.076
+spot	spot 22	0.6323	0.0761
+spot	spot 22	0.632	0.0748
+spot	spot 22	0.6311	0.0738
+spot	spot 22	0.6298	0.0732
+spot	spot 22	0.6283	0.073
+spot	spot 22	0.6269	0.0734
+spot	spot 22	0.6258	0.0743
+spot	spot 22	0.6252	0.0755
+spot	spot 22	0.6252	0.0768
+spot	spot 22	0.6258	0.0779
+spot	spot 22	0.6269	0.0788
+spot	spot 22	0.6283	0.0792
+spot	spot 22	0.6298	0.0791
+spot	spot 22	0.6311	0.0784
+spot	spot 22	0.632	0.0774
+spot	spot 22	0.6323	0.0761
+spot	spot 23	0.67490000000000006	0.0666
+spot	spot 23	0.6746	0.0654
+spot	spot 23	0.6737	0.0643
+spot	spot 23	0.6724	0.0637
+spot	spot 23	0.6709	0.0636
+spot	spot 23	0.6694	0.0639
+spot	spot 23	0.6683	0.0648
+spot	spot 23	0.6677	0.066
+spot	spot 23	0.6677	0.0673
+spot	spot 23	0.6683	0.0685
+spot	spot 23	0.6694	0.0693
+spot	spot 23	0.6709	0.0697
+spot	spot 23	0.6724	0.0696
+spot	spot 23	0.6737	0.0689
+spot	spot 23	0.6746	0.0679
+spot	spot 23	0.67490000000000006	0.0666
+spot	spot 24	0.6773	0.0614
+spot	spot 24	0.677	0.0601
+spot	spot 24	0.6761	0.0591
+spot	spot 24	0.6748	0.0584
+spot	spot 24	0.6733	0.0583
+spot	spot 24	0.6719	0.0587
+spot	spot 24	0.6708	0.0595
+spot	spot 24	0.6702	0.0607
+spot	spot 24	0.6702	0.062
+spot	spot 24	0.6708	0.0632
+spot	spot 24	0.6719	0.064
+spot	spot 24	0.6733	0.0644
+spot	spot 24	0.6748	0.0643
+spot	spot 24	0.6761	0.0637
+spot	spot 24	0.677	0.0626
+spot	spot 24	0.6773	0.0614
+spot	spot 25	0.7092	0.0577
+spot	spot 25	0.7089	0.0565
+spot	spot 25	0.7081	0.0554
+spot	spot 25	0.7067	0.0548
+spot	spot 25	0.7053	0.0546
+spot	spot 25	0.7038	0.055
+spot	spot 25	0.7027	0.0559
+spot	spot 25	0.7021	0.0571
+spot	spot 25	0.7021	0.0584
+spot	spot 25	0.7027	0.0595
+spot	spot 25	0.7038	0.0604
+spot	spot 25	0.7053	0.0608
+spot	spot 25	0.7067	0.0607
+spot	spot 25	0.7081	0.06
+spot	spot 25	0.7089	0.059
+spot	spot 25	0.7092	0.0577
+spot	spot 26	0.7169	0.0648
+spot	spot 26	0.7166	0.0635
+spot	spot 26	0.7157	0.0625
+spot	spot 26	0.7144	0.0618
+spot	spot 26	0.7129	0.0617
+spot	spot 26	0.7114	0.0621
+spot	spot 26	0.7103	0.0629
+spot	spot 26	0.7097	0.0641
+spot	spot 26	0.7097	0.0654
+spot	spot 26	0.7103	0.0666
+spot	spot 26	0.7114	0.0675
+spot	spot 26	0.7129	0.0678
+spot	spot 26	0.7144	0.0677
+spot	spot 26	0.7157	0.0671
+spot	spot 26	0.7166	0.066
+spot	spot 26	0.7169	0.0648
+spot	spot 27	0.7666	0.0479
+spot	spot 27	0.7663	0.0467
+spot	spot 27	0.7654	0.0456
+spot	spot 27	0.7641	0.045
+spot	spot 27	0.7626	0.0449
+spot	spot 27	0.7611	0.0453
+spot	spot 27	0.76	0.0461
+spot	spot 27	0.7594	0.0473
+spot	spot 27	0.7594	0.0486
+spot	spot 27	0.76	0.0498
+spot	spot 27	0.7611	0.0506
+spot	spot 27	0.7626	0.051
+spot	spot 27	0.7641	0.0509
+spot	spot 27	0.7654	0.0502
+spot	spot 27	0.7663	0.0492
+spot	spot 27	0.7666	0.0479
+spot	spot 28	0.7556	0.0582
+spot	spot 28	0.7553	0.057
+spot	spot 28	0.7544	0.0559
+spot	spot 28	0.7531	0.0553
+spot	spot 28	0.7516	0.0551
+spot	spot 28	0.7502	0.0555
+spot	spot 28	0.7491	0.0564
+spot	spot 28	0.7485	0.0576
+spot	spot 28	0.7485	0.0589
+spot	spot 28	0.7491	0.06
+spot	spot 28	0.7502	0.0609
+spot	spot 28	0.7516	0.0613
+spot	spot 28	0.7531	0.0612
+spot	spot 28	0.7544	0.0605
+spot	spot 28	0.7553	0.0595
+spot	spot 28	0.7556	0.0582
+spot	spot 29	0.7982	0.0514
+spot	spot 29	0.7979	0.0501
+spot	spot 29	0.797	0.0491
+spot	spot 29	0.7957	0.0484
+spot	spot 29	0.7942	0.0483
+spot	spot 29	0.7928	0.0487
+spot	spot 29	0.7916	0.0496
+spot	spot 29	0.791	0.0508
+spot	spot 29	0.791	0.052
+spot	spot 29	0.7916	0.0532
+spot	spot 29	0.7928	0.0541
+spot	spot 29	0.7942	0.0545
+spot	spot 29	0.7957	0.0543
+spot	spot 29	0.797	0.0537
+spot	spot 29	0.7979	0.0527
+spot	spot 29	0.7982	0.0514
+spot	spot 30	0.8006	0.0525
+spot	spot 30	0.8003	0.0512
+spot	spot 30	0.7994	0.0502
+spot	spot 30	0.7981	0.0495
+spot	spot 30	0.7966	0.0494
+spot	spot 30	0.7952	0.0498
+spot	spot 30	0.7941	0.0506
+spot	spot 30	0.7935	0.0518
+spot	spot 30	0.7935	0.0531
+spot	spot 30	0.7941	0.0543
+spot	spot 30	0.7952	0.0551
+spot	spot 30	0.7966	0.0555
+spot	spot 30	0.7981	0.0554
+spot	spot 30	0.7994	0.0548
+spot	spot 30	0.8003	0.0537
+spot	spot 30	0.8006	0.0525
+spot	spot 31	0.1482	0.0181
+spot	spot 31	0.1479	0.0168
+spot	spot 31	0.147	0.0158
+spot	spot 31	0.1457	0.0151
+spot	spot 31	0.1442	0.015
+spot	spot 31	0.1428	0.0154
+spot	spot 31	0.1416	0.0163
+spot	spot 31	0.141	0.0174
+spot	spot 31	0.141	0.0187
+spot	spot 31	0.1416	0.0199
+spot	spot 31	0.1428	0.0208
+spot	spot 31	0.1442	0.0212
+spot	spot 31	0.1457	0.021
+spot	spot 31	0.147	0.0204
+spot	spot 31	0.1479	0.0194
+spot	spot 31	0.1482	0.0181
+spot	spot 32	0.1628	0.0043
+spot	spot 32	0.1625	0.003
+spot	spot 32	0.1616	0.002
+spot	spot 32	0.1603	0.0014
+spot	spot 32	0.1588	0.0012
+spot	spot 32	0.1574	0.0016
+spot	spot 32	0.1563	0.0025
+spot	spot 32	0.1557	0.0037
+spot	spot 32	0.1557	0.005
+spot	spot 32	0.1563	0.0061
+spot	spot 32	0.1574	0.007
+spot	spot 32	0.1588	0.0074
+spot	spot 32	0.1603	0.0073
+spot	spot 32	0.1616	0.0066
+spot	spot 32	0.1625	0.0056
+spot	spot 32	0.1628	0.0043
+outline	outline	0.8286	-0.015
+outline	outline	0.827	-0.0149
+outline	outline	0.8254	-0.0148
+outline	outline	0.8237	-0.0147
+outline	outline	0.8221	-0.0147
+outline	outline	0.8189	-0.0146
+outline	outline	0.8157	-0.0145
+outline	outline	0.8124	-0.0145
+outline	outline	0.8091	-0.0146
+outline	outline	0.8059	-0.0148
+outline	outline	0.8026	-0.015
+outline	outline	0.7994	-0.0152
+outline	outline	0.7962	-0.0155
+outline	outline	0.793	-0.0157
+outline	outline	0.7898	-0.016
+outline	outline	0.7867	-0.0163
+outline	outline	0.7835	-0.0166
+outline	outline	0.7804	-0.017
+outline	outline	0.7774	-0.0173
+outline	outline	0.7744	-0.0178
+outline	outline	0.7713	-0.0182
+outline	outline	0.7683	-0.0186
+outline	outline	0.7653	-0.0191
+outline	outline	0.7624	-0.0196
+outline	outline	0.7596	-0.0201
+outline	outline	0.757	-0.0206
+outline	outline	0.7545	-0.0212
+outline	outline	0.7518	-0.0219
+outline	outline	0.7489	-0.0228
+outline	outline	0.7457	-0.0238
+outline	outline	0.7424	-0.0249
+outline	outline	0.7389	-0.0262
+outline	outline	0.735	-0.0276
+outline	outline	0.7309	-0.0292
+outline	outline	0.7263	-0.0308
+outline	outline	0.7214	-0.0326
+outline	outline	0.7165	-0.0343
+outline	outline	0.7115	-0.036
+outline	outline	0.7066	-0.0377
+outline	outline	0.7016	-0.0393
+outline	outline	0.6967	-0.041
+outline	outline	0.6917	-0.0426
+outline	outline	0.6867	-0.0442
+outline	outline	0.6817	-0.0457
+outline	outline	0.6767	-0.0472
+outline	outline	0.6717	-0.0487
+outline	outline	0.6667	-0.0502
+outline	outline	0.6617	-0.0516
+outline	outline	0.6566	-0.053
+outline	outline	0.6516	-0.0544
+outline	outline	0.6468	-0.0556
+outline	outline	0.6423	-0.0568
+outline	outline	0.6381	-0.0579
+outline	outline	0.6341	-0.0589
+outline	outline	0.6303	-0.0598
+outline	outline	0.6269	-0.0607
+outline	outline	0.6237	-0.0616
+outline	outline	0.6209	-0.0624
+outline	outline	0.6183	-0.0633
+outline	outline	0.6158	-0.0642
+outline	outline	0.6132	-0.0651
+outline	outline	0.6105	-0.0658
+outline	outline	0.6078	-0.0666
+outline	outline	0.6051	-0.0673
+outline	outline	0.6023	-0.068
+outline	outline	0.5995	-0.0686
+outline	outline	0.5966	-0.0691
+outline	outline	0.5936	-0.0696
+outline	outline	0.5906	-0.0701
+outline	outline	0.5877	-0.0705
+outline	outline	0.5848	-0.0711
+outline	outline	0.5819	-0.0717
+outline	outline	0.579	-0.0722
+outline	outline	0.5762	-0.0728
+outline	outline	0.5733	-0.0734
+outline	outline	0.5704	-0.074
+outline	outline	0.5676	-0.0746
+outline	outline	0.5648	-0.0752
+outline	outline	0.5619	-0.0758
+outline	outline	0.559	-0.0763
+outline	outline	0.5561	-0.0769
+outline	outline	0.5532	-0.0774
+outline	outline	0.5503	-0.078
+outline	outline	0.5474	-0.0785
+outline	outline	0.5444	-0.079
+outline	outline	0.5415	-0.0795
+outline	outline	0.5385	-0.0799
+outline	outline	0.5355	-0.0804
+outline	outline	0.5325	-0.0808
+outline	outline	0.5295	-0.0813
+outline	outline	0.5265	-0.0817
+outline	outline	0.5236	-0.0822
+outline	outline	0.5209	-0.0827
+outline	outline	0.5183	-0.0832
+outline	outline	0.516	-0.0836
+outline	outline	0.5139	-0.0839
+outline	outline	0.5118	-0.0841
+outline	outline	0.5098	-0.0844
+outline	outline	0.5077	-0.0846
+outline	outline	0.5056	-0.0848
+outline	outline	0.5033	-0.0849
+outline	outline	0.5009	-0.085
+outline	outline	0.4984	-0.0851
+outline	outline	0.4956	-0.0853
+outline	outline	0.4928	-0.0855
+outline	outline	0.4899	-0.0858
+outline	outline	0.4871	-0.086
+outline	outline	0.4843	-0.0863
+outline	outline	0.4815	-0.0865
+outline	outline	0.4788	-0.0867
+outline	outline	0.4762	-0.0869
+outline	outline	0.4735	-0.0872
+outline	outline	0.4709	-0.0874
+outline	outline	0.4682	-0.0876
+outline	outline	0.4654	-0.0878
+outline	outline	0.4627	-0.088
+outline	outline	0.46	-0.0881
+outline	outline	0.4572	-0.0883
+outline	outline	0.4545	-0.0884
+outline	outline	0.4517	-0.0886
+outline	outline	0.449	-0.0887
+outline	outline	0.4463	-0.0888
+outline	outline	0.4435	-0.0889
+outline	outline	0.4408	-0.0889
+outline	outline	0.438	-0.089
+outline	outline	0.4353	-0.089
+outline	outline	0.4326	-0.089
+outline	outline	0.4298	-0.089
+outline	outline	0.4271	-0.0889
+outline	outline	0.4244	-0.0887
+outline	outline	0.4216	-0.0886
+outline	outline	0.4188	-0.0885
+outline	outline	0.4159	-0.0884
+outline	outline	0.413	-0.0883
+outline	outline	0.41	-0.0882
+outline	outline	0.4071	-0.0881
+outline	outline	0.4042	-0.088
+outline	outline	0.4014	-0.088
+outline	outline	0.3986	-0.088
+outline	outline	0.3958	-0.088
+outline	outline	0.3931	-0.0879
+outline	outline	0.3903	-0.0878
+outline	outline	0.3875	-0.0877
+outline	outline	0.3848	-0.0876
+outline	outline	0.382	-0.0875
+outline	outline	0.379	-0.0874
+outline	outline	0.376	-0.0874
+outline	outline	0.3728	-0.0874
+outline	outline	0.3696	-0.0873
+outline	outline	0.3663	-0.0873
+outline	outline	0.3631	-0.0873
+outline	outline	0.3598	-0.0873
+outline	outline	0.3565	-0.0873
+outline	outline	0.3532	-0.0872
+outline	outline	0.3499	-0.0871
+outline	outline	0.3467	-0.0869
+outline	outline	0.3435	-0.0867
+outline	outline	0.3403	-0.0864
+outline	outline	0.3372	-0.0861
+outline	outline	0.3341	-0.0858
+outline	outline	0.3312	-0.0854
+outline	outline	0.3284	-0.0852
+outline	outline	0.3257	-0.085
+outline	outline	0.3235	-0.0847
+outline	outline	0.3215	-0.0845
+outline	outline	0.3198	-0.0842
+outline	outline	0.318	-0.0841
+outline	outline	0.3164	-0.084
+outline	outline	0.3146	-0.0839
+outline	outline	0.3127	-0.0839
+outline	outline	0.3108	-0.0837
+outline	outline	0.3086	-0.0836
+outline	outline	0.3061	-0.0834
+outline	outline	0.3033	-0.0833
+outline	outline	0.3003	-0.0831
+outline	outline	0.2974	-0.0829
+outline	outline	0.2944	-0.0826
+outline	outline	0.2915	-0.0823
+outline	outline	0.2886	-0.082
+outline	outline	0.2856	-0.0817
+outline	outline	0.2826	-0.0814
+outline	outline	0.2797	-0.0811
+outline	outline	0.2767	-0.0808
+outline	outline	0.2737	-0.0806
+outline	outline	0.2708	-0.0803
+outline	outline	0.2678	-0.08
+outline	outline	0.265	-0.0797
+outline	outline	0.2622	-0.0794
+outline	outline	0.2594	-0.0792
+outline	outline	0.2566	-0.0789
+outline	outline	0.2538	-0.0786
+outline	outline	0.2511	-0.0784
+outline	outline	0.2484	-0.0781
+outline	outline	0.2456	-0.0779
+outline	outline	0.2428	-0.0776
+outline	outline	0.2399	-0.0774
+outline	outline	0.2369	-0.0771
+outline	outline	0.2339	-0.0769
+outline	outline	0.231	-0.0766
+outline	outline	0.228	-0.0762
+outline	outline	0.225	-0.0759
+outline	outline	0.222	-0.0755
+outline	outline	0.2191	-0.0752
+outline	outline	0.2162	-0.0748
+outline	outline	0.2134	-0.0744
+outline	outline	0.2105	-0.0739
+outline	outline	0.2077	-0.0735
+outline	outline	0.2049	-0.0731
+outline	outline	0.2022	-0.0726
+outline	outline	0.1994	-0.0721
+outline	outline	0.1966	-0.0716
+outline	outline	0.1937	-0.071
+outline	outline	0.1908	-0.0705
+outline	outline	0.1879	-0.0699
+outline	outline	0.1851	-0.0693
+outline	outline	0.1822	-0.0687
+outline	outline	0.1794	-0.0681
+outline	outline	0.1766	-0.0674
+outline	outline	0.1738	-0.0668
+outline	outline	0.1711	-0.0661
+outline	outline	0.1684	-0.0653
+outline	outline	0.1657	-0.0645
+outline	outline	0.1631	-0.0637
+outline	outline	0.1605	-0.0629
+outline	outline	0.1579	-0.0621
+outline	outline	0.1552	-0.0613
+outline	outline	0.1526	-0.0605
+outline	outline	0.1499	-0.0597
+outline	outline	0.1472	-0.059
+outline	outline	0.1444	-0.0583
+outline	outline	0.1417	-0.0577
+outline	outline	0.139	-0.0572
+outline	outline	0.1363	-0.0567
+outline	outline	0.1336	-0.0563
+outline	outline	0.1309	-0.0559
+outline	outline	0.1283	-0.0556
+outline	outline	0.1257	-0.0553
+outline	outline	0.1231	-0.055
+outline	outline	0.1205	-0.0547
+outline	outline	0.1178	-0.0543
+outline	outline	0.1151	-0.054
+outline	outline	0.1125	-0.0536
+outline	outline	0.1098	-0.0531
+outline	outline	0.1072	-0.0527
+outline	outline	0.1046	-0.0522
+outline	outline	0.1019	-0.0517
+outline	outline	0.0991	-0.0512
+outline	outline	0.0964	-0.0506
+outline	outline	0.0937	-0.0501
+outline	outline	0.091	-0.0495
+outline	outline	0.0882	-0.049
+outline	outline	0.0855	-0.0484
+outline	outline	0.0828	-0.0478
+outline	outline	0.0796	-0.0473
+outline	outline	0.0769	-0.0468
+outline	outline	0.0747	-0.0462
+outline	outline	0.0728	-0.0453
+outline	outline	0.0708	-0.0441
+outline	outline	0.0684	-0.043
+outline	outline	0.0659	-0.042
+outline	outline	0.0636	-0.0409
+outline	outline	0.0612	-0.0399
+outline	outline	0.0586	-0.039
+outline	outline	0.0561	-0.0381
+outline	outline	0.0535	-0.0372
+outline	outline	0.051	-0.0363
+outline	outline	0.0485	-0.0353
+outline	outline	0.0461	-0.0343
+outline	outline	0.0437	-0.0333
+outline	outline	0.0411	-0.0324
+outline	outline	0.0386	-0.0315
+outline	outline	0.0361	-0.0305
+outline	outline	0.0337	-0.0294
+outline	outline	0.0313	-0.0284
+outline	outline	0.0289	-0.0274
+outline	outline	0.0265	-0.0264
+outline	outline	0.0241	-0.0253
+outline	outline	0.0217	-0.0242
+outline	outline	0.0193	-0.0232
+outline	outline	0.0168	-0.0222
+outline	outline	0.0144	-0.0212
+outline	outline	0.0121	-0.0201
+outline	outline	0.0098	-0.0189
+outline	outline	0.0077	-0.0176
+outline	outline	0.0055	-0.0163
+outline	outline	0.0035	-0.0149
+outline	outline	0.0016	-0.0134
+outline	outline	3e-4	-0.0113
+outline	outline	0	-0.009
+outline	outline	9e-4	-0.0067
+outline	outline	0.0027	-0.0051
+outline	outline	0.0053	-0.0042
+outline	outline	0.008	-0.0043
+outline	outline	0.0106	-0.0052
+outline	outline	0.013	-0.0062
+outline	outline	0.0157	-0.0069
+outline	outline	0.0186	-0.0076
+outline	outline	0.0215	-0.008
+outline	outline	0.0244	-0.0086
+outline	outline	0.0275	-0.009
+outline	outline	0.0305	-0.0094
+outline	outline	0.0336	-0.0097
+outline	outline	0.0367	-0.0097
+outline	outline	0.0394	-0.0092
+outline	outline	0.0408	-0.0093
+outline	outline	0.0422	-0.0097
+outline	outline	0.0434	-0.0097
+outline	outline	0.0435	-0.0087
+outline	outline	0.0422	-0.0072
+outline	outline	0.0403	-0.0056
+outline	outline	0.0385	-0.004
+outline	outline	0.0366	-0.0024
+outline	outline	0.0346	-0.001
+outline	outline	0.0327	5e-4
+outline	outline	0.0307	0.0014
+outline	outline	0.0295	0.0023
+outline	outline	0.0284	0.0028
+outline	outline	0.0274	0.003
+outline	outline	0.0261	0.0032
+outline	outline	0.0244	0.0043
+outline	outline	0.0219	0.0053
+outline	outline	0.0189	0.0055
+outline	outline	0.0158	0.0052
+outline	outline	0.0126	0.0049
+outline	outline	0.0095	0.0045
+outline	outline	0.0067	0.0045
+outline	outline	0.004	0.0046
+outline	outline	0.0018	0.0058
+outline	outline	5e-4	0.0079
+outline	outline	7e-4	0.0108
+outline	outline	0.0015	0.0134
+outline	outline	0.0029	0.0155
+outline	outline	0.0047	0.0172
+outline	outline	0.0066	0.0187
+outline	outline	0.0087	0.02
+outline	outline	0.011	0.0211
+outline	outline	0.0134	0.0222
+outline	outline	0.0157	0.0234
+outline	outline	0.0179	0.0246
+outline	outline	0.0201	0.0258
+outline	outline	0.0224	0.027
+outline	outline	0.0247	0.0282
+outline	outline	0.0271	0.0292
+outline	outline	0.0295	0.0302
+outline	outline	0.0319	0.0313
+outline	outline	0.0342	0.0324
+outline	outline	0.0366	0.0334
+outline	outline	0.039	0.0345
+outline	outline	0.0413	0.0357
+outline	outline	0.0429	0.0368
+outline	outline	0.0443	0.0376
+outline	outline	0.0451	0.0382
+outline	outline	0.0465	0.0386
+outline	outline	0.0483	0.0392
+outline	outline	0.0507	0.0401
+outline	outline	0.0531	0.0411
+outline	outline	0.0555	0.0421
+outline	outline	0.0579	0.0431
+outline	outline	0.0603	0.0442
+outline	outline	0.0628	0.0452
+outline	outline	0.0653	0.0461
+outline	outline	0.0678	0.0471
+outline	outline	0.0703	0.048
+outline	outline	0.0728	0.0489
+outline	outline	0.0752	0.05
+outline	outline	0.0776	0.0511
+outline	outline	0.0802	0.0519
+outline	outline	0.0827	0.0528
+outline	outline	0.0852	0.0538
+outline	outline	0.0877	0.0547
+outline	outline	0.0903	0.0555
+outline	outline	0.0929	0.0564
+outline	outline	0.0955	0.0572
+outline	outline	0.0981	0.0581
+outline	outline	0.1007	0.0589
+outline	outline	0.1033	0.0598
+outline	outline	0.1059	0.0606
+outline	outline	0.1086	0.0614
+outline	outline	0.1112	0.0622
+outline	outline	0.1138	0.0631
+outline	outline	0.1164	0.0639
+outline	outline	0.1189	0.0648
+outline	outline	0.1215	0.0657
+outline	outline	0.124	0.0666
+outline	outline	0.1265	0.0676
+outline	outline	0.129	0.0685
+outline	outline	0.1315	0.0695
+outline	outline	0.134	0.0705
+outline	outline	0.1364	0.0715
+outline	outline	0.1389	0.0724
+outline	outline	0.1414	0.0734
+outline	outline	0.1439	0.0743
+outline	outline	0.1465	0.0752
+outline	outline	0.1491	0.076
+outline	outline	0.1517	0.0768
+outline	outline	0.1544	0.0776
+outline	outline	0.1571	0.0784
+outline	outline	0.1598	0.0791
+outline	outline	0.1625	0.0798
+outline	outline	0.1652	0.0805
+outline	outline	0.168	0.0813
+outline	outline	0.1707	0.082
+outline	outline	0.1734	0.0827
+outline	outline	0.1762	0.0834
+outline	outline	0.1789	0.0841
+outline	outline	0.1817	0.0848
+outline	outline	0.1844	0.0855
+outline	outline	0.1872	0.0861
+outline	outline	0.19	0.0868
+outline	outline	0.1928	0.0874
+outline	outline	0.1956	0.0881
+outline	outline	0.1984	0.0887
+outline	outline	0.2013	0.0893
+outline	outline	0.2041	0.0899
+outline	outline	0.2069	0.0905
+outline	outline	0.2098	0.0912
+outline	outline	0.2126	0.0918
+outline	outline	0.2155	0.0924
+outline	outline	0.2183	0.0929
+outline	outline	0.2212	0.0935
+outline	outline	0.2241	0.0941
+outline	outline	0.227	0.0946
+outline	outline	0.2299	0.0952
+outline	outline	0.2328	0.0957
+outline	outline	0.2357	0.0962
+outline	outline	0.2386	0.0967
+outline	outline	0.2416	0.0973
+outline	outline	0.2445	0.0978
+outline	outline	0.2474	0.0983
+outline	outline	0.2504	0.0988
+outline	outline	0.2533	0.0993
+outline	outline	0.2563	0.0998
+outline	outline	0.2592	0.1003
+outline	outline	0.2622	0.1007
+outline	outline	0.2652	0.1012
+outline	outline	0.2682	0.1016
+outline	outline	0.2712	0.1021
+outline	outline	0.2742	0.1025
+outline	outline	0.2773	0.1029
+outline	outline	0.2803	0.1033
+outline	outline	0.2834	0.1037
+outline	outline	0.2865	0.104
+outline	outline	0.2896	0.1044
+outline	outline	0.2926	0.1047
+outline	outline	0.2957	0.1051
+outline	outline	0.2988	0.1055
+outline	outline	0.3019	0.1058
+outline	outline	0.305	0.1062
+outline	outline	0.3081	0.1065
+outline	outline	0.3111	0.1069
+outline	outline	0.3142	0.1073
+outline	outline	0.3173	0.1077
+outline	outline	0.3203	0.1081
+outline	outline	0.3234	0.1085
+outline	outline	0.3264	0.1089
+outline	outline	0.3293	0.1094
+outline	outline	0.3325	0.11
+outline	outline	0.3361	0.1107
+outline	outline	0.3399	0.1114
+outline	outline	0.3441	0.1121
+outline	outline	0.3485	0.1128
+outline	outline	0.3533	0.1135
+outline	outline	0.3584	0.1141
+outline	outline	0.3639	0.1146
+outline	outline	0.3697	0.115
+outline	outline	0.3756	0.1153
+outline	outline	0.3814	0.1154
+outline	outline	0.3873	0.1154
+outline	outline	0.3932	0.1152
+outline	outline	0.3991	0.115
+outline	outline	0.405	0.1146
+outline	outline	0.4109	0.1142
+outline	outline	0.4168	0.1137
+outline	outline	0.4227	0.1132
+outline	outline	0.4286	0.1126
+outline	outline	0.4345	0.1121
+outline	outline	0.4405	0.1115
+outline	outline	0.4464	0.1109
+outline	outline	0.4523	0.1103
+outline	outline	0.4578	0.1098
+outline	outline	0.4631	0.1094
+outline	outline	0.4681	0.109
+outline	outline	0.4728	0.1086
+outline	outline	0.4772	0.1083
+outline	outline	0.4813	0.108
+outline	outline	0.4852	0.10780000000000001
+outline	outline	0.4887	0.1077
+outline	outline	0.4919	0.1075
+outline	outline	0.4951	0.1073
+outline	outline	0.4981	0.1071
+outline	outline	0.5012	0.107
+outline	outline	0.5043	0.1068
+outline	outline	0.5075	0.1067
+outline	outline	0.5106	0.1066
+outline	outline	0.5136	0.1064
+outline	outline	0.5167	0.1062
+outline	outline	0.5199	0.1061
+outline	outline	0.5231	0.1059
+outline	outline	0.5264	0.1057
+outline	outline	0.5296	0.1055
+outline	outline	0.5329	0.1053
+outline	outline	0.5361	0.1051
+outline	outline	0.5394	0.1049
+outline	outline	0.5426	0.1047
+outline	outline	0.5458	0.1045
+outline	outline	0.549	0.1043
+outline	outline	0.5522	0.104
+outline	outline	0.5554	0.1038
+outline	outline	0.5586	0.1035
+outline	outline	0.5618	0.1032
+outline	outline	0.5649	0.1029
+outline	outline	0.5681	0.1026
+outline	outline	0.5712	0.1023
+outline	outline	0.5744	0.102
+outline	outline	0.5775	0.1017
+outline	outline	0.5807	0.1014
+outline	outline	0.5838	0.1011
+outline	outline	0.5869	0.1008
+outline	outline	0.59	0.1005
+outline	outline	0.5932	0.1002
+outline	outline	0.5963	0.0998
+outline	outline	0.5994	0.0995
+outline	outline	0.6025	0.0992
+outline	outline	0.6056	0.0988
+outline	outline	0.6087	0.0985
+outline	outline	0.6118	0.0981
+outline	outline	0.6149	0.0978
+outline	outline	0.618	0.0974
+outline	outline	0.621	0.097
+outline	outline	0.6241	0.0967
+outline	outline	0.6272	0.0963
+outline	outline	0.6303	0.0959
+outline	outline	0.6333	0.0955
+outline	outline	0.6364	0.0952
+outline	outline	0.6395	0.0948
+outline	outline	0.6426	0.0944
+outline	outline	0.6456	0.0941
+outline	outline	0.6487	0.0937
+outline	outline	0.6517	0.0932
+outline	outline	0.6548	0.0928
+outline	outline	0.6578	0.0924
+outline	outline	0.6608	0.092
+outline	outline	0.6638	0.0915
+outline	outline	0.6667	0.091
+outline	outline	0.6697	0.0905
+outline	outline	0.6727	0.0901
+outline	outline	0.6757	0.0896
+outline	outline	0.6786	0.0891
+outline	outline	0.6816	0.0887
+outline	outline	0.6846	0.0883
+outline	outline	0.6875	0.0881
+outline	outline	0.6904	0.088
+outline	outline	0.6932	0.088
+outline	outline	0.6961	0.0882
+outline	outline	0.6988	0.0885
+outline	outline	0.7014	0.0889
+outline	outline	0.7038	0.0894
+outline	outline	0.7061	0.0899
+outline	outline	0.7082	0.0903
+outline	outline	0.7102	0.0907
+outline	outline	0.7121	0.091
+outline	outline	0.7138	0.0912
+outline	outline	0.7154	0.0911
+outline	outline	0.7168	0.091
+outline	outline	0.7183	0.0907
+outline	outline	0.7197	0.0903
+outline	outline	0.7212	0.0897
+outline	outline	0.7226	0.0892
+outline	outline	0.724	0.0885
+outline	outline	0.7255	0.0878
+outline	outline	0.7269	0.087
+outline	outline	0.7283	0.0862
+outline	outline	0.7298	0.0853
+outline	outline	0.7312	0.0845
+outline	outline	0.7326	0.0836
+outline	outline	0.7341	0.0827
+outline	outline	0.7355	0.0819
+outline	outline	0.7369	0.0811
+outline	outline	0.7382	0.0802
+outline	outline	0.7395	0.0794
+outline	outline	0.741	0.0785
+outline	outline	0.7427	0.0778
+outline	outline	0.7445	0.077
+outline	outline	0.7465	0.0763
+outline	outline	0.7486	0.0756
+outline	outline	0.7509	0.0749
+outline	outline	0.7534	0.0743
+outline	outline	0.7562	0.0737
+outline	outline	0.7591	0.0731
+outline	outline	0.7619	0.0725
+outline	outline	0.7648	0.0719
+outline	outline	0.7677	0.0714
+outline	outline	0.7705	0.0708
+outline	outline	0.7734	0.0702
+outline	outline	0.7762	0.0696
+outline	outline	0.7791	0.069
+outline	outline	0.7819	0.0684
+outline	outline	0.7848	0.0678
+outline	outline	0.7876	0.0672
+outline	outline	0.7905	0.0666
+outline	outline	0.7934	0.066
+outline	outline	0.7962	0.0654
+outline	outline	0.7991	0.0649
+outline	outline	0.8019	0.0643
+outline	outline	0.8048	0.0637
+outline	outline	0.8077	0.0632
+outline	outline	0.8106	0.0626
+outline	outline	0.8136	0.0621
+outline	outline	0.8165	0.0616
+outline	outline	0.8194	0.0611
+outline	outline	0.8223	0.0608
+outline	outline	0.8238	0.0605
+outline	outline	0.8252	0.0603
+outline	outline	0.8267	0.0601
+outline	outline	0.8282	0.0599
+back	back	0.0015	0.0134
+back	back	0.0029	0.0155
+back	back	0.0047	0.0172
+back	back	0.0066	0.0187
+back	back	0.0087	0.02
+back	back	0.011	0.0211
+back	back	0.0134	0.0222
+back	back	0.0157	0.0234
+back	back	0.0179	0.0246
+back	back	0.0201	0.0258
+back	back	0.0224	0.027
+back	back	0.0247	0.0282
+back	back	0.0271	0.0292
+back	back	0.0295	0.0302
+back	back	0.0319	0.0313
+back	back	0.0342	0.0324
+back	back	0.0366	0.0334
+back	back	0.039	0.0345
+back	back	0.0413	0.0357
+back	back	0.0429	0.0368
+back	back	0.0443	0.0376
+back	back	0.0451	0.0382
+back	back	0.0465	0.0386
+back	back	0.0483	0.0392
+back	back	0.0507	0.0401
+back	back	0.0531	0.0411
+back	back	0.0555	0.0421
+back	back	0.0579	0.0431
+back	back	0.0603	0.0442
+back	back	0.0628	0.0452
+back	back	0.0653	0.0461
+back	back	0.0678	0.0471
+back	back	0.0703	0.048
+back	back	0.0728	0.0489
+back	back	0.0752	0.05
+back	back	0.0776	0.0511
+back	back	0.0802	0.0519
+back	back	0.0827	0.0528
+back	back	0.0852	0.0538
+back	back	0.0877	0.0547
+back	back	0.0903	0.0555
+back	back	0.0929	0.0564
+back	back	0.0955	0.0572
+back	back	0.0981	0.0581
+back	back	0.1007	0.0589
+back	back	0.1033	0.0598
+back	back	0.1059	0.0606
+back	back	0.1086	0.0614
+back	back	0.1112	0.0622
+back	back	0.1138	0.0631
+back	back	0.1164	0.0639
+back	back	0.1189	0.0648
+back	back	0.1215	0.0657
+back	back	0.124	0.0666
+back	back	0.1265	0.0676
+back	back	0.129	0.0685
+back	back	0.1315	0.0695
+back	back	0.134	0.0705
+back	back	0.1364	0.0715
+back	back	0.1389	0.0724
+back	back	0.1414	0.0734
+back	back	0.1439	0.0743
+back	back	0.1465	0.0752
+back	back	0.1491	0.076
+back	back	0.1517	0.0768
+back	back	0.1544	0.0776
+back	back	0.1571	0.0784
+back	back	0.1598	0.0791
+back	back	0.1625	0.0798
+back	back	0.1652	0.0805
+back	back	0.168	0.0813
+back	back	0.1707	0.082
+back	back	0.1734	0.0827
+back	back	0.1762	0.0834
+back	back	0.1789	0.0841
+back	back	0.1817	0.0848
+back	back	0.1844	0.0855
+back	back	0.1872	0.0861
+back	back	0.19	0.0868
+back	back	0.1928	0.0874
+back	back	0.1956	0.0881
+back	back	0.1984	0.0887
+back	back	0.2013	0.0893
+back	back	0.2041	0.0899
+back	back	0.2069	0.0905
+back	back	0.2098	0.0912
+back	back	0.2126	0.0918
+back	back	0.2155	0.0924
+back	back	0.2183	0.0929
+back	back	0.2212	0.0935
+back	back	0.2241	0.0941
+back	back	0.227	0.0946
+back	back	0.2299	0.0952
+back	back	0.2328	0.0957
+back	back	0.2357	0.0962
+back	back	0.2386	0.0967
+back	back	0.2416	0.0973
+back	back	0.2445	0.0978
+back	back	0.2474	0.0983
+back	back	0.2504	0.0988
+back	back	0.2533	0.0993
+back	back	0.2563	0.0998
+back	back	0.2592	0.1003
+back	back	0.2622	0.1007
+back	back	0.2652	0.1012
+back	back	0.2682	0.1016
+back	back	0.2712	0.1021
+back	back	0.2742	0.1025
+back	back	0.2773	0.1029
+back	back	0.2803	0.1033
+back	back	0.2834	0.1037
+back	back	0.2865	0.104
+back	back	0.2896	0.1044
+back	back	0.2926	0.1047
+back	back	0.2957	0.1051
+back	back	0.2988	0.1055
+back	back	0.3019	0.1058
+back	back	0.305	0.1062
+back	back	0.3081	0.1065
+back	back	0.3111	0.1069
+back	back	0.3142	0.1073
+back	back	0.3173	0.1077
+back	back	0.3203	0.1081
+back	back	0.3234	0.1085
+back	back	0.3264	0.1089
+back	back	0.3293	0.1094
+back	back	0.3325	0.11
+back	back	0.3361	0.1107
+back	back	0.3399	0.1114
+back	back	0.3441	0.1121
+back	back	0.3485	0.1128
+back	back	0.3533	0.1135
+back	back	0.3584	0.1141
+back	back	0.3639	0.1146
+back	back	0.3697	0.115
+back	back	0.3756	0.1153
+back	back	0.3814	0.1154
+back	back	0.3873	0.1154
+back	back	0.3932	0.1152
+back	back	0.3991	0.115
+back	back	0.405	0.1146
+back	back	0.4109	0.1142
+back	back	0.4168	0.1137
+back	back	0.4227	0.1132
+back	back	0.4286	0.1126
+back	back	0.4345	0.1121
+back	back	0.4405	0.1115
+back	back	0.4464	0.1109
+back	back	0.4523	0.1103
+back	back	0.4578	0.1098
+back	back	0.4631	0.1094
+back	back	0.4681	0.109
+back	back	0.4728	0.1086
+back	back	0.4772	0.1083
+back	back	0.4813	0.108
+back	back	0.4852	0.10780000000000001
+back	back	0.4887	0.1077
+back	back	0.4919	0.1075
+back	back	0.4951	0.1073
+back	back	0.4981	0.1071
+back	back	0.5012	0.107
+back	back	0.5043	0.1068
+back	back	0.5075	0.1067
+back	back	0.5106	0.1066
+back	back	0.5136	0.1064
+back	back	0.5167	0.1062
+back	back	0.5199	0.1061
+back	back	0.5231	0.1059
+back	back	0.5264	0.1057
+back	back	0.5296	0.1055
+back	back	0.5329	0.1053
+back	back	0.5361	0.1051
+back	back	0.5394	0.1049
+back	back	0.5426	0.1047
+back	back	0.5458	0.1045
+back	back	0.549	0.1043
+back	back	0.5522	0.104
+back	back	0.5554	0.1038
+back	back	0.5586	0.1035
+back	back	0.5618	0.1032
+back	back	0.5649	0.1029
+back	back	0.5681	0.1026
+back	back	0.5712	0.1023
+back	back	0.5744	0.102
+back	back	0.5775	0.1017
+back	back	0.5807	0.1014
+back	back	0.5838	0.1011
+back	back	0.5869	0.1008
+back	back	0.59	0.1005
+back	back	0.5932	0.1002
+back	back	0.5963	0.0998
+back	back	0.5994	0.0995
+back	back	0.6025	0.0992
+back	back	0.6056	0.0988
+back	back	0.6087	0.0985
+back	back	0.6118	0.0981
+back	back	0.6149	0.0978
+back	back	0.618	0.0974
+back	back	0.621	0.097
+back	back	0.6241	0.0967
+back	back	0.6272	0.0963
+back	back	0.6303	0.0959
+back	back	0.6333	0.0955
+back	back	0.6364	0.0952
+back	back	0.6395	0.0948
+back	back	0.6426	0.0944
+back	back	0.6456	0.0941
+back	back	0.6487	0.0937
+back	back	0.6517	0.0932
+back	back	0.6548	0.0928
+back	back	0.6578	0.0924
+back	back	0.6608	0.092
+back	back	0.6638	0.0915
+back	back	0.6667	0.091
+back	back	0.6697	0.0905
+back	back	0.6727	0.0901
+back	back	0.6757	0.0896
+back	back	0.6786	0.0891
+back	back	0.6816	0.0887
+back	back	0.6846	0.0883
+back	back	0.6875	0.0881
+back	back	0.6904	0.088
+back	back	0.6932	0.088
+back	back	0.6961	0.0882
+back	back	0.6988	0.0885
+back	back	0.7014	0.0889
+back	back	0.7038	0.0894
+back	back	0.7061	0.0899
+back	back	0.7082	0.0903
+back	back	0.7102	0.0907
+back	back	0.7121	0.091
+back	back	0.7138	0.0912
+back	back	0.7154	0.0911
+back	back	0.7168	0.091
+back	back	0.7183	0.0907
+back	back	0.7197	0.0903
+back	back	0.7212	0.0897
+back	back	0.7226	0.0892
+back	back	0.724	0.0885
+back	back	0.7255	0.0878
+back	back	0.7269	0.087
+back	back	0.7283	0.0862
+back	back	0.7298	0.0853
+back	back	0.7312	0.0845
+back	back	0.7326	0.0836
+back	back	0.7341	0.0827
+back	back	0.7355	0.0819
+back	back	0.7369	0.0811
+back	back	0.7382	0.0802
+back	back	0.7395	0.0794
+back	back	0.741	0.0785
+back	back	0.7427	0.0778
+back	back	0.7445	0.077
+back	back	0.7465	0.0763
+back	back	0.7486	0.0756
+back	back	0.7509	0.0749
+back	back	0.7534	0.0743
+back	back	0.7562	0.0737
+back	back	0.7591	0.0731
+back	back	0.7619	0.0725
+back	back	0.7648	0.0719
+back	back	0.7677	0.0714
+back	back	0.7705	0.0708
+back	back	0.7734	0.0702
+back	back	0.7762	0.0696
+back	back	0.7791	0.069
+back	back	0.7819	0.0684
+back	back	0.7848	0.0678
+back	back	0.7876	0.0672
+back	back	0.7905	0.0666
+back	back	0.7934	0.066
+back	back	0.7962	0.0654
+back	back	0.7991	0.0649
+back	back	0.8019	0.0643
+back	back	0.8048	0.0637
+back	back	0.8077	0.0632
+back	back	0.8106	0.0626
+back	back	0.8136	0.0621
+back	back	0.8165	0.0616
+back	back	0.8194	0.0611
+back	back	0.8223	0.0608
+back	back	0.8238	0.0605
+back	back	0.8252	0.0603
+back	back	0.8267	0.0601
+back	back	0.8282	0.0599
+back	back	0.8337	0.0224
+back	back	0.8111	0.0227
+back	back	0.7886	0.0231
+back	back	0.766	0.0234
+back	back	0.7434	0.0237
+back	back	0.7208	0.0241
+back	back	0.6983	0.0244
+back	back	0.6757	0.0247
+back	back	0.6531	0.0251
+back	back	0.6305	0.0254
+back	back	0.608	0.0257
+back	back	0.5854	0.0261
+back	back	0.5628	0.0264
+back	back	0.5402	0.0267
+back	back	0.5177	0.0271
+back	back	0.4951	0.0274
+back	back	0.4725	0.0276
+back	back	0.4499	0.0277
+back	back	0.4274	0.0277
+back	back	0.4048	0.0278
+back	back	0.3822	0.0279
+back	back	0.3596	0.0279
+back	back	0.3371	0.028
+back	back	0.3145	0.028
+back	back	0.2919	0.0281
+back	back	0.2693	0.0282
+back	back	0.2468	0.0282
+back	back	0.2242	0.0283
+back	back	0.2016	0.0284
+back	back	0.179	0.0284
+back	back	0.1403	0.0319
+back	back	0.0972	0.0327
+back	back	0.0627	0.0319
+back	back	0.0283	0.0224
+back	back	0.0067	0.0164
+pectoral	pectoral	0.1851	-0.0431
+pectoral	pectoral	0.1881	-0.0414
+pectoral	pectoral	0.1925	-0.0399
+pectoral	pectoral	0.1978	-0.0385
+pectoral	pectoral	0.2039	-0.0372
+pectoral	pectoral	0.2105	-0.0361
+pectoral	pectoral	0.2172	-0.035
+pectoral	pectoral	0.224	-0.034
+pectoral	pectoral	0.2304	-0.033
+pectoral	pectoral	0.2364	-0.0322
+pectoral	pectoral	0.242	-0.0314
+pectoral	pectoral	0.2473	-0.0307
+pectoral	pectoral	0.2524	-0.03
+pectoral	pectoral	0.2572	-0.0294
+pectoral	pectoral	0.2618	-0.0288
+pectoral	pectoral	0.2663	-0.0283
+pectoral	pectoral	0.2706	-0.0278
+pectoral	pectoral	0.2746	-0.0275
+pectoral	pectoral	0.2784	-0.0272
+pectoral	pectoral	0.2817	-0.0271
+pectoral	pectoral	0.2845	-0.0273
+pectoral	pectoral	0.2867	-0.0277
+pectoral	pectoral	0.2883	-0.0283
+pectoral	pectoral	0.2891	-0.0293
+pectoral	pectoral	0.2892	-0.0306
+pectoral	pectoral	0.2886	-0.0321
+pectoral	pectoral	0.2876	-0.0338
+pectoral	pectoral	0.286	-0.0356
+pectoral	pectoral	0.2841	-0.0375
+pectoral	pectoral	0.2819	-0.0395
+pectoral	pectoral	0.2794	-0.0415
+pectoral	pectoral	0.2768	-0.0434
+pectoral	pectoral	0.2739	-0.0453
+pectoral	pectoral	0.2709	-0.0471
+pectoral	pectoral	0.2676	-0.0488
+pectoral	pectoral	0.264	-0.0505
+pectoral	pectoral	0.2602	-0.0521
+pectoral	pectoral	0.256	-0.0536
+pectoral	pectoral	0.2516	-0.055
+pectoral	pectoral	0.2469	-0.0563
+pectoral	pectoral	0.2421	-0.0574
+pectoral	pectoral	0.2373	-0.0584
+pectoral	pectoral	0.2324	-0.0592
+pectoral	pectoral	0.2277	-0.0598
+pectoral	pectoral	0.2232	-0.0602
+pectoral	pectoral	0.2189	-0.0604
+pectoral	pectoral	0.2149	-0.0604
+pectoral	pectoral	0.2111	-0.0601
+pectoral	pectoral	0.2075	-0.0596
+pectoral	pectoral	0.2041	-0.0589
+pectoral	pectoral	0.2007	-0.058
+pectoral	pectoral	0.1974	-0.0568
+pectoral	pectoral	0.1942	-0.0555
+pectoral	pectoral	0.191	-0.053900000000000003
+pectoral	pectoral	0.1881	-0.0522
+pectoral	pectoral	0.1856	-0.0504
+pectoral	pectoral	0.1839	-0.0485
+pectoral	pectoral	0.1831	-0.0467
+pectoral	pectoral	0.1834	-0.0448
+pectoral	pectoral	0.1851	-0.0431
+operculum	operculum	0.1713	0.0327
+operculum	operculum	0.1723	0.0292
+operculum	operculum	0.1733	0.0258
+operculum	operculum	0.1743	0.0223
+operculum	operculum	0.1751	0.0188
+operculum	operculum	0.1759	0.0154
+operculum	operculum	0.1765	0.0121
+operculum	operculum	0.177	0.0088
+operculum	operculum	0.1773	0.0055
+operculum	operculum	0.1774	0.0023
+operculum	operculum	0.1772	-8e-4
+operculum	operculum	0.1768	-0.0038
+operculum	operculum	0.1762	-0.0067
+operculum	operculum	0.1753	-0.0096
+operculum	operculum	0.1743	-0.0123
+operculum	operculum	0.1731	-0.015
+operculum	operculum	0.1717	-0.0176
+operculum	operculum	0.1702	-0.02
+operculum	operculum	0.1686	-0.0224
+operculum	operculum	0.167	-0.0247
+operculum	operculum	0.1652	-0.0269
+operculum	operculum	0.1634	-0.029
+operculum	operculum	0.1616	-0.031
+operculum	operculum	0.1597	-0.0329
+operculum	operculum	0.1577	-0.0347
+operculum	operculum	0.1557	-0.0364
+operculum	operculum	0.1536	-0.0379
+operculum	operculum	0.1514	-0.0394
+operculum	operculum	0.1492	-0.0407
+operculum	operculum	0.1469	-0.0419
+operculum	operculum	0.1445	-0.043
+operculum	operculum	0.142	-0.044
+operculum	operculum	0.1395	-0.0448
+operculum	operculum	0.1368	-0.0456
+operculum	operculum	0.1342	-0.0463
+operculum	operculum	0.1315	-0.047
+operculum	operculum	0.1288	-0.0475
+operculum	operculum	0.126	-0.0481
+operculum	operculum	0.1232	-0.0486
+operculum	operculum	0.1204	-0.0491
+preopercle	preopercle	0.117	0.0258
+preopercle	preopercle	0.1174	0.0232
+preopercle	preopercle	0.1178	0.0205
+preopercle	preopercle	0.1181	0.0178
+preopercle	preopercle	0.1185	0.0152
+preopercle	preopercle	0.1188	0.0126
+preopercle	preopercle	0.1192	0.0101
+preopercle	preopercle	0.1194	0.0076
+preopercle	preopercle	0.1197	0.0051
+preopercle	preopercle	0.1199	0.0027
+preopercle	preopercle	0.1201	4e-4
+preopercle	preopercle	0.1203	-0.0018
+preopercle	preopercle	0.1204	-0.004
+preopercle	preopercle	0.1204	-0.006
+preopercle	preopercle	0.1204	-0.008
+preopercle	preopercle	0.1204	-0.0098
+preopercle	preopercle	0.1203	-0.0116
+preopercle	preopercle	0.1201	-0.0133
+preopercle	preopercle	0.1199	-0.0148
+preopercle	preopercle	0.1196	-0.0163
+preopercle	preopercle	0.1193	-0.0178
+preopercle	preopercle	0.1189	-0.0191
+preopercle	preopercle	0.1185	-0.0204
+preopercle	preopercle	0.118	-0.0216
+preopercle	preopercle	0.1174	-0.0228
+preopercle	preopercle	0.1168	-0.0239
+preopercle	preopercle	0.1161	-0.025
+preopercle	preopercle	0.1154	-0.026
+preopercle	preopercle	0.1147	-0.027
+preopercle	preopercle	0.1138	-0.0279
+preopercle	preopercle	0.113	-0.0289
+preopercle	preopercle	0.1121	-0.0297
+preopercle	preopercle	0.1112	-0.0306
+preopercle	preopercle	0.1102	-0.0314
+preopercle	preopercle	0.1092	-0.0323
+preopercle	preopercle	0.1082	-0.0331
+preopercle	preopercle	0.1072	-0.0339
+preopercle	preopercle	0.1062	-0.0346
+preopercle	preopercle	0.1051	-0.0354
+preopercle	preopercle	0.1041	-0.0362
+maxilla	maxilla	0.0214	0.0078
+maxilla	maxilla	0.0226	0.0073
+maxilla	maxilla	0.0239	0.0069
+maxilla	maxilla	0.0251	0.0064
+maxilla	maxilla	0.0263	0.006
+maxilla	maxilla	0.0276	0.0055
+maxilla	maxilla	0.0288	0.0051
+maxilla	maxilla	0.03	0.0046
+maxilla	maxilla	0.0313	0.0041
+maxilla	maxilla	0.0325	0.0036
+maxilla	maxilla	0.0337	0.0031
+maxilla	maxilla	0.035	0.0026
+maxilla	maxilla	0.0362	0.0021
+maxilla	maxilla	0.0375	0.0015
+maxilla	maxilla	0.0387	9e-4
+maxilla	maxilla	0.0399	3e-4
+maxilla	maxilla	0.0412	-3e-4
+maxilla	maxilla	0.0424	-9e-4
+maxilla	maxilla	0.0436	-0.0016
+maxilla	maxilla	0.0449	-0.0022
+maxilla	maxilla	0.0461	-0.0029
+maxilla	maxilla	0.0474	-0.0037
+maxilla	maxilla	0.0486	-0.0044
+maxilla	maxilla	0.0498	-0.0052
+maxilla	maxilla	0.0511	-0.006
+maxilla	maxilla	0.0523	-0.0068
+maxilla	maxilla	0.0535	-0.0077
+maxilla	maxilla	0.0548	-0.0086
+maxilla	maxilla	0.056	-0.0094
+maxilla	maxilla	0.0572	-0.0103
+maxilla	maxilla	0.0585	-0.0112
+maxilla	maxilla	0.0597	-0.0122
+maxilla	maxilla	0.061	-0.0131
+maxilla	maxilla	0.0622	-0.014
+maxilla	maxilla	0.0634	-0.015
+maxilla	maxilla	0.0647	-0.0159
+maxilla	maxilla	0.0659	-0.0169
+maxilla	maxilla	0.0671	-0.0179
+maxilla	maxilla	0.0684	-0.0188
+maxilla	maxilla	0.0696	-0.0198
+lateral_line	lateral_line	0.179	0.0284
+lateral_line	lateral_line	0.2016	0.0284
+lateral_line	lateral_line	0.2242	0.0283
+lateral_line	lateral_line	0.2468	0.0282
+lateral_line	lateral_line	0.2693	0.0282
+lateral_line	lateral_line	0.2919	0.0281
+lateral_line	lateral_line	0.3145	0.028
+lateral_line	lateral_line	0.3371	0.028
+lateral_line	lateral_line	0.3596	0.0279
+lateral_line	lateral_line	0.3822	0.0279
+lateral_line	lateral_line	0.4048	0.0278
+lateral_line	lateral_line	0.4274	0.0277
+lateral_line	lateral_line	0.4499	0.0277
+lateral_line	lateral_line	0.4725	0.0276
+lateral_line	lateral_line	0.4951	0.0274
+lateral_line	lateral_line	0.5177	0.0271
+lateral_line	lateral_line	0.5402	0.0267
+lateral_line	lateral_line	0.5628	0.0264
+lateral_line	lateral_line	0.5854	0.0261
+lateral_line	lateral_line	0.608	0.0257
+lateral_line	lateral_line	0.6305	0.0254
+lateral_line	lateral_line	0.6531	0.0251
+lateral_line	lateral_line	0.6757	0.0247
+lateral_line	lateral_line	0.6983	0.0244
+lateral_line	lateral_line	0.7208	0.0241
+lateral_line	lateral_line	0.7434	0.0237
+lateral_line	lateral_line	0.766	0.0234
+lateral_line	lateral_line	0.7886	0.0231
+lateral_line	lateral_line	0.8111	0.0227
+lateral_line	lateral_line	0.8337	0.0224
+eye_iris	eye_iris	0.083	0.0181
+eye_iris	eye_iris	0.0828	0.0162
+eye_iris	eye_iris	0.0824	0.0144
+eye_iris	eye_iris	0.0816	0.0127
+eye_iris	eye_iris	0.0806	0.0111
+eye_iris	eye_iris	0.0794	0.0097
+eye_iris	eye_iris	0.0779	0.0085
+eye_iris	eye_iris	0.0763	0.0076
+eye_iris	eye_iris	0.0746	0.0069
+eye_iris	eye_iris	0.0727	0.0065
+eye_iris	eye_iris	0.0709	0.0065
+eye_iris	eye_iris	0.069	0.0067
+eye_iris	eye_iris	0.0672	0.0072
+eye_iris	eye_iris	0.0655	0.008
+eye_iris	eye_iris	0.064	0.0091
+eye_iris	eye_iris	0.0626	0.0104
+eye_iris	eye_iris	0.0615	0.0119
+eye_iris	eye_iris	0.0606	0.0135
+eye_iris	eye_iris	0.0601	0.0153
+eye_iris	eye_iris	0.0598	0.0172
+eye_iris	eye_iris	0.0598	0.019
+eye_iris	eye_iris	0.0601	0.0209
+eye_iris	eye_iris	0.0606	0.0226
+eye_iris	eye_iris	0.0615	0.0243
+eye_iris	eye_iris	0.0626	0.0258
+eye_iris	eye_iris	0.064	0.0271
+eye_iris	eye_iris	0.0655	0.0282
+eye_iris	eye_iris	0.0672	0.029
+eye_iris	eye_iris	0.069	0.0295
+eye_iris	eye_iris	0.0709	0.0297
+eye_iris	eye_iris	0.0727	0.0296
+eye_iris	eye_iris	0.0746	0.0293
+eye_iris	eye_iris	0.0763	0.0286
+eye_iris	eye_iris	0.0779	0.0277
+eye_iris	eye_iris	0.0794	0.0265
+eye_iris	eye_iris	0.0806	0.0251
+eye_iris	eye_iris	0.0816	0.0235
+eye_iris	eye_iris	0.0824	0.0218
+eye_iris	eye_iris	0.0828	0.02
+eye_iris	eye_iris	0.083	0.0181
+eye_pupil	eye_pupil	0.0787	0.0181
+eye_pupil	eye_pupil	0.0786	0.0169
+eye_pupil	eye_pupil	0.0783	0.0158
+eye_pupil	eye_pupil	0.0778	0.0147
+eye_pupil	eye_pupil	0.0772	0.0137
+eye_pupil	eye_pupil	0.0764	0.0128
+eye_pupil	eye_pupil	0.0755	0.0121
+eye_pupil	eye_pupil	0.0745	0.0115
+eye_pupil	eye_pupil	0.0734	0.0111
+eye_pupil	eye_pupil	0.0722	0.0108
+eye_pupil	eye_pupil	0.071	0.0108
+eye_pupil	eye_pupil	0.0699	0.0109
+eye_pupil	eye_pupil	0.0687	0.0112
+eye_pupil	eye_pupil	0.0677	0.0117
+eye_pupil	eye_pupil	0.0667	0.0124
+eye_pupil	eye_pupil	0.0659	0.0132
+eye_pupil	eye_pupil	0.0652	0.0142
+eye_pupil	eye_pupil	0.0646	0.0152
+eye_pupil	eye_pupil	0.0642	0.0163
+eye_pupil	eye_pupil	0.064	0.0175
+eye_pupil	eye_pupil	0.064	0.0187
+eye_pupil	eye_pupil	0.0642	0.0198
+eye_pupil	eye_pupil	0.0646	0.021
+eye_pupil	eye_pupil	0.0652	0.022
+eye_pupil	eye_pupil	0.0659	0.0229
+eye_pupil	eye_pupil	0.0667	0.0238
+eye_pupil	eye_pupil	0.0677	0.0244
+eye_pupil	eye_pupil	0.0687	0.0249
+eye_pupil	eye_pupil	0.0699	0.0253
+eye_pupil	eye_pupil	0.071	0.0254
+eye_pupil	eye_pupil	0.0722	0.0254
+eye_pupil	eye_pupil	0.0734	0.0251
+eye_pupil	eye_pupil	0.0745	0.0247
+eye_pupil	eye_pupil	0.0755	0.0241
+eye_pupil	eye_pupil	0.0764	0.0234
+eye_pupil	eye_pupil	0.0772	0.0225
+eye_pupil	eye_pupil	0.0778	0.0215
+eye_pupil	eye_pupil	0.0783	0.0204
+eye_pupil	eye_pupil	0.0786	0.0193
+eye_pupil	eye_pupil	0.0787	0.0181
+eye_glint	eye_glint	0.0768	0.0211
+eye_glint	eye_glint	0.0767	0.0207
+eye_glint	eye_glint	0.0766	0.0203
+eye_glint	eye_glint	0.0765	0.02
+eye_glint	eye_glint	0.0763	0.0197
+eye_glint	eye_glint	0.076	0.0194
+eye_glint	eye_glint	0.0757	0.0191
+eye_glint	eye_glint	0.0754	0.0189
+eye_glint	eye_glint	0.075	0.0188
+eye_glint	eye_glint	0.0746	0.0187
+eye_glint	eye_glint	0.0743	0.0187
+eye_glint	eye_glint	0.0739	0.0187
+eye_glint	eye_glint	0.0735	0.0188
+eye_glint	eye_glint	0.0732	0.019
+eye_glint	eye_glint	0.0728	0.0192
+eye_glint	eye_glint	0.0726	0.0195
+eye_glint	eye_glint	0.0723	0.0198
+eye_glint	eye_glint	0.0721	0.0202
+eye_glint	eye_glint	0.072	0.0205
+eye_glint	eye_glint	0.072	0.0209
+eye_glint	eye_glint	0.072	0.0213
+eye_glint	eye_glint	0.072	0.0217
+eye_glint	eye_glint	0.0721	0.0221
+eye_glint	eye_glint	0.0723	0.0224
+eye_glint	eye_glint	0.0726	0.0227
+eye_glint	eye_glint	0.0728	0.023
+eye_glint	eye_glint	0.0732	0.0232
+eye_glint	eye_glint	0.0735	0.0234
+eye_glint	eye_glint	0.0739	0.0235
+eye_glint	eye_glint	0.0743	0.0235
+eye_glint	eye_glint	0.0746	0.0235
+eye_glint	eye_glint	0.075	0.0234
+eye_glint	eye_glint	0.0754	0.0233
+eye_glint	eye_glint	0.0757	0.0231
+eye_glint	eye_glint	0.076	0.0228
+eye_glint	eye_glint	0.0763	0.0226
+eye_glint	eye_glint	0.0765	0.0222
+eye_glint	eye_glint	0.0766	0.0219
+eye_glint	eye_glint	0.0767	0.0215
+eye_glint	eye_glint	0.0768	0.0211
+brain	brain	0.123	0.031
+brain	brain	0.1228	0.0295
+brain	brain	0.1221	0.028
+brain	brain	0.1211	0.0266
+brain	brain	0.1196	0.0253
+brain	brain	0.1177	0.0242
+brain	brain	0.1156	0.0232
+brain	brain	0.1132	0.0225
+brain	brain	0.1106	0.0219
+brain	brain	0.1079	0.0216
+brain	brain	0.1051	0.0215
+brain	brain	0.1024	0.0217
+brain	brain	0.0997	0.0222
+brain	brain	0.0972	0.0228
+brain	brain	0.0949	0.0237
+brain	brain	0.0929	0.0247
+brain	brain	0.0912	0.0259
+brain	brain	0.0899	0.0273
+brain	brain	0.0891	0.0287
+brain	brain	0.0886	0.0302
+brain	brain	0.0886	0.0318
+brain	brain	0.0891	0.0333
+brain	brain	0.0899	0.0347
+brain	brain	0.0912	0.0361
+brain	brain	0.0929	0.0373
+brain	brain	0.0949	0.0384
+brain	brain	0.0972	0.0392
+brain	brain	0.0997	0.0399
+brain	brain	0.1024	0.0403
+brain	brain	0.1051	0.0405
+brain	brain	0.1079	0.0404
+brain	brain	0.1106	0.0401
+brain	brain	0.1132	0.0396
+brain	brain	0.1156	0.0388
+brain	brain	0.1177	0.0378
+brain	brain	0.1196	0.0367
+brain	brain	0.1211	0.0354
+brain	brain	0.1221	0.034
+brain	brain	0.1228	0.0325
+brain	brain	0.123	0.031
+liver	liver	0.2953	-0.0146
+liver	liver	0.2946	-0.0171
+liver	liver	0.2927	-0.0196
+liver	liver	0.2894	-0.0219
+liver	liver	0.2849	-0.024
+liver	liver	0.2794	-0.0258
+liver	liver	0.273	-0.0274
+liver	liver	0.2658	-0.0287
+liver	liver	0.258	-0.0295
+liver	liver	0.2499	-0.03
+liver	liver	0.2415	-0.0301
+liver	liver	0.2333	-0.0298
+liver	liver	0.2253	-0.0291
+liver	liver	0.2178	-0.0281
+liver	liver	0.2109	-0.0267
+liver	liver	0.2049	-0.0249
+liver	liver	0.1999	-0.0229
+liver	liver	0.1961	-0.0207
+liver	liver	0.1934	-0.0184
+liver	liver	0.1921	-0.0159
+liver	liver	0.1921	-0.0134
+liver	liver	0.1934	-0.0109
+liver	liver	0.1961	-0.0086
+liver	liver	0.1999	-0.0064
+liver	liver	0.2049	-0.0044
+liver	liver	0.2109	-0.0026
+liver	liver	0.2178	-0.0012
+liver	liver	0.2253	-1e-4
+liver	liver	0.2333	5e-4
+liver	liver	0.2415	8e-4
+liver	liver	0.2499	7e-4
+liver	liver	0.258	2e-4
+liver	liver	0.2658	-6e-4
+liver	liver	0.273	-0.0019
+liver	liver	0.2794	-0.0035
+liver	liver	0.2849	-0.0053
+liver	liver	0.2894	-0.0074
+liver	liver	0.2927	-0.0097
+liver	liver	0.2946	-0.0122
+liver	liver	0.2953	-0.0146
+kidney	kidney	0.1782	0.025
+kidney	kidney	0.1783	0.0275
+kidney	kidney	0.1789	0.0301
+kidney	kidney	0.1797	0.0327
+kidney	kidney	0.1808	0.0351
+kidney	kidney	0.1823	0.0374
+kidney	kidney	0.1839	0.0394
+kidney	kidney	0.1858	0.0411
+kidney	kidney	0.1879	0.0425
+kidney	kidney	0.1902	0.0436
+kidney	kidney	0.1928	0.0444
+kidney	kidney	0.1955	0.045
+kidney	kidney	0.1984	0.0454
+kidney	kidney	0.2016	0.0456
+kidney	kidney	0.2049	0.0458
+kidney	kidney	0.2084	0.0458
+kidney	kidney	0.212	0.0457
+kidney	kidney	0.2157	0.0455
+kidney	kidney	0.2195	0.0451
+kidney	kidney	0.2233	0.0445
+kidney	kidney	0.227	0.0438
+kidney	kidney	0.2307	0.0429
+kidney	kidney	0.2344	0.0418
+kidney	kidney	0.2382	0.0407
+kidney	kidney	0.242	0.0395
+kidney	kidney	0.246	0.0384
+kidney	kidney	0.2503	0.0374
+kidney	kidney	0.2548	0.0366
+kidney	kidney	0.2597	0.036
+kidney	kidney	0.2651	0.0355
+kidney	kidney	0.2712	0.0351
+kidney	kidney	0.278	0.0348
+kidney	kidney	0.2859	0.0346
+kidney	kidney	0.2948	0.0345
+kidney	kidney	0.305	0.0343
+kidney	kidney	0.3166	0.0342
+kidney	kidney	0.3301	0.0341
+kidney	kidney	0.3455	0.034
+kidney	kidney	0.3633	0.0339
+kidney	kidney	0.3836	0.0337
+kidney	kidney	0.4067	0.0335
+kidney	kidney	0.4324	0.0333
+kidney	kidney	0.4598	0.0331
+kidney	kidney	0.4878	0.0328
+kidney	kidney	0.5153	0.0326
+kidney	kidney	0.5414	0.0323
+kidney	kidney	0.565	0.032
+kidney	kidney	0.5852	0.0316
+kidney	kidney	0.6019	0.0313
+kidney	kidney	0.6156	0.0309
+kidney	kidney	0.6267	0.0306
+kidney	kidney	0.6357	0.0302
+kidney	kidney	0.6431	0.0297
+kidney	kidney	0.6491	0.0292
+kidney	kidney	0.6543	0.0287
+kidney	kidney	0.6586	0.0282
+kidney	kidney	0.6621	0.0275
+kidney	kidney	0.6647	0.0269
+kidney	kidney	0.6665	0.0262
+kidney	kidney	0.6673	0.0254
+kidney	kidney	0.6673	0.0246
+kidney	kidney	0.6665	0.0237
+kidney	kidney	0.6647	0.0228
+kidney	kidney	0.6621	0.0219
+kidney	kidney	0.6586	0.0211
+kidney	kidney	0.6543	0.0204
+kidney	kidney	0.6491	0.0199
+kidney	kidney	0.6431	0.0195
+kidney	kidney	0.6357	0.0192
+kidney	kidney	0.6267	0.0191
+kidney	kidney	0.6156	0.019
+kidney	kidney	0.6019	0.019
+kidney	kidney	0.5852	0.019
+kidney	kidney	0.565	0.0189
+kidney	kidney	0.5414	0.0188
+kidney	kidney	0.5153	0.0187
+kidney	kidney	0.4878	0.0185
+kidney	kidney	0.4598	0.0184
+kidney	kidney	0.4324	0.0182
+kidney	kidney	0.4067	0.0181
+kidney	kidney	0.3836	0.018
+kidney	kidney	0.3633	0.018
+kidney	kidney	0.3455	0.018
+kidney	kidney	0.3301	0.018
+kidney	kidney	0.3166	0.0181
+kidney	kidney	0.305	0.0181
+kidney	kidney	0.2948	0.0181
+kidney	kidney	0.2859	0.0181
+kidney	kidney	0.278	0.018
+kidney	kidney	0.2712	0.0179
+kidney	kidney	0.2651	0.0176
+kidney	kidney	0.2597	0.0172
+kidney	kidney	0.2548	0.0167
+kidney	kidney	0.2503	0.016
+kidney	kidney	0.246	0.0152
+kidney	kidney	0.242	0.0142
+kidney	kidney	0.2382	0.0132
+kidney	kidney	0.2344	0.0122
+kidney	kidney	0.2307	0.0113
+kidney	kidney	0.227	0.0105
+kidney	kidney	0.2233	0.0098
+kidney	kidney	0.2195	0.0093
+kidney	kidney	0.2157	0.0089
+kidney	kidney	0.212	0.0087
+kidney	kidney	0.2084	0.0086
+kidney	kidney	0.2049	0.0086
+kidney	kidney	0.2016	0.0086
+kidney	kidney	0.1984	0.0088
+kidney	kidney	0.1955	0.009
+kidney	kidney	0.1928	0.0094
+kidney	kidney	0.1902	0.0099
+kidney	kidney	0.1879	0.0106
+kidney	kidney	0.1858	0.0116
+kidney	kidney	0.1839	0.0129
+kidney	kidney	0.1823	0.0144
+kidney	kidney	0.1808	0.0161
+kidney	kidney	0.1797	0.0181
+kidney	kidney	0.1789	0.0202
+kidney	kidney	0.1783	0.0225
+kidney	kidney	0.1782	0.025

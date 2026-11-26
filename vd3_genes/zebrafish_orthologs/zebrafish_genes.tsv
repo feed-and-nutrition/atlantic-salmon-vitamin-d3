@@ -1,0 +1,14 @@
+query	zf_gene_id	zf_symbol	zf_chr	zf_protein	zf_product	pident_human
+DHCR7	378446	dhcr7	7	NP_958487.2	7-dehydrocholesterol reductase	74.409
+CYP2R1	563369	cyp2r1	7	NP_001373291.1	vitamin D 25-hydroxylase	69.748
+CYP27A1	402831	cyp27a1.1	9	XP_087124365.1	sterol 26-hydroxylase, mitochondrial isoform X1	45.957
+CYP27A1	795106	cyp27a1.2	9	XP_087124361.1	sterol 26-hydroxylase, mitochondrial isoform X1	45.918
+CYP27A1	322341	cyp27a1.4	9	NP_001315442.1	cytochrome P450 27A1.4	46.548
+CYP27A1	558239	cyp27a2	6	XP_087112918.1	sterol 26-hydroxylase, mitochondrial	44.676
+CYP27A1	565876	cyp27a3	9	NP_001116749.1	cytochrome P450	45.929
+CYP27A1	723999	zgc:136333	9	XP_087123162.1	uncharacterized protein LOC723999 isoform X1	46.548
+CYP27B1	793309	cyp27b1	11	NP_001298720.1	25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial	53.992
+CYP24A1	100004700	cyp24a1	6	NP_001082927.1	1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial	69.869
+VDR	30076	vdra	23	NP_570994.1	vitamin D3 receptor A	69.704
+VDR	564511	vdrb	6	XP_087111905.1	vitamin D3 receptor B isoform X1	69.321
+GC	436841	gc	5	NP_001002568.3	vitamin D-binding protein precursor	30.655
